@@ -101,6 +101,8 @@ for evento in list(events_json):
 
     post+= "Acompanhe a bracket em: "+events_json[evento].get("url")
 
+    twitter_API.update_status(post)
+
     events_json[evento]["state"] = 'ACTIVE'
 
 
