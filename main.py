@@ -177,7 +177,7 @@ for evento in list(events_json):
     
     if events_json[evento].get("streams"):
       if events_json[evento].get("streams")[0].get("streamName"):
-        post+= "Acompanhe o stream em: \n"+["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")]
+        post+= "Acompanhe o stream em: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")])
 
     post+= "Acompanhe a bracket em: "+events_json[evento].get("url")
 
