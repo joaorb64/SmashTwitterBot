@@ -254,7 +254,7 @@ for tournament in data:
 
 for evento in proximos_eventos:
   if str(evento["id"]) not in events_json.keys():
-    data_time = datetime.datetime.fromtimestamp(evento["tournament_startAt"])
+    data_time = datetime.datetime.fromtimestamp(evento["startAt"])
     data = data_time.strftime("%d/%m/%Y %H:%M")
 
     torneio_type = "[Torneio Online]" if evento["isOnline"] == True else "[Torneio Offline]"
