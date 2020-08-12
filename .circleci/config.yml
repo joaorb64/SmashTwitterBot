@@ -25,14 +25,14 @@ jobs:
             git config user.name "tournamentapibot"
             DATE_TODAY=$(date +"%Y-%m-%d")
             git add .
-            git commit -am "[skip ci] Updating Data ${DATE_TODAY}" --allow-empty
+            git commit -am "[skip ci] Updating Data ${DATE_TODAY}"
             git push origin master
 
 workflows:
   daily_data_update:
     triggers:
       - schedule:
-          cron: "*/5 * * * *"
+          cron: "0,5,10,15,20,25,30,35,40,45,50,55 * * * *"
           filters:
             branches:
               only:
