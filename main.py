@@ -206,6 +206,7 @@ r = requests.post(
             url
             city
             timezone
+            startAt
             events {
               id
               name
@@ -248,19 +249,20 @@ for tournament in data:
       event["url"] = "https://smash.gg"+tournament["url"]
       event["streams"] = tournament["streams"]
       event["timezone"] = tournament["timezone"]
+      event["tournament_startAt"] = tournament["startAt"]
       proximos_eventos.append(event)
 
 for evento in proximos_eventos:
   if str(evento["id"]) not in events_json.keys():
-    data_time = datetime.datetime.fromtimestamp(evento["startAt"])
-    data = data_time.strftime("%d/%m/%Y %H:%M ("+evento["timezone"]+")")
+    data_time = datetime.datetime.fromtimestamp(evento["tournament_startAt"])
+    data = data_time.strftime("%d/%m/%Y %H:%M")
 
     torneio_type = "[Torneio Online]" if evento["isOnline"] == True else "[Torneio Offline]"
 
     twitter_API.update_status(
       torneio_type+" "+
       evento["tournament"]+" - "+evento["name"]+"\n"+
-      "Início: "+data+"\n"+
+      "Início: "+data+" ("+evento["timezone"]+")"+"\n"+
       evento["url"]
     )
     time.sleep(1)
