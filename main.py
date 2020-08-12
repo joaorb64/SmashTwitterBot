@@ -80,70 +80,70 @@ for evento in list(events_json):
   resp = json.loads(r.text)
   data = resp["data"]["event"]
 
-  for entrant in data["standings"]["nodes"]:
-    r = requests.post(
-      'https://api.smash.gg/gql/alpha',
-      headers={
-        'Authorization': 'Bearer'+SMASHGG_KEY,
-      },
-      json={
-        'query': '''
-          query PlayerSetsInEvent($eventId: ID!) {
-            event(id: $eventId) {
-              sets(
-                page: 1,
-                perPage: 200,
-                filters: {entrantIds: ''' + str(entrant["entrant"]["id"]) + '''},
-              ) {
-                nodes {
-                  games {
-                    selections {
-                      entrant {
-                        id
+  time.sleep(1)
+
+  if data["state"] == 'COMPLETED':
+    for entrant in data["standings"]["nodes"]:
+      r = requests.post(
+        'https://api.smash.gg/gql/alpha',
+        headers={
+          'Authorization': 'Bearer'+SMASHGG_KEY,
+        },
+        json={
+          'query': '''
+            query PlayerSetsInEvent($eventId: ID!) {
+              event(id: $eventId) {
+                sets(
+                  page: 1,
+                  perPage: 200,
+                  filters: {entrantIds: ''' + str(entrant["entrant"]["id"]) + '''},
+                ) {
+                  nodes {
+                    games {
+                      selections {
+                        entrant {
+                          id
+                        }
+                        selectionValue
                       }
-                      selectionValue
                     }
                   }
                 }
               }
-            }
+            },
+          ''',
+          'variables': {
+            "eventId": events_json[evento]["id"]
           },
-        ''',
-        'variables': {
-          "eventId": events_json[evento]["id"]
-        },
-      }
-    )
-    resp = json.loads(r.text)
-    char_data = resp["data"]["event"]["sets"]["nodes"]
+        }
+      )
+      resp = json.loads(r.text)
+      char_data = resp["data"]["event"]["sets"]["nodes"]
 
-    char_usage = {}
+      char_usage = {}
 
-    for game in char_data:
-      if game.get("games"):
-        for selection in game.get("games"):
-          for selection_entry in selection.get("selections"):
-            if selection_entry["entrant"]["id"] == entrant["entrant"]["id"]:
-              if selection_entry["selectionValue"] not in char_usage.keys():
-                char_usage[selection_entry["selectionValue"]] = 1
-              else:
-                char_usage[selection_entry["selectionValue"]] += 1
-    
-    char_usage = {k: v for k, v in sorted(char_usage.items(), key=lambda item: item[1], reverse=True)}
+      for game in char_data:
+        if game.get("games"):
+          for selection in game.get("games"):
+            for selection_entry in selection.get("selections"):
+              if selection_entry["entrant"]["id"] == entrant["entrant"]["id"]:
+                if selection_entry["selectionValue"] not in char_usage.keys():
+                  char_usage[selection_entry["selectionValue"]] = 1
+                else:
+                  char_usage[selection_entry["selectionValue"]] += 1
+      
+      char_usage = {k: v for k, v in sorted(char_usage.items(), key=lambda item: item[1], reverse=True)}
 
-    char_usage_named = {}
+      char_usage_named = {}
 
-    for char in char_usage.items():
-      char_in_json = next((c for c in characters_json["character"] if c["id"] == char[0]), None)
+      for char in char_usage.items():
+        char_in_json = next((c for c in characters_json["character"] if c["id"] == char[0]), None)
 
-      if char_in_json:
-        char_usage_named[char_in_json["name"]] = char[1]
+        if char_in_json:
+          char_usage_named[char_in_json["name"]] = char[1]
 
-    entrant["char_usage"] = char_usage_named
+      entrant["char_usage"] = char_usage_named
 
-  time.sleep(1)
-
-  if data["state"] == 'COMPLETED':
     post = "[Resultados]"
     post += "[Online]" if events_json[evento].get("isOnline") else "[Offline]"
     post += " " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"] + "\n"
@@ -205,6 +205,7 @@ r = requests.post(
             name
             url
             city
+            timezone
             events {
               id
               name
@@ -246,12 +247,13 @@ for tournament in data:
       event["city"] = tournament["city"]
       event["url"] = "https://smash.gg"+tournament["url"]
       event["streams"] = tournament["streams"]
+      event["timezone"] = tournament["timezone"]
       proximos_eventos.append(event)
 
 for evento in proximos_eventos:
   if str(evento["id"]) not in events_json.keys():
-    data_time = datetime.datetime.fromtimestamp(evento["startAt"]) - datetime.timedelta(hours=1)
-    data = data_time.strftime("%d/%m/%Y %H:%M (GMT-3)")
+    data_time = datetime.datetime.fromtimestamp(evento["startAt"])
+    data = data_time.strftime("%d/%m/%Y %H:%M ("+evento["timezone"]+")")
 
     torneio_type = "[Torneio Online]" if evento["isOnline"] == True else "[Torneio Offline]"
 
