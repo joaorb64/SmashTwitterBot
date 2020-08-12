@@ -30,7 +30,7 @@ twitter_API = tweepy.API(auth)
 f = open('events.json')
 events_json = json.load(f)
 
-# Deletar eventos passados, se nao standings
+# Deletar eventos passados, se nao standings, mensagem de inicio de torneio
 for evento in list(events_json):
   r = requests.post(
     'https://api.smash.gg/gql/alpha',
@@ -82,7 +82,7 @@ for evento in list(events_json):
     
     for entrant in data["standings"]["nodes"]:
       post += str(entrant["placement"]) + " " + entrant["entrant"]["name"]
-      twitter = entrant.get("entrant").get("participants")[0].get("user").get("authorizations")#[0].get("externalUsername")
+      twitter = entrant.get("entrant").get("participants")[0].get("user").get("authorizations")
       if twitter:
         post += " @" + str(twitter[0].get("externalUsername"))
       post += "\n"
@@ -90,6 +90,18 @@ for evento in list(events_json):
     twitter_API.update_status(post)
 
     events_json.pop(evento)
+  
+  if data["state"] == 'ACTIVE' and events_json[evento]["state"] != 'ACTIVE':
+    post = ""
+    post+= "Iniciado o torneio " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"] + "!\n"
+    
+    if events_json[evento].get("streams"):
+      if events_json[evento].get("streams")[0].get("streamName"):
+        post+= "Acompanhe o stream em: https://twitch.tv/"+events_json[evento].get("streams")[0].get("streamName")
+
+    post+= "Acompanhe a bracket em: "+events_json[evento].get("url")
+
+    events_json[evento]["state"] = 'ACTIVE'
 
 
 r = requests.post(
@@ -121,6 +133,9 @@ r = requests.post(
               }
               startAt
             }
+            streams {
+              streamName
+            }
           }
         }
       },
@@ -148,6 +163,7 @@ for tournament in data:
       event["tournament_id"] = tournament["id"]
       event["city"] = tournament["city"]
       event["url"] = "https://smash.gg"+tournament["url"]
+      event["streams"] = tournament["streams"]
       proximos_eventos.append(event)
 
 for evento in proximos_eventos:
