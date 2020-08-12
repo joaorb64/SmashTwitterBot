@@ -1,0 +1,41 @@
+version: 2.1
+
+jobs:
+  update_data:
+    docker:
+      - image: circleci/python:3.6.4
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install tweepy
+      - run:
+          name: Update data
+          command: |
+            . venv/bin/activate
+            echo ${GCLOUD_SERVICE_KEY} | base64 --decode --ignore-garbage > credentials.json
+            python main.py
+      - run:
+          name: Commit data back to Github
+          command: |
+            git config user.email "joaorbezerra@hotmail.com"
+            git config user.name "tournamentapibot"
+            DATE_TODAY=$(date +"%Y-%m-%d")
+            git add .
+            git commit -am "[skip ci] Updating Data ${DATE_TODAY}" --allow-empty
+            git push origin master
+
+workflows:
+  daily_data_update:
+    triggers:
+      - schedule:
+          cron: "0 1,4,7,10,13,16,19,22 * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - update_data
