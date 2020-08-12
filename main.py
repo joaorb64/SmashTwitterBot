@@ -30,6 +30,9 @@ twitter_API = tweepy.API(auth)
 f = open('events.json')
 events_json = json.load(f)
 
+f = open('ultimate.json')
+characters_json = json.load(f)
+
 # Deletar eventos passados, se nao standings, mensagem de inicio de torneio
 for evento in list(events_json):
   r = requests.post(
@@ -57,6 +60,9 @@ for evento in list(events_json):
                         externalUsername
                       }
                     }
+                    player {
+                      id
+                    }
                   }
                 }
               }
@@ -73,6 +79,68 @@ for evento in list(events_json):
   )
   resp = json.loads(r.text)
   data = resp["data"]["event"]
+
+  for entrant in data["standings"]["nodes"]:
+    r = requests.post(
+      'https://api.smash.gg/gql/alpha',
+      headers={
+        'Authorization': 'Bearer'+SMASHGG_KEY,
+      },
+      json={
+        'query': '''
+          query PlayerSetsInEvent($eventId: ID!) {
+            event(id: $eventId) {
+              sets(
+                page: 1,
+                perPage: 200,
+                filters: {entrantIds: ''' + str(entrant["entrant"]["id"]) + '''},
+              ) {
+                nodes {
+                  games {
+                    selections {
+                      entrant {
+                        id
+                      }
+                      selectionValue
+                    }
+                  }
+                }
+              }
+            }
+          },
+        ''',
+        'variables': {
+          "eventId": events_json[evento]["id"]
+        },
+      }
+    )
+    resp = json.loads(r.text)
+    char_data = resp["data"]["event"]["sets"]["nodes"]
+
+    char_usage = {}
+
+    for game in char_data:
+      if game.get("games"):
+        for selection in game.get("games"):
+          for selection_entry in selection.get("selections"):
+            if selection_entry["entrant"]["id"] == entrant["entrant"]["id"]:
+              if selection_entry["selectionValue"] not in char_usage.keys():
+                char_usage[selection_entry["selectionValue"]] = 1
+              else:
+                char_usage[selection_entry["selectionValue"]] += 1
+    
+    char_usage = {k: v for k, v in sorted(char_usage.items(), key=lambda item: item[1], reverse=True)}
+
+    char_usage_named = {}
+
+    for char in char_usage.items():
+      char_in_json = next((c for c in characters_json["character"] if c["id"] == char[0]), None)
+
+      if char_in_json:
+        char_usage_named[char_in_json["name"]] = char[1]
+
+    entrant["char_usage"] = char_usage_named
+
   time.sleep(1)
 
   if data["state"] == 'COMPLETED':
@@ -82,10 +150,22 @@ for evento in list(events_json):
     
     for entrant in data["standings"]["nodes"]:
       post += str(entrant["placement"]) + " " + entrant["entrant"]["name"]
+
+      if entrant.get("char_usage"):
+        post += (" (")
+        first = True
+        for char in entrant.get("char_usage").items():
+          if not first: post+=", "
+          post+= char[0]
+          first = False
+        post += ")"
+
       twitter = entrant.get("entrant").get("participants")[0].get("user").get("authorizations")
       if twitter:
         post += " @" + str(twitter[0].get("externalUsername"))
       post += "\n"
+    
+    print(post)
 
     twitter_API.update_status(post)
 
