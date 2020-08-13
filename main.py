@@ -5,6 +5,7 @@ import json
 import pprint
 import datetime
 import os
+import drawResults
 
 if os.path.exists("auth.json"):
   f = open('auth.json')
@@ -45,6 +46,7 @@ for evento in list(events_json):
         query EventStandings($eventId: ID!, $page: Int!, $perPage: Int!) {
           event(id: $eventId) {
             state
+            numEntrants
             standings(query: {
               perPage: $perPage,
               page: $page
@@ -140,35 +142,39 @@ for evento in list(events_json):
         char_in_json = next((c for c in characters_json["character"] if c["id"] == char[0]), None)
 
         if char_in_json:
-          char_usage_named[char_in_json["name"]] = char[1]
+          char_usage_named[char_in_json["name"]] = {}
+          char_usage_named[char_in_json["name"]]["usage"] = char[1]
+          char_usage_named[char_in_json["name"]]["icon"] = char_in_json.get("images")[1].get("url")
 
       entrant["char_usage"] = char_usage_named
 
     post = "🏆[Resultados]"
     post += "[Online]" if events_json[evento].get("isOnline") else "[Offline]"
     post += " " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"] + "\n"
-    post += events_json[evento].get("url")+"\n"
     
     for entrant in data["standings"]["nodes"]:
-      post += str(entrant["placement"]) + " " + entrant["entrant"]["name"]
+      placement = entrant["placement"]
 
-      if entrant.get("char_usage"):
-        post += (" (")
-        first = True
-        for char in entrant.get("char_usage").items():
-          if not first: post+=", "
-          post+= char[0]
-          first = False
-        post += ")"
+      if placement == 1:
+        placement = "🥇"
+      elif placement == 2:
+        placement = "🥈"
+      elif placement == 3:
+        placement = "🥉"
+      else:
+        placement = str(placement)
 
+      post += placement + " "
       twitter = entrant.get("entrant").get("participants")[0].get("user").get("authorizations")
       if twitter:
-        post += " @" + str(twitter[0].get("externalUsername"))
+        post += "@" + str(twitter[0].get("externalUsername"))
+      else:
+        post += entrant["entrant"]["name"]
       post += "\n"
+    
+    drawResults.drawResults(events_json[evento], data)
 
-    status = twitter_API.update_status("\n".join(post.splitlines()[0:5])+"\n(1/2)")
-    time.sleep(10)
-    twitter_API.update_status("@smash_bot_br\n"+"\n".join(post.splitlines()[5:10])+"\n(2/2)", in_reply_to_status_id=status.id)
+    status = twitter_API.update_with_media("./media.png", status=post)
 
     events_json.pop(evento)
   
@@ -221,6 +227,11 @@ r = requests.post(
             streams {
               streamName
             }
+            images{
+              id
+              url
+              type
+            }
           }
         }
       },
@@ -251,6 +262,7 @@ for tournament in data:
       event["streams"] = tournament["streams"]
       event["timezone"] = tournament["timezone"]
       event["tournament_startAt"] = tournament["startAt"]
+      event["images"] = tournament["images"]
       proximos_eventos.append(event)
 
 for evento in proximos_eventos:
