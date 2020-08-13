@@ -144,9 +144,10 @@ for evento in list(events_json):
 
       entrant["char_usage"] = char_usage_named
 
-    post = "[Resultados]"
+    post = "🏆[Resultados]"
     post += "[Online]" if events_json[evento].get("isOnline") else "[Offline]"
     post += " " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"] + "\n"
+    post += events_json[evento].get("url")+"\n"
     
     for entrant in data["standings"]["nodes"]:
       post += str(entrant["placement"]) + " " + entrant["entrant"]["name"]
@@ -164,10 +165,10 @@ for evento in list(events_json):
       if twitter:
         post += " @" + str(twitter[0].get("externalUsername"))
       post += "\n"
-    
-    print(post)
 
-    twitter_API.update_status(post)
+    status = twitter_API.update_status("\n".join(post.splitlines()[0:5])+"\n(1/2)")
+    time.sleep(10)
+    twitter_API.update_status("@smash_bot_br\n"+"\n".join(post.splitlines()[5:10])+"\n(2/2)", in_reply_to_status_id=status.id)
 
     events_json.pop(evento)
   
