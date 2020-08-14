@@ -8,13 +8,13 @@ def drawResults(event, standings):
   img = Image.new('RGBA', (512, 570), color = (255, 255, 255))
 
   response = requests.get(next(i["url"] for i in event["images"] if i["type"] == "banner"))
-  banner = Image.open(BytesIO(response.content))
+  banner = Image.open(BytesIO(response.content)).convert("RGBA")
   banner_w, banner_h = banner.size
   banner = banner.resize((512, int(512/banner_w*banner_h)), Image.ANTIALIAS)
   banner_w, banner_h = banner.size
   banner = banner.crop((0, (banner_h-260)/2, 512, 240-(banner_h-260)/2))
   
-  img.paste(banner, (int(512/2-banner_w/2), 0))
+  img.alpha_composite(banner, (int(512/2-banner_w/2), 0))
 
   fnt = ImageFont.truetype('./smash_font.ttf', 16)
   d = ImageDraw.Draw(img)
