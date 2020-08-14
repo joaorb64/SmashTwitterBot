@@ -18,8 +18,8 @@ def drawResults(event, standings):
 
   fnt = ImageFont.truetype('./smash_font.ttf', 16)
   d = ImageDraw.Draw(img)
-  title_text = event["tournament"] + " - " + event["name"]
-  title_text += ("[Online]" if event.get("isOnline") else "[Offline]") + "\n"
+  title_text = event["tournament"] + "\n" + event["name"] + "\n"
+  title_text += ("Online" if event.get("isOnline") else "Offline") + " - "
 
   title_text += str(standings.get("numEntrants")) + " participantes"
 
@@ -34,7 +34,7 @@ def drawResults(event, standings):
   w, h = d.textsize(title_text, font=fnt)
   d.text((256-w/2,220), title_text, font=fnt, fill=(0, 0, 0), align="center")
 
-  pos_y = 280
+  pos_y = 286
 
   fnt_results = ImageFont.truetype('./smash_font.ttf', 24)
 
