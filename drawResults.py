@@ -30,24 +30,30 @@ def drawResults(event, standings):
   fnt = ImageFont.truetype('./smash_font.ttf', 16)
   d = ImageDraw.Draw(img, "RGBA")
 
-  black_bg = Image.open("./black_bg.png")
-  img.alpha_composite(black_bg, (0, 156))
+  black_bg_top = Image.open("./black_bg_top.png")
+  img.alpha_composite(black_bg_top, (0, 0))
 
-  title_text = event["tournament"] + "\n" + event["name"] + "\n"
-  title_text += ("Online" if event.get("isOnline") else "Offline") + " - "
+  black_bg_bottom = Image.open("./black_bg_bottom.png")
+  img.alpha_composite(black_bg_bottom, (0, 198))
 
-  title_text += str(standings.get("numEntrants")) + " participantes"
+  title_text_top = event["tournament"] + "\n" + event["name"]
+
+  w, h = d.textsize(title_text_top, font=fnt)
+  d.text((256-w/2,4), title_text_top, font=fnt, fill=(255, 255, 255), align="center")
+
+  title_text_bottom = ("Online" if event.get("isOnline") else "Offline") + " - "
+  title_text_bottom += str(standings.get("numEntrants")) + " participantes"
 
   if event["city"]:
-    title_text += " - "+event["city"]
+    title_text_bottom += " - "+event["city"]
 
   data_time = datetime.datetime.fromtimestamp(event["startAt"])
   data = data_time.strftime("%d/%m/%y")
 
-  title_text += " - " + data
+  title_text_bottom += " - " + data
 
-  w, h = d.textsize(title_text, font=fnt)
-  d.text((256-w/2,160), title_text, font=fnt, fill=(255, 255, 255), align="center")
+  w, h = d.textsize(title_text_bottom, font=fnt)
+  d.text((256-w/2,200), title_text_bottom, font=fnt, fill=(255, 255, 255), align="center")
 
   pos_y = 230
 
