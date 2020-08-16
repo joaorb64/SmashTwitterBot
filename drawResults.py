@@ -55,7 +55,7 @@ def drawResults(event, standings):
   w, h = d.textsize(title_text_bottom, font=fnt)
   d.text((256-w/2,200), title_text_bottom, font=fnt, fill=(255, 255, 255), align="center")
 
-  pos_y = 230
+  pos_y = 228
 
   fnt_results = ImageFont.truetype('./smash_font.ttf', 24)
 
