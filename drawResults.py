@@ -16,9 +16,6 @@ def drawResults(event, standings):
   goal_proportion = goal_w/goal_h
   banner_proportion = banner_w/banner_h
 
-  print(goal_proportion)
-  print(banner_proportion)
-
   if banner_proportion < goal_proportion:
     banner = banner.resize((512, int(512/banner_w*banner_h)), Image.ANTIALIAS)
     banner_w, banner_h = banner.size
