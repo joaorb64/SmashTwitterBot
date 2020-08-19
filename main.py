@@ -6,6 +6,7 @@ import pprint
 import datetime
 import os
 import drawResults
+import pytz
 
 if os.path.exists("auth.json"):
   f = open('auth.json')
@@ -43,144 +44,245 @@ for evento in list(events_json):
     },
     json={
       'query': '''
-        query EventStandings($eventId: ID!, $page: Int!, $perPage: Int!) {
+        query EventStandings($eventId: ID!) {
           event(id: $eventId) {
             state
-            numEntrants
-            standings(query: {
-              perPage: $perPage,
-              page: $page
-            }){
-              nodes {
-                placement
-                entrant {
-                  id
-                  name
-                  participants{
-                    user{
-                      authorizations(types: [TWITTER]) {
-                        externalUsername
-                      }
-                    }
-                    player {
-                      id
-                    }
-                  }
-                }
-              }
-            }
           }
         },
       ''',
       'variables': {
-        "eventId": events_json[evento]["id"],
-        "page": 1,
-        "perPage": 8
+        "eventId": events_json[evento]["id"]
       },
     }
   )
   resp = json.loads(r.text)
   data = resp["data"]["event"]
 
-  time.sleep(1)
-
   if data["state"] == 'COMPLETED':
-    for entrant in data["standings"]["nodes"]:
-      r = requests.post(
-        'https://api.smash.gg/gql/alpha',
-        headers={
-          'Authorization': 'Bearer'+SMASHGG_KEY,
-        },
-        json={
-          'query': '''
-            query PlayerSetsInEvent($eventId: ID!) {
-              event(id: $eventId) {
-                sets(
-                  page: 1,
-                  perPage: 200,
-                  filters: {entrantIds: ''' + str(entrant["entrant"]["id"]) + '''},
-                ) {
-                  nodes {
-                    games {
-                      selections {
-                        entrant {
-                          id
+    print("Evento finalizado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+
+    r = requests.post(
+      'https://api.smash.gg/gql/alpha',
+      headers={
+        'Authorization': 'Bearer'+SMASHGG_KEY,
+      },
+      json={
+        'query': '''
+          query EventStandings($eventId: ID!, $page: Int!, $perPage: Int!) {
+            event(id: $eventId) {
+              standings(query: {
+                perPage: $perPage,
+                page: $page
+              }){
+                pageInfo {
+                  total
+                }
+                nodes {
+                  placement
+                  entrant {
+                    id
+                    name
+                    participants{
+                      user{
+                        authorizations(types: [TWITTER]) {
+                          externalUsername
                         }
-                        selectionValue
+                      }
+                      player {
+                        id
                       }
                     }
                   }
                 }
               }
-            },
-          ''',
-          'variables': {
-            "eventId": events_json[evento]["id"]
+              phaseGroups {
+                phase {
+                  name
+                }
+                progressionsOut {
+                  id
+                }
+                standings(query: {
+                  perPage: $perPage,
+                  page: $page
+                }){
+                  pageInfo {
+                    total
+                  }
+                  nodes {
+                    placement
+                    entrant {
+                      id
+                      name
+                      participants{
+                        user{
+                          authorizations(types: [TWITTER]) {
+                            externalUsername
+                          }
+                        }
+                        player {
+                          id
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           },
-        }
-      )
-      resp = json.loads(r.text)
-      char_data = resp["data"]["event"]["sets"]["nodes"]
+        ''',
+        'variables': {
+          "eventId": events_json[evento]["id"],
+          "page": 1,
+          "perPage": 16
+        },
+      }
+    )
+    resp = json.loads(r.text)
+    data_phase = resp["data"]["event"]
 
-      char_usage = {}
+    phase_groups = data_phase["phaseGroups"]
 
-      for game in char_data:
-        if game.get("games"):
-          for selection in game.get("games"):
-            for selection_entry in selection.get("selections"):
-              if selection_entry["entrant"]["id"] == entrant["entrant"]["id"]:
-                if selection_entry["selectionValue"] not in char_usage.keys():
-                  char_usage[selection_entry["selectionValue"]] = 1
-                else:
-                  char_usage[selection_entry["selectionValue"]] += 1
-      
-      char_usage = {k: v for k, v in sorted(char_usage.items(), key=lambda item: item[1], reverse=True)}
+    valid_phases = []
 
-      char_usage_named = {}
+    for phase in phase_groups:
+      if phase["progressionsOut"] == None:
+        valid_phases.append(phase)
 
-      for char in char_usage.items():
-        char_in_json = next((c for c in characters_json["character"] if c["id"] == char[0]), None)
-
-        if char_in_json:
-          char_usage_named[char_in_json["name"]] = {}
-          char_usage_named[char_in_json["name"]]["usage"] = char[1]
-          char_usage_named[char_in_json["name"]]["icon"] = char_in_json.get("images")[1].get("url")
-
-      entrant["char_usage"] = char_usage_named
-
-    post = "🏆[Resultados]"
-    post += "[Online]" if events_json[evento].get("isOnline") else "[Offline]"
-    post += " " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"] + "\n"
-    
-    for entrant in data["standings"]["nodes"]:
-      placement = entrant["placement"]
-
-      if placement == 1:
-        placement = "🥇"
-      elif placement == 2:
-        placement = "🥈"
-      elif placement == 3:
-        placement = "🥉"
+    for phase in valid_phases:
+      if len(valid_phases) > 1:
+        phase["multiphase"] = True
       else:
+        phase["standings"] = data_phase["standings"]
+
+      for entrant in phase["standings"]["nodes"]:
+        r = requests.post(
+          'https://api.smash.gg/gql/alpha',
+          headers={
+            'Authorization': 'Bearer'+SMASHGG_KEY,
+          },
+          json={
+            'query': '''
+              query PlayerSetsInEvent($eventId: ID!) {
+                event(id: $eventId) {
+                  sets(
+                    page: 1,
+                    perPage: 200,
+                    filters: {entrantIds: ''' + str(entrant["entrant"]["id"]) + '''},
+                  ) {
+                    nodes {
+                      games {
+                        selections {
+                          entrant {
+                            id
+                          }
+                          selectionValue
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+            ''',
+            'variables': {
+              "eventId": events_json[evento]["id"]
+            },
+          }
+        )
+        resp = json.loads(r.text)
+        char_data = resp["data"]["event"]["sets"]["nodes"]
+
+        char_usage = {}
+
+        for game in char_data:
+          if game.get("games"):
+            for selection in game.get("games"):
+              if selection.get("selections"):
+                for selection_entry in selection.get("selections"):
+                  if selection_entry["entrant"]["id"] == entrant["entrant"]["id"]:
+                    if selection_entry["selectionValue"] not in char_usage.keys():
+                      char_usage[selection_entry["selectionValue"]] = 1
+                    else:
+                      char_usage[selection_entry["selectionValue"]] += 1
+        
+        char_usage = {k: v for k, v in sorted(char_usage.items(), key=lambda item: item[1], reverse=True)}
+
+        char_usage_named = {}
+
+        for char in char_usage.items():
+          char_in_json = next((c for c in characters_json["character"] if c["id"] == char[0]), None)
+
+          if char_in_json:
+            char_usage_named[char_in_json["name"]] = {}
+            char_usage_named[char_in_json["name"]]["usage"] = char[1]
+            char_usage_named[char_in_json["name"]]["icon"] = char_in_json.get("images")[1].get("url")
+
+        entrant["char_usage"] = char_usage_named
+
+      post = "🏆 [Resultados]"
+      post += " [Online]" if events_json[evento].get("isOnline") else " [Offline]"
+      post += "\n\n" + events_json[evento]["tournament"]
+
+      if events_json[evento]["tournament_multievent"]:
+        post += " - " + events_json[evento]["name"]
+      
+      if phase.get("multiphase"):
+        post += " ("+phase.get("phase").get("name")+")"
+
+      post += "\n\n"
+      
+      post2 = post
+      
+      counter = 0
+      for entrant in phase["standings"]["nodes"]:
+        placement = entrant["placement"]
         placement = str(placement)
 
-      post += placement + " "
-      twitter = entrant.get("entrant").get("participants")[0].get("user").get("authorizations")
-      if twitter:
-        post += "@" + str(twitter[0].get("externalUsername"))
+        placement_text = ""
+
+        placement_text += placement + " "
+        twitter = entrant.get("entrant").get("participants")[0].get("user").get("authorizations")
+        if twitter:
+          placement_text += "@" + str(twitter[0].get("externalUsername"))
+        else:
+          placement_text += entrant["entrant"]["name"]
+        placement_text += "\n"
+
+        if counter < 8:
+          post += placement_text
+        else:
+          post2 += placement_text
+
+        counter += 1
+      
+      drawResults.drawResults(events_json[evento], phase)
+
+      if phase.get("standings").get("pageInfo").get("total") >= 64:
+        post+="\n(1/2)"
+        post2+="\n(2/2)"
+        filenames = ['media.png', 'media2.png']
+        media_ids = []
+        for filename in filenames:
+          res = twitter_API.media_upload(filename)
+          media_ids.append(res.media_id)
+
+        # Tweet with multiple images
+        twitter_API.update_status(media_ids=media_ids, status=post)
       else:
-        post += entrant["entrant"]["name"]
-      post += "\n"
-    
-    drawResults.drawResults(events_json[evento], data)
+        twitter_API.update_with_media("./media.png", status=post)
 
-    status = twitter_API.update_with_media("./media.png", status=post)
-
-    events_json.pop(evento)
+      events_json.pop(evento)
   
   if data["state"] == 'ACTIVE' and events_json[evento]["state"] != 'ACTIVE':
+    print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+
     post = ""
-    post+= "Iniciado o torneio " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"] + "!\n"
+    post+= "Iniciado o torneio " + events_json[evento]["tournament"]
+
+    if events_json[evento]["tournament_multievent"]:
+     post += " - " + events_json[evento]["name"]
+    
+    post += "!\n"
     
     if events_json[evento].get("streams"):
       if events_json[evento].get("streams")[0].get("streamName"):
@@ -205,9 +307,45 @@ r = requests.post(
           perPage: $perPage
           filter: {
             countryCode: $cCode
+            videogameIds: [1386]
           }
         }) {
           nodes {
+            id
+            startAt
+            events {
+              id
+              videogame {
+                id
+              }
+              startAt
+            }
+          }
+        }
+      },
+    ''',
+    'variables': {
+      "cCode": "BR",
+      "perPage": 20
+    },
+  }
+)
+
+resp = json.loads(r.text)
+data = resp["data"]["tournaments"]["nodes"]
+
+proximos_eventos = []
+
+for tournament in data:
+  r = requests.post(
+    'https://api.smash.gg/gql/alpha',
+    headers={
+      'Authorization': 'Bearer'+SMASHGG_KEY,
+    },
+    json={
+      'query': '''
+        query Tournament($tournamentId: ID!) {
+          tournament(id: $tournamentId) {
             id
             name
             url
@@ -223,6 +361,14 @@ r = requests.post(
                 id
               }
               startAt
+              phaseGroups {
+                phase {
+                  name
+                }
+                progressionsOut {
+                  id
+                }
+              }
             }
             streams {
               streamName
@@ -233,48 +379,57 @@ r = requests.post(
               type
             }
           }
-        }
+        },
+      ''',
+      'variables': {
+        "tournamentId": tournament["id"]
       },
-    ''',
-    'variables': {
-      "cCode": "BR",
-      "perPage": 50
-    },
-  }
-)
+    }
+  )
+  resp = json.loads(r.text)
+  tournament_data = resp["data"]["tournament"]
 
-resp = json.loads(r.text)
-data = resp["data"]["tournaments"]["nodes"]
+  smash_ultimate_tournaments = 0
 
-proximos_eventos = []
+  for event in tournament_data["events"]:
+    if event["videogame"]["id"] == 1386:
+      smash_ultimate_tournaments += 1
 
-for tournament in data:
-  for event in tournament["events"]:
+  for event in tournament_data["events"]:
     # Smash Ultimate
     if event["videogame"]["id"] != 1386:
       continue
 
     if event["startAt"] > time.time():
-      event["tournament"] = tournament["name"]
-      event["tournament_id"] = tournament["id"]
-      event["city"] = tournament["city"]
-      event["url"] = "https://smash.gg"+tournament["url"]
-      event["streams"] = tournament["streams"]
-      event["timezone"] = tournament["timezone"]
-      event["tournament_startAt"] = tournament["startAt"]
-      event["images"] = tournament["images"]
+      event["tournament"] = tournament_data["name"]
+      event["tournament_id"] = tournament_data["id"]
+      event["city"] = tournament_data["city"]
+      event["url"] = "https://smash.gg"+tournament_data["url"]
+      event["streams"] = tournament_data["streams"]
+      event["timezone"] = tournament_data["timezone"]
+      event["tournament_startAt"] = tournament_data["startAt"]
+      event["images"] = tournament_data["images"]
+      event["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
       proximos_eventos.append(event)
 
 for evento in proximos_eventos:
   if str(evento["id"]) not in events_json.keys():
+    print("Novo evento: "+ evento["name"] + " - " + evento["tournament"])
+
     data_time = datetime.datetime.fromtimestamp(evento["startAt"])
+    data_time.astimezone(pytz.timezone(evento["timezone"]))
     data = data_time.strftime("%d/%m/%Y %H:%M")
 
     torneio_type = "[Torneio Online]" if evento["isOnline"] == True else "[Torneio Offline]"
 
+    torneio_name = evento["tournament"]
+    
+    if evento["tournament_multievent"]:
+      torneio_name += " - " + evento["name"]
+
     twitter_API.update_status(
-      torneio_type+" "+
-      evento["tournament"]+" - "+evento["name"]+"\n"+
+      torneio_type + " "+
+      torneio_name +" \n"+
       "Início: "+data+" ("+evento["timezone"]+")"+"\n"+
       evento["url"]
     )
@@ -284,7 +439,3 @@ for evento in proximos_eventos:
 
 with open('events.json', 'w') as outfile:
   json.dump(events_json, outfile, indent=4)
-
-#pprint.pprint(list(filter(filterTournaments, data)))
-
-#twitter_API.update_status('Hello world!')

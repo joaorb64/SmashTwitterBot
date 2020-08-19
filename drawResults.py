@@ -3,9 +3,10 @@ import requests
 from io import BytesIO
 import datetime
 
-def drawResults(event, standings):
+def drawResults(event, standings, page=1):
+  is_top16 = standings.get("standings").get("pageInfo").get("total") >= 64
 
-  img = Image.new('RGBA', (512, 512), color = (255, 255, 255))
+  img = Image.new('RGBA', (512, 512), color = (255, 255, 255, 255))
 
   response = requests.get(next(i["url"] for i in event["images"] if i["type"] == "banner"))
   banner = Image.open(BytesIO(response.content)).convert("RGBA")
@@ -24,25 +25,35 @@ def drawResults(event, standings):
     banner = banner.resize((int(220/banner_h*banner_w), 220), Image.ANTIALIAS)
   
   banner_w, banner_h = banner.size
-  img.alpha_composite(banner, (int(512/2-banner_w/2), 0))
-
+  
+  img.paste(banner, (int(512/2-banner_w/2), 0))
 
   fnt = ImageFont.truetype('./smash_font.ttf', 16)
   d = ImageDraw.Draw(img, "RGBA")
 
-  black_bg_top = Image.open("./black_bg_top.png")
+  if standings.get("multiphase"):
+    black_bg_top = Image.open("./black_bg_top.png")
+  else:
+    black_bg_top = Image.open("./black_bg_bottom.png")
+
   img.alpha_composite(black_bg_top, (0, 0))
 
   black_bg_bottom = Image.open("./black_bg_bottom.png")
   img.alpha_composite(black_bg_bottom, (0, 198))
 
-  title_text_top = event["tournament"] + "\n" + event["name"]
+  title_text_top = event["tournament"]
+  
+  if event["tournament_multievent"]:
+    title_text_top += " - "+event["name"]
+  
+  if standings.get("multiphase"):
+    title_text_top += "\n"+standings.get("phase").get("name")
 
   w, h = d.textsize(title_text_top, font=fnt)
-  d.text((256-w/2,4), title_text_top, font=fnt, fill=(255, 255, 255), align="center")
+  d.text((256-w/2,2), title_text_top, font=fnt, fill=(255, 255, 255), align="center")
 
   title_text_bottom = ("Online" if event.get("isOnline") else "Offline") + " - "
-  title_text_bottom += str(standings.get("numEntrants")) + " participantes"
+  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " participantes"
 
   if event["city"]:
     title_text_bottom += " - "+event["city"]
@@ -55,11 +66,11 @@ def drawResults(event, standings):
   w, h = d.textsize(title_text_bottom, font=fnt)
   d.text((256-w/2,200), title_text_bottom, font=fnt, fill=(255, 255, 255), align="center")
 
-  pos_y = 228
+  pos_y = 230
 
   fnt_results = ImageFont.truetype('./smash_font.ttf', 24)
 
-  for entrant in standings["standings"]["nodes"]:
+  for entrant in standings["standings"]["nodes"][((8*(page-1))+0):((8*(page-1))+8)]:
     entry_text = str(entrant["placement"]) + ". " + entrant["entrant"]["name"]
     w, h = d.textsize(entry_text, font=fnt_results)
     d.text((20,pos_y), entry_text, font=fnt_results, fill=(0, 0, 0), align="left")
@@ -74,7 +85,13 @@ def drawResults(event, standings):
 
     pos_y += 32
   
-  d.rectangle((0,484,512,512), (0,0,0))
-  d.text((20,490), "Gerado por @smash_bot_br usando dados do smash.gg", font=fnt, fill=(255, 255, 255), align="center")
+  d.rectangle((0, 490, 512, 512), (0,0,0))
+  d.text((20, 493), "Gerado por @smash_bot_br usando dados do smash.gg", font=fnt, fill=(255, 255, 255), align="center")
 
-  img.save('media.png')
+  if is_top16:
+    d.text((512-40, 493), str(page)+"/2", font=fnt, fill=(255, 255, 255), align="center")
+
+  img.save('media.png' if page==1 else 'media2.png')
+
+  if is_top16 and page == 1:
+    drawResults(event, standings, page=2)

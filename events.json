@@ -8,6 +8,7 @@
             "id": 1386
         },
         "startAt": 1602536400,
+        "phaseGroups": [],
         "tournament": "Taverna do Smash 4",
         "tournament_id": 201077,
         "city": null,
@@ -30,7 +31,8 @@
                 "url": "https://images.smash.gg/images/tournament/201077/image-ef6e9b2c8ce91ab4807c55b2410cd946.png",
                 "type": "banner"
             }
-        ]
+        ],
+        "tournament_multievent": false
     },
     "509002": {
         "id": 509002,
@@ -41,6 +43,7 @@
             "id": 1386
         },
         "startAt": 1598655600,
+        "phaseGroups": [],
         "tournament": "Best of Dittos - Captain Falcon Edition",
         "tournament_id": 237480,
         "city": null,
@@ -63,7 +66,8 @@
                 "url": "https://images.smash.gg/images/tournament/237480/image-489f7f0932496ff4fa48e752e8def34c.png",
                 "type": "banner"
             }
-        ]
+        ],
+        "tournament_multievent": false
     },
     "505156": {
         "id": 505156,
@@ -74,6 +78,50 @@
             "id": 1386
         },
         "startAt": 1597878000,
+        "phaseGroups": [
+            {
+                "phase": {
+                    "name": "Unranked"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga E"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga D"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga C"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga B"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga A"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga S"
+                },
+                "progressionsOut": null
+            }
+        ],
         "tournament": "Arena Tupiniviquem Vol. 2",
         "tournament_id": 234633,
         "city": null,
@@ -111,7 +159,8 @@
                 "url": "https://images.smash.gg/images/tournament/234633/image-b50317a1889997f5c11122d101129756.png",
                 "type": "banner"
             }
-        ]
+        ],
+        "tournament_multievent": true
     },
     "505157": {
         "id": 505157,
@@ -122,6 +171,50 @@
             "id": 1386
         },
         "startAt": 1598482800,
+        "phaseGroups": [
+            {
+                "phase": {
+                    "name": "Unranked"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga E"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga D"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga C"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga B"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga A"
+                },
+                "progressionsOut": null
+            },
+            {
+                "phase": {
+                    "name": "Liga S"
+                },
+                "progressionsOut": null
+            }
+        ],
         "tournament": "Arena Tupiniviquem Vol. 2",
         "tournament_id": 234633,
         "city": null,
@@ -159,51 +252,7 @@
                 "url": "https://images.smash.gg/images/tournament/234633/image-b50317a1889997f5c11122d101129756.png",
                 "type": "banner"
             }
-        ]
-    },
-    "511710": {
-        "id": 511710,
-        "name": "HOME ONLINe",
-        "isOnline": true,
-        "state": "CREATED",
-        "videogame": {
-            "id": 1386
-        },
-        "startAt": 1598205600,
-        "tournament": "HOME\ud83c\udfe1ONLINe15",
-        "tournament_id": 239487,
-        "city": null,
-        "url": "https://smash.gg/tournament/home-online15",
-        "streams": [
-            {
-                "streamName": "tryhardsmash"
-            },
-            {
-                "streamName": "P7_br"
-            },
-            {
-                "streamName": "teamspotdodge"
-            },
-            {
-                "streamName": "luffy446"
-            },
-            {
-                "streamName": "just_a_pl4yer"
-            }
         ],
-        "timezone": "America/Campo_Grande",
-        "tournament_startAt": 1598205600,
-        "images": [
-            {
-                "id": "2831145",
-                "url": "https://images.smash.gg/images/tournament/239487/image-b339557467a959488a32d87a951768d5.png",
-                "type": "profile"
-            },
-            {
-                "id": "2831165",
-                "url": "https://images.smash.gg/images/tournament/239487/image-3007da3c2fe4bc6a7706e96329435d9f.jpg",
-                "type": "banner"
-            }
-        ]
+        "tournament_multievent": true
     }
 }
