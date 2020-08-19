@@ -44,9 +44,19 @@ for evento in list(events_json):
     },
     json={
       'query': '''
-        query EventStandings($eventId: ID!) {
+        query evento($eventId: ID!) {
           event(id: $eventId) {
             state
+            tournament {
+              streams {
+                streamName
+              }
+              images{
+                id
+                url
+                type
+              }
+            }
           }
         },
       ''',
@@ -57,6 +67,9 @@ for evento in list(events_json):
   )
   resp = json.loads(r.text)
   data = resp["data"]["event"]
+
+  events_json[evento]["images"] = data["tournament"]["images"].copy()
+  events_json[evento]["streams"] = data["tournament"]["streams"].copy()
 
   if data["state"] == 'COMPLETED':
     print("Evento finalizado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
@@ -416,8 +429,7 @@ for evento in proximos_eventos:
   if str(evento["id"]) not in events_json.keys():
     print("Novo evento: "+ evento["name"] + " - " + evento["tournament"])
 
-    data_time = datetime.datetime.fromtimestamp(evento["startAt"])
-    data_time.astimezone(pytz.timezone(evento["timezone"]))
+    data_time = datetime.datetime.fromtimestamp(evento["startAt"], tz=pytz.timezone("America/Sao_Paulo"))
     data = data_time.strftime("%d/%m/%Y %H:%M")
 
     torneio_type = "[Torneio Online]" if evento["isOnline"] == True else "[Torneio Offline]"
