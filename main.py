@@ -290,7 +290,7 @@ for evento in list(events_json):
     print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
     post = ""
-    post+= "Iniciado o torneio " + events_json[evento]["tournament"]
+    post+= "Está começando o " + events_json[evento]["tournament"]
 
     if events_json[evento]["tournament_multievent"]:
      post += " - " + events_json[evento]["name"]
@@ -299,9 +299,9 @@ for evento in list(events_json):
     
     if events_json[evento].get("streams"):
       if events_json[evento].get("streams")[0].get("streamName"):
-        post+= "Acompanhe o stream em: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")])
+        post+= "Streams: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")])
 
-    post+= "Acompanhe a bracket em: "+events_json[evento].get("url")
+    post+= "Bracket: "+events_json[evento].get("url")
 
     twitter_API.update_status(post)
 
