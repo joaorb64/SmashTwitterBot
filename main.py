@@ -288,7 +288,7 @@ for evento in list(events_json):
       else:
         twitter_API.update_with_media("./media.png", status=post)
 
-  events_json.pop(evento)
+    events_json.pop(evento)
   
   if data["state"] == 'ACTIVE' and events_json[evento]["state"] != 'ACTIVE':
     print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
@@ -443,13 +443,13 @@ for evento in proximos_eventos:
     if evento["tournament_multievent"]:
       torneio_name += " - " + evento["name"]
 
-    twitter_API.update_status(
+    '''twitter_API.update_status(
       torneio_type + " "+
       torneio_name +" \n"+
       "Início: "+data+" ("+evento["timezone"]+")"+"\n"+
       evento["url"]
     )
-    time.sleep(1)
+    time.sleep(1)'''
 
     events_json[evento["id"]] = evento
 
