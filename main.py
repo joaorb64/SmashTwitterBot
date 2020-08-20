@@ -206,6 +206,8 @@ for evento in list(events_json):
         char_data = resp.get("data")
         if char_data:
           char_data = char_data.get("event").get("sets").get("nodes")
+        else:
+          char_data = {}
 
         char_usage = {}
 
