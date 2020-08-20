@@ -203,7 +203,9 @@ for evento in list(events_json):
           }
         )
         resp = json.loads(r.text)
-        char_data = resp.get("data").get("event").get("sets").get("nodes")
+        char_data = resp.get("data")
+        if char_data:
+          char_data = char_data.get("event").get("sets").get("nodes")
 
         char_usage = {}
 
