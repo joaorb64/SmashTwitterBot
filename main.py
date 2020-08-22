@@ -446,7 +446,7 @@ for evento in proximos_eventos:
     twitter_API.update_status(
       torneio_type + " "+
       torneio_name +" \n"+
-      "Início: "+data+" ("+evento["timezone"]+")"+"\n"+
+      "Início: "+data+" (GMT-3)"+"\n"+
       evento["url"]
     )
     time.sleep(1)
