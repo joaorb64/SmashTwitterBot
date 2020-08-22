@@ -51,7 +51,7 @@ def drawResults(event, standings, page=1):
     title_text_top += "\n"+standings.get("phase").get("name")
 
   w, h = d.textsize(title_text_top, font=fnt)
-  d.text((256-w/2,2), title_text_top, font=fnt, fill=(255, 255, 255), align="center")
+  d.text((256-w/2,0), title_text_top, font=fnt, fill=(255, 255, 255), align="center")
 
   title_text_bottom = ("Online" if event.get("isOnline") else "Offline") + " - "
   title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " participantes"
@@ -87,10 +87,10 @@ def drawResults(event, standings, page=1):
     pos_y += 32
   
   d.rectangle((0, 490, 512, 512), (0,0,0))
-  d.text((20, 493), "Gerado por @smash_bot_br usando dados do smash.gg", font=fnt, fill=(255, 255, 255), align="center")
+  d.text((20, 492), "Gerado por @smash_bot_br usando dados do smash.gg", font=fnt, fill=(255, 255, 255), align="center")
 
   if is_top16:
-    d.text((512-40, 493), str(page)+"/2", font=fnt, fill=(255, 255, 255), align="center")
+    d.text((512-40, 492), str(page)+"/2", font=fnt, fill=(255, 255, 255), align="center")
 
   img.save('media.png' if page==1 else 'media2.png')
 
