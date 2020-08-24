@@ -284,7 +284,9 @@ for evento in list(events_json):
           media_ids.append(res.media_id)
 
         # Tweet with multiple images
-        twitter_API.update_status(media_ids=media_ids, status=post)
+        thread1 = twitter_API.update_status(media_ids=media_ids, status=post)
+        time.sleep(1)
+        twitter_API.update_status(status="@smash_bot_br\n"+post2, in_reply_to_status_id=thread1)
       else:
         twitter_API.update_with_media("./media.png", status=post)
 
