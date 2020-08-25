@@ -47,7 +47,17 @@ for evento in list(events_json):
         query evento($eventId: ID!) {
           event(id: $eventId) {
             state
+            phaseGroups {
+              phase {
+                name
+              }
+              progressionsOut {
+                id
+              }
+              state
+            }
             tournament {
+              startAt
               streams {
                 streamName
               }
@@ -70,7 +80,9 @@ for evento in list(events_json):
 
   events_json[evento]["images"] = data["tournament"]["images"].copy()
   events_json[evento]["streams"] = data["tournament"]["streams"].copy()
+  events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
 
+  # Evento finalizado
   if data["state"] == 'COMPLETED':
     print("Evento finalizado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
@@ -292,26 +304,38 @@ for evento in list(events_json):
 
     events_json.pop(evento)
   
-  if data["state"] == 'ACTIVE' and events_json[evento]["state"] != 'ACTIVE':
-    print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+  # Evento iniciado
+  if not "postedStarting" in events_json[evento].keys():
+    phase_groups = data["phaseGroups"]
 
-    post = ""
-    post+= "Está começando o " + events_json[evento]["tournament"]
+    atLeastOneStarted = False
 
-    if events_json[evento]["tournament_multievent"]:
-     post += " - " + events_json[evento]["name"]
+    for phase in phase_groups:
+      if phase["state"] == "ACTIVE":
+        atLeastOneStarted = True
+        break
     
-    post += "!\n"
-    
-    if events_json[evento].get("streams"):
-      if events_json[evento].get("streams")[0].get("streamName"):
-        post+= "Streams: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")])
+    if atLeastOneStarted:
+      print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
-    post+= "Bracket: "+events_json[evento].get("url")
+      post = ""
+      post+= "Está começando o " + events_json[evento]["tournament"]
 
-    twitter_API.update_status(post)
+      if events_json[evento]["tournament_multievent"]:
+        post += " - " + events_json[evento]["name"]
+      
+      post += "!\n"
+      
+      if events_json[evento].get("streams"):
+        if events_json[evento].get("streams")[0].get("streamName"):
+          post+= "Streams: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")])
 
-    events_json[evento]["state"] = 'ACTIVE'
+      post+= "Bracket: "+events_json[evento].get("url")
+
+      twitter_API.update_status(post)
+
+      events_json[evento]["state"] = 'ACTIVE'
+      events_json[evento]["postedStarting"] = True
 
 
 r = requests.post(
@@ -445,7 +469,7 @@ for evento in proximos_eventos:
     if evento["tournament_multievent"]:
       torneio_name += " - " + evento["name"]
 
-    twitter_API.update_status(
+    tweet_id = twitter_API.update_status(
       torneio_type + " "+
       torneio_name +" \n"+
       "Início: "+data+" (GMT-3)"+"\n"+
@@ -454,6 +478,7 @@ for evento in proximos_eventos:
     time.sleep(1)
 
     events_json[evento["id"]] = evento
+    events_json[evento["id"]]["tweet_id"] = tweet_id
 
 with open('events.json', 'w') as outfile:
   json.dump(events_json, outfile, indent=4)
