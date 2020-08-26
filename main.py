@@ -315,7 +315,7 @@ for evento in list(events_json):
     atLeastOneStarted = False
 
     for phase in phase_groups:
-      if phase["state"] == "ACTIVE":
+      if phase["state"] == 2:
         atLeastOneStarted = True
         break
     
