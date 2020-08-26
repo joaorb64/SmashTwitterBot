@@ -27,7 +27,7 @@ else:
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 
-twitter_API = tweepy.API(auth)
+twitter_API = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
 f = open('events.json')
 events_json = json.load(f)
