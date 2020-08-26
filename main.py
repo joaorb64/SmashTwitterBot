@@ -47,6 +47,7 @@ for evento in list(events_json):
         query evento($eventId: ID!) {
           event(id: $eventId) {
             state
+            startAt
             phaseGroups {
               phase {
                 name
@@ -82,6 +83,7 @@ for evento in list(events_json):
   events_json[evento]["images"] = data["tournament"]["images"].copy()
   events_json[evento]["streams"] = data["tournament"]["streams"].copy()
   events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
+  events_json[evento]["startAt"] = data["startAt"]
   events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
 
   # Evento finalizado
