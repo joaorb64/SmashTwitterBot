@@ -58,6 +58,7 @@ for evento in list(events_json):
             }
             tournament {
               startAt
+              registrationClosesAt
               streams {
                 streamName
               }
@@ -81,6 +82,7 @@ for evento in list(events_json):
   events_json[evento]["images"] = data["tournament"]["images"].copy()
   events_json[evento]["streams"] = data["tournament"]["streams"].copy()
   events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
+  events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
 
   # Evento finalizado
   if data["state"] == 'COMPLETED':
@@ -395,6 +397,7 @@ for tournament in data:
             city
             timezone
             startAt
+            registrationClosesAt
             events {
               id
               name
@@ -451,6 +454,7 @@ for tournament in data:
       event["streams"] = tournament_data["streams"]
       event["timezone"] = tournament_data["timezone"]
       event["tournament_startAt"] = tournament_data["startAt"]
+      event["tournament_registrationClosesAt"] = tournament_data["registrationClosesAt"]
       event["images"] = tournament_data["images"]
       event["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
       proximos_eventos.append(event)
@@ -478,7 +482,7 @@ for evento in proximos_eventos:
     time.sleep(1)
 
     events_json[evento["id"]] = evento
-    events_json[evento["id"]]["tweet_id"] = tweet_id
+    events_json[evento["id"]]["tweet_id"] = tweet_id["id"]
 
 with open('events.json', 'w') as outfile:
   json.dump(events_json, outfile, indent=4)
