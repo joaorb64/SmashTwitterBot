@@ -50,7 +50,9 @@ for evento in list(events_json):
             startAt
             phaseGroups {
               phase {
+                id
                 name
+                state
               }
               progressionsOut {
                 id
@@ -99,29 +101,9 @@ for evento in list(events_json):
         'query': '''
           query EventStandings($eventId: ID!, $page: Int!, $perPage: Int!) {
             event(id: $eventId) {
-              standings(query: {
-                perPage: $perPage,
-                page: $page
-              }){
+              standings(query: {}){
                 pageInfo {
                   total
-                }
-                nodes {
-                  placement
-                  entrant {
-                    id
-                    name
-                    participants{
-                      user{
-                        authorizations(types: [TWITTER]) {
-                          externalUsername
-                        }
-                      }
-                      player {
-                        id
-                      }
-                    }
-                  }
                 }
               }
               phaseGroups {
@@ -315,7 +297,7 @@ for evento in list(events_json):
     atLeastOneStarted = False
 
     for phase in phase_groups:
-      if phase["state"] == 2:
+      if phase["phase"]["state"] == "ACTIVE":
         atLeastOneStarted = True
         break
     
@@ -411,6 +393,7 @@ for tournament in data:
               startAt
               phaseGroups {
                 phase {
+                  id
                   name
                 }
                 progressionsOut {
