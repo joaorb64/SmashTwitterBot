@@ -8,6 +8,10 @@ import os
 import drawResults
 import pytz
 
+def update_events_file():
+  with open('events.json', 'w') as outfile:
+    json.dump(events_json, outfile, indent=4)
+
 if os.path.exists("auth.json"):
   f = open('auth.json')
   auth_json = json.load(f)
@@ -49,8 +53,8 @@ for evento in list(events_json):
             state
             startAt
             phaseGroups {
+              id
               phase {
-                id
                 name
                 state
               }
@@ -107,6 +111,7 @@ for evento in list(events_json):
                 }
               }
               phaseGroups {
+                id
                 phase {
                   name
                 }
@@ -153,11 +158,15 @@ for evento in list(events_json):
     data_phase = resp["data"]["event"]
 
     phase_groups = data_phase["phaseGroups"]
+    events_json[evento]["phaseGroups"] = phase_groups
+
+    if "postedPhaseResultIds" not in events_json[evento].keys():
+      events_json[evento]["postedPhaseResultIds"] = []
 
     valid_phases = []
 
-    for phase in phase_groups:
-      if phase["progressionsOut"] == None:
+    for phase in events_json[evento]["phaseGroups"]:
+      if (phase["progressionsOut"] == None) and (phase["id"] not in events_json[evento]["postedPhaseResultIds"]):
         valid_phases.append(phase)
 
     for phase in valid_phases:
@@ -202,23 +211,29 @@ for evento in list(events_json):
         )
         resp = json.loads(r.text)
         char_data = resp.get("data")
+
         if char_data:
           char_data = char_data.get("event").get("sets").get("nodes")
+
+          if char_data == None:
+            entrant["invalid"] = True
         else:
+          entrant["invalid"] = True
           char_data = {}
 
         char_usage = {}
 
-        for game in char_data:
-          if game.get("games"):
-            for selection in game.get("games"):
-              if selection.get("selections"):
-                for selection_entry in selection.get("selections"):
-                  if selection_entry["entrant"]["id"] == entrant["entrant"]["id"]:
-                    if selection_entry["selectionValue"] not in char_usage.keys():
-                      char_usage[selection_entry["selectionValue"]] = 1
-                    else:
-                      char_usage[selection_entry["selectionValue"]] += 1
+        if char_data is not None:
+          for game in char_data:
+            if game.get("games"):
+              for selection in game.get("games"):
+                if selection.get("selections"):
+                  for selection_entry in selection.get("selections"):
+                    if selection_entry["entrant"]["id"] == entrant["entrant"]["id"]:
+                      if selection_entry["selectionValue"] not in char_usage.keys():
+                        char_usage[selection_entry["selectionValue"]] = 1
+                      else:
+                        char_usage[selection_entry["selectionValue"]] += 1
         
         char_usage = {k: v for k, v in sorted(char_usage.items(), key=lambda item: item[1], reverse=True)}
 
@@ -247,6 +262,12 @@ for evento in list(events_json):
       post += "\n\n"
       
       post2 = post
+
+      valid_entrants = []
+      for entrant in phase["standings"]["nodes"]:
+        if "invalid" not in entrant.keys():
+          valid_entrants.append(entrant)
+      phase["standings"]["nodes"] = valid_entrants
       
       counter = 0
       for entrant in phase["standings"]["nodes"]:
@@ -256,7 +277,12 @@ for evento in list(events_json):
         placement_text = ""
 
         placement_text += placement + " "
-        twitter = entrant.get("entrant").get("participants")[0].get("user").get("authorizations")
+
+        twitter = entrant.get("entrant")
+        if twitter: twitter = twitter.get("participants")
+        if twitter: twitter = twitter[0].get("user")
+        if twitter: twitter = twitter.get("authorizations")
+
         if twitter:
           placement_text += "@" + str(twitter[0].get("externalUsername"))
         else:
@@ -287,8 +313,21 @@ for evento in list(events_json):
         twitter_API.update_status(status="@smash_bot_br\n"+post2, in_reply_to_status_id=thread1)
       else:
         twitter_API.update_with_media("./media.png", status=post)
+      
+      events_json[evento]["postedPhaseResultIds"].append(phase["id"])
 
-    events_json.pop(evento)
+      update_events_file()
+
+    allPhasesPosted = True
+
+    for phase in events_json[evento]["phaseGroups"]:
+      if (phase["progressionsOut"] == None) and (phase["id"] not in events_json[evento]["postedPhaseResultIds"]):
+        allPhasesPosted = False
+        break
+
+    if allPhasesPosted:
+      events_json.pop(evento)
+      continue
   
   # Evento iniciado
   if not "postedStarting" in events_json[evento].keys():
@@ -392,6 +431,7 @@ for tournament in data:
               }
               startAt
               phaseGroups {
+                id
                 phase {
                   id
                   name
