@@ -329,7 +329,7 @@ for evento in list(events_json):
   
   # Evento iniciado
   if not "postedStarting" in events_json[evento].keys():
-    if data["state"] == 'ACTIVE' and event["startAt"] <= time.time():
+    if data["state"] == 'ACTIVE' and data["startAt"] <= time.time():
       print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
       post = ""
