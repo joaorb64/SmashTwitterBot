@@ -172,8 +172,6 @@ for evento in list(events_json):
     for phase in valid_phases:
       if len(valid_phases) > 1:
         phase["multiphase"] = True
-      else:
-        phase["standings"] = data_phase["standings"]
 
       for entrant in phase["standings"]["nodes"]:
         r = requests.post(
