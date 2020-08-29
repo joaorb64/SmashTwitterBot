@@ -329,16 +329,7 @@ for evento in list(events_json):
   
   # Evento iniciado
   if not "postedStarting" in events_json[evento].keys():
-    phase_groups = data["phaseGroups"]
-
-    atLeastOneStarted = False
-
-    for phase in phase_groups:
-      if phase["phase"]["state"] == "ACTIVE":
-        atLeastOneStarted = True
-        break
-    
-    if atLeastOneStarted:
+    if data["state"] == 'ACTIVE' and event["startAt"] <= time.time():
       print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
       post = ""
