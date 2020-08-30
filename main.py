@@ -105,9 +105,29 @@ for evento in list(events_json):
         'query': '''
           query EventStandings($eventId: ID!, $page: Int!, $perPage: Int!) {
             event(id: $eventId) {
-              standings(query: {}){
+              standings(query: {
+                perPage: $perPage,
+                page: $page
+              }){
                 pageInfo {
                   total
+                }
+                nodes {
+                  placement
+                  entrant {
+                    id
+                    name
+                    participants{
+                      user{
+                        authorizations(types: [TWITTER]) {
+                          externalUsername
+                        }
+                      }
+                      player {
+                        id
+                      }
+                    }
+                  }
                 }
               }
               phaseGroups {
@@ -172,6 +192,8 @@ for evento in list(events_json):
     for phase in valid_phases:
       if len(valid_phases) > 1:
         phase["multiphase"] = True
+      else:
+        phase["standings"] = data_phase["standings"]
 
       for entrant in phase["standings"]["nodes"]:
         r = requests.post(
