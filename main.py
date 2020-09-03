@@ -84,6 +84,12 @@ for evento in list(events_json):
     }
   )
   resp = json.loads(r.text)
+
+  if not resp.get("data"):
+    print(">>Erro: ")
+    print(resp)
+    continue
+
   data = resp["data"]["event"]
 
   events_json[evento]["images"] = data["tournament"]["images"].copy()
