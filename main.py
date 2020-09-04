@@ -510,7 +510,7 @@ for evento in proximos_eventos:
     data = data_time.strftime("%d/%m/%Y %H:%M")
 
     data_registration_time = datetime.datetime.fromtimestamp(evento["tournament_registrationClosesAt"], tz=pytz.timezone("America/Sao_Paulo"))
-    data_registration = data_time.strftime("%d/%m/%Y %H:%M")
+    data_registration = data_registration_time.strftime("%d/%m/%Y %H:%M")
 
     torneio_type = "[Torneio Online]" if evento["isOnline"] == True else "[Torneio Offline]"
 
