@@ -331,6 +331,7 @@ for evento in list(events_json):
         media_ids = []
         for filename in filenames:
           res = twitter_API.media_upload(filename)
+          print(res)
           media_ids.append(res.media_id)
 
         # Tweet with multiple images
