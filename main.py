@@ -337,7 +337,7 @@ for evento in list(events_json):
         # Tweet with multiple images
         thread1 = twitter_API.update_status(media_ids=media_ids, status=post)
         time.sleep(5)
-        twitter_API.update_status(status="@smash_bot_br\n"+post2, in_reply_to_status_id=thread1)
+        twitter_API.update_status(status="@smash_bot_br\n"+post2, in_reply_to_status_id=thread1["id"])
       else:
         twitter_API.update_with_media("./media.png", status=post)
       
