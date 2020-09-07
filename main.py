@@ -332,7 +332,7 @@ for evento in list(events_json):
         for filename in filenames:
           res = twitter_API.media_upload(filename)
           print(res)
-          media_ids.append(res.media_id)
+          media_ids.append(res["media_id"])
 
         # Tweet with multiple images
         thread1 = twitter_API.update_status(media_ids=media_ids, status=post)
