@@ -93,7 +93,10 @@ for evento in list(events_json):
   data = resp["data"]["event"]
 
   events_json[evento]["images"] = data["tournament"]["images"].copy()
-  events_json[evento]["streams"] = data["tournament"]["streams"].copy()
+
+  if data["tournament"]["streams"] != None:
+    events_json[evento]["streams"] = data["tournament"]["streams"].copy()
+
   events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
   events_json[evento]["startAt"] = data["startAt"]
   events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
