@@ -8,7 +8,12 @@ def drawResults(event, standings, page=1):
 
   img = Image.new('RGBA', (512, 512), color = (255, 255, 255, 255))
 
-  response = requests.get(event["images"][-1]["url"])
+  bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
+  
+  if bannerUrl == None:
+    event["images"][-1]["url"]
+
+  response = requests.get(bannerUrl)
   
   banner = Image.open(BytesIO(response.content)).convert("RGBA")
   banner_w, banner_h = banner.size
