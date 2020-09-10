@@ -102,7 +102,7 @@ for evento in list(events_json):
   events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
 
   # Evento finalizado
-  if data["state"] == 'COMPLETED':
+  if data["state"] == 'COMPLETED' or data["state"] == 'ACTIVE':
     print("Evento finalizado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
     r = requests.post(
@@ -141,6 +141,7 @@ for evento in list(events_json):
               }
               phaseGroups {
                 id
+                state
                 phase {
                   name
                 }
@@ -195,7 +196,7 @@ for evento in list(events_json):
     valid_phases = []
 
     for phase in events_json[evento]["phaseGroups"]:
-      if (phase["progressionsOut"] == None) and (phase["id"] not in events_json[evento]["postedPhaseResultIds"]):
+      if (phase["progressionsOut"] == None) and (phase["id"] not in events_json[evento]["postedPhaseResultIds"]) and (phase["state"] == 3):
         valid_phases.append(phase)
 
     for phase in valid_phases:
