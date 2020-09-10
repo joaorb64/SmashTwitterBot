@@ -196,7 +196,7 @@ for evento in list(events_json):
     valid_phases = []
 
     for phase in events_json[evento]["phaseGroups"]:
-      if (phase["progressionsOut"] == None) and (phase["id"] not in events_json[evento]["postedPhaseResultIds"]):
+      if phase["progressionsOut"] == None:
         valid_phases.append(phase)
 
     for phase in valid_phases:
@@ -205,7 +205,8 @@ for evento in list(events_json):
       else:
         phase["standings"] = data_phase["standings"]
       
-      if phase["state"] != 3:
+      # Ja postado ou nao finalizado
+      if (phase["state"] != 3) or (phase["id"] in events_json[evento]["postedPhaseResultIds"]):
         continue
 
       for entrant in phase["standings"]["nodes"]:
