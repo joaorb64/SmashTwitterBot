@@ -440,24 +440,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 5998936,
-                                "name": "ProRD | p1kapau",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 539662
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 6007523,
                                 "name": "Counter | Nuno",
@@ -472,6 +455,23 @@
                                         },
                                         "player": {
                                             "id": 1146901
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 5998936,
+                                "name": "ProRD | p1kapau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 539662
                                         }
                                     }
                                 ]
@@ -780,7 +780,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 6016547,
                                 "name": "Gusta",
@@ -1091,6 +1091,23 @@
                     },
                     "nodes": [
                         {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 5998936,
+                                "name": "ProRD | p1kapau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 539662
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 6007523,
@@ -1144,23 +1161,6 @@
                                         },
                                         "player": {
                                             "id": 1836732
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 5998936,
-                                "name": "ProRD | p1kapau",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 539662
                                         }
                                     }
                                 ]
@@ -1435,12 +1435,244 @@
         "id": 516881,
         "name": "Ultimate 1x1",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "videogame": {
             "id": 1386
         },
         "startAt": 1599940800,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 1374060,
+                "state": 2,
+                "phase": {
+                    "name": "Rodada do Robinho"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 5944780
+                    },
+                    {
+                        "id": 5944781
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6000274,
+                                "name": "Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1633354
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6002423,
+                                "name": "sandwich :)",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6017951,
+                                "name": "2B4U | DANIBOY",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "farjados"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1415397
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6018080,
+                                "name": "2B4U | Stellaris",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "845r845"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633353
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6023428,
+                                "name": "Flechinha | GyoUranio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1651686
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1374061,
+                "state": 1,
+                "phase": {
+                    "name": "Final"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6023428,
+                                "name": "Flechinha | GyoUranio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1651686
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6002423,
+                                "name": "sandwich :)",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6017951,
+                                "name": "2B4U | DANIBOY",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "farjados"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1415397
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6018080,
+                                "name": "2B4U | Stellaris",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "845r845"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633353
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6000274,
+                                "name": "Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1633354
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "Meteor Spike On-line #6",
         "tournament_id": 243599,
         "city": null,
@@ -1457,7 +1689,9 @@
             }
         ],
         "tournament_multievent": false,
-        "tweet_id": 1303053190296985601
+        "tweet_id": 1303053190296985601,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "517131": {
         "id": 517131,
