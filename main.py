@@ -1,5 +1,6 @@
 import tweepy
 import time
+import datetime
 import requests
 import json
 import pprint
@@ -65,6 +66,7 @@ for evento in list(events_json):
             }
             tournament {
               startAt
+              endAt
               registrationClosesAt
               streams {
                 streamName
@@ -100,6 +102,8 @@ for evento in list(events_json):
   events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
   events_json[evento]["startAt"] = data["startAt"]
   events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
+
+  events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
 
   # Evento finalizado
   if data["state"] == 'COMPLETED' or data["state"] == 'ACTIVE':
@@ -365,6 +369,12 @@ for evento in list(events_json):
       events_json.pop(evento)
       continue
   
+  # Evento que nunca foi finalizado (depois de 1 dia)
+  if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=1).seconds:
+    print("Evento abandonado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+    events_json.pop(evento)
+    continue
+  
   # Evento iniciado
   if not "postedStarting" in events_json[evento].keys():
     if data["state"] == 'ACTIVE' and data["startAt"] <= time.time():
@@ -447,6 +457,7 @@ for tournament in data:
             city
             timezone
             startAt
+            endAt
             registrationClosesAt
             events {
               id
@@ -506,6 +517,7 @@ for tournament in data:
       event["streams"] = tournament_data["streams"]
       event["timezone"] = tournament_data["timezone"]
       event["tournament_startAt"] = tournament_data["startAt"]
+      event["tournament_endAt"] = tournament_data["endAt"]
       event["tournament_registrationClosesAt"] = tournament_data["registrationClosesAt"]
       event["images"] = tournament_data["images"]
       event["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
