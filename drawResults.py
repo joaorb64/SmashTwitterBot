@@ -11,7 +11,7 @@ def drawResults(event, standings, page=1):
   bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
   
   if bannerUrl == None:
-    event["images"][-1]["url"]
+    event["images"][0]["url"]
 
   response = requests.get(bannerUrl)
   
