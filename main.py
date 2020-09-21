@@ -105,9 +105,15 @@ for evento in list(events_json):
 
   events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
 
+  # Evento que nunca foi finalizado (depois de 1 dia)
+  if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=1).seconds:
+    print("Evento abandonado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+    events_json.pop(evento)
+    continue
+
   # Evento finalizado
   if data["state"] == 'COMPLETED' or data["state"] == 'ACTIVE':
-    print("Evento finalizado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+    print("Evento ativo ou completo - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
     r = requests.post(
       'https://api.smash.gg/gql/alpha',
@@ -366,14 +372,9 @@ for evento in list(events_json):
         break
 
     if allPhasesPosted:
+      print("Evento finalizado e postado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
       events_json.pop(evento)
       continue
-  
-  # Evento que nunca foi finalizado (depois de 1 dia)
-  if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=1).seconds:
-    print("Evento abandonado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
-    events_json.pop(evento)
-    continue
   
   # Evento iniciado
   if not "postedStarting" in events_json[evento].keys():
