@@ -11,7 +11,10 @@ def drawResults(event, standings, page=1):
   bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
   
   if bannerUrl == None:
-    event["images"][0]["url"]
+    event["images"][-1]["url"]
+  
+  if bannerUrl == None:
+    bannerUrl = "https://raw.githubusercontent.com/joaorb64/SmashTwitterBot/master/media_generic.png"
 
   response = requests.get(bannerUrl)
   
