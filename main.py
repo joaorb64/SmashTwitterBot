@@ -94,6 +94,11 @@ for evento in list(events_json):
 
   data = resp["data"]["event"]
 
+  if data == None:
+    print("Evento sumiu - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+    events_json.pop(evento)
+    continue
+
   events_json[evento]["images"] = data["tournament"]["images"].copy()
 
   if data["tournament"]["streams"] != None:
