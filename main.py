@@ -111,8 +111,7 @@ for evento in list(events_json):
   events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
 
   # Evento que nunca foi finalizado (depois de 1 dia)
-  if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=1).seconds and
-  data["state"] == 'ACTIVE':
+  if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=1).seconds and data["state"] == 'ACTIVE':
     print("Evento abandonado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
     events_json.pop(evento)
     continue
