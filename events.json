@@ -513,6 +513,27 @@
                             }
                         },
                         {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 6107732,
+                                "name": "Emp",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Emp_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 401907
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 6107729,
@@ -549,27 +570,6 @@
                                         },
                                         "player": {
                                             "id": 436360
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 6107732,
-                                "name": "Emp",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Emp_SSB"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 401907
                                         }
                                     }
                                 ]
@@ -888,11 +888,45 @@
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 6107732,
+                                "name": "Emp",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Emp_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 401907
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 6107730,
+                                "name": "RevoS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_RevoS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172173
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
@@ -951,7 +985,7 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 9
+                        "total": 10
                     },
                     "nodes": [
                         {
@@ -970,6 +1004,27 @@
                                         },
                                         "player": {
                                             "id": 173490
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 6107730,
+                                "name": "RevoS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_RevoS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172173
                                         }
                                     }
                                 ]
@@ -1289,7 +1344,7 @@
         "id": 522248,
         "name": "Fase 1 (07/10)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "videogame": {
             "id": 1386
         },
@@ -3409,7 +3464,8 @@
         ],
         "tournament_multievent": true,
         "tweet_id": 1312947053966888960,
-        "postedPhaseResultIds": []
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "522249": {
         "id": 522249,
