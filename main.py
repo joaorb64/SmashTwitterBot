@@ -53,6 +53,7 @@ for evento in list(events_json):
           event(id: $eventId) {
             state
             startAt
+            numEntrants
             phaseGroups {
               id
               phase {
@@ -109,6 +110,7 @@ for evento in list(events_json):
 
   events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
   events_json[evento]["startAt"] = data["startAt"]
+  events_json[evento]["numEntrants"] = data["numEntrants"]
   events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
 
   events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
@@ -480,6 +482,7 @@ for tournament in data:
               name
               isOnline
               state
+              numEntrants
               videogame {
                 id
               }
@@ -534,6 +537,7 @@ for tournament in data:
       event["timezone"] = tournament_data["timezone"]
       event["tournament_startAt"] = tournament_data["startAt"]
       event["tournament_endAt"] = tournament_data["endAt"]
+      event["numEntrants"] = tournament_data["numEntrants"]
       event["tournament_registrationClosesAt"] = tournament_data["registrationClosesAt"]
       event["images"] = tournament_data["images"]
       event["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True

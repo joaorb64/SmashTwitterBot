@@ -42,23 +42,33 @@ fnt = ImageFont.truetype('./smash_font.ttf', 42)
 fnt_big = ImageFont.truetype('./smash_font.ttf', 24)
 fnt_small = ImageFont.truetype('./smash_font.ttf', 18)
 
+icon_calendar = Image.open("./icons/calendar.png")
+icon_marker = Image.open("./icons/marker.png")
+icon_registration = Image.open("./icons/registration.png")
+icon_wifi = Image.open("./icons/wifi.png")
+
 d = ImageDraw.Draw(img, "RGBA")
 
 d.text((20, 6), "Eventos da semana", font=fnt, fill=(255, 255, 255), align="center")
 
+last_date = ""
+
 for evento in events_post:
     # Dia
-    d.rectangle((2, y, 4+96, y+96), (55, 55, 55, 255))
-    
     data_time = datetime.datetime.fromtimestamp(evento["startAt"], tz=pytz.timezone("America/Sao_Paulo"))
-
-    weekday = weekdays[data_time.weekday()]
-    w, h = d.textsize(weekday, font=fnt_big)
-    d.text(((4+96)/2.0 - w/2.0, y+16), weekday, font=fnt_big, fill=(255, 255, 255), align="center")
-
     day = data_time.strftime("%d/%m")
-    w, h = d.textsize(day, font=fnt_big)
-    d.text(((4+96)/2.0 - w/2.0, y+48), day, font=fnt_big, fill=(255, 255, 255), align="center")
+
+    if last_date != day:
+        d.rectangle((2, y, 4+96, y+96), (55, 55, 55, 255))
+
+        weekday = weekdays[data_time.weekday()]
+        w, h = d.textsize(weekday, font=fnt_big)
+        d.text(((4+96)/2.0 - w/2.0, y+16), weekday, font=fnt_big, fill=(255, 255, 255), align="center")
+
+        w, h = d.textsize(day, font=fnt_big)
+        d.text(((4+96)/2.0 - w/2.0, y+48), day, font=fnt_big, fill=(255, 255, 255), align="center")
+
+        last_date = day
 
     # Torneio
     d.rectangle((104, y, 1020, y+96), (55, 55, 55, 255))
@@ -101,22 +111,33 @@ for evento in events_post:
     if evento["tournament_multievent"]:
         post += " - " + evento["name"]
 
-    d.text((104+256+8, y+4), post, font=fnt_big, fill=(255, 255, 255), align="center")
+    d.text((104+256+8, y+2), post, font=fnt_big, fill=(255, 255, 255), align="center")
 
     location = ""
 
     if evento["isOnline"]:
         location = "Online"
+        img.alpha_composite(icon_wifi, (104+256+8, y+2+32))
+    else:
+        location = evento["tournament_venueName"] + " - "
+        location += ",".join(evento["tournament_venueAddress"].split(",")[0:3])
+        img.alpha_composite(icon_marker, (104+256+8, y+2+32))
 
-    d.text((104+256+8, y+4+32), location, font=fnt_small, fill=(255, 255, 255), align="center")
+    d.text((104+256+20+8, y+2+32), location, font=fnt_small, fill=(255, 255, 255), align="center")
 
     data_time = datetime.datetime.fromtimestamp(evento["startAt"], tz=pytz.timezone("America/Sao_Paulo"))
-    data = data_time.strftime("%d/%m/%Y %H:%M")
+    data = data_time.strftime("%d/%m %H:%M")
 
     data_registration_time = datetime.datetime.fromtimestamp(evento["tournament_registrationClosesAt"], tz=pytz.timezone("America/Sao_Paulo"))
-    data_registration = data_registration_time.strftime("%d/%m/%Y %H:%M")
+    data_registration = data_registration_time.strftime("%d/%m %H:%M")
 
-    d.text((104+256+8, y+4+56), data, font=fnt_small, fill=(255, 255, 255), align="center")
-    
+    img.alpha_composite(icon_calendar, (104+256+8, y+2+54))
+    d.text((104+256+20+8, y+2+54), "Inicia "+data, font=fnt_small, fill=(255, 255, 255), align="center")
+    img.alpha_composite(icon_registration, (104+256+8+180, y+2+54))
+    d.text((104+256+20+8+180, y+2+54), "Inscrições até "+data_registration, font=fnt_small, fill=(255, 255, 255), align="center")
+
+    img.alpha_composite(icon_registration, (104+256+8, y+2+74))
+    d.text((104+256+20+8, y+2+74), "Inscrições até "+data_registration, font=fnt_small, fill=(255, 255, 255), align="center")
+
     y+=96+4
 img.save('media.png')
