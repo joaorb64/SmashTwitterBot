@@ -68,6 +68,9 @@ for evento in list(events_json):
               startAt
               endAt
               registrationClosesAt
+              venueName
+              venueAddress
+              addrState
               streams {
                 streamName
               }
@@ -109,6 +112,10 @@ for evento in list(events_json):
   events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
 
   events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
+
+  events_json[evento]["tournament_venueName"] = data["tournament"]["venueName"]
+  events_json[evento]["tournament_venueAddress"] = data["tournament"]["venueAddress"]
+  events_json[evento]["tournament_addrState"] = data["tournament"]["addrState"]
 
   # Evento que nunca foi finalizado (depois de 5 dias)
   if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=5).total_seconds() and data["state"] == 'ACTIVE':
@@ -465,6 +472,9 @@ for tournament in data:
             startAt
             endAt
             registrationClosesAt
+            venueName
+            venueAddress
+            addrState
             events {
               id
               name
@@ -527,6 +537,10 @@ for tournament in data:
       event["tournament_registrationClosesAt"] = tournament_data["registrationClosesAt"]
       event["images"] = tournament_data["images"]
       event["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
+      event["tournament_venueName"] = tournament_data["venueName"]
+      event["tournament_venueAddress"] = tournament_data["venueAddress"]
+      event["tournament_addrState"] = tournament_data["addrState"]
+      
       proximos_eventos.append(event)
 
 for evento in proximos_eventos:
