@@ -159,6 +159,7 @@ for evento in events_post:
     d.text((104+256+24+8, y+2+74), "Inscrições até "+data_registration, font=fnt_small, fill=(255, 255, 255), align="center")
 
     y+=96+4
+
 img.save('media.png')
 
-twitter_API.update_with_media("./media.png", status="Eventos da semana")
+twitter_API.update_with_media("./media.png", status="Eventos da semana\nConfira os eventos em https://www.powerrankings.com.br/#/nexttournaments/")

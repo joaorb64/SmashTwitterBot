@@ -26,6 +26,22 @@ jobs:
             git add .
             git commit -am "[skip ci] Updating Data ${DATE_TODAY}" || true
             git push origin master || true
+  run_week_tournaments:
+    docker:
+      - image: circleci/python:3.6.4
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install tweepy pillow pytz
+      - run:
+          name: Run
+          command: |
+            . venv/bin/activate
+            python week_tournaments.py
 
 workflows:
   daily_data_update:
@@ -38,3 +54,13 @@ workflows:
                 - master
     jobs:
       - update_data
+  week_tournaments:
+    triggers:
+      - schedule:
+          cron: "0,15,30,45 * * * *"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - run_week_tournaments
