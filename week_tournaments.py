@@ -11,6 +11,27 @@ import pytz
 from PIL import Image, ImageDraw, ImageFont
 from io import BytesIO
 
+if os.path.exists("auth.json"):
+  f = open('auth.json')
+  auth_json = json.load(f)
+
+  CONSUMER_KEY = auth_json["CONSUMER_KEY"]
+  CONSUMER_SECRET = auth_json["CONSUMER_SECRET"]
+  ACCESS_KEY = auth_json["ACCESS_KEY"]
+  ACCESS_SECRET = auth_json["ACCESS_SECRET"]
+  SMASHGG_KEY = auth_json["SMASHGG_KEY"]
+else:
+  CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
+  CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
+  ACCESS_KEY = os.environ.get("ACCESS_KEY")
+  ACCESS_SECRET = os.environ.get("ACCESS_SECRET")
+  SMASHGG_KEY = os.environ.get("SMASHGG_KEY")
+
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+
+twitter_API = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
+
 weekdays = {
     0: "SEG",
     1: "TER",
@@ -117,13 +138,13 @@ for evento in events_post:
 
     if evento["isOnline"]:
         location = "Online"
-        img.alpha_composite(icon_wifi, (104+256+8, y+2+32))
+        img.alpha_composite(icon_wifi, (104+256+8, y+2+30))
     else:
         location = evento["tournament_venueName"] + " - "
         location += ",".join(evento["tournament_venueAddress"].split(",")[0:3])
-        img.alpha_composite(icon_marker, (104+256+8, y+2+32))
+        img.alpha_composite(icon_marker, (104+256+8, y+2+30))
 
-    d.text((104+256+20+8, y+2+32), location, font=fnt_small, fill=(255, 255, 255), align="center")
+    d.text((104+256+24+8, y+2+30), location, font=fnt_small, fill=(255, 255, 255), align="center")
 
     data_time = datetime.datetime.fromtimestamp(evento["startAt"], tz=pytz.timezone("America/Sao_Paulo"))
     data = data_time.strftime("%d/%m %H:%M")
@@ -131,13 +152,13 @@ for evento in events_post:
     data_registration_time = datetime.datetime.fromtimestamp(evento["tournament_registrationClosesAt"], tz=pytz.timezone("America/Sao_Paulo"))
     data_registration = data_registration_time.strftime("%d/%m %H:%M")
 
-    img.alpha_composite(icon_calendar, (104+256+8, y+2+54))
-    d.text((104+256+20+8, y+2+54), "Inicia "+data, font=fnt_small, fill=(255, 255, 255), align="center")
-    img.alpha_composite(icon_registration, (104+256+8+180, y+2+54))
-    d.text((104+256+20+8+180, y+2+54), "Inscrições até "+data_registration, font=fnt_small, fill=(255, 255, 255), align="center")
+    img.alpha_composite(icon_calendar, (104+256+8, y+2+52))
+    d.text((104+256+24+8, y+2+52), "Inicia "+data, font=fnt_small, fill=(255, 255, 255), align="center")
 
     img.alpha_composite(icon_registration, (104+256+8, y+2+74))
-    d.text((104+256+20+8, y+2+74), "Inscrições até "+data_registration, font=fnt_small, fill=(255, 255, 255), align="center")
+    d.text((104+256+24+8, y+2+74), "Inscrições até "+data_registration, font=fnt_small, fill=(255, 255, 255), align="center")
 
     y+=96+4
 img.save('media.png')
+
+twitter_API.update_with_media("./media.png", status="Eventos da semana")

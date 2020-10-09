@@ -537,7 +537,6 @@ for tournament in data:
       event["timezone"] = tournament_data["timezone"]
       event["tournament_startAt"] = tournament_data["startAt"]
       event["tournament_endAt"] = tournament_data["endAt"]
-      event["numEntrants"] = tournament_data["numEntrants"]
       event["tournament_registrationClosesAt"] = tournament_data["registrationClosesAt"]
       event["images"] = tournament_data["images"]
       event["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
