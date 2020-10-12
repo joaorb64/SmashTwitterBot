@@ -153,10 +153,10 @@ for evento in events_post:
     data_registration = data_registration_time.strftime("%d/%m %H:%M")
 
     img.alpha_composite(icon_calendar, (104+256+8, y+2+52))
-    d.text((104+256+24+8, y+2+52), "Inicia "+data, font=fnt_small, fill=(255, 255, 255), align="center")
+    d.text((104+256+24+8, y+2+52), "Inicia "+data+" (GMT-3)", font=fnt_small, fill=(255, 255, 255), align="center")
 
     img.alpha_composite(icon_registration, (104+256+8, y+2+74))
-    d.text((104+256+24+8, y+2+74), "Inscrições até "+data_registration, font=fnt_small, fill=(255, 255, 255), align="center")
+    d.text((104+256+24+8, y+2+74), "Inscrições até "+data_registration+" (GMT-3)", font=fnt_small, fill=(255, 255, 255), align="center")
 
     y+=96+4
 

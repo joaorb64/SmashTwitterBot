@@ -57,7 +57,7 @@ workflows:
   week_tournaments:
     triggers:
       - schedule:
-          cron: "0 20 * * 0"
+          cron: "0 23 * * 0"
           filters:
             branches:
               only:
