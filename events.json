@@ -158,13 +158,177 @@
         "id": 525715,
         "name": "Ultimate 1x1",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 3,
         "videogame": {
             "id": 1386
         },
         "startAt": 1603569600,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 1394560,
+                "state": 2,
+                "phase": {
+                    "name": "Rodada do Robinho"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 6018977
+                    },
+                    {
+                        "id": 6018978
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6230178,
+                                "name": "LMS | Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6249896,
+                                "name": "LMS | DANIBOY",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "farjados"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1415397
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6285408,
+                                "name": "sandwich :)",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1394561,
+                "state": 1,
+                "phase": {
+                    "name": "Final"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6285408,
+                                "name": "sandwich :)",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6230178,
+                                "name": "LMS | Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6249896,
+                                "name": "LMS | DANIBOY",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "farjados"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1415397
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "Meteor Spike On-line #7",
         "tournament_id": 250184,
         "city": null,
@@ -185,7 +349,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "",
         "tournament_addrState": "MS",
-        "tweet_id": 1315740447118184448
+        "tweet_id": 1315740447118184448,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "525834": {
         "id": 525834,
@@ -204,10 +370,13 @@
         "url": "https://smash.gg/tournament/hocus-pocus-3",
         "streams": [
             {
-                "streamName": "teampolygonbr"
+                "streamName": "luffy446"
             },
             {
-                "streamName": "luffy446"
+                "streamName": "p7_br"
+            },
+            {
+                "streamName": "ffelizpe"
             }
         ],
         "timezone": "America/Campo_Grande",
