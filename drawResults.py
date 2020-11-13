@@ -54,7 +54,7 @@ def drawResults(event, standings):
     phase_text = standings.get("phase").get("name")
     w, h = d.textsize(phase_text, font=fnt_top)
 
-    d.rectangle(((640-w/2-16, 48), (640+w/2+16, 48+h+6)), fill=(0, 0, 0))
+    d.rectangle(((640-w/2-16, 48), (640+w/2+16, 48+h+6)), fill=(45, 45, 45))
     d.text((640-w/2,48), phase_text, font=fnt_top, fill=(255, 255, 255), align="center")
 
   fnt = ImageFont.truetype('./smash_font.ttf', 32)
@@ -83,7 +83,7 @@ def drawResults(event, standings):
 
     entry_text = str(entrant["placement"]) + ". " + entrant["entrant"]["name"]
     w, h = d.textsize(entry_text, font=fnt_results)
-    d.text((pos_x+18,pos_y+6), entry_text, font=fnt_results, fill=(255, 255, 255), align="left")
+    d.text((pos_x+18,pos_y+6), entry_text, font=fnt_results, fill=(43, 43, 43), align="left")
 
     if entrant.get("char_usage"):
       chars_width = 42 * len(entrant.get("char_usage")) - 42
@@ -156,7 +156,7 @@ def drawResults8x9(event, standings, page=1):
     phase_text = standings.get("phase").get("name")
     w, h = d.textsize(phase_text, font=fnt_top)
 
-    d.rectangle(((320-w/2-16, 48), (320+w/2+16, 48+h+6)), fill=(0, 0, 0))
+    d.rectangle(((320-w/2-16, 48), (320+w/2+16, 48+h+6)), fill=(43, 43, 43))
     d.text((320-w/2,48), phase_text, font=fnt_top, fill=(255, 255, 255), align="center")
 
   fnt = ImageFont.truetype('./smash_font.ttf', 22)
@@ -185,7 +185,7 @@ def drawResults8x9(event, standings, page=1):
 
     entry_text = str(entrant["placement"]) + ". " + entrant["entrant"]["name"]
     w, h = d.textsize(entry_text, font=fnt_results)
-    d.text((pos_x+18,pos_y+8), entry_text, font=fnt_results, fill=(255, 255, 255), align="left")
+    d.text((pos_x+18,pos_y+8), entry_text, font=fnt_results, fill=(43, 43, 43), align="left")
 
     if entrant.get("char_usage"):
       chars_width = 42 * len(entrant.get("char_usage")) - 42
