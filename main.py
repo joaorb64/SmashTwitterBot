@@ -354,9 +354,11 @@ for evento in list(events_json):
 
         counter += 1
       
-      drawResults.drawResults(events_json[evento], phase)
-
-      if phase.get("standings").get("pageInfo").get("total") >= 64:
+      if phase.get("standings").get("pageInfo").get("total") < 64:
+        drawResults.drawResults(events_json[evento], phase)
+        twitter_API.update_with_media("./media.png", status=post)
+      else:
+        drawResults.drawResults8x9(events_json[evento], phase)
         post+="\n(1/2)"
         post2+="\n(2/2)"
         filenames = ['media.png', 'media2.png']
@@ -370,8 +372,6 @@ for evento in list(events_json):
         thread1 = twitter_API.update_status(media_ids=media_ids, status=post)
         time.sleep(5)
         twitter_API.update_status(status="@smash_bot_br\n"+post2, in_reply_to_status_id=thread1["id"])
-      else:
-        twitter_API.update_with_media("./media.png", status=post)
       
       events_json[evento]["postedPhaseResultIds"].append(phase["id"])
 
