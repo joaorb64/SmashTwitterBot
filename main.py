@@ -420,7 +420,7 @@ for evento in list(events_json):
       print("Menos de 1h para fechar inscrições - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
       post = "Falta menos de 1h para o encerramento das inscrições!\n"
-      post += "O evento já conta com " + events_json["numEntrants"] + " inscritos."
+      post += "O evento já conta com " + events_json[evento]["numEntrants"] + " inscritos."
 
       twitter_API.update_status(status="@smash_bot_br\n"+post, in_reply_to_status_id=events_json[evento]["tweet_id"])
 
