@@ -282,8 +282,10 @@ for evento in list(events_json):
         char_usage = {}
 
         if char_data is not None:
+          dq = True
           for game in char_data:
             if game.get("games"):
+              dq = False
               for selection in game.get("games"):
                 if selection.get("selections"):
                   for selection_entry in selection.get("selections"):
@@ -292,6 +294,8 @@ for evento in list(events_json):
                         char_usage[selection_entry["selectionValue"]] = 1
                       else:
                         char_usage[selection_entry["selectionValue"]] += 1
+          if dq:
+            entrant["dq"] = True
         
         char_usage = {k: v for k, v in sorted(char_usage.items(), key=lambda item: item[1], reverse=True)}
 

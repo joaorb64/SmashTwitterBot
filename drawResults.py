@@ -83,15 +83,31 @@ def drawResults(event, standings):
 
     entry_text = str(entrant["placement"]) + ". " + entrant["entrant"]["name"]
     w, h = d.textsize(entry_text, font=fnt_results)
+
+    # Cut out giantic names
+    if w > 400:
+      while w > 400:
+        entry_text = entry_text[0:-1]
+        w, h = d.textsize(entry_text+"…", font=fnt_results)
+      entry_text += "…"
+
     d.text((pos_x+18,pos_y+6), entry_text, font=fnt_results, fill=(43, 43, 43), align="left")
 
     if entrant.get("char_usage"):
-      chars_width = 42 * len(entrant.get("char_usage")) - 42
+      chars_width = 42 * min(len(entrant.get("char_usage")), 4) - 42
       for j, char in enumerate(entrant.get("char_usage").items()):
         response = requests.get(char[1]["icon"])
         icon = Image.open(BytesIO(response.content)).convert("RGBA")
         icon = icon.resize((42, 42), Image.ANTIALIAS)
         img.alpha_composite(icon, (pos_x+540-chars_width+42*j, pos_y+4))
+
+        if j==2 and len(entrant.get("char_usage")) > 4:
+          d.text((pos_x+540,pos_y+6), "+"+str(len(entrant.get("char_usage"))-3), font=fnt_results, fill=(43, 43, 43), align="left")
+          break
+    
+    if entrant.get("dq"):
+      d.text((pos_x+540,pos_y+6), "DQ", font=fnt_results, fill=(43, 43, 43), align="left")
+
 
     pos_y += 56
 
