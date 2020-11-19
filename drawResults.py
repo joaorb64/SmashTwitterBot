@@ -219,11 +219,11 @@ def drawResults8x9(event, standings, page=1):
         img.alpha_composite(icon, (pos_x+540-chars_width+42*j, pos_y+4))
 
         if j==2 and len(entrant.get("char_usage")) > 4:
-          d.text((pos_x+540,pos_y+6), "+"+str(len(entrant.get("char_usage"))-3), font=fnt_results, fill=(43, 43, 43), align="left")
+          d.text((pos_x+540+6,pos_y+12), "+"+str(len(entrant.get("char_usage"))-3), font=fnt_results, fill=(43, 43, 43), align="left")
           break
     
     if entrant.get("dq"):
-      d.text((pos_x+540,pos_y+6), "DQ", font=fnt_results, fill=(43, 43, 43), align="left")
+      d.text((pos_x+540+6,pos_y+12), "DQ", font=fnt_results, fill=(43, 43, 43), align="left")
 
     pos_y += 52
   
