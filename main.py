@@ -17,22 +17,22 @@ if os.path.exists("auth.json"):
   f = open('auth.json')
   auth_json = json.load(f)
 
-  #CONSUMER_KEY = auth_json["CONSUMER_KEY"]
-  #CONSUMER_SECRET = auth_json["CONSUMER_SECRET"]
-  #ACCESS_KEY = auth_json["ACCESS_KEY"]
-  #ACCESS_SECRET = auth_json["ACCESS_SECRET"]
+  CONSUMER_KEY = auth_json["CONSUMER_KEY"]
+  CONSUMER_SECRET = auth_json["CONSUMER_SECRET"]
+  ACCESS_KEY = auth_json["ACCESS_KEY"]
+  ACCESS_SECRET = auth_json["ACCESS_SECRET"]
   SMASHGG_KEY = auth_json["SMASHGG_KEY"]
 else:
-  # CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
-  # CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
-  # ACCESS_KEY = os.environ.get("ACCESS_KEY")
-  # ACCESS_SECRET = os.environ.get("ACCESS_SECRET")
+  CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
+  CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
+  ACCESS_KEY = os.environ.get("ACCESS_KEY")
+  ACCESS_SECRET = os.environ.get("ACCESS_SECRET")
   SMASHGG_KEY = os.environ.get("SMASHGG_KEY")
 
-# auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-# auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 
-# twitter_API = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
+twitter_API = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
 f = open('events.json')
 events_json = json.load(f)
