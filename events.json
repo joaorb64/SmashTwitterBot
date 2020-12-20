@@ -44,7 +44,7 @@
         "id": 535243,
         "name": "Queen of Smash - Double Elimination - 1v1",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 12,
         "videogame": {
             "id": 1386
@@ -53,110 +53,250 @@
         "phaseGroups": [
             {
                 "id": 1414231,
+                "state": 2,
                 "phase": {
-                    "id": 884228,
-                    "name": "Pools"
+                    "name": "Round Robin"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 6107461
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 12
                     },
-                    {
-                        "id": 6107463
-                    },
-                    {
-                        "id": 6107465
-                    },
-                    {
-                        "id": 6107467
-                    },
-                    {
-                        "id": 6107469
-                    },
-                    {
-                        "id": 6107471
-                    },
-                    {
-                        "id": 6107473
-                    },
-                    {
-                        "id": 6107475
-                    }
-                ]
-            },
-            {
-                "id": 1414253,
-                "phase": {
-                    "id": 884228,
-                    "name": "Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 6107462
-                    },
-                    {
-                        "id": 6107464
-                    },
-                    {
-                        "id": 6107466
-                    },
-                    {
-                        "id": 6107468
-                    },
-                    {
-                        "id": 6107470
-                    },
-                    {
-                        "id": 6107472
-                    },
-                    {
-                        "id": 6107474
-                    },
-                    {
-                        "id": 6107476
-                    }
-                ]
-            },
-            {
-                "id": 1414254,
-                "phase": {
-                    "id": 884248,
-                    "name": "Top 16"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 6107481
-                    },
-                    {
-                        "id": 6107482
-                    },
-                    {
-                        "id": 6107483
-                    },
-                    {
-                        "id": 6107484
-                    },
-                    {
-                        "id": 6107485
-                    },
-                    {
-                        "id": 6107486
-                    },
-                    {
-                        "id": 6107487
-                    },
-                    {
-                        "id": 6107488
-                    }
-                ]
-            },
-            {
-                "id": 1414256,
-                "phase": {
-                    "id": 884250,
-                    "name": "Top 8"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6449888,
+                                "name": "SFG | zizi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1802511
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6450283,
+                                "name": "Lele",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1890622
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6450497,
+                                "name": "NJess",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 247975
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6451836,
+                                "name": "Hetza",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DeadlyHetza"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2111213
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6455398,
+                                "name": "YZY | moth250",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Brasil_moth250"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2006785
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6457744,
+                                "name": "Mayfolk",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mayfolk_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2113432
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6513512,
+                                "name": "Flamon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 172363
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6531389,
+                                "name": "Okita",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vv_oki"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2131837
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6533703,
+                                "name": "\u00c1gata | 00",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "agateiker"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 351507
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6546675,
+                                "name": "U7 | LadySander",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LadySander"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1358397
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6549108,
+                                "name": "SFG | Batatinha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "copa_pistao"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1759933
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 6554055,
+                                "name": "CACO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2140147
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Queen of Smash",
@@ -204,7 +344,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1332723524084097031,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "536715": {
         "id": 536715,
