@@ -358,7 +358,7 @@ for evento in list(events_json):
 
         counter += 1
       
-      if phase.get("standings").get("pageInfo").get("total") < 64-64:
+      if phase.get("standings").get("pageInfo").get("total") < 64:
         drawResults.drawResults(events_json[evento], phase)
         twitter_API.update_with_media("./media.png", status=post)
       else:
