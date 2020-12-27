@@ -162,4 +162,4 @@ for evento in events_post:
 
 img.save('media.png')
 
-twitter_API.update_with_media("./media.png", status="Eventos da semana\nConfira os eventos em https://powerrankings.gg/nexttournaments/")
+twitter_API.update_with_media("./media.png", status="Eventos da semana\nConfira os eventos em https://powerrankings.gg/nexttournaments/br")
