@@ -52,7 +52,7 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            pip install tweepy pillow pytz moviepy
+            pip install tweepy pillow pytz moviepy dateutil
       - run:
           name: Run
           command: |
