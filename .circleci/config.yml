@@ -53,6 +53,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install tweepy pillow pytz moviepy python-dateutil
+            sudo apt-get install ffmpeg
       - run:
           name: Run
           command: |
@@ -83,7 +84,7 @@ workflows:
   week_clips:
     triggers:
       - schedule:
-          cron: "28 * * * *"
+          cron: "32 * * * *"
           filters:
             branches:
               only:
