@@ -52,7 +52,7 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            pip install tweepy pillow pytz moviepy dateutil
+            pip install tweepy pillow pytz moviepy python-dateutil
       - run:
           name: Run
           command: |
@@ -83,7 +83,7 @@ workflows:
   week_clips:
     triggers:
       - schedule:
-          cron: "42 * * * *"
+          cron: "46 * * * *"
           filters:
             branches:
               only:
