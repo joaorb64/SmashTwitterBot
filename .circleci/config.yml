@@ -84,7 +84,7 @@ workflows:
   week_clips:
     triggers:
       - schedule:
-          cron: "39 * * * *"
+          cron: "0 22 * * 0"
           filters:
             branches:
               only:
