@@ -5,6 +5,7 @@ import requests
 import json
 import pprint
 import datetime
+import tweepy
 
 import os
 os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
