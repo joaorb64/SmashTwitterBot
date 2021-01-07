@@ -5,13 +5,14 @@ import requests
 import json
 import pprint
 import datetime
+
 import os
+os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
+
 import pytz
 import urllib
 from moviepy.editor import *
 from PIL import Image, ImageDraw, ImageFont
-
-os.environ["IMAGEIO_FFMPEG_EXE"] = "/usr/bin/ffmpeg"
 
 if os.path.exists("auth.json"):
   f = open('auth.json')
