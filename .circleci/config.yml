@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   update_data:
     docker:
-      - image: circleci/python:3.6.4
+      - image: circleci/python:latest
     steps:
       - checkout
       - run:
@@ -28,7 +28,7 @@ jobs:
             git push origin master || true
   run_week_tournaments:
     docker:
-      - image: circleci/python:3.6.4
+      - image: circleci/python:latest
     steps:
       - checkout
       - run:
@@ -44,7 +44,7 @@ jobs:
             python week_tournaments.py
   run_week_clips:
     docker:
-      - image: circleci/python:3.6.4
+      - image: circleci/python:latest
     steps:
       - checkout
       - run:
@@ -52,8 +52,8 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            pip install tweepy pillow pytz moviepy python-dateutil
             sudo apt-get install ffmpeg
+            pip install tweepy pillow pytz moviepy python-dateutil
       - run:
           name: Run
           command: |
@@ -84,7 +84,7 @@ workflows:
   week_clips:
     triggers:
       - schedule:
-          cron: "32 * * * *"
+          cron: "39 * * * *"
           filters:
             branches:
               only:
