@@ -124,7 +124,7 @@
         "id": 543856,
         "name": "Fase 1 (07/01)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 99,
         "videogame": {
             "id": 1386
@@ -132,40 +132,10 @@
         "startAt": 1610060400,
         "phaseGroups": [
             {
-                "id": 1431686,
-                "state": 1,
-                "phase": {
-                    "name": "Unranked"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 0
-                    },
-                    "nodes": null
-                },
-                "multiphase": true
-            },
-            {
-                "id": 1431687,
-                "state": 1,
-                "phase": {
-                    "name": "Liga E"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 0
-                    },
-                    "nodes": null
-                },
-                "multiphase": true
-            },
-            {
                 "id": 1431688,
-                "state": 1,
+                "state": 2,
                 "phase": {
-                    "name": "Liga D"
+                    "name": "Unranked & Liga D"
                 },
                 "progressionsOut": null,
                 "standings": {
@@ -174,28 +144,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6621218,
-                                "name": "TwS | Nyer",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "NyerTime"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1312234
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616611,
                                 "name": "Furtado",
@@ -216,24 +165,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6616196,
-                                "name": "Fepower",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1863716
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6632612,
                                 "name": "Hetza",
@@ -254,28 +186,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6628740,
-                                "name": "Delta | Kos-mos",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "kosmos_ssb"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2080637
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616708,
                                 "name": "Vex",
@@ -292,7 +203,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6617383,
                                 "name": "Gustmc",
@@ -309,24 +220,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6632776,
-                                "name": "Hide | MG",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1420061
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6632136,
                                 "name": "Emerald",
@@ -343,7 +237,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616521,
                                 "name": "Rhunii",
@@ -364,7 +258,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6632810,
                                 "name": "Nel",
@@ -381,24 +275,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6616491,
-                                "name": "Hachi",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1115046
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6631979,
                                 "name": "Dodora",
@@ -415,7 +292,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616046,
                                 "name": "SP | Limit",
@@ -432,34 +309,139 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
-                                "id": 6621519,
-                                "name": "Kirrby",
+                                "id": 6623032,
+                                "name": "Dravos",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dravos9"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 2150069
+                                            "id": 1918546
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
-                                "id": 6624852,
-                                "name": "banze",
+                                "id": 6629598,
+                                "name": "guisr",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GuiSRari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2076678
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6619617,
+                                "name": "Hadirus",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "brunolandin"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1965419
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 25,
+                            "entrant": {
+                                "id": 6621218,
+                                "name": "TwS | Nyer",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NyerTime"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1312234
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 25,
+                            "entrant": {
+                                "id": 6616196,
+                                "name": "Fepower",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 2152292
+                                            "id": 1863716
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 25,
+                            "entrant": {
+                                "id": 6628740,
+                                "name": "Delta | Kos-mos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "kosmos_ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2080637
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 25,
+                            "entrant": {
+                                "id": 6632776,
+                                "name": "Hide | MG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1420061
                                         }
                                     }
                                 ]
@@ -471,7 +453,7 @@
             },
             {
                 "id": 1431689,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Liga C"
                 },
@@ -482,7 +464,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616960,
                                 "name": "Rates",
@@ -499,7 +481,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6620417,
                                 "name": "twitch.tv/TelinhoMcFly",
@@ -520,7 +502,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6618081,
                                 "name": "Victor THE VICTORIOUS",
@@ -537,7 +519,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6620034,
                                 "name": "WFMS | Headpat",
@@ -558,7 +540,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616068,
                                 "name": "SGP | Jayho",
@@ -575,28 +557,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6620420,
-                                "name": "TwS | FR7",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "fr7live"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 211496
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6632677,
                                 "name": "SOL | Slashin",
@@ -613,7 +574,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616325,
                                 "name": "Mitral",
@@ -634,7 +595,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6618696,
                                 "name": "SPDQ | WVI11IM",
@@ -655,7 +616,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6615816,
                                 "name": "Haruwolf",
@@ -676,7 +637,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6632874,
                                 "name": "Pigownz",
@@ -693,45 +654,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6632558,
-                                "name": "Los Brabos | Pirilampo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 38181
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6621264,
-                                "name": "paeto",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "eotaldo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1749459
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6626610,
                                 "name": "L | Taunt",
@@ -748,7 +671,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616660,
                                 "name": "Super FOG",
@@ -769,7 +692,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6619060,
                                 "name": "SmashRS | Balas",
@@ -788,6 +711,69 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6631574,
+                                "name": "Iozzi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "luucasiozzi"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1031013
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6630072,
+                                "name": "Captain",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CaptainR86"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1584820
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6632633,
+                                "name": "Jozildu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -795,7 +781,7 @@
             },
             {
                 "id": 1431690,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Liga B"
                 },
@@ -806,180 +792,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6632354,
-                                "name": "Vini10",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1854274
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6615814,
-                                "name": "freddy | Maleson",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "gabrielmaleson"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 964809
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6628296,
-                                "name": "LDJ| | PHILS",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1841373
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6626761,
-                                "name": "Smat",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "smat_ssb"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1542713
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6617641,
-                                "name": "CPS | Drey",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1728233
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6615850,
-                                "name": "Oli",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "AssisFlp"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1980150
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6633227,
-                                "name": "BlackBean",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1397838
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6628364,
-                                "name": "Flechinha | Signas",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "DaviRomeo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1587578
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6632620,
-                                "name": "ProRD | frodO",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "andreyfrodo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 156155
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 9,
                             "entrant": {
                                 "id": 6616525,
                                 "name": "TOON | 75",
@@ -1000,70 +813,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6632878,
-                                "name": "Parma",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "guiparmezani"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 988206
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6618862,
-                                "name": "kvbo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "tecogait"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1715926
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6615889,
-                                "name": "Counter | rapira",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "rapira_ssb"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1491375
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 9,
                             "entrant": {
                                 "id": 6628115,
                                 "name": "HST | Mess",
@@ -1084,7 +834,243 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6632354,
+                                "name": "Vini10",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1854274
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6615814,
+                                "name": "freddy | Maleson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "gabrielmaleson"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 964809
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6628296,
+                                "name": "LDJ| | PHILS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1841373
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6626761,
+                                "name": "Smat",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "smat_ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1542713
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6617641,
+                                "name": "CPS | Drey",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1728233
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6615850,
+                                "name": "Oli",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AssisFlp"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1980150
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6633227,
+                                "name": "BlackBean",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1397838
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6628364,
+                                "name": "Flechinha | Signas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DaviRomeo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1587578
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6632620,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6632878,
+                                "name": "Parma",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "guiparmezani"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 988206
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6618862,
+                                "name": "kvbo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "tecogait"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1715926
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6615889,
+                                "name": "Counter | rapira",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rapira_ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1491375
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
                             "entrant": {
                                 "id": 6621876,
                                 "name": "Berimbau",
@@ -1106,7 +1092,7 @@
             },
             {
                 "id": 1431691,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Liga A"
                 },
@@ -1117,154 +1103,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6615841,
-                                "name": "CPS | Celo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Celo_92"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1412356
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6624836,
-                                "name": "Ferps",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Ferpsz"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1685931
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6631687,
-                                "name": "FT | juninhowii360",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "juninhowii360"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1642801
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6633194,
-                                "name": "Los Brabos | Chur",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "ChurSMB"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1211296
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6615916,
-                                "name": "Joshadow",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Joshadow0"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1960704
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6629584,
-                                "name": "FANDOCH.ED. | sandwich :)",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "sansdvish"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1643605
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6615856,
-                                "name": "TMBR | Hiura On Ice",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "HiuraOnIce"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1448397
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 13,
                             "entrant": {
                                 "id": 6633105,
                                 "name": "CPS | E",
@@ -1285,7 +1124,209 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6626773,
+                                "name": "Buttelli",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 380109
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6627062,
+                                "name": "Los Brabos | Sora",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1525372
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 6633289,
+                                "name": "Ermond/Mint",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mentazinha"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1248427
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6615841,
+                                "name": "CPS | Celo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Celo_92"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1412356
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6624836,
+                                "name": "Ferps",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ferpsz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1685931
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6631687,
+                                "name": "FT | juninhowii360",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "juninhowii360"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1642801
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6633194,
+                                "name": "Los Brabos | Chur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ChurSMB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1211296
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6615916,
+                                "name": "Joshadow",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Joshadow0"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1960704
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6629584,
+                                "name": "FANDOCH.ED. | sandwich :)",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 6615856,
+                                "name": "TMBR | Hiura On Ice",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HiuraOnIce"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616114,
                                 "name": "Tchello",
@@ -1302,7 +1343,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6615826,
                                 "name": "Lv.100",
@@ -1323,7 +1364,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6616403,
                                 "name": "Hm Nice | BigJuicyCheese",
@@ -1340,41 +1381,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6626773,
-                                "name": "Buttelli",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 380109
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6627062,
-                                "name": "Los Brabos | Sora",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1525372
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6623415,
                                 "name": "WasF | SENHOR LUKAO",
@@ -1391,7 +1398,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 17,
                             "entrant": {
                                 "id": 6618235,
                                 "name": "CPS | @@@@@",
@@ -1402,27 +1409,6 @@
                                         },
                                         "player": {
                                             "id": 1036601
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 6625372,
-                                "name": "Ike Ryike",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Ryuki_Ryan"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1556466
                                         }
                                     }
                                 ]
@@ -1826,7 +1812,8 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1346083075780976640,
-        "postedPhaseResultIds": []
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "543857": {
         "id": 543857,
