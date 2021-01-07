@@ -42,6 +42,22 @@ jobs:
           command: |
             . venv/bin/activate
             python week_tournaments.py
+  run_week_clips:
+    docker:
+      - image: circleci/python:3.6.4
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install tweepy pillow pytz moviepy
+      - run:
+          name: Run
+          command: |
+            . venv/bin/activate
+            python week_clips.py
 
 workflows:
   daily_data_update:
@@ -64,3 +80,13 @@ workflows:
                 - master
     jobs:
       - run_week_tournaments
+  week_clips:
+    triggers:
+      - schedule:
+          cron: "0,10,20,30,40,50 * * * 0"
+          filters:
+            branches:
+              only:
+                - master
+    jobs:
+      - run_week_clips
