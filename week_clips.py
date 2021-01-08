@@ -119,9 +119,12 @@ def DownloadClips():
         video.write_videofile("clips/"+str(i)+"_edited.mp4", preset='ultrafast', codec='libx264', audio_codec="aac", threads=4)
     
     final = concatenate_videoclips([VideoFileClip("clips/"+str(i)+"_edited.mp4") for i, clip in enumerate(myClips)])
-    final.write_videofile("clips/final.mp4", preset='medium', codec='libx264', audio_codec="aac", threads=4)
+    final.write_videofile("clips/final.mp4", preset='slow', codec='libx264', audio_codec="aac", threads=4)
 
 DownloadClips()
 
 upload_result = twitter_API.media_upload('clips/final.mp4')
+
+time.sleep(60)
+
 twitter_API.update_status(status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/clips/pt-br", media_ids=[upload_result["media_id"]])
