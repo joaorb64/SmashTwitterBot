@@ -54,7 +54,7 @@ jobs:
             . venv/bin/activate
             sudo apt-get install ffmpeg
             pip install pillow pytz moviepy python-dateutil
-            pip install git+https://github.com/tweepy/tweepy@video-upload
+            pip install git+https://github.com/joaorb64/tweepy
       - run:
           name: Run
           command: |
@@ -85,7 +85,7 @@ workflows:
   week_clips:
     triggers:
       - schedule:
-          cron: "0 23 * * 0"
+          cron: "12 * * * *"
           filters:
             branches:
               only:
