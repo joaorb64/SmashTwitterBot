@@ -272,7 +272,7 @@
         "id": 551326,
         "name": "Ultimate Matchmaking",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 76,
         "videogame": {
             "id": 1386
@@ -281,11 +281,98 @@
         "phaseGroups": [
             {
                 "id": 1446365,
+                "state": 2,
                 "phase": {
-                    "id": 906441,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 6849670,
+                                "name": "Gusta",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gusta_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1790553
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 6848308,
+                                "name": "Counter | Nuno",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nunodinelli"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1146901
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6848957,
+                                "name": "CPS | Drey",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1728233
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6838904,
+                                "name": "Hadirus",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "brunolandin"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1965419
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Polygon Stadium #3",
@@ -318,7 +405,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1357822707954507776,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "552471": {
         "id": 552471,
