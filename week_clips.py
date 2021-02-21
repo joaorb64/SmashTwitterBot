@@ -32,7 +32,7 @@ auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 
 twitter_API = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
 
-clips = requests.get("https://raw.githubusercontent.com/joaorb64/tournament_api/multigames/out/twitchclips.json").json()
+clips = requests.get("https://raw.githubusercontent.com/joaorb64/tournament_api/multigames/out/ssbu/twitchclips.json").json()
 
 def DownloadClips():
     myClips = []
