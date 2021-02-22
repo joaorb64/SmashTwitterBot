@@ -162,4 +162,4 @@ for evento in events_post:
 
 img.save('media.png')
 
-twitter_API.update_with_media("./media.png", status="📅 [Eventos da semana]\nConfira todos os eventos no PowerRankings: https://powerrankings.gg/nexttournaments/br")
+twitter_API.update_with_media("./media.png", status="📅 [Eventos da semana]\nConfira todos os eventos no PowerRankings: https://powerrankings.gg/ssbu/nexttournaments/br")

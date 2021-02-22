@@ -127,4 +127,4 @@ upload_result = twitter_API.media_upload('clips/final.mp4')
 
 time.sleep(60)
 
-twitter_API.update_status(status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/clips/pt-br", media_ids=[upload_result["media_id"]])
+twitter_API.update_status(status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/ssbu/clips/pt-br", media_ids=[upload_result["media_id"]])
