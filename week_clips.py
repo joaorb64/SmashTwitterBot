@@ -39,6 +39,16 @@ def DownloadClips():
 
     brClips = clips.get("pt-br", [])
 
+    whitelist = [
+        '277200018', # p7
+    ]
+    brClips += [c for c in clips.get("en", []) if c["broadcaster_id"] in whitelist]
+
+    blacklist = [
+        '402617899', # MariKyuutie
+    ]
+    brClips = [c for c in brClips if c["broadcaster_id"] not in blacklist]
+
     def sorting_key(x):
         return x["view_count"]
 
