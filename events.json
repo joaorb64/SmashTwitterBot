@@ -1367,23 +1367,6 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 6954067,
-                                "name": "Los Brabos | MG",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1420061
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
                                 "id": 6932426,
                                 "name": "Kowalski_023",
                                 "participants": [
@@ -1397,6 +1380,23 @@
                                         },
                                         "player": {
                                             "id": 557664
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 6954067,
+                                "name": "Los Brabos | MG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1420061
                                         }
                                     }
                                 ]
@@ -2646,7 +2646,11 @@
         "tournament_id": 275917,
         "city": null,
         "url": "https://smash.gg/tournament/charles-eduardo-2-largato-vs-golira",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "MeteorSpike"
+            }
+        ],
         "timezone": null,
         "tournament_startAt": 1616191200,
         "tournament_endAt": 1616209140,
@@ -2667,6 +2671,7 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "tweet_id": 1372725932415418368
+        "tweet_id": 1372725932415418368,
+        "postedRegistrationClosing": true
     }
 }
