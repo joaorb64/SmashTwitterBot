@@ -104,10 +104,8 @@ for evento in list(events_json):
     events_json.pop(evento)
     continue
 
-  events_json[evento]["images"] = data["tournament"].get("images", []).copy()
-
-  if data["tournament"]["streams"] != None:
-    events_json[evento]["streams"] = data["tournament"]["streams"].copy()
+  events_json[evento]["images"] = data["tournament"].get("images")
+  events_json[evento]["streams"] = data["tournament"].get("streams")
 
   events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
   events_json[evento]["startAt"] = data["startAt"]
