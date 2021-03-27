@@ -1576,7 +1576,7 @@
             },
             {
                 "id": 1469699,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Top 16 (MD3)"
                 },
@@ -1692,7 +1692,7 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 5,
                             "entrant": {
                                 "id": 7079831,
                                 "name": "DASH|FT | Dh Hunter",
@@ -1707,6 +1707,27 @@
                                         },
                                         "player": {
                                             "id": 1658759
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 6941385,
+                                "name": "Pirig\u00f3tica | Luffyranha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Luffy446"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 157946
                                         }
                                     }
                                 ]
@@ -1749,27 +1770,6 @@
                                         },
                                         "player": {
                                             "id": 172173
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 6941385,
-                                "name": "Pirig\u00f3tica | Luffyranha",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Luffy446"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 157946
                                         }
                                     }
                                 ]
@@ -2058,6 +2058,27 @@
                         {
                             "placement": 7,
                             "entrant": {
+                                "id": 6941385,
+                                "name": "Pirig\u00f3tica | Luffyranha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Luffy446"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 157946
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
                                 "id": 6941195,
                                 "name": "PLG | SKPeter",
                                 "participants": [
@@ -2130,27 +2151,6 @@
                                         },
                                         "player": {
                                             "id": 1141468
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 6941385,
-                                "name": "Pirig\u00f3tica | Luffyranha",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Luffy446"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 157946
                                         }
                                     }
                                 ]
@@ -2537,8 +2537,8 @@
         "id": 564780,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 10,
+        "state": "ACTIVE",
+        "numEntrants": 11,
         "videogame": {
             "id": 1386
         },
@@ -2546,11 +2546,207 @@
         "phaseGroups": [
             {
                 "id": 1473412,
+                "state": 2,
                 "phase": {
-                    "id": 925085,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 11
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 7087776,
+                                "name": "BOSS | Dyon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 131479
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7087454,
+                                "name": "HG | Raptor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JuanFelipedela7"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 556753
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7087817,
+                                "name": "Camitron",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2234587
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7087830,
+                                "name": "Navi",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2234590
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7087833,
+                                "name": "Rinlax",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2234592
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7087771,
+                                "name": "Camilo",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2234581
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7087815,
+                                "name": "Vato",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2234585
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7088025,
+                                "name": "ChaD\u00f8",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "richlmac01"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1315155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7087470,
+                                "name": "RT | NARY",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 286308
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7087821,
+                                "name": "RT | Adkay",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 749962
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 7087446,
+                                "name": "Kate",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HonnBunx"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 492376
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "New arena frontier 3",
@@ -2567,6 +2763,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Canal, 1 - Rio Imbari\u00ea, Duque de Caxias - RJ, 25270-450, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": 1375911896994418688
+        "tweet_id": 1375911896994418688,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
