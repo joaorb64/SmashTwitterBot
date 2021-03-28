@@ -9,8 +9,8 @@ def drawResults(event, standings):
   player_bg = Image.open('./results_player.png', 'r').convert("RGBA")
 
   bannerUrl = None
-  
-  if event["images"]:
+
+  if event.get("images", None):
     bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
   
   if bannerUrl == None:
