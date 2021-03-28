@@ -312,13 +312,19 @@ for evento in list(events_json):
 
       post = "🏆 [Resultados]"
       post += " [Online]" if events_json[evento].get("isOnline") else " [Offline]"
-      post += "\n\n" + events_json[evento]["tournament"]
+      post += "\n\n"
+
+      nome = events_json[evento]["tournament"]
 
       if events_json[evento]["tournament_multievent"]:
-        post += " - " + events_json[evento]["name"]
+        nome += " - " + events_json[evento]["name"]
+        if len(nome) > 80:
+          nome = nome[:80]+"…"
       
       if phase.get("multiphase"):
-        post += " ("+phase.get("phase").get("name")+")"
+        nome += " ("+phase.get("phase").get("name")+")"
+      
+      post += nome
 
       post += "\n\n"
       
