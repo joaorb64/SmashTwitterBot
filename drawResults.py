@@ -13,8 +13,8 @@ def drawResults(event, standings):
   if event.get("images", None) is not None:
     bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
   
-  if bannerUrl == None:
-    event["images"][-1]["url"]
+    if bannerUrl == None:
+      event["images"][-1]["url"]
   
   if bannerUrl == None:
     bannerUrl = "https://raw.githubusercontent.com/joaorb64/SmashTwitterBot/master/media_generic.png"
