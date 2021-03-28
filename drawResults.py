@@ -10,7 +10,7 @@ def drawResults(event, standings):
 
   bannerUrl = None
 
-  if event.get("images", None):
+  if event.get("images", None) is not None:
     bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
   
   if bannerUrl == None:
