@@ -49,6 +49,9 @@ def drawResults(event, standings):
   
   if event["tournament_multievent"]:
     title_text_top += " - "+event["name"]
+  
+  if title_text_top > 80:
+    title_text_top = title_text_top[:80]+"…"
 
   w, h = d.textsize(title_text_top, font=fnt_top)
   d.text((640-w/2,0), title_text_top, font=fnt_top, fill=(255, 255, 255), align="center")
