@@ -3,7 +3,7 @@ import requests
 from io import BytesIO
 import datetime
 
-def drawResults(event, standings):
+def drawResults(event, standings, account):
   img = Image.new('RGBA', (1280, 720), color = (255, 255, 255, 255))
   results_template = Image.open('./results_template.png', 'r').convert("RGBA")
   player_bg = Image.open('./results_player.png', 'r').convert("RGBA")
@@ -125,7 +125,7 @@ def drawResults(event, standings):
 
   img.save('media.png')
 
-def drawResults8x9(event, standings, page=1):
+def drawResults8x9(event, standings, account, page=1):
   img = Image.new('RGBA', (640, 720), color = (255, 255, 255, 255))
   results_template = Image.open('./results_template8x9.png', 'r').convert("RGBA")
   player_bg = Image.open('./results_player.png', 'r').convert("RGBA")
@@ -241,4 +241,4 @@ def drawResults8x9(event, standings, page=1):
   img.save('media.png' if page==1 else 'media2.png')
 
   if page == 1:
-    drawResults8x9(event, standings, page=2)
+    drawResults8x9(event, standings, account, page=2)
