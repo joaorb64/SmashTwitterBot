@@ -66,13 +66,13 @@ def drawResults(event, standings, account):
   fnt = ImageFont.truetype('./smash_font.ttf', 32)
 
   title_text_bottom = ("Online" if event.get("isOnline") else "Offline") + " - "
-  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " participantes"
+  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
 
   if event["city"]:
     title_text_bottom += " - "+event["city"]
 
   data_time = datetime.datetime.fromtimestamp(event["startAt"])
-  data = data_time.strftime("%d/%m/%y")
+  data = data_time.strftime(account["text-results-timeformat"])
 
   title_text_bottom += " - " + data
 
@@ -121,7 +121,7 @@ def drawResults(event, standings, account):
       pos_x = 655
   
   fnt_footer = ImageFont.truetype('./smash_font.ttf', 24)
-  d.text((20, 686), "Gerado por @smash_bot_br usando dados do smash.gg", font=fnt_footer, fill=(255, 255, 255), align="center")
+  d.text((20, 686), account["text-results-generated-by-before"]+" @"+account["handle"]+" "+account["text-results-generated-by-after"], font=fnt_footer, fill=(255, 255, 255), align="center")
 
   img.save('media.png')
 
@@ -183,13 +183,13 @@ def drawResults8x9(event, standings, account, page=1):
   fnt = ImageFont.truetype('./smash_font.ttf', 22)
 
   title_text_bottom = ("Online" if event.get("isOnline") else "Offline") + " - "
-  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " participantes"
+  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
 
   if event["city"]:
     title_text_bottom += " - "+event["city"]
 
   data_time = datetime.datetime.fromtimestamp(event["startAt"])
-  data = data_time.strftime("%d/%m/%y")
+  data = data_time.strftime(account["text-results-timeformat"])
 
   title_text_bottom += " - " + data
 
@@ -234,7 +234,7 @@ def drawResults8x9(event, standings, account, page=1):
     pos_y += 52
   
   fnt_footer = ImageFont.truetype('./smash_font.ttf', 20)
-  d.text((10, 691), "Gerado por @smash_bot_br usando dados do smash.gg", font=fnt_footer, fill=(255, 255, 255), align="center")
+  d.text((10, 691), account["text-results-generated-by-before"]+" @"+account["handle"]+" "+account["text-results-generated-by-after"], font=fnt_footer, fill=(255, 255, 255), align="center")
 
   d.text((640-40, 690), str(page)+"/2", font=fnt, fill=(255, 255, 255), align="center")
 
