@@ -310,7 +310,9 @@ for account in accounts:
           entrant["char_usage"] = char_usage_named
 
         post = "🏆 ["+accounts[account]["text-results"]+"]"
-        post += " "+accounts[account]["online"] if events_json[evento].get("isOnline") else " "+accounts[account]["text-offline"]
+        post += "["
+        post += accounts[account]["text-online"] if events_json[evento].get("isOnline") else " "+accounts[account]["text-offline"]
+        post += "]"
         post += "\n\n"
 
         nome = events_json[evento]["tournament"]
