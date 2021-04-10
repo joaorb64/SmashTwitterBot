@@ -15,17 +15,11 @@ if os.path.exists("auth.json"):
   f = open('auth.json')
   auth_json = json.load(f)
 
-  CONSUMER_KEY = auth_json["CONSUMER_KEY"]
-  CONSUMER_SECRET = auth_json["CONSUMER_SECRET"]
-  ACCESS_KEY = auth_json["ACCESS_KEY"]
-  ACCESS_SECRET = auth_json["ACCESS_SECRET"]
+  CONSUMER_KEY = auth_json["bot_br"]["CONSUMER_KEY"]
+  CONSUMER_SECRET = auth_json["bot_br"]["CONSUMER_SECRET"]
+  ACCESS_KEY = auth_json["bot_br"]["ACCESS_KEY"]
+  ACCESS_SECRET = auth_json["bot_br"]["ACCESS_SECRET"]
   SMASHGG_KEY = auth_json["SMASHGG_KEY"]
-else:
-  CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
-  CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
-  ACCESS_KEY = os.environ.get("ACCESS_KEY")
-  ACCESS_SECRET = os.environ.get("ACCESS_SECRET")
-  SMASHGG_KEY = os.environ.get("SMASHGG_KEY")
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
@@ -42,7 +36,7 @@ weekdays = {
     6: "DOM",
 }
 
-f = open('events.json')
+f = open('events_bot_br.json')
 events_json = json.load(f)
 
 events_post = []
@@ -55,6 +49,10 @@ def sortByDate(evento):
     return int(evento["startAt"])
 
 events_post.sort(key=sortByDate)
+
+if len(events_post) == 0:
+    print("Sem eventos essa semana...")
+    exit()
 
 img = Image.new('RGBA', (1024, 64 + (96+4)*len(events_post)), color = (0, 0, 0, 255))
 y = 64
@@ -153,10 +151,10 @@ for evento in events_post:
     data_registration = data_registration_time.strftime("%d/%m %H:%M")
 
     img.alpha_composite(icon_calendar, (104+256+8, y+2+52))
-    d.text((104+256+24+8, y+2+52), "Inicia "+data+" (GMT-3)", font=fnt_small, fill=(255, 255, 255), align="center")
+    d.text((104+256+24+8, y+2+52), "Inicia "+data+" (America/Sao_Paulo)", font=fnt_small, fill=(255, 255, 255), align="center")
 
     img.alpha_composite(icon_registration, (104+256+8, y+2+74))
-    d.text((104+256+24+8, y+2+74), "Inscrições até "+data_registration+" (GMT-3)", font=fnt_small, fill=(255, 255, 255), align="center")
+    d.text((104+256+24+8, y+2+74), "Inscrições até "+data_registration+" (America/Sao_Paulo)", font=fnt_small, fill=(255, 255, 255), align="center")
 
     y+=96+4
 

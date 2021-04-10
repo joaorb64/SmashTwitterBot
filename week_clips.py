@@ -15,17 +15,11 @@ if os.path.exists("auth.json"):
   f = open('auth.json')
   auth_json = json.load(f)
 
-  CONSUMER_KEY = auth_json["CONSUMER_KEY"]
-  CONSUMER_SECRET = auth_json["CONSUMER_SECRET"]
-  ACCESS_KEY = auth_json["ACCESS_KEY"]
-  ACCESS_SECRET = auth_json["ACCESS_SECRET"]
+  CONSUMER_KEY = auth_json["bot_br"]["CONSUMER_KEY"]
+  CONSUMER_SECRET = auth_json["bot_br"]["CONSUMER_SECRET"]
+  ACCESS_KEY = auth_json["bot_br"]["ACCESS_KEY"]
+  ACCESS_SECRET = auth_json["bot_br"]["ACCESS_SECRET"]
   SMASHGG_KEY = auth_json["SMASHGG_KEY"]
-else:
-  CONSUMER_KEY = os.environ.get("CONSUMER_KEY")
-  CONSUMER_SECRET = os.environ.get("CONSUMER_SECRET")
-  ACCESS_KEY = os.environ.get("ACCESS_KEY")
-  ACCESS_SECRET = os.environ.get("ACCESS_SECRET")
-  SMASHGG_KEY = os.environ.get("SMASHGG_KEY")
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
@@ -135,6 +129,6 @@ DownloadClips()
 
 upload_result = twitter_API.media_upload('clips/final.mp4')
 
-time.sleep(60)
+time.sleep(80)
 
 twitter_API.update_status(status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/ssbu/clips/pt-br", media_ids=[upload_result["media_id"]])
