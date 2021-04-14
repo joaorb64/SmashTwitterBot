@@ -502,8 +502,8 @@
         "id": 565666,
         "name": "Ultimate Matchmaking #1 (14/04)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 54,
+        "state": "ACTIVE",
+        "numEntrants": 57,
         "videogame": {
             "id": 1386
         },
@@ -511,11 +511,17 @@
         "phaseGroups": [
             {
                 "id": 1475160,
+                "state": 2,
                 "phase": {
-                    "id": 926292,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Polygon Stadium Season 1 - Smash Bros. Ultimate",
@@ -548,14 +554,16 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1381762987619389445,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "565702": {
         "id": 565702,
         "name": "Ultimate Matchmaking #2 (21/04)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 37,
+        "numEntrants": 38,
         "videogame": {
             "id": 1386
         },
@@ -607,7 +615,7 @@
         "name": "Ultimate Matchmaking #3 (28/04)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 38,
+        "numEntrants": 39,
         "videogame": {
             "id": 1386
         },
