@@ -406,18 +406,26 @@ for account in accounts:
         print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
         post = ""
-        post+= accounts[account]["text-tournament-starting-before"] + events_json[evento]["tournament"]
+        post+= accounts[account]["text-tournament-starting-before"]
+        
+        nome = events_json[evento]["tournament"]
 
         if events_json[evento]["tournament_multievent"]:
-          post += " - " + events_json[evento]["name"]
+          nome += " - " + events_json[evento]["name"]
         
-        post += accounts[account]["text-tournament-starting-after"] + "\n"
+        if len(nome) > 80:
+          nome = nome[:80]+"…"
+        
+        post += nome + accounts[account]["text-tournament-starting-after"] + "\n"
         
         if events_json[evento].get("streams"):
           if events_json[evento].get("streams")[0].get("streamName"):
-            post+= "Streams: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")])
+            post+= "Streams: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")[0:7]])
 
         post+= "Bracket: "+events_json[evento].get("url")
+
+        print(post)
+        print(len(post))
 
         twitter_API.update_status(post)
 
