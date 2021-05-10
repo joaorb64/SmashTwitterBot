@@ -540,7 +540,7 @@
         "id": 576182,
         "name": "Ultimate Singles",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 33,
         "videogame": {
             "id": 1386
@@ -549,11 +549,17 @@
         "phaseGroups": [
             {
                 "id": 1496445,
+                "state": 2,
                 "phase": {
-                    "id": 940892,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "SupeLunes de One Way T2 Fecha 4 (60$ prizepool+Crowfunding)",
@@ -586,6 +592,8 @@
         "tournament_venueAddress": "Chile",
         "tournament_addrState": null,
         "tweet_id": 1391475714721996801,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
