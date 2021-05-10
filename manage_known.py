@@ -364,6 +364,8 @@ for account in accounts:
 
           counter += 1
         
+        post += "\nBracket: "+events_json[evento]["url"]
+        
         if phase.get("standings").get("pageInfo").get("total") < 64:
           drawResults.drawResults(events_json[evento], phase, accounts[account])
           twitter_API.update_with_media("./media.png", status=post)
