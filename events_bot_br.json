@@ -417,8 +417,8 @@
         "id": 574055,
         "name": "Ultimate Matchmaking #2 (12/05)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 50,
+        "state": "ACTIVE",
+        "numEntrants": 53,
         "videogame": {
             "id": 1386
         },
@@ -426,19 +426,60 @@
         "phaseGroups": [
             {
                 "id": 1491690,
+                "state": 2,
                 "phase": {
-                    "id": 937915,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
-            },
-            {
-                "id": 1491690,
-                "phase": {
-                    "id": 937915,
-                    "name": "Matchmaking"
-                },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 7303264,
+                                "name": "UA | Samwa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vitinmenezello"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 970727
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 7308690,
+                                "name": "TSD | PROGETO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "jfmacdowell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1599892
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Polygon Stadium Season 2 - Smash Bros. Ultimate",
@@ -470,7 +511,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "tweet_id": 1389380687573262336
+        "tweet_id": 1389380687573262336,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "574056": {
         "id": 574056,
@@ -722,7 +765,7 @@
         "name": "Revenge Series #4",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 8,
+        "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
