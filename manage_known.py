@@ -36,7 +36,7 @@ for account in accounts:
   f = open('events_'+account+'.json')
   events_json = json.load(f)
 
-  f = requests.get("https://api.smash.gg/characters?videogameId=1386")
+  f = requests.get("https://api.smash.gg/characters?videogameId="+accounts[account]["videogameid"])
   characters_json = json.loads(f.text)["entities"]
 
   # Deletar eventos passados, se nao standings, mensagem de inicio de torneio

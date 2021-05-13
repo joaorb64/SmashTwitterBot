@@ -34,7 +34,7 @@ for account in accounts:
   except:
     events_json = {}
 
-  f = requests.get("https://api.smash.gg/characters?videogameId=1386")
+  f = requests.get("https://api.smash.gg/characters?videogameId="+accounts[account]["videogameid"])
   characters_json = json.loads(f.text)["entities"]
 
   r = requests.post(
@@ -49,7 +49,7 @@ for account in accounts:
             perPage: $perPage
             filter: {
               countryCode: $cCode
-              videogameIds: [1386]
+              videogameIds: ['''+accounts[account]["videogameid"]+''']
             }
           }) {
             nodes {
@@ -142,12 +142,12 @@ for account in accounts:
     smash_ultimate_tournaments = 0
 
     for event in tournament_data["events"]:
-      if event["videogame"]["id"] == 1386:
+      if event["videogame"]["id"] == int(accounts[account]["videogameid"]):
         smash_ultimate_tournaments += 1
 
     for event in tournament_data["events"]:
       # Smash Ultimate
-      if event["videogame"]["id"] != 1386:
+      if event["videogame"]["id"] != int(accounts[account]["videogameid"]):
         continue
 
       if event["startAt"] > time.time():
