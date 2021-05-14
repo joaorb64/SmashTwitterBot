@@ -23,6 +23,8 @@ if os.path.exists("auth.json"):
   SMASHGG_KEY = auth_json["SMASHGG_KEY"]
 
 for account in accounts:
+  print(account)
+
   CONSUMER_KEY = auth_json[account]["CONSUMER_KEY"]
   CONSUMER_SECRET = auth_json[account]["CONSUMER_SECRET"]
   ACCESS_KEY = auth_json[account]["ACCESS_KEY"]
@@ -247,6 +249,7 @@ for account in accounts:
                       filters: {entrantIds: ''' + str(entrant["entrant"]["id"]) + '''},
                     ) {
                       nodes {
+                        displayScore
                         games {
                           selections {
                             entrant {
@@ -281,9 +284,20 @@ for account in accounts:
 
           if char_data is not None:
             dq = True
+
+            # DQ
+            for _set in char_data:
+              if _set.get("displayScore", None) is not None:
+                displayScore = _set.get("displayScore").split(" ")
+                if displayScore[0] != "-1" and displayScore[-1] != "-1":
+                  dq = False
+            
+            if dq:
+              entrant["dq"] = True
+
+            # Char usage
             for game in char_data:
               if game.get("games"):
-                dq = False
                 for selection in game.get("games"):
                   if selection.get("selections"):
                     for selection_entry in selection.get("selections"):
@@ -292,8 +306,6 @@ for account in accounts:
                           char_usage[selection_entry["selectionValue"]] = 1
                         else:
                           char_usage[selection_entry["selectionValue"]] += 1
-            if dq:
-              entrant["dq"] = True
           
           char_usage = {k: v for k, v in sorted(char_usage.items(), key=lambda item: item[1], reverse=True)}
 
