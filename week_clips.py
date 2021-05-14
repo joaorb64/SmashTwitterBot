@@ -11,24 +11,18 @@ import urllib
 from moviepy.editor import *
 from PIL import Image, ImageDraw, ImageFont
 
+f = open('accounts.json')
+accounts = json.load(f)
+
 if os.path.exists("auth.json"):
   f = open('auth.json')
   auth_json = json.load(f)
 
-  CONSUMER_KEY = auth_json["bot_br"]["CONSUMER_KEY"]
-  CONSUMER_SECRET = auth_json["bot_br"]["CONSUMER_SECRET"]
-  ACCESS_KEY = auth_json["bot_br"]["ACCESS_KEY"]
-  ACCESS_SECRET = auth_json["bot_br"]["ACCESS_SECRET"]
   SMASHGG_KEY = auth_json["SMASHGG_KEY"]
 
-auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+def DownloadClips(account):
+    clips = requests.get("https://raw.githubusercontent.com/joaorb64/tournament_api/multigames/out/"+account["game"]+"/twitchclips.json").json()
 
-twitter_API = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
-
-clips = requests.get("https://raw.githubusercontent.com/joaorb64/tournament_api/multigames/out/ssbu/twitchclips.json").json()
-
-def DownloadClips():
     myClips = []
 
     brClips = clips.get("pt-br", [])
@@ -106,9 +100,9 @@ def DownloadClips():
         d.text((1280-32-w,720-64), view_count, font=fnt, fill=(255, 255, 255))
 
         # bot
-        bot_text = "Vídeo gerado por @smash_bot_br"
+        bot_text = "Vídeo gerado por @"+account["handle"]
         w, h = d.textsize(bot_text, font=fnt)
-        d.text((1280-32-w,720-32), "Vídeo gerado por @smash_bot_br", font=fnt, fill=(255, 255, 255))
+        d.text((1280-32-w,720-32), "Vídeo gerado por @"+account["handle"], font=fnt, fill=(255, 255, 255))
 
         img.save("clips/overlay.png")
         
@@ -125,10 +119,26 @@ def DownloadClips():
     final = concatenate_videoclips([VideoFileClip("clips/"+str(i)+"_edited.mp4") for i, clip in enumerate(myClips)])
     final.write_videofile("clips/final.mp4", preset='slow', codec='libx264', audio_codec="aac", threads=4)
 
-DownloadClips()
+for account in accounts:
+    print(account)
 
-upload_result = twitter_API.media_upload('clips/final.mp4')
+    if accounts[account].get("post-clips", None) == None:
+        continue
 
-time.sleep(80)
+    CONSUMER_KEY = auth_json[account]["CONSUMER_KEY"]
+    CONSUMER_SECRET = auth_json[account]["CONSUMER_SECRET"]
+    ACCESS_KEY = auth_json[account]["ACCESS_KEY"]
+    ACCESS_SECRET = auth_json[account]["ACCESS_SECRET"]
 
-twitter_API.update_status(status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/ssbu/clips/pt-br", media_ids=[upload_result["media_id"]])
+    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+    auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+
+    twitter_API = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
+
+    DownloadClips(accounts[account])
+
+    upload_result = twitter_API.media_upload('clips/final.mp4')
+
+    time.sleep(80)
+
+    twitter_API.update_status(status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/"+account["game"]+"/clips/pt-br", media_ids=[upload_result["media_id"]])
