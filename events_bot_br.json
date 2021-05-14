@@ -44,7 +44,7 @@
         "id": 573846,
         "name": "Topa Tudo por Lan Adapter",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 32,
         "videogame": {
             "id": 1386
@@ -53,11 +53,17 @@
         "phaseGroups": [
             {
                 "id": 1491248,
+                "state": 2,
                 "phase": {
-                    "id": 937594,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Topa Tudo por Lan Adapter",
@@ -85,7 +91,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1388293503881551877,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "574466": {
         "id": 574466,
