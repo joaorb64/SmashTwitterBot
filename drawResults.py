@@ -9,19 +9,20 @@ def drawResults(event, standings, account):
   player_bg = Image.open('./results_player.png', 'r').convert("RGBA")
 
   bannerUrl = None
+  banner = None
 
   if event.get("images", None) is not None:
     bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
   
     if bannerUrl == None:
       event["images"][-1]["url"]
-  
-  if bannerUrl == None:
-    bannerUrl = "https://raw.githubusercontent.com/joaorb64/SmashTwitterBot/master/media_generic.png"
+    
+  if bannerUrl != None:
+    response = requests.get(bannerUrl)
+    banner = Image.open(BytesIO(response.content)).convert("RGBA")
+  else:
+    Image.open("banner/"+account["game"]+".png").convert("RGBA")
 
-  response = requests.get(bannerUrl)
-  
-  banner = Image.open(BytesIO(response.content)).convert("RGBA")
   banner_w, banner_h = banner.size
 
   goal_w = 1280
