@@ -92,6 +92,7 @@ for account in accounts:
       }
     )
     resp = json.loads(r.text)
+    time.sleep(1)
 
     if not resp.get("data"):
       print(">>Erro: ")
@@ -269,6 +270,7 @@ for account in accounts:
             }
           )
           resp = json.loads(r.text)
+          time.sleep(1)
           char_data = resp.get("data")
 
           if char_data:

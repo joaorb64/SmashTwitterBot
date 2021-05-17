@@ -74,6 +74,7 @@ for account in accounts:
   )
 
   resp = json.loads(r.text)
+  time.sleep(1)
   data = resp["data"]["tournaments"]["nodes"]
 
   proximos_eventos = []
@@ -137,6 +138,7 @@ for account in accounts:
       }
     )
     resp = json.loads(r.text)
+    time.sleep(1)
     
     if resp.get("data", {}).get("tournament", None) == None:
       print("Erro? - "+str(resp))
