@@ -137,6 +137,11 @@ for account in accounts:
       }
     )
     resp = json.loads(r.text)
+    
+    if resp.get("data", {}).get("tournament", None) == None:
+      print("Erro? - "+str(resp))
+      continue
+
     tournament_data = resp["data"]["tournament"]
 
     smash_ultimate_tournaments = 0
