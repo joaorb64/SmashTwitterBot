@@ -141,4 +141,4 @@ for account in accounts:
 
     time.sleep(80)
 
-    twitter_API.update_status(status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/"+account["game"]+"/clips/pt-br", media_ids=[upload_result["media_id"]])
+    twitter_API.update_status(status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/"+accounts[account]["game"]+"/clips/pt-br", media_ids=[upload_result["media_id"]])
