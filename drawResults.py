@@ -2,6 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 import requests
 from io import BytesIO
 import datetime
+import os
 
 def drawResults(event, standings, account):
   img = Image.new('RGBA', (1280, 720), color = (255, 255, 255, 255))
@@ -100,13 +101,27 @@ def drawResults(event, standings, account):
 
     d.text((pos_x+18,pos_y+6), entry_text, font=fnt_results, fill=(43, 43, 43), align="left")
 
+    load_local_portraits = False
+    if os.path.exists("./portraits/"+account["game"]):
+      load_local_portraits = True
+
     if entrant.get("char_usage"):
       chars_width = 42 * min(len(entrant.get("char_usage")), 4) - 42
       for j, char in enumerate(entrant.get("char_usage").items()):
-        response = requests.get(char[1]["icon"])
-        icon = Image.open(BytesIO(response.content)).convert("RGBA")
-        icon = icon.resize((42, 42), Image.ANTIALIAS)
-        img.alpha_composite(icon, (pos_x+540-chars_width+42*j, pos_y+4))
+        icon = None
+
+        try:
+          if not load_local_portraits:
+            response = requests.get(char[1]["icon"])
+            icon = Image.open(BytesIO(response.content)).convert("RGBA")
+          else:
+            icon = Image.open("./portraits/"+account["game"]+"/"+char[1]["name"]+".png").convert("RGBA")
+            
+          icon = icon.resize((42, 42), Image.ANTIALIAS)
+          img.alpha_composite(icon, (pos_x+540-chars_width+42*j, pos_y+4))
+        except Exception as e:
+          print("No character icon?")
+          print(e)
 
         if j==2 and len(entrant.get("char_usage")) > 4:
           d.text((pos_x+540,pos_y+6), "+"+str(len(entrant.get("char_usage"))-3), font=fnt_results, fill=(43, 43, 43), align="left")
@@ -222,13 +237,27 @@ def drawResults8x9(event, standings, account, page=1):
 
     d.text((pos_x+18,pos_y+8), entry_text, font=fnt_results, fill=(43, 43, 43), align="left")
 
+    load_local_portraits = False
+    if os.path.exists("./portraits/"+account["game"]):
+      load_local_portraits = True
+
     if entrant.get("char_usage"):
       chars_width = 42 * min(len(entrant.get("char_usage")), 4) - 42
       for j, char in enumerate(entrant.get("char_usage").items()):
-        response = requests.get(char[1]["icon"])
-        icon = Image.open(BytesIO(response.content)).convert("RGBA")
-        icon = icon.resize((42, 42), Image.ANTIALIAS)
-        img.alpha_composite(icon, (pos_x+540-chars_width+42*j, pos_y+4))
+        icon = None
+
+        try:
+          if not load_local_portraits:
+            response = requests.get(char[1]["icon"])
+            icon = Image.open(BytesIO(response.content)).convert("RGBA")
+          else:
+            icon = Image.open("./portraits/"+account["game"]+"/"+char[1]["name"]+".png").convert("RGBA")
+
+          icon = icon.resize((42, 42), Image.ANTIALIAS)
+          img.alpha_composite(icon, (pos_x+540-chars_width+42*j, pos_y+4))
+        except Exception as e:
+          print("No character icon?")
+          print(e)
 
         if j==2 and len(entrant.get("char_usage")) > 4:
           d.text((pos_x+540+6,pos_y+12), "+"+str(len(entrant.get("char_usage"))-3), font=fnt_results, fill=(43, 43, 43), align="left")

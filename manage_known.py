@@ -318,6 +318,7 @@ for account in accounts:
 
             if char_in_json:
               char_usage_named[char_in_json["name"]] = {}
+              char_usage_named[char_in_json["name"]]["name"] = char_in_json["name"]
               char_usage_named[char_in_json["name"]]["usage"] = char[1]
               char_usage_named[char_in_json["name"]]["icon"] = char_in_json.get("images")[1].get("url")
 
