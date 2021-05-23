@@ -147,7 +147,7 @@
         "id": 554397,
         "name": "Qualificat\u00f3ria de \u00daltima Chance",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 33990
@@ -156,8 +156,8 @@
         "phaseGroups": [
             {
                 "id": 1452292,
+                "state": 2,
                 "phase": {
-                    "id": 910783,
                     "name": "TABELA GERAL"
                 },
                 "progressionsOut": [
@@ -185,15 +185,192 @@
                     {
                         "id": 6305902
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384869,
+                                "name": "Shodown | ChuChu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "chuchuzera1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 639236
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384874,
+                                "name": "FGCSP | | NieL_",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NieL_Messatsu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1279367
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384876,
+                                "name": "Got_neguinho",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 748722
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384879,
+                                "name": "LeoPlay",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LeoPlay91"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 672534
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384884,
+                                "name": "Gust_Coldust",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gust_FGC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1557310
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384885,
+                                "name": "JOE_OROCHI",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JOE_AC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1918726
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384889,
+                                "name": "NVenon Flow | Didimokof",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "didimokof"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358503
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384891,
+                                "name": "Kadoshi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CelsoCaninde"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 763266
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 1452293,
+                "state": 1,
                 "phase": {
-                    "id": 910784,
                     "name": "TOP 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Last Chance Qualifier",
@@ -225,7 +402,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Rio de Janeiro, RJ, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": 1394371097211068421
+        "tweet_id": 1394371097211068421,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "577019": {
         "id": 577019,
