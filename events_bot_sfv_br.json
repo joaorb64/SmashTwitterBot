@@ -63,7 +63,7 @@
         "id": 554400,
         "name": "TOP 8 Final",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 33990
@@ -72,8 +72,8 @@
         "phaseGroups": [
             {
                 "id": 1452296,
+                "state": 2,
                 "phase": {
-                    "id": 910787,
                     "name": "TABELA GERAL"
                 },
                 "progressionsOut": [
@@ -101,15 +101,192 @@
                     {
                         "id": 6305918
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384741,
+                                "name": "Shodown/Rzr | Jah_lexe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JahLexe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 662584
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384743,
+                                "name": "RonaldinhoBR",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1864770
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384746,
+                                "name": "HorusPaulin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "paauloou"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1135542
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384751,
+                                "name": "SHADES_BR",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Shades_BR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358835
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384755,
+                                "name": "Alexis",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "alexis2904"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 692369
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7384783,
+                                "name": "DARK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diego_DARK_Lins"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358693
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7414565,
+                                "name": "FGCSP | | NieL_",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NieL_Messatsu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1279367
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 7414590,
+                                "name": "2nd/TRT | Arthuro-Ray",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ArthuroRay"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 421215
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 1452297,
+                "state": 1,
                 "phase": {
-                    "id": 910788,
                     "name": "TOP 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Grand Final",
@@ -141,7 +318,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Rio de Janeiro, RJ, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": 1394371092047929344
+        "tweet_id": 1394371092047929344,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "577019": {
         "id": 577019,
