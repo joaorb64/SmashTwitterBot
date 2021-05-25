@@ -91,6 +91,9 @@ for account in accounts:
         },
       }
     )
+    if r.text == None:
+      continue
+
     resp = json.loads(r.text)
     time.sleep(1)
 
