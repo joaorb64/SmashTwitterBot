@@ -92,6 +92,8 @@ for account in accounts:
       }
     )
     if r.text == None:
+      print("ERRO: ")
+      print(r)
       continue
 
     resp = json.loads(r.text)
