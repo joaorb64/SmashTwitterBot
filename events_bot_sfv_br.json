@@ -46,6 +46,27 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 7131857,
+                                "name": "SHADES_BR",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Shades_BR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358835
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 7138374,
                                 "name": "Neguinho",
                                 "participants": [
@@ -151,27 +172,6 @@
                         {
                             "placement": 7,
                             "entrant": {
-                                "id": 7131857,
-                                "name": "SHADES_BR",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Shades_BR"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 358835
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
                                 "id": 7120425,
                                 "name": "Blue_br",
                                 "participants": [
@@ -236,7 +236,7 @@
         "id": 577019,
         "name": "Kombat Klub - SFV Challenge Cup - Dan",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 33990
@@ -245,11 +245,120 @@
         "phaseGroups": [
             {
                 "id": 1498188,
+                "state": 2,
                 "phase": {
-                    "id": 942058,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 7428013,
+                                "name": "Topkido",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2250665
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 7434809,
+                                "name": "Prefeito_Chefe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2032433
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 7416094,
+                                "name": "Mavier",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 144666
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 7435076,
+                                "name": "Son Daniel",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1931892
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 7413618,
+                                "name": "Cabelinho3k",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 739913
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 7366407,
+                                "name": "VINICEKA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2284352
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Kombat Klub - SFV Challenge Cup - Dan",
@@ -278,7 +387,9 @@
         "tournament_venueAddress": "Bras\u00edlia - DF, Brasil",
         "tournament_addrState": "DF",
         "tweet_id": 1396534380101840898,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "579803": {
         "id": 579803,
