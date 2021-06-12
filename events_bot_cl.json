@@ -700,7 +700,7 @@
         "id": 585512,
         "name": "Singles",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 31,
         "videogame": {
             "id": 1386
@@ -709,11 +709,17 @@
         "phaseGroups": [
             {
                 "id": 1514705,
+                "state": 2,
                 "phase": {
-                    "id": 953405,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Tiso Cup #27",
@@ -746,6 +752,8 @@
         "tournament_venueAddress": "Chile",
         "tournament_addrState": null,
         "tweet_id": 1403423512111505411,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
