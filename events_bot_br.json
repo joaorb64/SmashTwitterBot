@@ -310,8 +310,8 @@
         "id": 583106,
         "name": "Ultimate Matchmaking #2 (16/06)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 27,
+        "state": "ACTIVE",
+        "numEntrants": 30,
         "videogame": {
             "id": 1386
         },
@@ -319,11 +319,56 @@
         "phaseGroups": [
             {
                 "id": 1509926,
+                "state": 2,
                 "phase": {
-                    "id": 950251,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 7515147,
+                                "name": "TSD | PROGETO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "jfmacdowell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1599892
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 7556646,
+                                "name": "Sora",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1525372
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Polygon Stadium Season 3 - Smash Bros. Ultimate",
@@ -355,14 +400,16 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "tweet_id": 1402657111096573953
+        "tweet_id": 1402657111096573953,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "583107": {
         "id": 583107,
         "name": "Ultimate Matchmaking #3 (23/06)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 20,
+        "numEntrants": 21,
         "videogame": {
             "id": 1386
         },
@@ -413,7 +460,7 @@
         "name": "Ultimate Matchmaking #4 (30/06)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 20,
+        "numEntrants": 21,
         "videogame": {
             "id": 1386
         },
