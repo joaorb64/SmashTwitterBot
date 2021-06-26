@@ -299,15 +299,15 @@ for account in accounts:
             if char_data is not None:
               dq = True
 
-              # DQ
-              for _set in char_data:
-                if _set.get("displayScore", None) is not None:
-                  displayScore = _set.get("displayScore").split(" ")
-                  if displayScore[0] != "-1" and displayScore[-1] != "-1":
-                    dq = False
+              # DQ - commented out because of bugs
+              # for _set in char_data:
+              #   if _set.get("displayScore", None) is not None:
+              #     displayScore = _set.get("displayScore").split(" ")
+              #     if displayScore[0] != "-1" and displayScore[-1] != "-1":
+              #       dq = False
               
-              if dq:
-                entrant["dq"] = True
+              # if dq:
+              #  entrant["dq"] = True
 
               # Char usage
               for game in char_data:
