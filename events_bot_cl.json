@@ -708,8 +708,8 @@
         "id": 590062,
         "name": "Singles",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 34,
+        "state": "ACTIVE",
+        "numEntrants": 33,
         "videogame": {
             "id": 1386
         },
@@ -717,11 +717,17 @@
         "phaseGroups": [
             {
                 "id": 1522771,
+                "state": 2,
                 "phase": {
-                    "id": 959424,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Tiso Cup #29",
@@ -754,6 +760,8 @@
         "tournament_venueAddress": "Chile",
         "tournament_addrState": null,
         "tweet_id": 1408500821655011331,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
