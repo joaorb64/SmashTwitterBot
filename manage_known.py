@@ -284,7 +284,7 @@ for account in accounts:
               }
             )
             resp = json.loads(r.text)
-            time.sleep(2)
+            time.sleep(10)
             char_data = resp.get("data")
 
             if char_data:
