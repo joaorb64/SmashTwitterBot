@@ -246,6 +246,8 @@ for account in accounts:
           str(phase["standings"]["nodes"][0]["placement"]) == "2":
             continue
 
+          cancel = False
+
           for entrant in phase["standings"]["nodes"]:
             r = requests.post(
               'https://api.smash.gg/gql/alpha',
@@ -282,7 +284,7 @@ for account in accounts:
               }
             )
             resp = json.loads(r.text)
-            time.sleep(1)
+            time.sleep(2)
             char_data = resp.get("data")
 
             if char_data:
@@ -291,6 +293,9 @@ for account in accounts:
               if char_data == None:
                 entrant["invalid"] = True
             else:
+              print("Error fetching character data? -- cancel")
+              cancel = True
+              break
               entrant["invalid"] = True
               char_data = {}
 
@@ -335,6 +340,9 @@ for account in accounts:
                 char_usage_named[char_in_json["name"]]["icon"] = char_in_json.get("images")[1].get("url")
 
             entrant["char_usage"] = char_usage_named
+          
+          if cancel:
+            continue
 
           post = "🏆 ["+accounts[account]["text-results"]+"]"
           post += "["
