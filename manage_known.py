@@ -44,7 +44,7 @@ for account in accounts:
 
     # Deletar eventos passados, se nao standings, mensagem de inicio de torneio
     for evento in list(events_json):
-      print(account+" - checking event: "+events_json[evento]["tournament"]+" - "+events_json[evento]["name"])
+      print(account+" - checking event: ["+str(evento)+"] "+events_json[evento].get("tournament", "")+" - "+events_json[evento].get("name", ""))
       r = requests.post(
         'https://api.smash.gg/gql/alpha',
         headers={
@@ -54,9 +54,11 @@ for account in accounts:
           'query': '''
             query evento($eventId: ID!) {
               event(id: $eventId) {
+                name
                 state
                 startAt
                 numEntrants
+                isOnline
                 phaseGroups {
                   id
                   phase {
@@ -69,12 +71,15 @@ for account in accounts:
                   state
                 }
                 tournament {
+                  name
                   startAt
                   endAt
                   registrationClosesAt
                   venueName
                   venueAddress
                   addrState
+                  city
+                  url
                   streams {
                     streamName
                   }
@@ -83,12 +88,17 @@ for account in accounts:
                     url
                     type
                   }
+                  events{
+                    videogame {
+                      id
+                    }
+                  }
                 }
               }
             },
           ''',
           'variables': {
-            "eventId": events_json[evento]["id"]
+            "eventId": str(evento)
           },
         }
       )
@@ -108,23 +118,30 @@ for account in accounts:
       data = resp["data"]["event"]
 
       if data == None:
-        print("Evento sumiu - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+        print("Evento sumiu")
         events_json.pop(evento)
         continue
 
-      events_json[evento]["images"] = data["tournament"].get("images")
-      events_json[evento]["streams"] = data["tournament"].get("streams")
+      smash_ultimate_tournaments = 0
 
-      events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
-      events_json[evento]["startAt"] = data["startAt"]
-      events_json[evento]["numEntrants"] = data["numEntrants"]
-      events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
+      for event in data["tournament"]["events"]:
+        if event["videogame"]["id"] == int(accounts[account]["videogameid"]):
+          smash_ultimate_tournaments += 1
 
-      events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
-
+      events_json[evento]["id"] = int(evento)
+      events_json[evento]["name"] = data["name"]
+      events_json[evento]["tournament"] = data["tournament"]["name"]
+      events_json[evento]["images"] = data["tournament"]["images"]
+      events_json[evento]["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
       events_json[evento]["tournament_venueName"] = data["tournament"]["venueName"]
       events_json[evento]["tournament_venueAddress"] = data["tournament"]["venueAddress"]
       events_json[evento]["tournament_addrState"] = data["tournament"]["addrState"]
+      events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
+      events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
+      events_json[evento]["city"] = data["tournament"]["city"]
+      events_json[evento]["url"] = "https://smash.gg"+data["tournament"]["url"]
+      events_json[evento]["startAt"] = data["startAt"]
+      events_json[evento]["isOnline"] = data["isOnline"]
 
       # Evento que nunca foi finalizado (depois de 5 dias)
       if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=5).total_seconds() and data["state"] == 'ACTIVE':
