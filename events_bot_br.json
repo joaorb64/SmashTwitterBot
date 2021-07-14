@@ -373,7 +373,7 @@
         "id": 592313,
         "name": "Ultimate Matchmaking #1 (14/07)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 0,
         "videogame": {
             "id": 1386
@@ -382,11 +382,17 @@
         "phaseGroups": [
             {
                 "id": 1526610,
+                "state": 2,
                 "phase": {
-                    "id": 962315,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Polygon Stadium Season 4 - Smash Bros. Ultimate",
@@ -418,7 +424,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "tweet_id": 1414638647136165893
+        "tweet_id": 1414638647136165893,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "592314": {
         "id": 592314,
