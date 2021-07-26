@@ -59,6 +59,7 @@ for account in accounts:
                 startAt
                 numEntrants
                 isOnline
+                slug
                 phaseGroups {
                   id
                   phase {
@@ -79,7 +80,6 @@ for account in accounts:
                   venueAddress
                   addrState
                   city
-                  url
                   streams {
                     streamName
                   }
@@ -139,9 +139,10 @@ for account in accounts:
       events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
       events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
       events_json[evento]["city"] = data["tournament"]["city"]
-      events_json[evento]["url"] = "https://smash.gg"+data["tournament"]["url"]
+      events_json[evento]["url"] = "https://smash.gg/"+data["slug"]
       events_json[evento]["startAt"] = data["startAt"]
       events_json[evento]["isOnline"] = data["isOnline"]
+      events_json[evento]["numEntrants"] = data["numEntrants"]
 
       # Evento que nunca foi finalizado (depois de 5 dias)
       if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=5).total_seconds() and data["state"] == 'ACTIVE':

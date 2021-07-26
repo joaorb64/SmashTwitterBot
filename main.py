@@ -17,6 +17,9 @@ if os.path.exists("auth.json"):
   auth_json = json.load(f)
   SMASHGG_KEY = auth_json["SMASHGG_KEY"]
 
+f = open('update_time.json')
+updateTime = json.load(f)["updateTime"]
+
 for account in accounts:
   print(account)
   try:
@@ -54,6 +57,8 @@ for account in accounts:
               filter: {
                 countryCode: $cCode
                 videogameIds: ['''+accounts[account]["videogameid"]+''']
+                upcoming: true,
+                computedUpdatedAt: '''+str(int(updateTime-datetime.timedelta(hours=1).total_seconds()))+'''
               }
             }) {
               nodes {
@@ -212,3 +217,6 @@ for account in accounts:
 
   with open('events_'+account+'.json', 'w') as outfile:
     json.dump(events_json, outfile, indent=4)
+  
+with open('update_time.json', 'w') as outfile:
+  json.dump({"updateTime": time.time()}, outfile, indent=4)
