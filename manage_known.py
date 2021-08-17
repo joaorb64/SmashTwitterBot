@@ -118,8 +118,7 @@ for account in accounts:
       data = resp["data"]["event"]
 
       if data == None:
-        print("Evento sumiu")
-        events_json.pop(evento)
+        print("Evento sumiu...?")
         continue
 
       smash_ultimate_tournaments = 0
