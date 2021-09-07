@@ -1,6 +1,7 @@
 import time
 import datetime
 import dateutil.parser
+from numpy.core.fromnumeric import trace
 import requests
 import json
 import pprint
@@ -10,6 +11,7 @@ import pytz
 import urllib
 from moviepy.editor import *
 from PIL import Image, ImageDraw, ImageFont
+import traceback
 
 f = open('accounts.json')
 accounts = json.load(f)
@@ -21,103 +23,106 @@ if os.path.exists("auth.json"):
   SMASHGG_KEY = auth_json["SMASHGG_KEY"]
 
 def DownloadClips(account):
-    clips = requests.get("https://raw.githubusercontent.com/joaorb64/tournament_api/multigames/out/"+account["game"]+"/twitchclips.json").json()
+    try:
+        clips = requests.get("https://raw.githubusercontent.com/joaorb64/tournament_api/multigames/out/"+account["game"]+"/twitchclips.json").json()
 
-    myClips = []
+        myClips = []
 
-    brClips = clips.get("pt-br", [])
+        brClips = clips.get("pt-br", [])
 
-    whitelist = [
-        '277200018', # p7
-    ]
-    brClips += [c for c in clips.get("en", []) if c["broadcaster_id"] in whitelist]
+        whitelist = [
+            '277200018', # p7
+        ]
+        brClips += [c for c in clips.get("en", []) if c["broadcaster_id"] in whitelist]
 
-    blacklist = [
-        '402617899', # MariKyuutie
-    ]
-    brClips = [c for c in brClips if c["broadcaster_id"] not in blacklist]
+        blacklist = [
+            '402617899', # MariKyuutie
+        ]
+        brClips = [c for c in brClips if c["broadcaster_id"] not in blacklist]
 
-    def sorting_key(x):
-        return x["view_count"]
+        def sorting_key(x):
+            return x["view_count"]
 
-    brClips.sort(key=sorting_key, reverse=True)
+        brClips.sort(key=sorting_key, reverse=True)
 
-    for clip in brClips:
-        found = next((c for c in myClips if 
-        c["broadcaster_id"] == clip["broadcaster_id"] and
-        abs(dateutil.parser.parse(c["created_at"]) - dateutil.parser.parse(clip["created_at"])).total_seconds()/60 < 5), None)
+        for clip in brClips:
+            found = next((c for c in myClips if 
+            c["broadcaster_id"] == clip["broadcaster_id"] and
+            abs(dateutil.parser.parse(c["created_at"]) - dateutil.parser.parse(clip["created_at"])).total_seconds()/60 < 5), None)
+            
+            if not found:
+                myClips.append(clip)
+            
+            if len(myClips) >= 5:
+                break
+
+        for i, clip in enumerate(myClips):
+            thumb_url = clip['thumbnail_url']
+            mp4_url = thumb_url.split("-preview",1)[0] + ".mp4"
+            output_path = "clips/"+ str(i) + ".mp4"
+
+            def dl_progress(count, block_size, total_size):
+                percent = int(count * block_size * 100 / total_size)
+                print("Downloading clip "+str(i)+"...%d%%" % percent, end="\r")
+                if percent == 100:
+                    print("")
+
+            # create the basepath directory
+            if not os.path.exists("clips"):
+                os.makedirs("clips")
+
+            try:
+                urllib.request.urlretrieve(mp4_url, output_path, reporthook=dl_progress)
+            except:
+                print("An exception occurred")
+            
+            img = Image.new('RGBA', (1280, 720), color = (214, 214, 214, 255))
+            d = ImageDraw.Draw(img, "RGBA")
+
+            fnt_big = ImageFont.truetype('./smash_font.ttf', 40)
+            fnt = ImageFont.truetype('./smash_font.ttf', 26)
+
+            # topo
+            d.rectangle((0, 0, 1280, 50), (49, 49, 49, 255))
+            
+            w, h = d.textsize(clip["title"], font=fnt_big)
+            d.text((640-w/2,5), clip["title"], font=fnt_big, fill=(255, 255, 255), align="center")
+
+            # rodape
+            d.rectangle((0, 720-64, 1280, 720), (49, 49, 49, 255))
+
+            # canal
+            d.text((32,720-64), "Canal: "+clip["broadcaster_name"], font=fnt, fill=(255, 255, 255))
+
+            # clippado por
+            d.text((32,720-32), "Clip: "+clip["creator_name"], font=fnt, fill=(255, 255, 255))
+
+            # view_count
+            view_count = str(clip["view_count"]) + " views"
+            w, h = d.textsize(view_count, font=fnt)
+            d.text((1280-32-w,720-64), view_count, font=fnt, fill=(255, 255, 255))
+
+            # bot
+            bot_text = "Vídeo gerado por @"+account["handle"]
+            w, h = d.textsize(bot_text, font=fnt)
+            d.text((1280-32-w,720-32), "Vídeo gerado por @"+account["handle"], font=fnt, fill=(255, 255, 255))
+
+            img.save("clips/overlay.png")
+            
+            edit_clip = VideoFileClip("clips/"+str(i)+".mp4")
+            edit_clip = edit_clip.resize(height=720-51-64)
+            edit_clip = edit_clip.set_position(("center", 51))
+
+            overlay = ImageClip("clips/overlay.png", transparent=True, duration=edit_clip.duration)
+            overlay.set_position((0, 0))
+
+            video = CompositeVideoClip([overlay, edit_clip])
+            video.write_videofile("clips/"+str(i)+"_edited.mp4", preset='ultrafast', codec='libx264', audio_codec="aac", threads=4)
         
-        if not found:
-            myClips.append(clip)
-        
-        if len(myClips) >= 5:
-            break
-
-    for i, clip in enumerate(myClips):
-        thumb_url = clip['thumbnail_url']
-        mp4_url = thumb_url.split("-preview",1)[0] + ".mp4"
-        output_path = "clips/"+ str(i) + ".mp4"
-
-        def dl_progress(count, block_size, total_size):
-            percent = int(count * block_size * 100 / total_size)
-            print("Downloading clip "+str(i)+"...%d%%" % percent, end="\r")
-            if percent == 100:
-                print("")
-
-        # create the basepath directory
-        if not os.path.exists("clips"):
-            os.makedirs("clips")
-
-        try:
-            urllib.request.urlretrieve(mp4_url, output_path, reporthook=dl_progress)
-        except:
-            print("An exception occurred")
-        
-        img = Image.new('RGBA', (1280, 720), color = (214, 214, 214, 255))
-        d = ImageDraw.Draw(img, "RGBA")
-
-        fnt_big = ImageFont.truetype('./smash_font.ttf', 40)
-        fnt = ImageFont.truetype('./smash_font.ttf', 26)
-
-        # topo
-        d.rectangle((0, 0, 1280, 50), (49, 49, 49, 255))
-        
-        w, h = d.textsize(clip["title"], font=fnt_big)
-        d.text((640-w/2,5), clip["title"], font=fnt_big, fill=(255, 255, 255), align="center")
-
-        # rodape
-        d.rectangle((0, 720-64, 1280, 720), (49, 49, 49, 255))
-
-        # canal
-        d.text((32,720-64), "Canal: "+clip["broadcaster_name"], font=fnt, fill=(255, 255, 255))
-
-        # clippado por
-        d.text((32,720-32), "Clip: "+clip["creator_name"], font=fnt, fill=(255, 255, 255))
-
-        # view_count
-        view_count = str(clip["view_count"]) + " views"
-        w, h = d.textsize(view_count, font=fnt)
-        d.text((1280-32-w,720-64), view_count, font=fnt, fill=(255, 255, 255))
-
-        # bot
-        bot_text = "Vídeo gerado por @"+account["handle"]
-        w, h = d.textsize(bot_text, font=fnt)
-        d.text((1280-32-w,720-32), "Vídeo gerado por @"+account["handle"], font=fnt, fill=(255, 255, 255))
-
-        img.save("clips/overlay.png")
-        
-        edit_clip = VideoFileClip("clips/"+str(i)+".mp4")
-        edit_clip = edit_clip.resize(height=720-51-64)
-        edit_clip = edit_clip.set_position(("center", 51))
-
-        overlay = ImageClip("clips/overlay.png", transparent=True, duration=edit_clip.duration)
-        overlay.set_position((0, 0))
-
-        video = CompositeVideoClip([overlay, edit_clip])
-        video.write_videofile("clips/"+str(i)+"_edited.mp4", preset='ultrafast', codec='libx264', audio_codec="aac", threads=4)
-    
-    final = concatenate_videoclips([VideoFileClip("clips/"+str(i)+"_edited.mp4") for i, clip in enumerate(myClips)])
-    final.write_videofile("clips/final.mp4", preset='slow', codec='libx264', audio_codec="aac", threads=4)
+        final = concatenate_videoclips([VideoFileClip("clips/"+str(i)+"_edited.mp4") for i, clip in enumerate(myClips)])
+        final.write_videofile("clips/final.mp4", preset='slow', codec='libx264', audio_codec="aac", threads=4)
+    except:
+        print(traceback.format_exception)
 
 for account in accounts:
     print(account)

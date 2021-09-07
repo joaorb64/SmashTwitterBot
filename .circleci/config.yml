@@ -70,7 +70,7 @@ jobs:
             . venv/bin/activate
             sudo apt-get install ffmpeg
             pip install pillow pytz moviepy python-dateutil
-            pip install git+https://github.com/joaorb64/tweepy
+            pip install git+https://github.com/tweepy/tweepy.git
             echo ${AUTH} | base64 --decode --ignore-garbage > auth.json
       - run:
           name: Run
