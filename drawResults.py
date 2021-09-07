@@ -67,11 +67,21 @@ def drawResults(event, standings, account):
 
   fnt = ImageFont.truetype('./smash_font.ttf', 32)
 
-  title_text_bottom = ("Online" if event.get("isOnline") else "Offline") + " - "
-  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
+  # Location if applies
+  location = ""
+  if event.get("tournament_venueName") or event.get("tournament_venueAddress"):
+    location += " - "
 
-  if event["city"]:
-    title_text_bottom += " - "+event["city"]
+    if event.get("tournament_venueName"):
+      location += event.get("tournament_venueName")+", "
+    
+    if event.get("tournament_venueAddress"):
+      splitted = event.get("tournament_venueAddress").split(",")
+      if len(splitted) >= 3:
+        location += splitted[-3]+", "+splitted[-2]
+
+  title_text_bottom = ("Online" if event.get("isOnline") else location) + " - "
+  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
 
   data_time = datetime.datetime.fromtimestamp(event["startAt"])
   data = data_time.strftime(account["text-results-timeformat"])
@@ -203,11 +213,21 @@ def drawResults8x9(event, standings, account, page=1):
 
   fnt = ImageFont.truetype('./smash_font.ttf', 22)
 
-  title_text_bottom = ("Online" if event.get("isOnline") else "Offline") + " - "
-  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
+  # Location if applies
+  location = ""
+  if event.get("tournament_venueName") or event.get("tournament_venueAddress"):
+    location += " - "
 
-  if event["city"]:
-    title_text_bottom += " - "+event["city"]
+    if event.get("tournament_venueName"):
+      location += event.get("tournament_venueName")+", "
+    
+    if event.get("tournament_venueAddress"):
+      splitted = event.get("tournament_venueAddress").split(",")
+      if len(splitted) >= 3:
+        location += splitted[-3]+", "+splitted[-2]
+
+  title_text_bottom = ("Online" if event.get("isOnline") else location) + " - "
+  title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
 
   data_time = datetime.datetime.fromtimestamp(event["startAt"])
   data = data_time.strftime(account["text-results-timeformat"])

@@ -156,8 +156,17 @@ for account in accounts:
             location = accounts[account]["text-online"]
             img.alpha_composite(icon_wifi, (104+256+8, y+2+30))
         else:
-            location = evento["tournament_venueName"] + " - "
-            location += ",".join(evento["tournament_venueAddress"].split(",")[0:3])
+            location = ""
+
+            if evento.get("tournament_venueName") or evento.get("tournament_venueAddress"):
+                if evento.get("tournament_venueName"):
+                    location += evento.get("tournament_venueName")+", "
+                
+                if evento.get("tournament_venueAddress"):
+                    splitted = evento.get("tournament_venueAddress").split(",")
+                    if len(splitted) >= 3:
+                        location += splitted[-3]+", "+splitted[-2]
+            
             img.alpha_composite(icon_marker, (104+256+8, y+2+30))
 
         d.text((104+256+24+8, y+2+30), location, font=fnt_small, fill=(255, 255, 255), align="center")
