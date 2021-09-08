@@ -202,7 +202,8 @@ for account in accounts:
           torneio_name += " - " + evento["name"]
 
         location = ""
-        if evento.get("tournament_venueName") or evento.get("tournament_venueAddress"):
+        if not evento.get("isOnline") and \
+        (evento.get("tournament_venueName") or evento.get("tournament_venueAddress")):
           location += "📍"
 
           if evento.get("tournament_venueName"):
@@ -212,10 +213,12 @@ for account in accounts:
             splitted = evento.get("tournament_venueAddress").split(",")
             if len(splitted) >= 3:
               location += splitted[-3]+", "+splitted[-2]
+          
+          location += "\n"
 
         tweet_id = twitter_API.update_status(
           torneio_type + " "+
-          torneio_name +" \n"+
+          torneio_name +"\n"+
           location+
           "📅 "+accounts[account]["text-tournament-start"]+": "+data+" ("+accounts[account]["timezone"]+")"+"\n"+
           "✏️ "+accounts[account]["text-tournament-registration-ends"]+": "+data_registration+" ("+accounts[account]["timezone"]+")"+"\n"+
