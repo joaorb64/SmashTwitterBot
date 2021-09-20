@@ -60,7 +60,9 @@ for account in accounts:
     events_post = []
 
     for evento in list(events_json):
-        if time.time() + datetime.timedelta(days=7).total_seconds() > events_json[evento]["startAt"] and events_json[evento]["state"] != 'ACTIVE' and events_json[evento]["state"] != 'COMPLETE':
+        if time.time() + datetime.timedelta(days=7).total_seconds() > events_json[evento]["startAt"] and \
+        events_json[evento]["startAt"] > time.time() and \
+            events_json[evento]["state"] != 'ACTIVE' and events_json[evento]["state"] != 'COMPLETE':
             events_post.append(events_json[evento])
 
     def sortByDate(evento):

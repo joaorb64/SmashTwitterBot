@@ -70,8 +70,6 @@ def drawResults(event, standings, account):
   # Location if applies
   location = ""
   if event.get("tournament_venueName") or event.get("tournament_venueAddress"):
-    location += " - "
-
     if event.get("tournament_venueName"):
       location += event.get("tournament_venueName")+", "
     
@@ -216,8 +214,6 @@ def drawResults8x9(event, standings, account, page=1):
   # Location if applies
   location = ""
   if event.get("tournament_venueName") or event.get("tournament_venueAddress"):
-    location += " - "
-
     if event.get("tournament_venueName"):
       location += event.get("tournament_venueName")+", "
     

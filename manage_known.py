@@ -257,10 +257,11 @@ for account in accounts:
           if (phase["state"] != 3) or (phase["id"] in events_json[evento]["postedPhaseResultIds"]):
             continue
 
-          # Dont post results where the winner has placement #2,
+          # Dont post results where the winner has placement #2
+          # or there are 2 #1 placings.
           # I think it's a bug when there's a bracket reset
           if len(phase["standings"]["nodes"]) > 0 and \
-          str(phase["standings"]["nodes"][0]["placement"]) == "2":
+          (str(phase["standings"]["nodes"][0]["placement"]) == "2" or str(phase["standings"]["nodes"][1]["placement"]) == "1"):
             continue
 
           cancel = False
