@@ -72,7 +72,7 @@ for account in accounts:
 
     if len(events_post) == 0:
         print("Sem eventos essa semana...")
-        exit()
+        continue
 
     img = Image.new('RGBA', (1024, 64 + (96+4)*len(events_post)), color = (0, 0, 0, 255))
     y = 64
