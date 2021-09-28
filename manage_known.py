@@ -456,36 +456,35 @@ for account in accounts:
           continue
       
       # Evento iniciado
-      if not "postedStarting" in events_json[evento].keys():
-        if data["state"] == 'ACTIVE' and data["startAt"] <= time.time():
-          print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
+      if not "postedStarting" and data["state"] == 'ACTIVE':
+        print("Evento iniciado - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
-          post = ""
-          post+= accounts[account]["text-tournament-starting-before"]
-          
-          nome = events_json[evento]["tournament"]
+        post = ""
+        post+= accounts[account]["text-tournament-starting-before"]
+        
+        nome = events_json[evento]["tournament"]
 
-          if events_json[evento]["tournament_multievent"]:
-            nome += " - " + events_json[evento]["name"]
-          
-          if len(nome) > 80:
-            nome = nome[:80]+"…"
-          
-          post += nome + accounts[account]["text-tournament-starting-after"] + "\n"
-          
-          if events_json[evento].get("streams"):
-            if events_json[evento].get("streams")[0].get("streamName"):
-              post+= "Streams: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")[0:7]])
+        if events_json[evento]["tournament_multievent"]:
+          nome += " - " + events_json[evento]["name"]
+        
+        if len(nome) > 80:
+          nome = nome[:80]+"…"
+        
+        post += nome + accounts[account]["text-tournament-starting-after"] + "\n"
+        
+        if events_json[evento].get("streams"):
+          if events_json[evento].get("streams")[0].get("streamName"):
+            post+= "Streams: \n"+"".join(["https://twitch.tv/"+stream.get("streamName")+" \n" for stream in events_json[evento].get("streams")[0:7]])
 
-          post+= "Bracket: "+events_json[evento].get("url")
+        post+= "Bracket: "+events_json[evento].get("url")
 
-          print(post)
-          print(len(post))
+        print(post)
+        print(len(post))
 
-          twitter_API.update_status(post)
+        twitter_API.update_status(post)
 
-          events_json[evento]["state"] = 'ACTIVE'
-          events_json[evento]["postedStarting"] = True
+        events_json[evento]["state"] = 'ACTIVE'
+        events_json[evento]["postedStarting"] = True
       
       # Menos de 1h para finalizar inscricoes
       if not "postedRegistrationClosing" in events_json[evento].keys() and "tweet_id" in events_json[evento].keys():
