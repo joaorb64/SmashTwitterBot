@@ -11,7 +11,7 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            pip install tweepy==3.10.0 pillow pytz
+            pip install tweepy pillow pytz
             echo ${AUTH} | base64 --decode --ignore-garbage > auth.json
       - run:
           name: Update known tournaments
@@ -51,7 +51,7 @@ jobs:
           command: |
             python3 -m venv venv
             . venv/bin/activate
-            pip install tweepy==3.10.0 pillow pytz
+            pip install tweepy pillow pytz
             echo ${AUTH} | base64 --decode --ignore-garbage > auth.json
       - run:
           name: Run
@@ -69,8 +69,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             sudo apt-get install ffmpeg
-            pip install pillow pytz moviepy python-dateutil
-            pip install git+https://github.com/joaorb64/tweepy
+            pip install tweepy pillow pytz moviepy python-dateutil
             echo ${AUTH} | base64 --decode --ignore-garbage > auth.json
       - run:
           name: Run

@@ -115,7 +115,7 @@ for account in accounts:
         bannerUrl = next((i["url"] for i in evento["images"] if i["type"] == "banner"), None)
 
         if bannerUrl == None:
-            evento["images"][-1]["url"]
+            bannerUrl = next((i["url"] for i in evento["images"]), None)
 
         if bannerUrl == None:
             bannerUrl = "https://raw.githubusercontent.com/joaorb64/SmashTwitterBot/master/banner/"+accounts[account]["game"]+".png"
@@ -189,4 +189,4 @@ for account in accounts:
 
     img.save('media.png')
 
-    twitter_API.update_with_media("./media.png", status="📅 ["+accounts[account]["text-week-events"]+"]\n"+accounts[account]["text-see-all-events-in-powerrankings"]+": https://powerrankings.gg/"+accounts[account]["game"]+"/nexttournaments/"+accounts[account]["country"].lower())
+    twitter_API.update_status_with_media(filename="./media.png", status="📅 ["+accounts[account]["text-week-events"]+"]\n"+accounts[account]["text-see-all-events-in-powerrankings"]+": https://powerrankings.gg/"+accounts[account]["game"]+"/nexttournaments/"+accounts[account]["country"].lower())
