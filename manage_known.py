@@ -129,19 +129,21 @@ for account in accounts:
 
       events_json[evento]["id"] = int(evento)
       events_json[evento]["name"] = data["name"]
+      events_json[evento]["startAt"] = data["startAt"]
+      events_json[evento]["numEntrants"] = data["numEntrants"]
+      events_json[evento]["isOnline"] = data["isOnline"]
       events_json[evento]["tournament"] = data["tournament"]["name"]
-      events_json[evento]["images"] = data["tournament"]["images"]
-      events_json[evento]["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
+      events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
+      events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
+      events_json[evento]["tournament_registrationClosesAt"] = data["tournament"]["registrationClosesAt"]
       events_json[evento]["tournament_venueName"] = data["tournament"]["venueName"]
       events_json[evento]["tournament_venueAddress"] = data["tournament"]["venueAddress"]
       events_json[evento]["tournament_addrState"] = data["tournament"]["addrState"]
-      events_json[evento]["tournament_startAt"] = data["tournament"]["startAt"]
-      events_json[evento]["tournament_endAt"] = data["tournament"]["endAt"]
       events_json[evento]["city"] = data["tournament"]["city"]
+      events_json[evento]["streams"] = data["tournament"]["streams"]
+      events_json[evento]["images"] = data["tournament"]["images"]
+      events_json[evento]["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
       events_json[evento]["url"] = "https://smash.gg/"+data["slug"]
-      events_json[evento]["startAt"] = data["startAt"]
-      events_json[evento]["isOnline"] = data["isOnline"]
-      events_json[evento]["numEntrants"] = data["numEntrants"]
 
       # Evento que nunca foi finalizado (depois de 5 dias)
       if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=5).total_seconds() and data["state"] == 'ACTIVE':
@@ -364,7 +366,7 @@ for account in accounts:
 
           post = "🏆 ["+accounts[account]["text-results"]+"]"
           post += "["
-          post += accounts[account]["text-online"] if events_json[evento].get("isOnline") else " "+accounts[account]["text-offline"]
+          post += accounts[account]["text-online"] if events_json[evento].get("isOnline") else accounts[account]["text-offline"]
           post += "]"
           post += "\n\n"
 
