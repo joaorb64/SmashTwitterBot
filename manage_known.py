@@ -129,6 +129,7 @@ for account in accounts:
 
       events_json[evento]["id"] = int(evento)
       events_json[evento]["name"] = data["name"]
+      events_json[evento]["state"] = data["state"]
       events_json[evento]["startAt"] = data["startAt"]
       events_json[evento]["numEntrants"] = data["numEntrants"]
       events_json[evento]["isOnline"] = data["isOnline"]
