@@ -383,7 +383,7 @@
         "id": 642248,
         "name": "Ultimate Matchmaking #2 (17/11)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 25,
         "videogame": {
             "id": 1386
@@ -392,11 +392,17 @@
         "phaseGroups": [
             {
                 "id": 1613349,
+                "state": 2,
                 "phase": {
-                    "id": 1025424,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Polygon Stadium Season 8 - Smash Bros. Ultimate",
@@ -428,7 +434,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "tweet_id": 1457732463908753408
+        "tweet_id": 1457732463908753408,
+        "postedPhaseResultIds": []
     },
     "642249": {
         "id": 642249,
