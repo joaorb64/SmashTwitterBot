@@ -394,6 +394,7 @@ for account in accounts:
           phase["standings"]["nodes"] = valid_entrants
           
           counter = 0
+          posted = False
           for entrant in phase["standings"]["nodes"]:
             placement = entrant["placement"]
             placement = str(placement)
@@ -423,26 +424,36 @@ for account in accounts:
           post += "\nBracket: "+events_json[evento]["url"]
           
           if phase.get("standings").get("pageInfo").get("total") < 64:
-            drawResults.drawResults(events_json[evento], phase, accounts[account])
-            status = twitter_API.update_status_with_media(filename="./media.png", status=post)
-            print(status)
+            try:
+              drawResults.drawResults(events_json[evento], phase, accounts[account])
+              status = twitter_API.update_status_with_media(filename="./media.png", status=post)
+              print(status)
+              posted = True
+            except Exception as e:
+              print("ERROR", e)
           else:
-            drawResults.drawResults8x9(events_json[evento], phase, accounts[account])
-            post+="\n(1/2)"
-            post2+="\n(2/2)"
-            filenames = ['media.png', 'media2.png']
-            media_ids = []
-            for filename in filenames:
-              res = twitter_API.media_upload(filename)
-              print(res)
-              media_ids.append(res["media_id"])
+            try:
+              drawResults.drawResults8x9(events_json[evento], phase, accounts[account])
+              post+="\n(1/2)"
+              post2+="\n(2/2)"
+              filenames = ['media.png', 'media2.png']
+              media_ids = []
+              for filename in filenames:
+                res = twitter_API.media_upload(filename)
+                print(res)
+                media_ids.append(res["media_id"])
 
-            # Tweet with multiple images
-            thread1 = twitter_API.update_status(media_ids=media_ids, status=post)
-            time.sleep(5)
-            twitter_API.update_status(status="@"+accounts[account]["handle"]+"\n"+post2, in_reply_to_status_id=thread1["id"])
+              # Tweet with multiple images
+              thread1 = twitter_API.update_status(media_ids=media_ids, status=post)
+              time.sleep(5)
+              twitter_API.update_status(status="@"+accounts[account]["handle"]+"\n"+post2, in_reply_to_status_id=thread1["id"])
+              
+              posted = True
+            except Exception as e:
+              print("ERROR", e)
           
-          events_json[evento]["postedPhaseResultIds"].append(phase["id"])
+          if posted:
+            events_json[evento]["postedPhaseResultIds"].append(phase["id"])
 
           update_events_file(account)
           time.sleep(30)
