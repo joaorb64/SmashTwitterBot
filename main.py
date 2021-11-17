@@ -211,8 +211,10 @@ for account in accounts:
           
           if evento.get("tournament_venueAddress"):
             splitted = evento.get("tournament_venueAddress").split(",")
-            if len(splitted) >= 3:
+            if len(splitted) == 4:
               location += splitted[-3]+", "+splitted[-2]
+            if len(splitted) == 5:
+              location += splitted[-3]
           
           location += "\n"
 
