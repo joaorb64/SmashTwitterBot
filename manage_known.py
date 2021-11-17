@@ -424,7 +424,8 @@ for account in accounts:
           
           if phase.get("standings").get("pageInfo").get("total") < 64:
             drawResults.drawResults(events_json[evento], phase, accounts[account])
-            twitter_API.update_status_with_media(filename="./media.png", status=post)
+            status = twitter_API.update_status_with_media(filename="./media.png", status=post)
+            print(status)
           else:
             drawResults.drawResults8x9(events_json[evento], phase, accounts[account])
             post+="\n(1/2)"
