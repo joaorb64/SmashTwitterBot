@@ -180,7 +180,7 @@ for account in accounts:
         data_time = datetime.datetime.fromtimestamp(evento["startAt"], tz=pytz.timezone(accounts[account]["timezone"]))
         data = data_time.strftime(accounts[account]["text-week-events-timeformat"]+" %H:%M")
 
-        data_registration_time = datetime.datetime.fromtimestamp(evento["tournament_registrationClosesAt"], tz=pytz.timezone(accounts[account]["timezone"]))
+        data_registration_time = datetime.datetime.fromtimestamp(min(evento["tournament_registrationClosesAt"], evento["startAt"]), tz=pytz.timezone(accounts[account]["timezone"]))
         data_registration = data_registration_time.strftime(accounts[account]["text-week-events-timeformat"]+" %H:%M")
 
         img.alpha_composite(icon_calendar, (104+256+8, y+2+52))

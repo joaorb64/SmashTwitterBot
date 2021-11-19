@@ -191,7 +191,7 @@ for account in accounts:
         data_time = datetime.datetime.fromtimestamp(evento["startAt"], tz=pytz.timezone(accounts[account]["timezone"]))
         data = data_time.strftime(accounts[account]["timeFormat"])
 
-        data_registration_time = datetime.datetime.fromtimestamp(evento["tournament_registrationClosesAt"], tz=pytz.timezone(accounts[account]["timezone"]))
+        data_registration_time = datetime.datetime.fromtimestamp(min(evento["tournament_registrationClosesAt"], evento["startAt"]), tz=pytz.timezone(accounts[account]["timezone"]))
         data_registration = data_registration_time.strftime(accounts[account]["timeFormat"])
 
         torneio_type = accounts[account]["text-online-tournament"] if evento["isOnline"] == True else accounts[account]["text-offline-tournament"]

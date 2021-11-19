@@ -503,7 +503,7 @@ for account in accounts:
       
       # Menos de 1h para finalizar inscricoes
       if not "postedRegistrationClosing" in events_json[evento].keys() and "tweet_id" in events_json[evento].keys():
-        if events_json[evento]["state"] != 'ACTIVE' and events_json[evento]["tournament_registrationClosesAt"] <= time.time() + datetime.timedelta(hours=1).total_seconds():
+        if events_json[evento]["state"] != 'ACTIVE' and min(events_json[evento]["tournament_registrationClosesAt"], events_json[evento]["startAt"]) <= time.time() + datetime.timedelta(hours=1).total_seconds():
           print("Menos de 1h para fechar inscrições - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
           post = accounts[account]["text-tournament-registration-ending"]+"\n"
