@@ -215,6 +215,8 @@ for account in accounts:
               location += splitted[-3]+", "+splitted[-2]
             if len(splitted) == 5:
               location += splitted[-3]
+            if len(splitted) == 1:
+              location += splitted[0]
           
           location += "\n"
 

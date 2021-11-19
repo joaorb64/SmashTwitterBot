@@ -79,6 +79,8 @@ def drawResults(event, standings, account):
           location += splitted[-3]+", "+splitted[-2]
       if len(splitted) == 5:
           location += splitted[-3]
+      if len(splitted) == 1:
+          location += splitted[0]
 
   title_text_bottom = ("Online" if event.get("isOnline") else location) + " - "
   title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
@@ -225,6 +227,8 @@ def drawResults8x9(event, standings, account, page=1):
           location += splitted[-3]+", "+splitted[-2]
       if len(splitted) == 5:
           location += splitted[-3]
+      if len(splitted) == 1:
+          location += splitted[0]
 
   title_text_bottom = ("Online" if event.get("isOnline") else location) + " - "
   title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
