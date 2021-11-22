@@ -375,8 +375,8 @@ for account in accounts:
 
           if events_json[evento]["tournament_multievent"]:
             nome += " - " + events_json[evento]["name"]
-            if len(nome) > 80:
-              nome = nome[:80]+"…"
+            if len(nome) > 70:
+              nome = nome[:70]+"…"
           
           if phase.get("multiphase"):
             nome += " ("+phase.get("phase").get("name")+")"
