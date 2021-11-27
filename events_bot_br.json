@@ -437,7 +437,7 @@
         "id": 650236,
         "name": "Grindpeak - Season 3",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -446,11 +446,178 @@
         "phaseGroups": [
             {
                 "id": 1627443,
+                "state": 2,
                 "phase": {
-                    "id": 1035502,
                     "name": "Grindpeak"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 8796074,
+                                "name": "SPB | Ferps",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ferpsfgc"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1685931
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 8796071,
+                                "name": "IKE1 | Vieira",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Vieira0207"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1508822
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 8796076,
+                                "name": "SOL | Dannckles",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "picklepanncake"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 558307
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 8838046,
+                                "name": "SFG | zizi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1802511
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 8796066,
+                                "name": "PressB | Smat",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "smat_ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1542713
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 8796061,
+                                "name": "LeoRyu18",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1991676
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 8796073,
+                                "name": "DASH|FT | Dh Hunter",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DeagaROB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1658759
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 8838060,
+                                "name": "Los Brabos | Feraligatr",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukeHidron"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 540604
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Grindpeak\u2699\ud83c\udfc6 - Season 3",
@@ -463,6 +630,9 @@
             },
             {
                 "streamName": "amdslive"
+            },
+            {
+                "streamName": "tryhardsmash"
             }
         ],
         "timezone": null,
@@ -486,6 +656,7 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1464655601343082501,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
