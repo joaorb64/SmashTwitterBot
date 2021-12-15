@@ -535,7 +535,7 @@
         "id": 654608,
         "name": "Ultimate Matchmaking #2 - Doubles (15/12)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 10,
         "videogame": {
             "id": 1386
@@ -544,11 +544,17 @@
         "phaseGroups": [
             {
                 "id": 1635306,
+                "state": 2,
                 "phase": {
-                    "id": 1041153,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Polygon Stadium Season 9 - Nickelodeon All Stars Brawl & Smash Bros. Ultimate",
@@ -581,7 +587,8 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1466176912758349826,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "652676": {
         "id": 652676,
@@ -672,7 +679,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 7,
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
