@@ -592,6 +592,27 @@
                             }
                         },
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 8997660,
+                                "name": "Nuno",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nunodinelli"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1146901
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 8987577,
@@ -607,27 +628,6 @@
                                         },
                                         "player": {
                                             "id": 2225840
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 8997660,
-                                "name": "Nuno",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "nunodinelli"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1146901
                                         }
                                     }
                                 ]
@@ -934,27 +934,6 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 8854246,
-                                "name": "Blank",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "PaleBl_nk"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2221948
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
                                 "id": 8853670,
                                 "name": "TwS | FR7",
                                 "participants": [
@@ -968,6 +947,27 @@
                                         },
                                         "player": {
                                             "id": 211496
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 8854246,
+                                "name": "Blank",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PaleBl_nk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221948
                                         }
                                     }
                                 ]
@@ -1278,6 +1278,23 @@
                         {
                             "placement": 3,
                             "entrant": {
+                                "id": 8868230,
+                                "name": "NaSC | Y8shikage",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1728594
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
                                 "id": 8917225,
                                 "name": "Victor THE VICTORIOUS",
                                 "participants": [
@@ -1291,23 +1308,6 @@
                                         },
                                         "player": {
                                             "id": 1715990
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 8868230,
-                                "name": "NaSC | Y8shikage",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 1728594
                                         }
                                     }
                                 ]
@@ -1584,7 +1584,7 @@
             },
             {
                 "id": 1634186,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Liga S"
                 },
@@ -1595,7 +1595,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 8870741,
                                 "name": "TSD | GotM",
@@ -1613,6 +1613,28 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Cloud": {
+                                    "name": "Cloud",
+                                    "usage": 8,
+                                    "icon": "https://images.smash.gg/images/character/1275/image-354129bab0aa613d617cbb3ff095a70a.png"
+                                },
+                                "Falco": {
+                                    "name": "Falco",
+                                    "usage": 4,
+                                    "icon": "https://images.smash.gg/images/character/1285/image-9e61f7a91a6c642bc3f14409f6f1cb69.png"
+                                },
+                                "Roy": {
+                                    "name": "Roy",
+                                    "usage": 3,
+                                    "icon": "https://images.smash.gg/images/character/1326/image-48f829e07a9c6b6ab3490116006cf71e.png"
+                                },
+                                "Chrom": {
+                                    "name": "Chrom",
+                                    "usage": 1,
+                                    "icon": "https://images.smash.gg/images/character/1409/image-b74c6742556be07ab4011c15a951cbe2.png"
+                                }
                             }
                         },
                         {
@@ -1634,6 +1656,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Palutena": {
+                                    "name": "Palutena",
+                                    "usage": 18,
+                                    "icon": "https://images.smash.gg/images/character/1316/image-3fab6611ff1cb12578ef5bed59c42ec3.png"
+                                }
                             }
                         },
                         {
@@ -1655,6 +1684,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Bowser": {
+                                    "name": "Bowser",
+                                    "usage": 19,
+                                    "icon": "https://images.smash.gg/images/character/1273/image-ef8a42ec3c7d05279e1a7c9ccc213591.png"
+                                },
+                                "Sephiroth": {
+                                    "name": "Sephiroth",
+                                    "usage": 1,
+                                    "icon": "https://images.smash.gg/images/character/1777/image-1e7b275803dc9ed66bc2c82f4d5e166c.png"
+                                }
                             }
                         },
                         {
@@ -1676,6 +1717,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Lucas": {
+                                    "name": "Lucas",
+                                    "usage": 16,
+                                    "icon": "https://images.smash.gg/images/character/1299/image-6e84ea41fe27f12d2419ec2eaf164c09.png"
+                                }
                             }
                         },
                         {
@@ -1697,6 +1745,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Steve": {
+                                    "name": "Steve",
+                                    "usage": 9,
+                                    "icon": "https://images.smash.gg/images/character/1766/image-02314caeff10895f38d749e9f458ca85.png"
+                                },
+                                "Kazuya": {
+                                    "name": "Kazuya",
+                                    "usage": 3,
+                                    "icon": "https://images.smash.gg/images/character/1846/image-3396c2649f5e7ef0197aca3ac2c12970.png"
+                                }
                             }
                         },
                         {
@@ -1718,6 +1778,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Ness": {
+                                    "name": "Ness",
+                                    "usage": 9,
+                                    "icon": "https://images.smash.gg/images/character/1313/image-3870ed5a1c84b3979055a5c5014eb3cb.png"
+                                },
+                                "Pit": {
+                                    "name": "Pit",
+                                    "usage": 5,
+                                    "icon": "https://images.smash.gg/images/character/1320/image-f40b11b0016d86d7e48ab258c021422d.png"
+                                }
                             }
                         },
                         {
@@ -1739,6 +1811,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Wii Fit Trainer": {
+                                    "name": "Wii Fit Trainer",
+                                    "usage": 10,
+                                    "icon": "https://images.smash.gg/images/character/1336/image-c0a2b84d0e4d63a9b91493c711ac4845.png"
+                                }
                             }
                         },
                         {
@@ -1760,6 +1839,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Mega Man": {
+                                    "name": "Mega Man",
+                                    "usage": 8,
+                                    "icon": "https://images.smash.gg/images/character/1305/image-7c5e2ec77199cbda9bcf7cf1e69e0c83.png"
+                                }
                             }
                         },
                         {
@@ -1781,6 +1867,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Young Link": {
+                                    "name": "Young Link",
+                                    "usage": 5,
+                                    "icon": "https://images.smash.gg/images/character/1339/image-b32ed8337c8a9f5c42ad80806b77afd9.png"
+                                }
                             }
                         },
                         {
@@ -1802,7 +1895,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 9,
@@ -1823,6 +1917,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Corrin": {
+                                    "name": "Corrin",
+                                    "usage": 4,
+                                    "icon": "https://images.smash.gg/images/character/1276/image-13110600e5d35c17ac0186c4af78a1f7.png"
+                                }
                             }
                         },
                         {
@@ -1844,6 +1945,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Banjo-Kazooie": {
+                                    "name": "Banjo-Kazooie",
+                                    "usage": 5,
+                                    "icon": "https://images.smash.gg/images/character/1530/image-5ef03faf51cfbe514495cfef35281c8c.png"
+                                },
+                                "Wario": {
+                                    "name": "Wario",
+                                    "usage": 1,
+                                    "icon": "https://images.smash.gg/images/character/1335/image-914d0e656e6af3459e82cebb0fe9b478.png"
+                                }
                             }
                         },
                         {
@@ -1865,7 +1978,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 13,
@@ -1886,6 +2000,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Ganondorf": {
+                                    "name": "Ganondorf",
+                                    "usage": 3,
+                                    "icon": "https://images.smash.gg/images/character/1287/image-7b7e1497962c398ac8c8092aca493e89.png"
+                                }
                             }
                         },
                         {
@@ -1907,7 +2028,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 },
@@ -1963,7 +2085,9 @@
         "tournament_addrState": null,
         "tweet_id": 1465410616051605507,
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": []
+        "postedPhaseResultIds": [
+            1634186
+        ]
     },
     "654575": {
         "id": 654575,
