@@ -1636,6 +1636,27 @@
                             }
                         },
                         {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 8886718,
+                                "name": "Emp",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Emp_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 401907
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 8886772,
@@ -1668,27 +1689,6 @@
                                         },
                                         "player": {
                                             "id": 558041
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 8886718,
-                                "name": "Emp",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Emp_SSB"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 401907
                                         }
                                     }
                                 ]
@@ -2575,7 +2575,7 @@
         "id": 654602,
         "name": "Ultimate Matchmaking (16/01)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 16,
         "videogame": {
             "id": 1386
@@ -2584,11 +2584,17 @@
         "phaseGroups": [
             {
                 "id": 1635300,
+                "state": 2,
                 "phase": {
-                    "id": 1041147,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Polygon Stadium #37 - Smash Bros. Ultimate",
@@ -2621,6 +2627,7 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1480944916775768067,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
