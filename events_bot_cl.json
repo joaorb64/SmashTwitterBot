@@ -1144,7 +1144,7 @@
         "id": 674326,
         "name": "Nair Series #1",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -1153,11 +1153,151 @@
         "phaseGroups": [
             {
                 "id": 1669652,
+                "state": 2,
                 "phase": {
-                    "id": 1066158,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9195160,
+                                "name": "GH | Dolce",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dolce_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 603177
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9196267,
+                                "name": "TNC | Jago",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Jago_cl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1309292
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9196276,
+                                "name": "Paira",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2218342
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9207444,
+                                "name": "TSB | Pistaco",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2425998
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9196715,
+                                "name": "2ICE",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1309305
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9196259,
+                                "name": "P1Dante",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "P1Dante"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1638173
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9207447,
+                                "name": "Veldora!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "SsbHenn"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1638855
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Nair Series #1",
@@ -1186,6 +1326,7 @@
         "tournament_venueAddress": "Amanecer 1594, Coquimbo, Chile",
         "tournament_addrState": "Coquimbo",
         "tweet_id": 1487275381380026368,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
