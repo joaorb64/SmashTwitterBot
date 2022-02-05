@@ -889,7 +889,7 @@
         "id": 653700,
         "name": "Duplas",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -898,11 +898,192 @@
         "phaseGroups": [
             {
                 "id": 1633855,
+                "state": 2,
                 "phase": {
-                    "id": 1040032,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9257297,
+                                "name": "Kitsu / zaaz!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ParadiseCityIQQ"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1131964
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1639346
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9257428,
+                                "name": "LNtegui / BerserkerOx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1576958
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LNtegui"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2021471
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9257313,
+                                "name": "Venharcore / LaraWii",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "venharcore"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1723490
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ssbu_LaraWii"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1953467
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9257298,
+                                "name": "Nacho nomas / Dr. Lepra",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Nacho22e"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2224960
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2289631
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9257317,
+                                "name": "lAoZ / L\u00f6rd",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 65141
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_Lord1_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 409153
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9258140,
+                                "name": "Manolo / Geno",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1925811
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2144700
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Paradise City 2022",
@@ -931,7 +1112,8 @@
         "tournament_venueAddress": "Orella 960, Iquique, Tarapac\u00e1, Chile",
         "tournament_addrState": "Tarapac\u00e1",
         "tweet_id": 1470918187067883522,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "653698": {
         "id": 653698,
