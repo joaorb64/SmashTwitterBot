@@ -598,8 +598,8 @@
         "id": 673823,
         "name": "Smash Top Da Contorno #31",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 7,
+        "state": "ACTIVE",
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -607,11 +607,268 @@
         "phaseGroups": [
             {
                 "id": 1668754,
+                "state": 2,
                 "phase": {
-                    "id": 1065536,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 7208236
+                    },
+                    {
+                        "id": 7208237
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9222520,
+                                "name": "UA | piu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "piuzera_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 257657
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9246249,
+                                "name": "Airos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1696912
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9246509,
+                                "name": "UA | Ampheras",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ampheras"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 401931
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9246844,
+                                "name": "UA | Hikky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HikaruBeatriz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1049957
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9248976,
+                                "name": "Gustmc",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 974687
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9255557,
+                                "name": "Funny Furry | Meow",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1901182
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1675533,
+                "state": 1,
+                "phase": {
+                    "name": "Finals"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9222520,
+                                "name": "UA | piu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "piuzera_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 257657
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9246249,
+                                "name": "Airos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1696912
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9246509,
+                                "name": "UA | Ampheras",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ampheras"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 401931
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9246844,
+                                "name": "UA | Hikky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HikaruBeatriz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1049957
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9248976,
+                                "name": "Gustmc",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 974687
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 9255557,
+                                "name": "Funny Furry | Meow",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1901182
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Semanal Ultra Arcade #36",
@@ -640,7 +897,8 @@
         "tournament_venueAddress": "Av. do Contorno, 6166 - Savassi, Belo Horizonte - MG, 38082-049, Brazil",
         "tournament_addrState": "MG",
         "tweet_id": 1486086319487033355,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "663119": {
         "id": 663119,
