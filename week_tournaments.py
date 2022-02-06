@@ -94,7 +94,10 @@ for account in accounts:
 
     for evento in events_post:
         # Dia
-        data_time = datetime.datetime.fromtimestamp(evento["startAt"], tz=pytz.timezone(accounts[account]["timezone"]))
+        data_time = datetime.datetime.fromtimestamp(
+            min(evento["tournament_registrationClosesAt"], evento["startAt"]),
+            tz=pytz.timezone(accounts[account]["timezone"])
+        )
         day = data_time.strftime(accounts[account]["text-week-events-timeformat"])
 
         if last_date != day:
@@ -166,12 +169,16 @@ for account in accounts:
                 
                 if evento.get("tournament_venueAddress"):
                     splitted = evento.get("tournament_venueAddress").split(",")
+                    if len(splitted) == 1:
+                        location += splitted[0]
+                    if len(splitted) == 2:
+                        location += splitted[0]
+                    if len(splitted) == 3:
+                        location += splitted[1]
                     if len(splitted) == 4:
                         location += splitted[-3]+", "+splitted[-2]
                     if len(splitted) == 5:
                         location += splitted[-3]
-                    if len(splitted) == 1:
-                        location += splitted[0]
             
             img.alpha_composite(icon_marker, (104+256+8, y+2+30))
 

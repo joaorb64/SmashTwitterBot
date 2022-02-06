@@ -75,12 +75,16 @@ def drawResults(event, standings, account):
     
     if event.get("tournament_venueAddress"):
       splitted = event.get("tournament_venueAddress").split(",")
-      if len(splitted) == 4:
-          location += splitted[-3]+", "+splitted[-2]
-      if len(splitted) == 5:
-          location += splitted[-3]
       if len(splitted) == 1:
-          location += splitted[0]
+        location += splitted[0]
+      if len(splitted) == 2:
+        location += splitted[0]
+      if len(splitted) == 3:
+        location += splitted[1]
+      if len(splitted) == 4:
+        location += splitted[-3]+", "+splitted[-2]
+      if len(splitted) == 5:
+        location += splitted[-3]
 
   title_text_bottom = ("Online" if event.get("isOnline") else location) + " - "
   title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
@@ -223,12 +227,16 @@ def drawResults8x9(event, standings, account, page=1):
     
     if event.get("tournament_venueAddress"):
       splitted = event.get("tournament_venueAddress").split(",")
-      if len(splitted) == 4:
-          location += splitted[-3]+", "+splitted[-2]
-      if len(splitted) == 5:
-          location += splitted[-3]
       if len(splitted) == 1:
-          location += splitted[0]
+        location += splitted[0]
+      if len(splitted) == 2:
+        location += splitted[0]
+      if len(splitted) == 3:
+        location += splitted[1]
+      if len(splitted) == 4:
+        location += splitted[-3]+", "+splitted[-2]
+      if len(splitted) == 5:
+        location += splitted[-3]
 
   title_text_bottom = ("Online" if event.get("isOnline") else location) + " - "
   title_text_bottom += str(standings.get("standings").get("pageInfo").get("total")) + " " + account["text-results-participants"]
