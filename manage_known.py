@@ -404,9 +404,10 @@ for account in accounts:
             placement_text += placement + " "
 
             twitter = entrant.get("entrant")
-            if twitter: twitter = twitter.get("participants")
-            if twitter: twitter = twitter[0].get("user")
-            if twitter: twitter = twitter.get("authorizations")
+            if len(twitter.get("participants")) == 1:
+              if twitter: twitter = twitter.get("participants", [{}])
+              if twitter: twitter = twitter[0].get("user", {})
+              if twitter: twitter = twitter.get("authorizations", None)
 
             if twitter:
               placement_text += "@" + str(twitter[0].get("externalUsername"))
