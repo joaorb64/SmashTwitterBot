@@ -950,8 +950,8 @@
         "id": 678857,
         "name": "Ultimate Matchmaking - Singles (13/02)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 9,
+        "state": "ACTIVE",
+        "numEntrants": 11,
         "videogame": {
             "id": 1386
         },
@@ -959,11 +959,60 @@
         "phaseGroups": [
             {
                 "id": 1677008,
+                "state": 2,
                 "phase": {
-                    "id": 1071831,
                     "name": "Matchmaking"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 9273129,
+                                "name": "TSD | PROGETO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "jfmacdowell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1599892
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 9317116,
+                                "name": "SPB | Demomengo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Fialhitos_Demo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1715190
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Polygon Stadium #38 - Smash Bros. Ultimate",
@@ -996,14 +1045,15 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1490748264722964484,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "678587": {
         "id": 678587,
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 7,
+        "numEntrants": 18,
         "videogame": {
             "id": 1386
         },
