@@ -5,6 +5,7 @@ import datetime
 import os
 
 def drawResults(event, standings, account):
+  print("Draw results")
   img = Image.new('RGBA', (1280, 720), color = (255, 255, 255, 255))
   results_template = Image.open('./results_template.png', 'r').convert("RGBA")
   player_bg = Image.open('./results_player.png', 'r').convert("RGBA")
@@ -12,7 +13,7 @@ def drawResults(event, standings, account):
   bannerUrl = None
   banner = None
 
-  if event.get("images", None) is not None:
+  if event.get("images", None) is not None and len(event.get("images")) > 0:
     bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
   
     if bannerUrl == None:
@@ -158,6 +159,7 @@ def drawResults(event, standings, account):
   img.save('media.png')
 
 def drawResults8x9(event, standings, account, page=1):
+  print("Draw results 8x9")
   img = Image.new('RGBA', (640, 720), color = (255, 255, 255, 255))
   results_template = Image.open('./results_template8x9.png', 'r').convert("RGBA")
   player_bg = Image.open('./results_player.png', 'r').convert("RGBA")
@@ -166,7 +168,7 @@ def drawResults8x9(event, standings, account, page=1):
   bannerUrl = None
   banner = None
 
-  if event.get("images", None) is not None:
+  if event.get("images", None) is not None and len(event.get("images")) > 0:
     bannerUrl = next((i["url"] for i in event["images"] if i["type"] == "banner"), None)
   
     if bannerUrl == None:
