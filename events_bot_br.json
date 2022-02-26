@@ -2208,7 +2208,11 @@
         "tournament_id": 422380,
         "city": "Centro",
         "url": "https://smash.gg/tournament/campeonato-de-jogos-de-luta/event/smash-bros-ultimate",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "fespms"
+            }
+        ],
         "timezone": "America/Campo_Grande",
         "tournament_startAt": 1645898400,
         "tournament_endAt": 1646013600,
@@ -2351,6 +2355,23 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 9406347,
+                                "name": "Airos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1696912
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 9377476,
                                 "name": "UA | piu",
                                 "participants": [
@@ -2385,23 +2406,6 @@
                                         },
                                         "player": {
                                             "id": 970727
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 9406347,
-                                "name": "Airos",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 1696912
                                         }
                                     }
                                 ]
@@ -2446,24 +2450,7 @@
                             }
                         },
                         {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 9414220,
-                                "name": "Gustmc",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 974687
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
+                            "placement": 7,
                             "entrant": {
                                 "id": 9373637,
                                 "name": "UA | Hikky",
@@ -2478,6 +2465,23 @@
                                         },
                                         "player": {
                                             "id": 1049957
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 9414220,
+                                "name": "Gustmc",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 974687
                                         }
                                     }
                                 ]
