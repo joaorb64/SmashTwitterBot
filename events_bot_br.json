@@ -476,7 +476,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 8,
+        "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
@@ -1324,7 +1324,7 @@
                             }
                         },
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 9475324,
                                 "name": "SPDQ | Delong",
@@ -1642,7 +1642,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 9548741,
                                 "name": "FT | Geova",
@@ -1657,6 +1657,27 @@
                                         },
                                         "player": {
                                             "id": 593068
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 9548753,
+                                "name": "PLG | Darshell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_BrunoBRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 345040
                                         }
                                     }
                                 ]
@@ -1747,27 +1768,6 @@
                             }
                         },
                         {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 9548753,
-                                "name": "PLG | Darshell",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "_BrunoBRS"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 345040
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 7,
                             "entrant": {
                                 "id": 9539140,
@@ -1825,13 +1825,393 @@
         "id": 693394,
         "name": "singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
         "startAt": 1647460800,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 1702028,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 7318665
+                    },
+                    {
+                        "id": 7318666
+                    },
+                    {
+                        "id": 7318667
+                    },
+                    {
+                        "id": 7318668
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9548740,
+                                "name": "FT | Geova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "geovanidu07"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 593068
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9508297,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9508299,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9539139,
+                                "name": "ProRD | p1kapau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "p1kapau"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 539662
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9548752,
+                                "name": "PLG | Darshell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_BrunoBRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 345040
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9545755,
+                                "name": "I\u0172 | Guigas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Guigas_Jr"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132917
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9547189,
+                                "name": "PLG | Berimbau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Emp_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1314824
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9546827,
+                                "name": "PLG | FF",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ffelizpe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 153642
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1702029,
+                "state": 1,
+                "phase": {
+                    "name": "Top 4"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9548740,
+                                "name": "FT | Geova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "geovanidu07"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 593068
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9546827,
+                                "name": "PLG | FF",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ffelizpe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 153642
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9539139,
+                                "name": "ProRD | p1kapau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "p1kapau"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 539662
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9508299,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9548752,
+                                "name": "PLG | Darshell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_BrunoBRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 345040
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9547189,
+                                "name": "PLG | Berimbau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Emp_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1314824
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9545755,
+                                "name": "I\u0172 | Guigas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Guigas_Jr"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132917
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9508297,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "Quarta Dureza #2",
         "tournament_id": 428189,
         "city": "Batel",
@@ -1858,7 +2238,8 @@
         "tournament_venueAddress": "Alameda Dr. Carlos de Carvalho, 805 - Batel, Curitiba - PR, 80410-180, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1502321408466210820,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "692384": {
         "id": 692384,
