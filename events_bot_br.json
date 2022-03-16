@@ -640,7 +640,7 @@
         "name": "Fase 3 (17/03)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 68,
+        "numEntrants": 69,
         "videogame": {
             "id": 1386
         },
@@ -741,7 +741,7 @@
         "name": "Fase 4 (24/02)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 64,
+        "numEntrants": 65,
         "videogame": {
             "id": 1386
         },
@@ -1303,7 +1303,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 9511401,
                                 "name": "FSN | Lukitu",
@@ -1622,13 +1622,176 @@
         "id": 693397,
         "name": "Squad Strike",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
         "startAt": 1647460800,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 1702032,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9545756,
+                                "name": "I\u0172 | Guigas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Guigas_Jr"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132917
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9547190,
+                                "name": "PLG | Berimbau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Emp_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1314824
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9548741,
+                                "name": "FT | Geova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "geovanidu07"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 593068
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9548753,
+                                "name": "PLG | Darshell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_BrunoBRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 345040
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9508298,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9546828,
+                                "name": "PLG | FF",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ffelizpe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 153642
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9539140,
+                                "name": "ProRD | p1kapau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "p1kapau"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 539662
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "Quarta Dureza #2",
         "tournament_id": 428189,
         "city": "Batel",
@@ -1655,7 +1818,8 @@
         "tournament_venueAddress": "Alameda Dr. Carlos de Carvalho, 805 - Batel, Curitiba - PR, 80410-180, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1502321403495915523,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "693394": {
         "id": 693394,
