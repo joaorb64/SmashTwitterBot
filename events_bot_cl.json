@@ -1005,7 +1005,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 9,
+                            "placement": 5,
                             "entrant": {
                                 "id": 9665341,
                                 "name": "Toon",
@@ -1037,6 +1037,44 @@
                                         },
                                         "player": {
                                             "id": 1844202
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 9675285,
+                                "name": "IceKingPenguin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 530473
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 9665333,
+                                "name": "Hb2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pablo_Hb2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 131600
                                         }
                                     }
                                 ]
@@ -1108,6 +1146,27 @@
                         {
                             "placement": 9,
                             "entrant": {
+                                "id": 9665342,
+                                "name": "Elden",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Elden_YL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1590533
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
                                 "id": 9665344,
                                 "name": "TioVoctor",
                                 "participants": [
@@ -1148,6 +1207,21 @@
                             }
                         },
                         {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 9665347,
+                                "name": "TSB| Jiko",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 1440806
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 13,
                             "entrant": {
                                 "id": 9665351,
@@ -1159,44 +1233,6 @@
                                         },
                                         "player": {
                                             "id": 1964071
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 9675285,
-                                "name": "IceKingPenguin",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 530473
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 9665333,
-                                "name": "Hb2",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Pablo_Hb2"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 131600
                                         }
                                     }
                                 ]
@@ -1233,27 +1269,6 @@
                                         },
                                         "player": {
                                             "id": 2662970
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 9665342,
-                                "name": "Elden",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Elden_YL"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1590533
                                         }
                                     }
                                 ]
@@ -1300,21 +1315,6 @@
                                     }
                                 ]
                             }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 9665347,
-                                "name": "TSB| Jiko",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 1440806
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     ]
                 }
@@ -1353,8 +1353,8 @@
         "id": 701263,
         "name": "Singles",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 16,
+        "state": "ACTIVE",
+        "numEntrants": 15,
         "videogame": {
             "id": 1386
         },
@@ -1362,11 +1362,17 @@
         "phaseGroups": [
             {
                 "id": 1715553,
+                "state": 2,
                 "phase": {
-                    "id": 1100396,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "FOCUS #9",
@@ -1399,7 +1405,8 @@
         "tournament_venueAddress": "Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": 1509927801146781704,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "703174": {
         "id": 703174,
