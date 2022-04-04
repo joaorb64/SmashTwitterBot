@@ -161,11 +161,18 @@ for account in accounts:
           print("Evento ativo ou completo - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
           r = requests.post(
-            'https://api.smash.gg/gql/alpha',
+            "https://smash.gg/api/-/gql",
             headers={
-              'Authorization': 'Bearer'+SMASHGG_KEY,
+              "client-version": "19",
+              'Content-Type': 'application/json'
             },
             json={
+              "operationName": "EventStandings",
+              "variables": {
+                "eventId": events_json[evento]["id"],
+                "page": 1,
+                "perPage": 16
+              },
               'query': '''
                 query EventStandings($eventId: ID!, $page: Int!, $perPage: Int!) {
                   event(id: $eventId) {
@@ -232,11 +239,6 @@ for account in accounts:
                   }
                 },
               ''',
-              'variables': {
-                "eventId": events_json[evento]["id"],
-                "page": 1,
-                "perPage": 16
-              },
             }
           )
           resp = json.loads(r.text)
