@@ -1671,6 +1671,48 @@
                     },
                     "nodes": [
                         {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 9740498,
+                                "name": "FSN | Lukitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukituRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 390907
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9697931,
+                                "name": "rtb",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RodrigoTB03"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1813568
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 9740604,
@@ -1705,21 +1747,21 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 5,
                             "entrant": {
-                                "id": 9697931,
-                                "name": "rtb",
+                                "id": 9700097,
+                                "name": "SPDQ | Delong",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "RodrigoTB03"
+                                                    "externalUsername": "HenriDelong"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 1813568
+                                            "id": 1660190
                                         }
                                     }
                                 ]
@@ -1745,44 +1787,6 @@
                         {
                             "placement": 7,
                             "entrant": {
-                                "id": 9740498,
-                                "name": "FSN | Lukitu",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "LukituRS"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 390907
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 9744625,
-                                "name": "Xiannn",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 2408757
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 9716498,
                                 "name": "Zen",
                                 "participants": [
@@ -1802,21 +1806,17 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 7,
                             "entrant": {
-                                "id": 9700097,
-                                "name": "SPDQ | Delong",
+                                "id": 9744625,
+                                "name": "Xiannn",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "HenriDelong"
-                                                }
-                                            ]
+                                            "authorizations": []
                                         },
                                         "player": {
-                                            "id": 1660190
+                                            "id": 2408757
                                         }
                                     }
                                 ]
@@ -2084,7 +2084,24 @@
                     "nodes": [
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 9740498,
+                                "name": "FSN | Lukitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukituRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 390907
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
@@ -2204,7 +2221,20 @@
                         },
                         {
                             "placement": 5,
-                            "entrant": null
+                            "entrant": {
+                                "id": 9744625,
+                                "name": "Xiannn",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2408757
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 5,
@@ -2212,7 +2242,20 @@
                         },
                         {
                             "placement": 5,
-                            "entrant": null
+                            "entrant": {
+                                "id": 9708743,
+                                "name": "Mat",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1554746
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -2808,7 +2851,7 @@
         "id": 705874,
         "name": "Smatch\u00ea das guria",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -2817,11 +2860,176 @@
         "phaseGroups": [
             {
                 "id": 1723346,
+                "state": 2,
                 "phase": {
-                    "id": 1106190,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 7392259
+                    },
+                    {
+                        "id": 7392260
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 9724838,
+                                "name": "Marx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 981615
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 9734705,
+                                "name": "Jango",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2726533
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 9718554,
+                                "name": "nabru",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2621209
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 9718862,
+                                "name": "Marine Maker",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2709878
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1725875,
+                "state": 1,
+                "phase": {
+                    "name": "Grand Finals"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 9718554,
+                                "name": "nabru",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2621209
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 9718862,
+                                "name": "Marine Maker",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2709878
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 9724838,
+                                "name": "Marx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 981615
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 9734705,
+                                "name": "Jango",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2726533
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smatch\u00ea #12",
@@ -2850,7 +3058,8 @@
         "tournament_venueAddress": "Pra\u00e7a S\u00e3o Caetano, 90 - Teres\u00f3polis, Porto Alegre - RS, 91720-420, Brasil",
         "tournament_addrState": "RS",
         "tweet_id": 1511822787018690567,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "706868": {
         "id": 706868,
