@@ -1842,6 +1842,27 @@
                             }
                         },
                         {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 9701452,
+                                "name": "TetrisRS | Lampi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lampiaio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 37778
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 7,
                             "entrant": {
                                 "id": 9700097,
@@ -1857,27 +1878,6 @@
                                         },
                                         "player": {
                                             "id": 1660190
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 9701452,
-                                "name": "TetrisRS | Lampi",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "lampiaio"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 37778
                                         }
                                     }
                                 ]
@@ -2160,7 +2160,7 @@
             },
             {
                 "id": 1715673,
-                "state": 1,
+                "state": 3,
                 "phase": {
                     "name": "Class B Finals"
                 },
@@ -2170,27 +2170,6 @@
                         "total": 2
                     },
                     "nodes": [
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 9716498,
-                                "name": "Zen",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Enzo_Gulity"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1743417
-                                        }
-                                    }
-                                ]
-                            }
-                        },
                         {
                             "placement": 1,
                             "entrant": {
@@ -2210,6 +2189,61 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Byleth": {
+                                    "name": "Byleth",
+                                    "usage": 8,
+                                    "icon": "https://images.smash.gg/images/character/1539/image-b55837a85330e90ae6390927cfec51c4.png"
+                                },
+                                "Lucina": {
+                                    "name": "Lucina",
+                                    "usage": 3,
+                                    "icon": "https://images.smash.gg/images/character/1300/image-37b6105a4f599756c3c599e30ef69927.png"
+                                },
+                                "Cloud": {
+                                    "name": "Cloud",
+                                    "usage": 2,
+                                    "icon": "https://images.smash.gg/images/character/1275/image-354129bab0aa613d617cbb3ff095a70a.png"
+                                }
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 9716498,
+                                "name": "Zen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Enzo_Gulity"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1743417
+                                        }
+                                    }
+                                ]
+                            },
+                            "char_usage": {
+                                "Palutena": {
+                                    "name": "Palutena",
+                                    "usage": 7,
+                                    "icon": "https://images.smash.gg/images/character/1316/image-3fab6611ff1cb12578ef5bed59c42ec3.png"
+                                },
+                                "Young Link": {
+                                    "name": "Young Link",
+                                    "usage": 3,
+                                    "icon": "https://images.smash.gg/images/character/1339/image-b32ed8337c8a9f5c42ad80806b77afd9.png"
+                                },
+                                "Fox": {
+                                    "name": "Fox",
+                                    "usage": 1,
+                                    "icon": "https://images.smash.gg/images/character/1286/image-14f14c0145535ab65ae8c2bdd9196b3d.png"
+                                }
                             }
                         }
                     ]
@@ -2244,7 +2278,9 @@
         "tournament_addrState": "RS",
         "tweet_id": 1511076139141378048,
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": []
+        "postedPhaseResultIds": [
+            1715673
+        ]
     },
     "705370": {
         "id": 705370,
