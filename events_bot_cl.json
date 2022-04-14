@@ -1631,7 +1631,7 @@
         "id": 709546,
         "name": "Ultimate Pro Bracket",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -1640,11 +1640,174 @@
         "phaseGroups": [
             {
                 "id": 1729208,
+                "state": 2,
                 "phase": {
-                    "id": 1110715,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9776227,
+                                "name": "DDC | Wise",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "WiseSBC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1029315
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9776236,
+                                "name": "SSF | Capi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Capi_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 411556
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9776223,
+                                "name": "SSF SP | Darkness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 265926
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9776212,
+                                "name": "AL | Hardav",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 565688
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9776217,
+                                "name": "OW | CM | Toon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ToonJorgitox"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1250001
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9776229,
+                                "name": "0TD | Braixen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BunnyBraixen"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 293126
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9776228,
+                                "name": "LAOZ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 64367
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 9776216,
+                                "name": "OW | Castle",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CastleChrom"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1250268
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "One Way: Stars #2 - Pro & Open Bracket",
@@ -1676,6 +1839,7 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Los Leones 2384, Santiago, Providencia, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
-        "tweet_id": 1514495414493450242
+        "tweet_id": 1514495414493450242,
+        "postedPhaseResultIds": []
     }
 }
