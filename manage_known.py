@@ -161,7 +161,7 @@ for account in accounts:
           print("Evento ativo ou completo - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
           r = requests.post(
-            "https://start.gg/api/-/gql",
+            "https://www.start.gg/api/-/gql",
             headers={
               "client-version": "20",
               'Content-Type': 'application/json'
