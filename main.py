@@ -40,12 +40,12 @@ for account in accounts:
       events_json = {}
 
     print("Get character list")
-    f = requests.get("https://api.smash.gg/characters?videogameId="+accounts[account]["videogameid"])
+    f = requests.get("https://api.start.gg/characters?videogameId="+accounts[account]["videogameid"])
     characters_json = json.loads(f.text)["entities"]
 
-    print("Get tournaments in smashgg")
+    print("Get tournaments in startgg")
     r = requests.post(
-      'https://api.smash.gg/gql/alpha',
+      'https://api.start.gg/gql/alpha',
       headers={
         'Authorization': 'Bearer'+SMASHGG_KEY,
       },
@@ -90,7 +90,7 @@ for account in accounts:
 
     for tournament in data:
       r = requests.post(
-        'https://api.smash.gg/gql/alpha',
+        'https://api.start.gg/gql/alpha',
         headers={
           'Authorization': 'Bearer'+SMASHGG_KEY,
         },
@@ -170,7 +170,7 @@ for account in accounts:
           event["tournament"] = tournament_data["name"]
           event["tournament_id"] = tournament_data["id"]
           event["city"] = tournament_data["city"]
-          event["url"] = "https://smash.gg"+tournament_data["url"]
+          event["url"] = "https://start.gg"+tournament_data["url"]
           event["streams"] = tournament_data["streams"]
           event["timezone"] = tournament_data["timezone"]
           event["tournament_startAt"] = tournament_data["startAt"]

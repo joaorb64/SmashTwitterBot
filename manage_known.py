@@ -40,7 +40,7 @@ for account in accounts:
     f = open('events_'+account+'.json')
     events_json = json.load(f)
 
-    f = requests.get("https://api.smash.gg/characters?videogameId="+accounts[account]["videogameid"])
+    f = requests.get("https://api.start.gg/characters?videogameId="+accounts[account]["videogameid"])
     characters_json = json.loads(f.text)["entities"]
 
     # Deletar eventos passados, se nao standings, mensagem de inicio de torneio
@@ -49,7 +49,7 @@ for account in accounts:
 
       try:
         r = requests.post(
-          'https://api.smash.gg/gql/alpha',
+          'https://api.start.gg/gql/alpha',
           headers={
             'Authorization': 'Bearer'+SMASHGG_KEY,
           },
@@ -148,7 +148,7 @@ for account in accounts:
         events_json[evento]["streams"] = data["tournament"]["streams"]
         events_json[evento]["images"] = data["tournament"]["images"]
         events_json[evento]["tournament_multievent"] = False if smash_ultimate_tournaments <= 1 else True
-        events_json[evento]["url"] = "https://smash.gg/"+data["slug"]
+        events_json[evento]["url"] = "https://start.gg/"+data["slug"]
 
         # Evento que nunca foi finalizado (depois de 5 dias)
         if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=5).total_seconds() and data["state"] == 'ACTIVE':
@@ -161,9 +161,9 @@ for account in accounts:
           print("Evento ativo ou completo - " + events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
 
           r = requests.post(
-            "https://smash.gg/api/-/gql",
+            "https://start.gg/api/-/gql",
             headers={
-              "client-version": "19",
+              "client-version": "20",
               'Content-Type': 'application/json'
             },
             json={
@@ -277,7 +277,7 @@ for account in accounts:
 
             for entrant in phase["standings"]["nodes"]:
               r = requests.post(
-                'https://api.smash.gg/gql/alpha',
+                'https://api.start.gg/gql/alpha',
                 headers={
                   'Authorization': 'Bearer'+SMASHGG_KEY,
                 },
