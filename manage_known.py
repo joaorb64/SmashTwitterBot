@@ -123,6 +123,13 @@ for account in accounts:
         if data == None:
           print(r.text)
           print("Evento sumiu...?")
+          if not events_json[evento].get("retries"):
+            events_json[evento]["retries"] = 1
+          else:
+            events_json[evento]["retries"] = int(events_json[evento]["retries"]) + 1
+          print(f"Retries: {events_json[evento]['retries']}")
+          if int(events_json[evento]['retries']) > 50:
+            events_json.pop(evento)
           continue
 
         smash_ultimate_tournaments = 0

@@ -179,8 +179,7 @@ def drawResults8x9(event, standings, account, page=1):
     banner = Image.open(BytesIO(response.content)).convert("RGBA")
   else:
     banner = Image.open("banner/"+account["game"]+".png").convert("RGBA")
-  
-  banner = Image.open(BytesIO(response.content)).convert("RGBA")
+
   banner_w, banner_h = banner.size
 
   goal_w = 640
