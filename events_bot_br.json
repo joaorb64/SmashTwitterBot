@@ -2004,7 +2004,7 @@
         "id": 727759,
         "name": "singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -2013,41 +2013,102 @@
         "phaseGroups": [
             {
                 "id": 1762416,
+                "state": 2,
                 "phase": {
-                    "id": 1134340,
                     "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 7537638
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
                     },
-                    {
-                        "id": 7537640
-                    }
-                ]
-            },
-            {
-                "id": 1762417,
-                "phase": {
-                    "id": 1134340,
-                    "name": "Bracket"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 7537639
-                    },
-                    {
-                        "id": 7537641
-                    }
-                ]
-            },
-            {
-                "id": 1762418,
-                "phase": {
-                    "id": 1134341,
-                    "name": "Top 4"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10121179,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10121181,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10121930,
+                                "name": "CNTR | Precs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "precs_ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 137426
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10122823,
+                                "name": "Guigas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Guigas_Jr"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132917
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Quarta Dureza #6",
@@ -2076,6 +2137,7 @@
         "tournament_venueAddress": "Alameda Dr. Carlos de Carvalho, 805 - Batel, Curitiba - PR, 80410-180, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1529206095864074241,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
