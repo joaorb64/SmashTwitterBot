@@ -2200,6 +2200,48 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 10216238,
+                                "name": "mZuzek",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mzuzek_vol2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 138416
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 10220002,
+                                "name": "PLG | Darshell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_BrunoBRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 345040
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 10215978,
                                 "name": "WasF | Discord",
                                 "participants": [
@@ -2240,6 +2282,27 @@
                             }
                         },
                         {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10182548,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 10218553,
@@ -2272,27 +2335,6 @@
                                         },
                                         "player": {
                                             "id": 969327
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 10182548,
-                                "name": "ProRD | frodO",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "andreyfrodo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 156155
                                         }
                                     }
                                 ]
@@ -2346,48 +2388,6 @@
                                         "user": null,
                                         "player": {
                                             "id": 2825158
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 10216238,
-                                "name": "mZuzek",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "mzuzek_vol2"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 138416
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 10220002,
-                                "name": "PLG | Darshell",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "_BrunoBRS"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 345040
                                         }
                                     }
                                 ]
@@ -2452,7 +2452,11 @@
         "tournament_id": 450010,
         "city": "Boa Vista",
         "url": "https://start.gg/tournament/smashed-potatoes-piloto/event/singles",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "tryhardsmash"
+            }
+        ],
         "timezone": "America/Sao_Paulo",
         "tournament_startAt": 1654452000,
         "tournament_endAt": 1654477200,
