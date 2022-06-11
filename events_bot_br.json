@@ -420,7 +420,7 @@
         "name": "Ultimate  Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 30,
+        "numEntrants": 36,
         "videogame": {
             "id": 1386
         },
@@ -2194,7 +2194,7 @@
         "phaseGroups": [
             {
                 "id": 1773323,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Pools"
                 },
@@ -2226,6 +2226,27 @@
                         "total": 7
                     },
                     "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 10268189,
+                                "name": "Mr.Zitu | Mr.Zitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MrZitu07"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1635553
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 3,
                             "entrant": {
@@ -2265,21 +2286,17 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
-                                "id": 10268189,
-                                "name": "Mr.Zitu | Mr.Zitu",
+                                "id": 10254409,
+                                "name": "Buttelli",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MrZitu07"
-                                                }
-                                            ]
+                                            "authorizations": []
                                         },
                                         "player": {
-                                            "id": 1635553
+                                            "id": 380109
                                         }
                                     }
                                 ]
@@ -2339,30 +2356,13 @@
                                     }
                                 ]
                             }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 10254409,
-                                "name": "Buttelli",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 380109
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     ]
                 }
             },
             {
                 "id": 1773324,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Pools"
                 },
@@ -2434,28 +2434,7 @@
                             }
                         },
                         {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 10228038,
-                                "name": "Delabari",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "dela__bari"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 253270
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 10227684,
                                 "name": "SmashRS | Fonsie",
@@ -2472,7 +2451,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 10257352,
                                 "name": "TetrisRS | Lampi",
@@ -2487,6 +2466,27 @@
                                         },
                                         "player": {
                                             "id": 37778
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 10228038,
+                                "name": "Delabari",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dela__bari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 253270
                                         }
                                     }
                                 ]
@@ -2589,19 +2589,79 @@
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 10268189,
+                                "name": "Mr.Zitu | Mr.Zitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MrZitu07"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1635553
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 10254409,
+                                "name": "Buttelli",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 380109
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 10227684,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 373972
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 10257352,
+                                "name": "TetrisRS | Lampi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lampiaio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 37778
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
@@ -2642,7 +2702,24 @@
                     "nodes": [
                         {
                             "placement": 3,
-                            "entrant": null
+                            "entrant": {
+                                "id": 10268184,
+                                "name": "Zen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Enzo_Gulity"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1743417
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 3,
@@ -2699,11 +2776,41 @@
                     "nodes": [
                         {
                             "placement": 2,
-                            "entrant": null
+                            "entrant": {
+                                "id": 10228038,
+                                "name": "Delabari",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dela__bari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 253270
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 2,
-                            "entrant": null
+                            "entrant": {
+                                "id": 10235681,
+                                "name": "Alteron",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 256706
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
