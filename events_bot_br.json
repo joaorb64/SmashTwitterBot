@@ -2781,7 +2781,7 @@
         "id": 734399,
         "name": "singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -2790,29 +2790,98 @@
         "phaseGroups": [
             {
                 "id": 1774351,
+                "state": 2,
                 "phase": {
-                    "id": 1142778,
                     "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 7584618
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
                     },
-                    {
-                        "id": 7584619
-                    },
-                    {
-                        "id": 7584620
-                    }
-                ]
-            },
-            {
-                "id": 1774352,
-                "phase": {
-                    "id": 1142779,
-                    "name": "Top 3"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10235404,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10244935,
+                                "name": "Metafee",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1088138
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10296876,
+                                "name": "Muddy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Muddy257"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 135520
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10305414,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Quarta Dureza #8",
@@ -2841,7 +2910,8 @@
         "tournament_venueAddress": "Alameda Dr. Carlos de Carvalho, 805 - Batel, Curitiba - PR, 80410-180, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1534215401080487943,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "728496": {
         "id": 728496,
