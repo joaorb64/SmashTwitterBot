@@ -4401,13 +4401,14 @@
         "tournament_venueAddress": "Pra\u00e7a S\u00e3o Caetano, 90 - Teres\u00f3polis, Porto Alegre - RS, 91720-420, Brasil",
         "tournament_addrState": "RS",
         "tweet_id": 1537072988859908098,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "retries": 1
     },
     "738365": {
         "id": 738365,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -4416,85 +4417,302 @@
         "phaseGroups": [
             {
                 "id": 1781023,
+                "state": 2,
                 "phase": {
-                    "id": 1147853,
                     "name": "Pools"
                 },
                 "progressionsOut": [
                     {
-                        "id": 7610289
+                        "id": 7635209
                     },
                     {
-                        "id": 7610291
-                    },
-                    {
-                        "id": 7610293
-                    },
-                    {
-                        "id": 7610295
+                        "id": 7635210
                     }
-                ]
-            },
-            {
-                "id": 1781024,
-                "phase": {
-                    "id": 1147853,
-                    "name": "Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 7610290
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
                     },
-                    {
-                        "id": 7610292
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 10339666,
+                                "name": "FSN | Lukitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukituRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 390907
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 10304909,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 373972
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 10338626,
+                                "name": "Delabari",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dela__bari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 253270
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10306598,
+                                "name": "TetrisRS | Lampi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lampiaio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 37778
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 10320477,
+                                "name": "Marx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 981615
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 10339206,
+                                "name": "Shao",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 253351
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10339521,
+                                "name": "Buttelli",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 380109
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1784931,
+                "state": 1,
+                "phase": {
+                    "name": "Grand Finals"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
                     },
-                    {
-                        "id": 7610294
-                    },
-                    {
-                        "id": 7610296
-                    }
-                ]
-            },
-            {
-                "id": 1781025,
-                "phase": {
-                    "id": 1147854,
-                    "name": "Top 8"
-                },
-                "progressionsOut": null
-            },
-            {
-                "id": 1781026,
-                "phase": {
-                    "id": 1147855,
-                    "name": "Class B Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 7610297
-                    }
-                ]
-            },
-            {
-                "id": 1781027,
-                "phase": {
-                    "id": 1147855,
-                    "name": "Class B Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 7610298
-                    }
-                ]
-            },
-            {
-                "id": 1781028,
-                "phase": {
-                    "id": 1147856,
-                    "name": "Class B Finals"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10304909,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 373972
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10306598,
+                                "name": "TetrisRS | Lampi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lampiaio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 37778
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10320477,
+                                "name": "Marx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 981615
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10338626,
+                                "name": "Delabari",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dela__bari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 253270
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10339206,
+                                "name": "Shao",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 253351
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10339521,
+                                "name": "Buttelli",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 380109
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10339666,
+                                "name": "FSN | Lukitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukituRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 390907
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smatch\u00ea #16",
@@ -4518,11 +4736,12 @@
                 "type": "profile"
             }
         ],
-        "tournament_multievent": true,
+        "tournament_multievent": false,
         "tournament_venueName": null,
         "tournament_venueAddress": "Pra\u00e7a S\u00e3o Caetano, 90 - Teres\u00f3polis, Porto Alegre - RS, 91720-420, Brasil",
         "tournament_addrState": "RS",
         "tweet_id": 1537072993750470656,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
