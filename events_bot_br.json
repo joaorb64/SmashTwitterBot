@@ -4766,7 +4766,7 @@
         "id": 758144,
         "name": "singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -4775,32 +4775,102 @@
         "phaseGroups": [
             {
                 "id": 1818133,
+                "state": 2,
                 "phase": {
-                    "id": 1173684,
                     "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 7780437
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
                     },
-                    {
-                        "id": 7780438
-                    },
-                    {
-                        "id": 7780439
-                    },
-                    {
-                        "id": 7780440
-                    }
-                ]
-            },
-            {
-                "id": 1818134,
-                "phase": {
-                    "id": 1173685,
-                    "name": "top 4"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10717060,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10717061,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10736118,
+                                "name": "PLG | FF",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ffelizpe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 153642
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 10738228,
+                                "name": "Guigas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Guigas_Jr"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132917
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Ter\u00e7a Tryhard #24",
@@ -4829,7 +4899,8 @@
         "tournament_venueAddress": "Alameda Dr. Carlos de Carvalho, 805 - Batel, Curitiba - PR, 80410-180, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1552327914586361856,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "758151": {
         "id": 758151,
