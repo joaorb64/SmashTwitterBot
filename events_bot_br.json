@@ -3812,7 +3812,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Bar\u00e3o de Indai\u00e1, 639 - Flores, Manaus - AM, 69058-448, Brasil",
         "tournament_addrState": "AM",
-        "tweet_id": 1549152507221401601
+        "tweet_id": 1549152507221401601,
+        "postedRegistrationClosing": true
     },
     "755880": {
         "id": 755880,
@@ -4160,13 +4161,14 @@
         "tournament_venueAddress": "R. Estados Unidos, 2175 - Boa Vista, Curitiba - PR, 82540-030, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1552331735748481024,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "retries": 1
     },
     "758150": {
         "id": 758150,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -4175,8 +4177,8 @@
         "phaseGroups": [
             {
                 "id": 1818143,
+                "state": 2,
                 "phase": {
-                    "id": 1173692,
                     "name": "Bracket"
                 },
                 "progressionsOut": [
@@ -4192,15 +4194,353 @@
                     {
                         "id": 7780471
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10717132,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10717133,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10736478,
+                                "name": "Muddy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Muddy257"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 135520
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10774332,
+                                "name": "Discord",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Discord_Ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 157364
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10774378,
+                                "name": "mZuzek",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mzuzek_vol2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 138416
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10777247,
+                                "name": "Guigas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Guigas_Jr"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132917
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10778648,
+                                "name": "F-Zero",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FZeRoW"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 472371
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10778743,
+                                "name": "power",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2954483
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 1818144,
+                "state": 1,
                 "phase": {
-                    "id": 1173693,
                     "name": "Top 4"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10774378,
+                                "name": "mZuzek",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mzuzek_vol2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 138416
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10778743,
+                                "name": "power",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2954483
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10736478,
+                                "name": "Muddy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Muddy257"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 135520
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10778648,
+                                "name": "F-Zero",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FZeRoW"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 472371
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10774332,
+                                "name": "Discord",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Discord_Ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 157364
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10777247,
+                                "name": "Guigas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Guigas_Jr"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132917
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10717133,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10717132,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smashed Potatoes #2",
@@ -4228,12 +4568,13 @@
                 "type": "banner"
             }
         ],
-        "tournament_multievent": true,
+        "tournament_multievent": false,
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Estados Unidos, 2175 - Boa Vista, Curitiba - PR, 82540-030, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1552331740714307585,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "759321": {
         "id": 759321,
