@@ -1212,7 +1212,7 @@
         "id": 768272,
         "name": "Street Fighter V",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 33990
@@ -1221,11 +1221,186 @@
         "phaseGroups": [
             {
                 "id": 1836204,
+                "state": 2,
                 "phase": {
-                    "id": 1186776,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10868423,
+                                "name": "Shodown | ChuChu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "chuchuzera1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 639236
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10868445,
+                                "name": "TUQ | -Zenith",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "elphael"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 701233
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10868435,
+                                "name": "FSN | DEMITRI",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DEMITRI_FGCSP"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1074502
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10868436,
+                                "name": "FSN | Zangief_bolado",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BoladoZangief"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1408573
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10868424,
+                                "name": "RZR OC | Keoma",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Keoma89"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358441
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10868443,
+                                "name": "Shodown | | NieL_",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NieL_Messatsu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1279367
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10868433,
+                                "name": "Shodown | HKDASH",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "bego_elton"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358891
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 10868438,
+                                "name": "GamesCare | Gust",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gust_FGC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1557310
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Bar Fight Campe\u00f5es",
@@ -1258,6 +1433,7 @@
         "tournament_venueAddress": "Av. Ayrton Senna da Silva, 611 - Box 90 - Xixova, Praia Grande - SP, 11726-500, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": 1560243824852606977,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
