@@ -1176,7 +1176,7 @@
         "id": 778630,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 21,
         "videogame": {
             "id": 1386
@@ -1185,11 +1185,17 @@
         "phaseGroups": [
             {
                 "id": 1853807,
+                "state": 2,
                 "phase": {
-                    "id": 1199982,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "NOT DM 29",
@@ -1218,6 +1224,7 @@
         "tournament_venueAddress": "Valent\u00edn Letelier, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": 1567208580750663680,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
