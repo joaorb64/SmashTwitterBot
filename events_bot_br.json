@@ -4173,7 +4173,7 @@
         "id": 788643,
         "name": "Ultimate Cup",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 37,
         "videogame": {
             "id": 1386
@@ -4182,8 +4182,8 @@
         "phaseGroups": [
             {
                 "id": 1871324,
+                "state": 2,
                 "phase": {
-                    "id": 1212844,
                     "name": "Matchmaking"
                 },
                 "progressionsOut": [
@@ -4211,15 +4211,183 @@
                     {
                         "id": 7998995
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 11377244,
+                                "name": "Counter | Offline",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Offline_SL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2345480
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 11289545,
+                                "name": "FT | PRWN | Pseudo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1846485
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1871324,
+                "state": 2,
+                "phase": {
+                    "name": "Matchmaking"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 7998988
+                    },
+                    {
+                        "id": 7998989
+                    },
+                    {
+                        "id": 7998990
+                    },
+                    {
+                        "id": 7998991
+                    },
+                    {
+                        "id": 7998992
+                    },
+                    {
+                        "id": 7998993
+                    },
+                    {
+                        "id": 7998994
+                    },
+                    {
+                        "id": 7998995
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 11377244,
+                                "name": "Counter | Offline",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Offline_SL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2345480
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 11289545,
+                                "name": "FT | PRWN | Pseudo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1846485
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 1871325,
+                "state": 1,
                 "phase": {
-                    "id": 1212845,
                     "name": "Victory Road (Top 8)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 11377244,
+                                "name": "Counter | Offline",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Offline_SL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2345480
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 10,
+                            "entrant": {
+                                "id": 11289545,
+                                "name": "FT | PRWN | Pseudo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1846485
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Polygon Stadium SP #1",
@@ -4252,7 +4420,8 @@
         "tournament_venueAddress": "Av. Cruzeiro do Sul, 1100 - Canind\u00e9, S\u00e3o Paulo - SP, 03033-020, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": 1574105184984338432,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "790922": {
         "id": 790922,
@@ -4624,7 +4793,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Manaus, State of Amazonas, Brazil",
         "tournament_addrState": "AM",
-        "tweet_id": 1579133393064714241
+        "tweet_id": 1579133393064714241,
+        "postedRegistrationClosing": true
     },
     "795216": {
         "id": 795216,
