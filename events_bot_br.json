@@ -5303,7 +5303,7 @@
         "id": 796019,
         "name": "Ultimate 1x1",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -5312,8 +5312,8 @@
         "phaseGroups": [
             {
                 "id": 1883362,
+                "state": 2,
                 "phase": {
-                    "id": 1222181,
                     "name": "Matchmaking"
                 },
                 "progressionsOut": [
@@ -5323,15 +5323,27 @@
                     {
                         "id": 8058235
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             },
             {
                 "id": 1889274,
+                "state": 1,
                 "phase": {
-                    "id": 1226680,
                     "name": "Victory Road"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Dia de Treino LMS #1",
@@ -5364,7 +5376,8 @@
         "tournament_venueAddress": "Hiper Center Comper Jardim dos Estados 45 - Av. Cear\u00e1, 1553 - loja 31 - Jardim dos Estados, Campo Grande - MS, 79020-360, Brasil",
         "tournament_addrState": "MS",
         "tweet_id": 1580632012419137536,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "800077": {
         "id": 800077,
