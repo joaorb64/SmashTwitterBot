@@ -790,7 +790,7 @@
         "name": "Street Fighter V: Champion Edition",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 21,
+        "numEntrants": 22,
         "videogame": {
             "id": 33990
         },
@@ -1072,7 +1072,7 @@
         "id": 774333,
         "name": "Last Chance do 8\u00ba Circuito de SFV",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 33990
@@ -1081,8 +1081,8 @@
         "phaseGroups": [
             {
                 "id": 1846575,
+                "state": 2,
                 "phase": {
-                    "id": 1194576,
                     "name": "TABELA GERAL"
                 },
                 "progressionsOut": [
@@ -1110,15 +1110,188 @@
                     {
                         "id": 7909918
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11405638,
+                                "name": "Thiaguinhor9",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "thiaguinhor9"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1466029
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11405644,
+                                "name": "Bounce | HorusPaulin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HorusPaulin"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1135542
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11405651,
+                                "name": "Shodown | Jah_lexe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JahLexe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 662584
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11405661,
+                                "name": "C0rr34",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Correa_pg"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 787874
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11405664,
+                                "name": "M.M | BlackNinja_XxX_",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1718348
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11405668,
+                                "name": "archlion",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1897667
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11405675,
+                                "name": "RAS-STYLE | FENNIXX_RAS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FENNIXX_FGC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2286025
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11405680,
+                                "name": "Carlos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "SoCarlos_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 638281
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 1846576,
+                "state": 1,
                 "phase": {
-                    "id": 1194577,
                     "name": "TOP 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "PogChamp 104",
@@ -1151,7 +1324,8 @@
         "tournament_venueAddress": "Rio de Janeiro, RJ, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": 1564479295262806018,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "774335": {
         "id": 774335,
