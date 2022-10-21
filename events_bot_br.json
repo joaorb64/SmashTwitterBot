@@ -4167,7 +4167,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Cruzeiro do Sul, 1100 - Canind\u00e9, S\u00e3o Paulo - SP, 03033-020, Brasil",
         "tournament_addrState": "SP",
-        "tweet_id": 1573840974337409032
+        "tweet_id": 1573840974337409032,
+        "postedRegistrationClosing": true
     },
     "790922": {
         "id": 790922,
@@ -4332,6 +4333,23 @@
                         {
                             "placement": 4,
                             "entrant": {
+                                "id": 11299818,
+                                "name": "Mirror",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 3052983
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
                                 "id": 11441936,
                                 "name": "Loo1",
                                 "participants": [
@@ -4345,23 +4363,6 @@
                                         },
                                         "player": {
                                             "id": 2383921
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 11299818,
-                                "name": "Mirror",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 3052983
                                         }
                                     }
                                 ]
@@ -4953,7 +4954,7 @@
             },
             {
                 "id": 1881193,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Liga S"
                 },
@@ -4964,7 +4965,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 11317339,
                                 "name": "TSD | Tsuru",
@@ -4982,6 +4983,23 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Fox": {
+                                    "name": "Fox",
+                                    "usage": 14,
+                                    "icon": "https://images.start.gg/images/character/1286/image-14f14c0145535ab65ae8c2bdd9196b3d.png?ehk=2oW7ljOur3UsR5V%2BED5qSS5LTKFwPC%2FqNzfOch%2BaIrQ%3D&ehkOptimized=xv9t9yJ5ot2jcn4H%2FLhbWJV%2B4dinb1H%2BUmn9lBhCYs8%3D"
+                                },
+                                "Kazuya": {
+                                    "name": "Kazuya",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1846/image-3396c2649f5e7ef0197aca3ac2c12970.png?ehk=3d93OYuJcYS6cV0LlLPW7mgmMHcbr2kK8A%2BOWUJLbAQ%3D&ehkOptimized=V4XNPNG6nUSPaFGzgLes3Om3HKT5gb8VowcD8fFXVXg%3D"
+                                },
+                                "Cloud": {
+                                    "name": "Cloud",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1275/image-354129bab0aa613d617cbb3ff095a70a.png?ehk=F9wBjXbf18G3noaNbYgAvCDo7rRNH39wncZIhaTFJck%3D&ehkOptimized=p5p7pHhnhKXD1WzNzQ1dKcRXQicWa0wlI6v47mqn0FU%3D"
+                                }
                             }
                         },
                         {
@@ -5003,6 +5021,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Ness": {
+                                    "name": "Ness",
+                                    "usage": 11,
+                                    "icon": "https://images.start.gg/images/character/1313/image-3870ed5a1c84b3979055a5c5014eb3cb.png?ehk=w%2FsB41yHZ%2Fx7n4F8xNBnncy1eyb0OElvzYG1ANp%2F8Vc%3D&ehkOptimized=amFMXT9pMNjf40eAETJ%2BwvJBA0Wtaig1rdSQUd7x7yI%3D"
+                                },
+                                "Pokemon Trainer": {
+                                    "name": "Pokemon Trainer",
+                                    "usage": 8,
+                                    "icon": "https://images.start.gg/images/character/1321/image-afd5457b505f5d4893a0c2ee305787b7.png?ehk=o4A8SPF8rw1D5TSruwl0OXUzyzj0u%2FLRzJwZZVoLoFQ%3D&ehkOptimized=JD0uJIN08slop2BfHkIURtwsHPt2i%2F9QBcp%2F295uloY%3D"
+                                }
                             }
                         },
                         {
@@ -5024,6 +5054,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Falco": {
+                                    "name": "Falco",
+                                    "usage": 11,
+                                    "icon": "https://images.start.gg/images/character/1285/image-9e61f7a91a6c642bc3f14409f6f1cb69.png?ehk=Saq4tson3cB7H0i9bjS99hXFl9cDsZAu1aj5A2JeRgY%3D&ehkOptimized=SBrHgpbq38YSH74zYNABp91lUjIgZuNC5JCPK37kEpc%3D"
+                                },
+                                "Chrom": {
+                                    "name": "Chrom",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1409/image-b74c6742556be07ab4011c15a951cbe2.png?ehk=eoF9OB2d9YVSm7WZ0hAld6VfnFieVDsBTIcQG7KFF1Q%3D&ehkOptimized=PajvYZv8I%2FCo%2BeGtAS4BKgaFEcT4LeLma7sqF0KL8Tc%3D"
+                                }
                             }
                         },
                         {
@@ -5045,6 +5087,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Bowser": {
+                                    "name": "Bowser",
+                                    "usage": 10,
+                                    "icon": "https://images.start.gg/images/character/1273/image-ef8a42ec3c7d05279e1a7c9ccc213591.png?ehk=0Cy7OPe%2F2Ij49MJ4k%2FS%2F6jsKIzm58cuj4nRIitLxbeI%3D&ehkOptimized=u%2B7Ffv0m98g9vqvcTqwS7bugsJ0htno9I5vmLi8sXNg%3D"
+                                },
+                                "Ganondorf": {
+                                    "name": "Ganondorf",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1287/image-7b7e1497962c398ac8c8092aca493e89.png?ehk=w9sVTiDcMoltKPqM3WboOjjSzebYB05TCtfZi7w8oJQ%3D&ehkOptimized=yH5E2m82X2ISa5utecG3qEdCkX%2FhBf4IYWPJ8HSPkLk%3D"
+                                }
                             }
                         },
                         {
@@ -5066,6 +5120,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Cloud": {
+                                    "name": "Cloud",
+                                    "usage": 10,
+                                    "icon": "https://images.start.gg/images/character/1275/image-354129bab0aa613d617cbb3ff095a70a.png?ehk=F9wBjXbf18G3noaNbYgAvCDo7rRNH39wncZIhaTFJck%3D&ehkOptimized=p5p7pHhnhKXD1WzNzQ1dKcRXQicWa0wlI6v47mqn0FU%3D"
+                                }
                             }
                         },
                         {
@@ -5087,6 +5148,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Corrin": {
+                                    "name": "Corrin",
+                                    "usage": 7,
+                                    "icon": "https://images.start.gg/images/character/1276/image-13110600e5d35c17ac0186c4af78a1f7.png?ehk=qj15ft97jXRiyDJgpaWQ49NPL7%2BHT5fpNkpo5hjAgng%3D&ehkOptimized=sZTPz3FDZY3lRntw%2BnoTPPsFKcwPlKA6X3BqNgNR0l8%3D"
+                                },
+                                "Inkling": {
+                                    "name": "Inkling",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1292/image-af172ef6e2da4bb33409821b91610472.png?ehk=AFE0yEU2OZugoizKoGr4wP8FkgwfyrFsqpuNuoWIzto%3D&ehkOptimized=U4k6oIbyUNV0C8BnY8OsjOUJdG%2FPE7zxNX64Vb62NZs%3D"
+                                }
                             }
                         },
                         {
@@ -5104,6 +5177,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Terry": {
+                                    "name": "Terry",
+                                    "usage": 5,
+                                    "icon": "https://images.start.gg/images/character/1532/image-53d1155c7c6909c3d652fc7ddd7e03b4.png?ehk=mh53dQ2ACdb3eRcU5utBLdB%2FkzPEbBSTPu%2Ficap1JVc%3D&ehkOptimized=hWY2mJgouHX6uxeJkreG2JCSa9INvb3vdibb%2FVB9DNs%3D"
+                                }
                             }
                         },
                         {
@@ -5125,6 +5205,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Min Min": {
+                                    "name": "Min Min",
+                                    "usage": 6,
+                                    "icon": "https://images.start.gg/images/character/1747/image-81170ff730d030f453c31dbe5c6dcbd7.png?ehk=dfvjg7gHRGreafl4lF0YYR6jUboWkR8I3FXnMj4AYNI%3D&ehkOptimized=UFOXQa4x%2F3UQztX64XYwktGwLa887LUC2zpvys9UTlI%3D"
+                                }
                             }
                         },
                         {
@@ -5142,6 +5229,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Samus": {
+                                    "name": "Samus",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1328/image-744eac2adeab1e55acfc3ef07054d635.png?ehk=0tHL6cga2vFz3pCuzZkOtlphVuXTuOXS1hBFCz9%2BrKQ%3D&ehkOptimized=p26vLS%2FC7GJdOEOOaqUd51C3Y8GLZWpzP0vxv3eAD1o%3D"
+                                }
                             }
                         },
                         {
@@ -5163,6 +5257,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Steve": {
+                                    "name": "Steve",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1766/image-02314caeff10895f38d749e9f458ca85.png?ehk=t9TtFeg4y1r4gQNDiOOj6jbR9TjJ15z5KKKfEiM4EW0%3D&ehkOptimized=QaZTEVIgX%2B75f2Is18N%2FwTXZS0eKz1omk75N2ImIn80%3D"
+                                }
                             }
                         },
                         {
@@ -5184,6 +5285,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Toon Link": {
+                                    "name": "Toon Link",
+                                    "usage": 10,
+                                    "icon": "https://images.start.gg/images/character/1333/image-f6f2326cf212a37de4cd247d3a22c125.png?ehk=guq4g46%2BV248XWD2CpioRkY1nemCm52Lssoor3I9aNk%3D&ehkOptimized=dg9rqTNC8cZWHO5DgjcV9KKJNKOE5pNqKQsTdEBBcD8%3D"
+                                }
                             }
                         },
                         {
@@ -5205,6 +5313,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "King Dedede": {
+                                    "name": "King Dedede",
+                                    "usage": 6,
+                                    "icon": "https://images.start.gg/images/character/1294/image-b6c14001355f8693329a32f2065bdca3.png?ehk=r8ghQKcfCA6VxTzHcAosiHaWGXsFSYb7X%2FtmK3UEg%2Fg%3D&ehkOptimized=Kgp0qt2bXY5znCm7eqBHnAPww7SSHZDy74A%2FHFgWGgU%3D"
+                                },
+                                "King K. Rool": {
+                                    "name": "King K. Rool",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1407/image-649a64550b8848a082dbf9b8d6e545d1.png?ehk=RHaPklJczUB21bhnLnALkwi4XQXxRlZdpJUbo1S7SMk%3D&ehkOptimized=F4qN1P5o3OPxGHmBl4MA9SfxS2zLdSrbZ2%2FRLFYoILE%3D"
+                                }
                             }
                         },
                         {
@@ -5226,6 +5346,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Wolf": {
+                                    "name": "Wolf",
+                                    "usage": 6,
+                                    "icon": "https://images.start.gg/images/character/1337/image-9feb1e0a28cc77d6d180088c9df1d20e.png?ehk=17usHI9aQYnvqhenIAY%2B8DWTyIt69J%2FYspKfK%2BSkNwU%3D&ehkOptimized=DwLV9Dn3OnPUPQge%2BfxJ1unPoiqGq7MHKT4Q6ZLw2vw%3D"
+                                }
                             }
                         },
                         {
@@ -5247,6 +5374,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Ganondorf": {
+                                    "name": "Ganondorf",
+                                    "usage": 5,
+                                    "icon": "https://images.start.gg/images/character/1287/image-7b7e1497962c398ac8c8092aca493e89.png?ehk=w9sVTiDcMoltKPqM3WboOjjSzebYB05TCtfZi7w8oJQ%3D&ehkOptimized=yH5E2m82X2ISa5utecG3qEdCkX%2FhBf4IYWPJ8HSPkLk%3D"
+                                }
                             }
                         },
                         {
@@ -5268,7 +5402,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 13,
@@ -5289,6 +5424,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Ryu": {
+                                    "name": "Ryu",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1327/image-f680169f233a868049f89dc0dc28888b.png?ehk=RLQ5Qs2q1VPEHA%2BMHVsTuJKyr0A2ne6UacgPTvfBLq8%3D&ehkOptimized=TMvdwtxx2qCXavtQtnfkcSu1V9VFMHR596liMCU4tqo%3D"
+                                }
                             }
                         }
                     ]
@@ -5345,7 +5487,9 @@
         "tournament_addrState": null,
         "tweet_id": 1577393177203511309,
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": []
+        "postedPhaseResultIds": [
+            1881193
+        ]
     },
     "794787": {
         "id": 794787,
@@ -5649,423 +5793,6 @@
         "tournament_addrState": "RS",
         "tweet_id": 1581409648476753921
     },
-    "801967": {
-        "id": 801967,
-        "name": "Ultimate Singles",
-        "isOnline": false,
-        "state": "ACTIVE",
-        "numEntrants": 16,
-        "videogame": {
-            "id": 1386
-        },
-        "startAt": 1666296000,
-        "phaseGroups": [
-            {
-                "id": 1893250,
-                "state": 2,
-                "phase": {
-                    "name": "Bracket"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 16
-                    },
-                    "nodes": [
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 11415130,
-                                "name": "Kiw",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "KiwEz_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1136084
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 11415139,
-                                "name": "Tuca",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 584458
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 11415097,
-                                "name": "ZR | FlipperG",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "FLIPPERGX"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 830937
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 11415134,
-                                "name": "Pepo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Pepopepao"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1305492
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 11422606,
-                                "name": "Chaud",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 1033437
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 11433221,
-                                "name": "manu",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 1990965
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 11415164,
-                                "name": "JJ",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "sbf_jj"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1383659
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 11415152,
-                                "name": "JR",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "juniorwgn"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1325268
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 11421344,
-                                "name": "marcao",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 3076593
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 11421346,
-                                "name": "tonhao",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 3076594
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 11442601,
-                                "name": "3rdLover",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 3080897
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 11445503,
-                                "name": "Pedro",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 3081403
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 11415168,
-                                "name": "Manolean",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 2743801
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 11431734,
-                                "name": "BOB | LopesZ",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 2743842
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 11442949,
-                                "name": "Madruga",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 3080943
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 11442951,
-                                "name": "Jessy",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 3080944
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                "multiphase": true
-            },
-            {
-                "id": 1894208,
-                "state": 1,
-                "phase": {
-                    "name": "Amateur Bracket"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 4
-                    },
-                    "nodes": [
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 11421346,
-                                "name": "tonhao",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 3076594
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 11421344,
-                                "name": "marcao",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 3076593
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 11415168,
-                                "name": "Manolean",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 2743801
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 11431734,
-                                "name": "BOB | LopesZ",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 2743842
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                "multiphase": true
-            }
-        ],
-        "tournament": "Jogatina do Tucao Hj #6",
-        "tournament_id": 489477,
-        "city": "Florian\u00f3polis",
-        "url": "https://start.gg/tournament/jogatina-do-tucao-hj-6/event/ultimate-singles",
-        "streams": null,
-        "timezone": "America/Sao_Paulo",
-        "tournament_startAt": 1666296000,
-        "tournament_endAt": 1666317600,
-        "tournament_registrationClosesAt": 1666317600,
-        "images": [
-            {
-                "id": "5163277",
-                "url": "https://images.start.gg/images/tournament/489477/image-c4ecc9efd3cd88d72787402b2152ed2b.png?ehk=vuetlxtfeuYfQK6SadVSdY8NRpUgDfOVXHN%2F8nua1zE%3D&ehkOptimized=vf8lab0S2tLIIZ0anmXk%2FRDrLtpKAbmQvZTYT5ZWzco%3D",
-                "type": "banner"
-            },
-            {
-                "id": "5163278",
-                "url": "https://images.start.gg/images/tournament/489477/image-29226f4123118f18146f1e57c276e3e6.png?ehk=aUTZenS%2BUfz0xMYE88EdcNED4z%2Bks8mYOc%2FHuKSEy2c%3D&ehkOptimized=6XUTvvTt%2BNqDddyQt%2FvSt%2BOZB4jE9WN76xeTtXNlXuE%3D",
-                "type": "profile"
-            }
-        ],
-        "tournament_multievent": true,
-        "tournament_venueName": null,
-        "tournament_venueAddress": "Florian\u00f3polis, State of Santa Catarina, Brazil",
-        "tournament_addrState": "SC",
-        "tweet_id": 1582104234535047168,
-        "postedRegistrationClosing": true,
-        "postedPhaseResultIds": []
-    },
     "803095": {
         "id": 803095,
         "name": "Ultimate Doubles",
@@ -6090,7 +5817,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 11447377,
                                 "name": "Kyo / Chaud",
@@ -6169,7 +5896,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 11431786,
                                 "name": "SESI DEV",
