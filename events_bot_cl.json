@@ -1247,7 +1247,7 @@
         "id": 799950,
         "name": "Doubles - La Jaula del Mono",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -1256,11 +1256,120 @@
         "phaseGroups": [
             {
                 "id": 1889915,
+                "state": 2,
                 "phase": {
-                    "id": 1227146,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 11461353,
+                                "name": "Otnicaj / Ero~",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 976534
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 982374
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 11458275,
+                                "name": "Geandela / Mazon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2415582
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2562552
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 11460786,
+                                "name": "Hane / Vishox",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2548140
+                                        }
+                                    },
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3084798
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 11461318,
+                                "name": "Matins / Airwind",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1840586
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "airwind_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2414980
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Torneo Presencial",
@@ -1289,7 +1398,8 @@
         "tournament_venueAddress": "25 Ote. 695, Talca, Maule, Chile",
         "tournament_addrState": "Maule",
         "tweet_id": 1581387833008222209,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "802130": {
         "id": 802130,
@@ -1766,7 +1876,7 @@
         "name": "Singles",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 9,
+        "numEntrants": 10,
         "videogame": {
             "id": 1386
         },
