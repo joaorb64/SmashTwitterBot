@@ -3510,6 +3510,35 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 11404826,
+                                "name": "dokebu / Suke",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 546167
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dokebu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1375945
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 11456058,
                                 "name": "Don Kane / Mister Leo",
                                 "participants": [
@@ -3589,35 +3618,6 @@
                                         },
                                         "player": {
                                             "id": 2207702
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 11404826,
-                                "name": "dokebu / Suke",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 546167
-                                        }
-                                    },
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "dokebu"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1375945
                                         }
                                     }
                                 ]
@@ -6556,7 +6556,7 @@
         "id": 800705,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 12,
         "videogame": {
             "id": 1386
@@ -6565,8 +6565,8 @@
         "phaseGroups": [
             {
                 "id": 1891210,
+                "state": 2,
                 "phase": {
-                    "id": 1228127,
                     "name": "Pools"
                 },
                 "progressionsOut": [
@@ -6581,13 +6581,148 @@
                     },
                     {
                         "id": 8066792
+                    },
+                    {
+                        "id": 8084614
+                    },
+                    {
+                        "id": 8092991
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11437927,
+                                "name": "SmashRS | Balas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Balas_RS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1557200
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11419213,
+                                "name": "Delabari",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dela__bari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 253270
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11447817,
+                                "name": "Alteron",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 256706
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11449028,
+                                "name": "Mr.Zitu | D\u00e9co",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DecoTwt"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1453657
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11416370,
+                                "name": "UA | Delong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HenriDelong"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1660190
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11465908,
+                                "name": "FSN | Lukitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukituRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 390907
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 1891211,
+                "state": 2,
                 "phase": {
-                    "id": 1228127,
                     "name": "Pools"
                 },
                 "progressionsOut": [
@@ -6602,48 +6737,261 @@
                     },
                     {
                         "id": 8066793
+                    },
+                    {
+                        "id": 8085121
+                    },
+                    {
+                        "id": 8085690
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11400325,
+                                "name": "peebs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "pipiidrou"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1945874
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11414020,
+                                "name": "Buttelli",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 380109
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11422941,
+                                "name": "SmashRS | Lampi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lampiaio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 37778
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11443893,
+                                "name": "dusk",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "arthurmmed"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1086494
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11414085,
+                                "name": "uaite",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 253266
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11399563,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 373972
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 1891212,
+                "state": 1,
                 "phase": {
-                    "id": 1228128,
                     "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             },
             {
                 "id": 1891213,
+                "state": 1,
                 "phase": {
-                    "id": 1228129,
                     "name": "Class B Pools"
                 },
                 "progressionsOut": [
                     {
                         "id": 8066794
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": null
+                        }
+                    ]
+                }
             },
             {
                 "id": 1891214,
+                "state": 1,
                 "phase": {
-                    "id": 1228129,
                     "name": "Class B Pools"
                 },
                 "progressionsOut": [
                     {
                         "id": 8066795
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": null
+                        }
+                    ]
+                }
             },
             {
                 "id": 1891215,
+                "state": 1,
                 "phase": {
-                    "id": 1228130,
                     "name": "Class B Finals"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             }
         ],
         "tournament": "Smatch\u00ea #20",
@@ -6672,7 +7020,8 @@
         "tournament_venueAddress": "R. Fagundes Varela, 200 - Santo Ant\u00f4nio, Porto Alegre - RS, 90650-010, Brazil",
         "tournament_addrState": "RS",
         "tweet_id": 1581409648476753921,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "803095": {
         "id": 803095,
