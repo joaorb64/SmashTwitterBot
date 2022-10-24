@@ -1072,7 +1072,7 @@
         "id": 774335,
         "name": "Grand Final do 8\u00ba Circuito de SFV",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 33990
@@ -1081,8 +1081,8 @@
         "phaseGroups": [
             {
                 "id": 1846578,
+                "state": 2,
                 "phase": {
-                    "id": 1194579,
                     "name": "TABELA GERAL"
                 },
                 "progressionsOut": [
@@ -1110,15 +1110,196 @@
                     {
                         "id": 7909926
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11383224,
+                                "name": "DMX | RonaldinhoBR",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RonaldinhoBRR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1864770
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11383231,
+                                "name": "DEMITRI",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DEMITRI_FGCSP"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1074502
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11383240,
+                                "name": "FSN | Zangief_bolado",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BoladoZangief"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1408573
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11383242,
+                                "name": "NamikazeExTM",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NamikazeExTM"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1699589
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11383245,
+                                "name": "GO | DARK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diego_DARK_Lins"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358693
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11383249,
+                                "name": "Shodown Gaming | HKDASH",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "bego_elton"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2812040
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11383250,
+                                "name": "JUNINHO-RAS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JuninhoRas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1917872
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11419117,
+                                "name": "Bounce | HorusPaulin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HorusPaulin"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1135542
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 1846579,
+                "state": 1,
                 "phase": {
-                    "id": 1194580,
                     "name": "TOP 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "PogChamp 105",
@@ -1151,7 +1332,8 @@
         "tournament_venueAddress": "Rio de Janeiro, RJ, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": 1564483071059034112,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "767919": {
         "id": 767919,
