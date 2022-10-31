@@ -606,7 +606,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 13,
@@ -635,7 +636,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 13,
@@ -662,7 +664,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 13,
@@ -695,7 +698,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 }
@@ -1165,7 +1169,7 @@
         "id": 809504,
         "name": "HALLOWIWIS TOURNAMENT",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -1174,11 +1178,143 @@
         "phaseGroups": [
             {
                 "id": 1905969,
+                "state": 2,
                 "phase": {
-                    "id": 1239458,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11537738,
+                                "name": "GH | Dolce",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dolce_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 603177
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11537744,
+                                "name": "GH | Jago",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Jago_cl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1309292
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11537745,
+                                "name": "Paira",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2218342
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11538195,
+                                "name": "TEW | NIXUL",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NixulR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1800610
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11537750,
+                                "name": "chente",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3100904
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11537781,
+                                "name": "pistaco",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3100906
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11537752,
+                                "name": "Nicol\u00e1s",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3100905
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "hallowiwis tournament",
@@ -1207,6 +1343,7 @@
         "tournament_venueAddress": "Benavente 1160, 1700000 Coquimbo, La Serena, Coquimbo, Chile",
         "tournament_addrState": "Coquimbo",
         "tweet_id": 1587118027698585600,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
