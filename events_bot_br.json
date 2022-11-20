@@ -4821,7 +4821,7 @@
         "phaseGroups": [
             {
                 "id": 1922080,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Pools"
                 },
@@ -4848,7 +4848,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 1,
+                            "placement": 3,
                             "entrant": {
                                 "id": 11695542,
                                 "name": "CNTR | MF45",
@@ -4869,7 +4869,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 3,
                             "entrant": {
                                 "id": 11705859,
                                 "name": "FSN | Lukitu",
@@ -4890,7 +4890,28 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 4,
+                            "entrant": {
+                                "id": 11685075,
+                                "name": "rtb",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RodrigoTB03"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1813568
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
                             "entrant": {
                                 "id": 11684028,
                                 "name": "SmashRS | Lampi",
@@ -4911,7 +4932,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 5,
                             "entrant": {
                                 "id": 11700313,
                                 "name": "Alteron",
@@ -4922,27 +4943,6 @@
                                         },
                                         "player": {
                                             "id": 256706
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 11685075,
-                                "name": "rtb",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "RodrigoTB03"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1813568
                                         }
                                     }
                                 ]
@@ -4982,6 +4982,44 @@
                         "total": 6
                     },
                     "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 11684569,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 373972
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 11690029,
+                                "name": "Delabari",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dela__bari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 253270
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 5,
                             "entrant": {
@@ -5053,9 +5091,95 @@
                                     }
                                 ]
                             }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1922082,
+                "state": 1,
+                "phase": {
+                    "name": "Top 8"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 11705859,
+                                "name": "FSN | Lukitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukituRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 390907
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
-                            "placement": 5,
+                            "placement": 1,
+                            "entrant": {
+                                "id": 11684569,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 373972
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 11695542,
+                                "name": "CNTR | MF45",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MartinhoFanto"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 979384
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
                             "entrant": {
                                 "id": 11690029,
                                 "name": "Delabari",
@@ -5076,68 +5200,25 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 1,
                             "entrant": {
-                                "id": 11684569,
-                                "name": "SmashRS | Fonsie",
+                                "id": 11685075,
+                                "name": "rtb",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": []
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RodrigoTB03"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 373972
+                                            "id": 1813568
                                         }
                                     }
                                 ]
                             }
-                        }
-                    ]
-                }
-            },
-            {
-                "id": 1922082,
-                "state": 1,
-                "phase": {
-                    "name": "Top 8"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 8
-                    },
-                    "nodes": [
-                        {
-                            "placement": 1,
-                            "entrant": null
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": null
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": null
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": null
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": null
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": null
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": null
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": null
                         }
                     ]
                 },
@@ -5188,7 +5269,20 @@
                         },
                         {
                             "placement": 2,
-                            "entrant": null
+                            "entrant": {
+                                "id": 11685847,
+                                "name": "Marx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 981615
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -5336,7 +5430,7 @@
         "name": "Super Smash Bros. Ultimate",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 20,
+        "numEntrants": 23,
         "videogame": {
             "id": 1386
         },
