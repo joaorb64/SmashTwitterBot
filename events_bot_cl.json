@@ -538,8 +538,7 @@
                                         }
                                     }
                                 ]
-                            },
-                            "char_usage": {}
+                            }
                         },
                         {
                             "placement": 9,
@@ -572,8 +571,7 @@
                                         }
                                     }
                                 ]
-                            },
-                            "char_usage": {}
+                            }
                         },
                         {
                             "placement": 9,
@@ -606,8 +604,7 @@
                                         }
                                     }
                                 ]
-                            },
-                            "char_usage": {}
+                            }
                         },
                         {
                             "placement": 13,
@@ -640,8 +637,7 @@
                                         }
                                     }
                                 ]
-                            },
-                            "char_usage": {}
+                            }
                         },
                         {
                             "placement": 13,
@@ -668,8 +664,7 @@
                                         }
                                     }
                                 ]
-                            },
-                            "char_usage": {}
+                            }
                         },
                         {
                             "placement": 13,
@@ -702,8 +697,7 @@
                                         }
                                     }
                                 ]
-                            },
-                            "char_usage": {}
+                            }
                         }
                     ]
                 }
@@ -2222,8 +2216,8 @@
         "id": 819374,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 20,
+        "state": "ACTIVE",
+        "numEntrants": 21,
         "videogame": {
             "id": 1386
         },
@@ -2231,11 +2225,17 @@
         "phaseGroups": [
             {
                 "id": 1922789,
+                "state": 2,
                 "phase": {
-                    "id": 1252066,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Orquidream | Torneo SSBU en el DM",
@@ -2264,14 +2264,15 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": 1596302306420588545,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "826272": {
         "id": 826272,
         "name": "Singles",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 6,
+        "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
