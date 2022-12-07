@@ -929,7 +929,7 @@
         "id": 742203,
         "name": "Street Fighter V: Champion Edition",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 33990
@@ -938,101 +938,186 @@
         "phaseGroups": [
             {
                 "id": 1788422,
+                "state": 2,
                 "phase": {
-                    "id": 1152966,
                     "name": "Bracket Play"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 7646708
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
                     },
-                    {
-                        "id": 7646709
-                    },
-                    {
-                        "id": 7646710
-                    },
-                    {
-                        "id": 7646711
-                    },
-                    {
-                        "id": 7646712
-                    },
-                    {
-                        "id": 7646713
-                    },
-                    {
-                        "id": 7646714
-                    },
-                    {
-                        "id": 7646715
-                    },
-                    {
-                        "id": 7646716
-                    },
-                    {
-                        "id": 7646717
-                    },
-                    {
-                        "id": 7646718
-                    },
-                    {
-                        "id": 7646719
-                    },
-                    {
-                        "id": 7646720
-                    },
-                    {
-                        "id": 7646721
-                    },
-                    {
-                        "id": 7646722
-                    },
-                    {
-                        "id": 7646723
-                    }
-                ]
-            },
-            {
-                "id": 1788423,
-                "phase": {
-                    "id": 1152967,
-                    "name": "Top 8"
-                },
-                "progressionsOut": null
-            },
-            {
-                "id": 1788424,
-                "phase": {
-                    "id": 1152968,
-                    "name": "Top 16"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 7646724
-                    },
-                    {
-                        "id": 7646725
-                    },
-                    {
-                        "id": 7646726
-                    },
-                    {
-                        "id": 7646727
-                    },
-                    {
-                        "id": 7646728
-                    },
-                    {
-                        "id": 7646729
-                    },
-                    {
-                        "id": 7646730
-                    },
-                    {
-                        "id": 7646731
-                    }
-                ]
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11811253,
+                                "name": "Bounce | HorusPaulin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HorusPaulin"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1135542
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11811262,
+                                "name": "JUNINHO-RAS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JuninhoRas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1917872
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11811282,
+                                "name": "FSN | Zangief_bolado",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BoladoZangief"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1408573
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11811261,
+                                "name": "GO | DARK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diego_DARK_Lins"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358693
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11811257,
+                                "name": "Shodown | Jah_lexe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JahLexe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 662584
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11811268,
+                                "name": "Shodown | | NieL_",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NieL_Messatsu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1279367
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11811265,
+                                "name": "GamesCare | Gust",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gust_FGC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1557310
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11811280,
+                                "name": "Shodown Gaming | HKDASH",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "bego_elton"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2812040
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "BR Kumite - World Warrior - Brasil 6 - Final",
@@ -1065,6 +1150,7 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": 1600503705283055616,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
