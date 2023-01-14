@@ -4771,7 +4771,7 @@
         "id": 835389,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -4780,11 +4780,313 @@
         "phaseGroups": [
             {
                 "id": 1950861,
+                "state": 2,
                 "phase": {
-                    "id": 1272706,
                     "name": "Bracket Inicial"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 8366376
+                    },
+                    {
+                        "id": 8366377
+                    },
+                    {
+                        "id": 8366378
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 12042364,
+                                "name": "RCS | Wendell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "WendellSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 542475
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 12061326,
+                                "name": "Viana/Mint",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mentazinha"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1248427
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 12044448,
+                                "name": "Kowalski_023",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kowalski_023"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 557664
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12048213,
+                                "name": "MDL",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MDLlegit"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1115103
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12017835,
+                                "name": "Lib4m",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 998770
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 11948074,
+                                "name": "Guzma",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 994569
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12063944,
+                                "name": "Predadores-UEA | Enok1ng",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2489220
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 1964633,
+                "state": 1,
+                "phase": {
+                    "name": "Top 3"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12044448,
+                                "name": "Kowalski_023",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kowalski_023"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 557664
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12042364,
+                                "name": "RCS | Wendell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "WendellSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 542475
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12061326,
+                                "name": "Viana/Mint",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mentazinha"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1248427
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12048213,
+                                "name": "MDL",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MDLlegit"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1115103
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12017835,
+                                "name": "Lib4m",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 998770
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 11948074,
+                                "name": "Guzma",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 994569
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12063944,
+                                "name": "Predadores-UEA | Enok1ng",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2489220
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Gigantes do Offline 5",
@@ -4817,7 +5119,8 @@
         "tournament_venueAddress": "R. Bar\u00e3o de Indai\u00e1, 639 - Flores, Manaus - AM, 69058-448, Brasil",
         "tournament_addrState": "AM",
         "tweet_id": 1607793769075675136,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "838516": {
         "id": 838516,
