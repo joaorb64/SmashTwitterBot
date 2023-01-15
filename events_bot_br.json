@@ -5014,7 +5014,7 @@
         "id": 839261,
         "name": "Smash Ultimate 22/01",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -5023,11 +5023,17 @@
         "phaseGroups": [
             {
                 "id": 1957672,
+                "state": 2,
                 "phase": {
-                    "id": 1277618,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Try Hard Gaming - Janeiro",
@@ -5055,7 +5061,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Alferes Poli, 589 - Centro, Curitiba - PR, 80220-050, Brasil",
         "tournament_addrState": "PR",
-        "tweet_id": 1611376166362808322
+        "tweet_id": 1611376166362808322,
+        "postedPhaseResultIds": []
     },
     "836687": {
         "id": 836687,
@@ -5081,7 +5088,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 12066687,
                                 "name": "Danadan",
@@ -5146,6 +5153,48 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 12013399,
+                                "name": "SPB | yoq",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rzrbladetyphoon"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1717159
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12069905,
+                                "name": "SPE | Bagnodna",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MagnoDNA"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 234401
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 12013362,
                                 "name": "SSBPE | Luchave",
                                 "participants": [
@@ -5167,40 +5216,15 @@
                         {
                             "placement": 7,
                             "entrant": {
-                                "id": 12013399,
-                                "name": "SPB | yoq",
+                                "id": 12017936,
+                                "name": "Valad\u00e3o",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "rzrbladetyphoon"
-                                                }
-                                            ]
+                                            "authorizations": []
                                         },
                                         "player": {
-                                            "id": 1717159
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 12069905,
-                                "name": "SPE | Bagnodna",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MagnoDNA"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 234401
+                                            "id": 1588677
                                         }
                                     }
                                 ]
@@ -5260,23 +5284,6 @@
                                         },
                                         "player": {
                                             "id": 1729294
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 12017936,
-                                "name": "Valad\u00e3o",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 1588677
                                         }
                                     }
                                 ]
