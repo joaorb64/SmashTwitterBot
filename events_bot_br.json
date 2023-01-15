@@ -4966,7 +4966,7 @@
         "id": 839260,
         "name": "Smash Ultimate 15/01",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 12,
         "videogame": {
             "id": 1386
@@ -4975,11 +4975,17 @@
         "phaseGroups": [
             {
                 "id": 1957671,
+                "state": 2,
                 "phase": {
-                    "id": 1277617,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Try Hard Gaming - Janeiro",
@@ -5008,7 +5014,8 @@
         "tournament_venueAddress": "R. Alferes Poli, 589 - Centro, Curitiba - PR, 80220-050, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1611376161434570752,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "839261": {
         "id": 839261,
@@ -5030,9 +5037,132 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 0
+                        "total": 6
                     },
-                    "nodes": []
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12069196,
+                                "name": "Discord",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Discord_Ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 157364
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12070532,
+                                "name": "FT | Geova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "geovanidu07"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 593068
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12033399,
+                                "name": "Muddy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Muddy257"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 135520
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12070736,
+                                "name": "GLAD | 4Queen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 229410
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11997930,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 11997936,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             }
         ],
