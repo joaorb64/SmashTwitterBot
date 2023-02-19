@@ -5858,7 +5858,7 @@
         "id": 863758,
         "name": "Smash Folia 6",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -5867,11 +5867,121 @@
         "phaseGroups": [
             {
                 "id": 1999618,
+                "state": 2,
                 "phase": {
-                    "id": 1308669,
-                    "name": "Bracket"
+                    "name": "Pool A"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12396985,
+                                "name": "Raya",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raya_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172950
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12396995,
+                                "name": "Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12397005,
+                                "name": "Chromatico",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2667258
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12397007,
+                                "name": "TS | Red Bee",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2667264
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "multiphase": true
+            },
+            {
+                "id": 1999633,
+                "state": 1,
+                "phase": {
+                    "name": "Pool B"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                },
+                "multiphase": true
+            },
+            {
+                "id": 1999646,
+                "state": 1,
+                "phase": {
+                    "name": "Top 4"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": null
+                },
+                "multiphase": true
             }
         ],
         "tournament": "Smash Folia 6",
@@ -5895,6 +6005,7 @@
         "tournament_venueAddress": "R. George Henseler, 68 - Vila S\u00e3o Lu\u00eds, Nova Igua\u00e7u - RJ, 26011-525, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": 1627332641446850560,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
