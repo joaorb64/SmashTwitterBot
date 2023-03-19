@@ -5165,8 +5165,8 @@
         "id": 868739,
         "name": "19/03 - Matchmaking - Smash Bros. Ultimate",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 7,
+        "state": "ACTIVE",
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -5174,11 +5174,17 @@
         "phaseGroups": [
             {
                 "id": 2007777,
+                "state": 2,
                 "phase": {
-                    "id": 1314991,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Try Hard Gaming - Mar\u00e7o",
@@ -5207,7 +5213,8 @@
         "tournament_venueAddress": "R. Alferes Poli, 589 - Centro, Curitiba - PR, 80220-050, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1630285053728022531,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "870352": {
         "id": 870352,
