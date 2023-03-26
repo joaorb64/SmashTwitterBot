@@ -5015,7 +5015,7 @@
         "id": 868729,
         "name": "26/03 - Matchmaking - Smash Bros. Ultimate",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 5,
         "videogame": {
             "id": 1386
@@ -5024,11 +5024,17 @@
         "phaseGroups": [
             {
                 "id": 2007761,
+                "state": 2,
                 "phase": {
-                    "id": 1314979,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Try Hard Gaming - Mar\u00e7o",
@@ -5057,7 +5063,8 @@
         "tournament_venueAddress": "R. Alferes Poli, 589 - Centro, Curitiba - PR, 80220-050, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": 1630285048560734208,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "872009": {
         "id": 872009,
@@ -5328,7 +5335,7 @@
             },
             {
                 "id": 2017118,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 8"
                 },
@@ -5339,7 +5346,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 1,
+                            "placement": 3,
                             "entrant": {
                                 "id": 12682673,
                                 "name": "SmashRS | Fonsie",
@@ -5356,7 +5363,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 3,
                             "entrant": {
                                 "id": 12683867,
                                 "name": "Tuca",
@@ -5373,7 +5380,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 5,
                             "entrant": {
                                 "id": 12680105,
                                 "name": "Delong",
@@ -5394,7 +5401,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 5,
                             "entrant": {
                                 "id": 12556732,
                                 "name": "Pokantonio",
@@ -5411,49 +5418,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 12682573,
-                                "name": "peebs",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "pipiidrou"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1945874
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 12559414,
-                                "name": "Delabari",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "dela__bari"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 253270
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 5,
                             "entrant": {
                                 "id": 12689124,
                                 "name": "GABIS :)",
@@ -5474,7 +5439,49 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12682573,
+                                "name": "peebs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "pipiidrou"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1945874
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 12559414,
+                                "name": "Delabari",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dela__bari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 253270
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
                             "entrant": {
                                 "id": 12702085,
                                 "name": "Alteron",
@@ -6307,7 +6314,7 @@
         "tournament_venueAddress": "R. Bacanga, 126 - Iraj\u00e1, Rio de Janeiro - RJ, 21235-380, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": 1635418923813203969,
-        "retries": 18
+        "retries": 19
     },
     "877263": {
         "id": 877263,
@@ -6579,7 +6586,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 12720259,
                                 "name": "TwS | RevoS",
@@ -6642,6 +6649,21 @@
                             }
                         },
                         {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12720267,
+                                "name": "UF | Prime",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 539117
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 12720272,
@@ -6657,21 +6679,6 @@
                                         },
                                         "player": {
                                             "id": 172392
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 12720267,
-                                "name": "UF | Prime",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 539117
                                         }
                                     }
                                 ]
