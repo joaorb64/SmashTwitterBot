@@ -6598,7 +6598,7 @@
         "id": 890715,
         "name": "Floripa Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -6607,11 +6607,132 @@
         "phaseGroups": [
             {
                 "id": 2047602,
+                "state": 2,
                 "phase": {
-                    "id": 1343297,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12818375,
+                                "name": "CreScEnt",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3361557
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12818359,
+                                "name": "JJ",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3361555
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12815011,
+                                "name": "Pepo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pepopepao"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1305492
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12815178,
+                                "name": "Pedricolico",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "pedricolico"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3194946
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12814972,
+                                "name": "Kiw",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "KiwEz_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1136084
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12815003,
+                                "name": "ZR | FlipperG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FLIPPERGX"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 830937
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Semanal Smash Floripa #0",
@@ -6640,6 +6761,7 @@
         "tournament_venueAddress": "R. Felipe Schmidt, 14 - Centro, Florian\u00f3polis - SC, 88010-000, Brazil",
         "tournament_addrState": "SC",
         "tweet_id": 1643663311966175259,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
