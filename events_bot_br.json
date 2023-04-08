@@ -7187,6 +7187,27 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 12819114,
+                                "name": "Hikky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BiaNazuma"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1049957
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 12818837,
@@ -7208,27 +7229,6 @@
                             }
                         },
                         {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 12819114,
-                                "name": "Hikky",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "BiaNazuma"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1049957
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 4,
                             "entrant": {
                                 "id": 12843248,
@@ -7244,6 +7244,23 @@
                                         },
                                         "player": {
                                             "id": 1901387
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12829415,
+                                "name": "lima",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1316618
                                         }
                                     }
                                 ]
@@ -7299,23 +7316,6 @@
                                         },
                                         "player": {
                                             "id": 3213887
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 12829415,
-                                "name": "lima",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": []
-                                        },
-                                        "player": {
-                                            "id": 1316618
                                         }
                                     }
                                 ]
@@ -7481,7 +7481,7 @@
         "id": 892195,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -7490,32 +7490,394 @@
         "phaseGroups": [
             {
                 "id": 2050087,
+                "state": 2,
                 "phase": {
-                    "id": 1345154,
                     "name": "Round Robin"
                 },
                 "progressionsOut": [
                     {
-                        "id": 8723527
+                        "id": 8725408
                     },
                     {
-                        "id": 8723528
+                        "id": 8725410
                     },
                     {
-                        "id": 8723529
+                        "id": 8725412
                     },
                     {
-                        "id": 8723530
+                        "id": 8725414
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12844080,
+                                "name": "UA | Nathan",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NathanIWN"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 436360
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12844098,
+                                "name": "Anthony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1252322
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12844275,
+                                "name": "Kowalski_023",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kowalski_023"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 557664
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12844045,
+                                "name": "RCS | Armcz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 438011
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2050168,
+                "state": 2,
+                "phase": {
+                    "name": "Round Robin"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 8725409
+                    },
+                    {
+                        "id": 8725411
+                    },
+                    {
+                        "id": 8725413
+                    },
+                    {
+                        "id": 8725415
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12844001,
+                                "name": "Viana/Mint",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mentazinha"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1248427
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12843990,
+                                "name": "RCS | Wendell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "WendellSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 542475
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12844020,
+                                "name": "RCS | Levy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DanielLevy22"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 33438
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12844044,
+                                "name": "Morio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DouglasMorio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 995497
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2050088,
+                "state": 1,
                 "phase": {
-                    "id": 1345155,
                     "name": "Final Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 12844098,
+                                "name": "Anthony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1252322
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 12844045,
+                                "name": "RCS | Armcz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 438011
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 12844275,
+                                "name": "Kowalski_023",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kowalski_023"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 557664
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 12844080,
+                                "name": "UA | Nathan",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NathanIWN"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 436360
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 12844020,
+                                "name": "RCS | Levy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DanielLevy22"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 33438
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 12844044,
+                                "name": "Morio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DouglasMorio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 995497
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 12844001,
+                                "name": "Viana/Mint",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mentazinha"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1248427
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 12843990,
+                                "name": "RCS | Wendell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "WendellSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 542475
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "The Gauntlet - Nathan",
@@ -7544,6 +7906,7 @@
         "tournament_venueAddress": "Manaus, State of Amazonas, Brazil",
         "tournament_addrState": "AM",
         "tweet_id": 1644750468034490369,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
