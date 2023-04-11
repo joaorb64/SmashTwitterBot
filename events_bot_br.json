@@ -6513,27 +6513,6 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 12867142,
-                                "name": "TwS | RevoS",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "RevoS_01"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 172173
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
                                 "id": 12869052,
                                 "name": "CNTR/SMB | White",
                                 "participants": [
@@ -6547,6 +6526,27 @@
                                         },
                                         "player": {
                                             "id": 1569264
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 12867142,
+                                "name": "TwS | RevoS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RevoS_01"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172173
                                         }
                                     }
                                 ]
@@ -6753,7 +6753,7 @@
         "id": 894329,
         "name": "Magic & Grind - Doubles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -6762,11 +6762,142 @@
         "phaseGroups": [
             {
                 "id": 2053591,
+                "state": 2,
                 "phase": {
-                    "id": 1347831,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 12869428,
+                                "name": "PIRI / RevoS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RevoS_01"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172173
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PiriTvShow"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1920700
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 12869420,
+                                "name": "Haxwei / White",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Haxwei"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1033803
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "White_Ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1569264
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12869426,
+                                "name": "Tunico / Dottori",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1072342
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 3196542
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12869433,
+                                "name": "KNG / PROGETO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "jfmacdowell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1599892
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FelipeKng"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2072354
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Magic & Grind 12",
@@ -6799,6 +6930,7 @@
         "tournament_venueAddress": "R. Teodoro da Silva, 240 - Vila Isabel, Rio de Janeiro - RJ, 20560-001, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": 1645905600423886849,
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     }
 }
