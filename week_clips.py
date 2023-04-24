@@ -141,9 +141,6 @@ def DownloadClips(account):
 for account in accounts:
     print(account)
 
-    if account != "bot_sfv_br":
-        continue
-
     if accounts[account].get("post-clips", None) == None:
         continue
 
