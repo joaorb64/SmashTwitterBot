@@ -22,6 +22,8 @@ if os.path.exists("auth.json"):
 
     SMASHGG_KEY = auth_json["SMASHGG_KEY"]
 
+MAX_DURATION_SECONDS = 2*60
+
 
 def DownloadClips(account):
     try:
@@ -118,9 +120,19 @@ def DownloadClips(account):
 
             img.save("clips/overlay.png")
 
-            edit_clip = VideoFileClip("clips/"+str(i)+".mp4")
+            edit_clip: VideoFileClip = VideoFileClip("clips/"+str(i)+".mp4")
             edit_clip = edit_clip.resize(height=720-51-64)
             edit_clip = edit_clip.set_position(("center", 51))
+
+            maxClipDuration = MAX_DURATION_SECONDS / 5
+
+            if edit_clip.duration > maxClipDuration:
+                # calculate the duration to be removed from the start and end
+                remove_duration = (edit_clip.duration - maxClipDuration) / 2
+
+                # extract the subclip with the desired duration
+                edit_clip = edit_clip.subclip(
+                    remove_duration, edit_clip.duration - remove_duration)
 
             overlay = ImageClip("clips/overlay.png",
                                 transparent=True, duration=edit_clip.duration)
@@ -130,9 +142,17 @@ def DownloadClips(account):
             video.write_videofile("clips/"+str(i)+"_edited.mp4", preset='ultrafast',
                                   codec='libx264', audio_codec="aac", threads=4)
 
-        final = concatenate_videoclips(
-            [VideoFileClip("clips/"+str(i)+"_edited.mp4") for i, clip in enumerate(myClips)])
-        final.write_videofile("clips/final.mp4", preset='slow',
+        edited_clips = []
+
+        for i, clip in enumerate(myClips):
+            clipfile = VideoFileClip("clips/"+str(i)+"_edited.mp4")
+            if i == 0:
+                edited_clips.append(clipfile)
+            else:
+                edited_clips.append(clipfile.crossfadein(1))
+
+        final = concatenate_videoclips(edited_clips)
+        final.write_videofile("clips/final.mp4", preset='ultrafast',
                               codec='libx264', audio_codec="aac", threads=4)
     except:
         print(traceback.format_exception)
