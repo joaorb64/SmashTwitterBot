@@ -3965,7 +3965,7 @@
         "name": "Ultimate Singles - Qualifier Copa Paulista",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 36,
+        "numEntrants": 37,
         "videogame": {
             "id": 1386
         },
@@ -4213,8 +4213,8 @@
         "id": 887836,
         "name": "Etapa 5 (28/04)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 17,
+        "state": "ACTIVE",
+        "numEntrants": 18,
         "videogame": {
             "id": 1386
         },
@@ -4222,11 +4222,419 @@
         "phaseGroups": [
             {
                 "id": 2042862,
+                "state": 2,
                 "phase": {
-                    "id": 1339697,
-                    "name": "Bracket"
+                    "name": "Pool A (19hs)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13006214,
+                                "name": "Polyphony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PolyphonyIngrid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 13027907,
+                                "name": "OsmoZ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 3404671
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 13030720,
+                                "name": "CheneyLove",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "batistao_lucca"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2947453
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13027649,
+                                "name": "SA | Ira",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ira_Pam"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1113340
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "multiphase": true
+            },
+            {
+                "id": 2064675,
+                "state": 1,
+                "phase": {
+                    "name": "Pool B (20hs)"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12973090,
+                                "name": "SMB | Raya",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raya_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172950
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 12986711,
+                                "name": "fenix",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 3395433
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13021921,
+                                "name": "LukeThomaz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 424323
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13030720,
+                                "name": "CheneyLove",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "batistao_lucca"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2947453
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13030996,
+                                "name": "WasF | Dantas04",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dnt04"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2617553
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "multiphase": true
+            },
+            {
+                "id": 2064678,
+                "state": 1,
+                "phase": {
+                    "name": "Pool C (21hs)"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12895543,
+                                "name": "ChriS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2974618
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12956854,
+                                "name": "Super FOG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Super_FOG"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 37138
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13026477,
+                                "name": "Bruz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Bruszan"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 258138
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13030753,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2935129
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "multiphase": true
+            },
+            {
+                "id": 2064679,
+                "state": 1,
+                "phase": {
+                    "name": "Pool D (22hs)"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 12973091,
+                                "name": "DG | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13006214,
+                                "name": "Polyphony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PolyphonyIngrid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13027649,
+                                "name": "SA | Ira",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ira_Pam"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1113340
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13031528,
+                                "name": "Paraba",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Parabasyl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1871766
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "multiphase": true
+            },
+            {
+                "id": 2064680,
+                "state": 1,
+                "phase": {
+                    "name": "TOP 4 FINAL"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": null
+                },
+                "multiphase": true
             }
         ],
         "tournament": "FOR\u00c7A ROUND ROBIN #2",
@@ -4254,7 +4662,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Rio de Janeiro, RJ, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": 1641932016890310656
+        "tweet_id": 1641932016890310656,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "889580": {
         "id": 889580,
@@ -4698,7 +5108,7 @@
         "name": "Smash Ultimate 1x1",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 7,
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
