@@ -4254,7 +4254,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Bacanga, 126 - Iraj\u00e1, Rio de Janeiro - RJ, 21235-380, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": 1643006463382568960
+        "tweet_id": 1643006463382568960,
+        "postedRegistrationClosing": true
     },
     "889592": {
         "id": 889592,
@@ -4301,7 +4302,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Bacanga, 126 - Iraj\u00e1, Rio de Janeiro - RJ, 21235-380, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": 1643006468474523649
+        "tweet_id": 1643006468474523649,
+        "postedRegistrationClosing": true
     },
     "889627": {
         "id": 889627,
@@ -4348,7 +4350,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Bacanga, 126 - Iraj\u00e1, Rio de Janeiro - RJ, 21235-380, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": 1643014024093745157
+        "tweet_id": 1643014024093745157,
+        "postedRegistrationClosing": true
     },
     "889702": {
         "id": 889702,
@@ -4902,7 +4905,7 @@
         "id": 904617,
         "name": "Smash Ultimate singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -4911,8 +4914,8 @@
         "phaseGroups": [
             {
                 "id": 2071571,
+                "state": 3,
                 "phase": {
-                    "id": 1360809,
                     "name": "Fase de Grupos"
                 },
                 "progressionsOut": [
@@ -4922,12 +4925,40 @@
                     {
                         "id": 8815355
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 1
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13035552,
+                                "name": "Andreskies",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vyseskies1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1331702
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2071578,
+                "state": 1,
                 "phase": {
-                    "id": 1360809,
                     "name": "Fase de Grupos"
                 },
                 "progressionsOut": [
@@ -4937,12 +4968,40 @@
                     {
                         "id": 8815356
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 1
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13034340,
+                                "name": "Press Wasco | JuanitoWhatsapp",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NoiadoBaiano"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1728473
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2071579,
+                "state": 1,
                 "phase": {
-                    "id": 1360809,
                     "name": "Fase de Grupos"
                 },
                 "progressionsOut": [
@@ -4952,12 +5011,53 @@
                     {
                         "id": 8815357
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 13036287,
+                                "name": "LeoShadow",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 1331736
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 13036201,
+                                "name": "PapagaioMudo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 2110735
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2071580,
+                "state": 1,
                 "phase": {
-                    "id": 1360809,
                     "name": "Fase de Grupos"
                 },
                 "progressionsOut": [
@@ -4967,15 +5067,66 @@
                     {
                         "id": 8815358
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 13036286,
+                                "name": "BKL | VooK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": []
+                                        },
+                                        "player": {
+                                            "id": 497450
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 13036176,
+                                "name": "Tenorio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sotenoriomesmo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1063144
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2071581,
+                "state": 1,
                 "phase": {
-                    "id": 1360813,
                     "name": "Bracket Final"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Liga Smash Aju 2\u00aa Edi\u00e7\u00e3o",
@@ -5003,6 +5154,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Jo\u00e3o Rodrigues, 42 - Industrial, Aracaju - SE, 49065-450, Brasil",
         "tournament_addrState": "SE",
-        "tweet_id": 1652130852724146178
+        "tweet_id": 1652130852724146178,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
