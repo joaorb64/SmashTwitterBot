@@ -4133,7 +4133,7 @@
         "tournament_addrState": "PR",
         "tweet_id": 1640764169363357709,
         "postedRegistrationClosing": true,
-        "retries": 49
+        "retries": 50
     },
     "850988": {
         "id": 850988,
@@ -4742,7 +4742,7 @@
         "name": "Kakariko Party 3 - Smash Ultimate - Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 16,
+        "numEntrants": 18,
         "videogame": {
             "id": 1386
         },
@@ -4784,7 +4784,7 @@
         "name": "Kakariko Party 3 - Smash Ultimate - Squad Strike 1v1",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 14,
+        "numEntrants": 16,
         "videogame": {
             "id": 1386
         },
@@ -4843,7 +4843,7 @@
         "phaseGroups": [
             {
                 "id": 2075234,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Pools"
                 },
@@ -4873,7 +4873,45 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
+                            "entrant": {
+                                "id": 13163384,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 373972
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 13209841,
+                                "name": "FSN | Lukitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukituRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 390907
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
                             "entrant": {
                                 "id": 13182705,
                                 "name": "Pokantonio",
@@ -4894,7 +4932,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 13163346,
                                 "name": "peebs",
@@ -4951,51 +4989,13 @@
                                     }
                                 ]
                             }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 13209841,
-                                "name": "FSN | Lukitu",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "LukituRS"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 390907
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 13163384,
-                                "name": "SmashRS | Fonsie",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 373972
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     ]
                 }
             },
             {
                 "id": 2075235,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Pools"
                 },
@@ -5061,6 +5061,27 @@
                         {
                             "placement": 4,
                             "entrant": {
+                                "id": 13163293,
+                                "name": "SmashRS | Balas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Balas_RS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1557200
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
                                 "id": 13196749,
                                 "name": "Kaplof",
                                 "participants": [
@@ -5087,27 +5108,6 @@
                                         },
                                         "player": {
                                             "id": 2319502
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 13163293,
-                                "name": "SmashRS | Balas",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Balas_RS"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1557200
                                         }
                                     }
                                 ]
@@ -5147,7 +5147,20 @@
                     "nodes": [
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 13163384,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 373972
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
@@ -5185,15 +5198,66 @@
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 13209841,
+                                "name": "FSN | Lukitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukituRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 390907
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 13163346,
+                                "name": "peebs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "pipiidrou"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1945874
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 13163293,
+                                "name": "SmashRS | Balas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Balas_RS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1557200
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
@@ -5214,7 +5278,24 @@
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 13182705,
+                                "name": "Pokantonio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "antonio_kurban"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2937134
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -5238,11 +5319,41 @@
                     "nodes": [
                         {
                             "placement": 2,
-                            "entrant": null
+                            "entrant": {
+                                "id": 13189534,
+                                "name": "Delaberry",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dela__bari"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 253270
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 2,
-                            "entrant": null
+                            "entrant": {
+                                "id": 13205141,
+                                "name": "Alteron",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 256706
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -5265,7 +5376,20 @@
                     "nodes": [
                         {
                             "placement": 2,
-                            "entrant": null
+                            "entrant": {
+                                "id": 13191214,
+                                "name": "uaite",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 253266
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 2,
