@@ -29,10 +29,19 @@ for account in accounts:
     try:
         print(account)
 
+        BEARER_KEY = auth_json[account]["BEARER"]
         CONSUMER_KEY = auth_json[account]["CONSUMER_KEY"]
         CONSUMER_SECRET = auth_json[account]["CONSUMER_SECRET"]
         ACCESS_KEY = auth_json[account]["ACCESS_KEY"]
         ACCESS_SECRET = auth_json[account]["ACCESS_SECRET"]
+
+        twitter_API_v2 = tweepy.Client(
+            bearer_token=BEARER_KEY,
+            consumer_key=CONSUMER_KEY,
+            consumer_secret=CONSUMER_SECRET,
+            access_token=ACCESS_KEY,
+            access_token_secret=ACCESS_SECRET
+        )
 
         auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
         auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
@@ -164,7 +173,7 @@ for account in accounts:
                 events_json[evento]["url"] = "https://start.gg/"+data["slug"]
 
                 # Evento que nunca foi finalizado (depois de 5 dias)
-                if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=5).total_seconds() and data["state"] == 'ACTIVE':
+                if time.time() > events_json[evento]["tournament_endAt"] + datetime.timedelta(days=5).total_seconds():
                     print("Evento abandonado - " +
                           events_json[evento]["tournament"] + " - " + events_json[evento]["name"])
                     events_json.pop(evento)
@@ -466,8 +475,12 @@ for account in accounts:
                                 drawResults.drawResults(
                                     events_json[evento], phase, accounts[account])
                                 print("Post:", post)
-                                status = twitter_API.update_status_with_media(
-                                    filename="./media.png", status=post)
+                                media = twitter_API.media_upload(
+                                    filename="./media.png")
+                                status = twitter_API_v2.create_tweet(
+                                    media_ids=[media["media_id"]],
+                                    text=post
+                                )
                                 posted = True
                             except Exception as e:
                                 print(traceback.format_exc())
@@ -478,6 +491,7 @@ for account in accounts:
                                 post += "\n(1/2)"
                                 post2 += "\n(2/2)"
                                 filenames = ['media.png', 'media2.png']
+
                                 media_ids = []
                                 for filename in filenames:
                                     res = twitter_API.media_upload(filename)
@@ -486,11 +500,21 @@ for account in accounts:
 
                                 # Tweet with multiple images
                                 print("Post:", post)
-                                thread1 = twitter_API.update_status(
-                                    media_ids=media_ids, status=post)
+
+                                thread1 = twitter_API_v2.create_tweet(
+                                    media_ids=media_ids,
+                                    text=post
+                                )
+
                                 time.sleep(5)
-                                twitter_API.update_status(
-                                    status="@"+accounts[account]["handle"]+"\n"+post2, in_reply_to_status_id=thread1["id"])
+
+                                print(thread1)
+
+                                twitter_API_v2.create_tweet(
+                                    text="@" +
+                                    accounts[account]["handle"]+"\n"+post2,
+                                    in_reply_to_tweet_id=thread1.data["id"]
+                                )
 
                                 posted = True
                             except Exception as e:
@@ -544,7 +568,7 @@ for account in accounts:
                     print(post)
                     print(len(post))
 
-                    twitter_API.update_status(post)
+                    twitter_API_v2.create_tweet(text=post)
 
                     events_json[evento]["state"] = 'ACTIVE'
                     events_json[evento]["postedStarting"] = True
@@ -560,8 +584,10 @@ for account in accounts:
                             str(events_json[evento]["numEntrants"]) + \
                             accounts[account]["text-tournament-registered-players-after"]
 
-                        twitter_API.update_status(
-                            status="@"+accounts[account]["handle"]+"\n"+post, in_reply_to_status_id=events_json[evento]["tweet_id"])
+                        twitter_API_v2.create_tweet(
+                            text="@"+accounts[account]["handle"]+"\n"+post,
+                            in_reply_to_tweet_id=events_json[evento]["tweet_id"]
+                        )
 
                         events_json[evento]["postedRegistrationClosing"] = True
             except:

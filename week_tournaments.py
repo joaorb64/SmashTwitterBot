@@ -23,15 +23,25 @@ if os.path.exists("auth.json"):
 for account in accounts:
     print(account)
 
+    BEARER_KEY = auth_json[account]["BEARER"]
     CONSUMER_KEY = auth_json[account]["CONSUMER_KEY"]
     CONSUMER_SECRET = auth_json[account]["CONSUMER_SECRET"]
     ACCESS_KEY = auth_json[account]["ACCESS_KEY"]
     ACCESS_SECRET = auth_json[account]["ACCESS_SECRET"]
 
+    twitter_API_v2 = tweepy.Client(
+        bearer_token=BEARER_KEY,
+        consumer_key=CONSUMER_KEY,
+        consumer_secret=CONSUMER_SECRET,
+        access_token=ACCESS_KEY,
+        access_token_secret=ACCESS_SECRET
+    )
+
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 
     twitter_API = tweepy.API(auth, parser=tweepy.parsers.JSONParser())
+    twitter_API.debug = True
 
     weekdays = {
         "pt-br": {
@@ -73,6 +83,8 @@ for account in accounts:
     if len(events_post) == 0:
         print("Sem eventos essa semana...")
         continue
+
+    print(f"Eventos: {len(events_post)}")
 
     img = Image.new('RGBA', (1024, 64 + (96+4) *
                     len(events_post)), color=(0, 0, 0, 255))
@@ -218,5 +230,16 @@ for account in accounts:
 
     img.save('media.png')
 
-    twitter_API.update_status_with_media(filename="./media.png", status="📅 ["+accounts[account]["text-week-events"]+"]\n"+accounts[account]
-                                         ["text-see-all-events-in-powerrankings"]+": https://powerrankings.gg/"+accounts[account]["game"]+"/nexttournaments/"+accounts[account]["country"].lower())
+    media = twitter_API.media_upload(
+        filename="./media.png")
+
+    status = twitter_API_v2.create_tweet(
+        media_ids=[media["media_id"]],
+        text="📅 ["+accounts[account]["text-week-events"]+"]\n" +
+        accounts[account]
+        ["text-see-all-events-in-powerrankings"]+": https://powerrankings.gg/" +
+        accounts[account]["game"]+"/nexttournaments/" +
+        accounts[account]["country"].lower()
+    )
+
+    print("POSTED")

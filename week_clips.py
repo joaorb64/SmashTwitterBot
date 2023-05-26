@@ -164,22 +164,34 @@ for account in accounts:
     if accounts[account].get("post-clips", None) == None:
         continue
 
+    BEARER_KEY = auth_json[account]["BEARER"]
     CONSUMER_KEY = auth_json[account]["CONSUMER_KEY"]
     CONSUMER_SECRET = auth_json[account]["CONSUMER_SECRET"]
     ACCESS_KEY = auth_json[account]["ACCESS_KEY"]
     ACCESS_SECRET = auth_json[account]["ACCESS_SECRET"]
 
+    twitter_API_v2 = tweepy.Client(
+        bearer_token=BEARER_KEY,
+        consumer_key=CONSUMER_KEY,
+        consumer_secret=CONSUMER_SECRET,
+        access_token=ACCESS_KEY,
+        access_token_secret=ACCESS_SECRET
+    )
+
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 
     twitter_API = tweepy.API(auth)
+    twitter_API.debug = True
 
     DownloadClips(accounts[account])
 
     upload_result = twitter_API.media_upload(
         filename='clips/final.mp4', media_category="tweet_video")
 
-    twitter_API.update_status(
-        status="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/" +
+    print(upload_result)
+
+    twitter_API_v2.create_tweet(
+        text="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/" +
         accounts[account]["game"]+"/clips/pt-br",
         media_ids=[upload_result.media_id])
