@@ -411,7 +411,7 @@
         "phaseGroups": [
             {
                 "id": 2077598,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -475,6 +475,27 @@
                         {
                             "placement": 4,
                             "entrant": {
+                                "id": 13259329,
+                                "name": "SPB | yoq",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rzrbladetyphoon"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1717159
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
                                 "id": 13259330,
                                 "name": "dokebu",
                                 "participants": [
@@ -530,27 +551,6 @@
                                         },
                                         "player": {
                                             "id": 234401
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 13259329,
-                                "name": "SPB | yoq",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "rzrbladetyphoon"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1717159
                                         }
                                     }
                                 ]
@@ -739,7 +739,7 @@
             },
             {
                 "id": 2077600,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 4"
                 },
@@ -750,24 +750,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 13259337,
-                                "name": "Suke",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 546167
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 2,
                             "entrant": {
                                 "id": 13200632,
                                 "name": "FV | Blank",
@@ -788,11 +771,45 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": null
+                            "placement": 3,
+                            "entrant": {
+                                "id": 13259337,
+                                "name": "Suke",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 546167
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
-                            "placement": 1,
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13259329,
+                                "name": "SPB | yoq",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rzrbladetyphoon"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1717159
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
                             "entrant": {
                                 "id": 13259330,
                                 "name": "dokebu",
@@ -868,7 +885,7 @@
         "id": 918217,
         "name": "Smash Ultimate 1x1",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -877,11 +894,212 @@
         "phaseGroups": [
             {
                 "id": 2094802,
+                "state": 2,
                 "phase": {
-                    "id": 1378127,
                     "name": "Chave"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13259849,
+                                "name": "LMS | Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354,
+                                            "gamerTag": "Dagoth Ur"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13255895,
+                                "name": "QbT | | Midna",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MidnaYuri"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1401835,
+                                            "gamerTag": "Midna"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13265336,
+                                "name": "greenguyquint",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "greenguyquint"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2739186,
+                                            "gamerTag": "greenguyquint"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13265514,
+                                "name": "Komi-san can't call me",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kakishisann"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2694162,
+                                            "gamerTag": "Komi-san can't call me"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13264956,
+                                "name": "LMS | Kurobo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "KuroboUwU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 396602,
+                                            "gamerTag": "Kurobo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13259155,
+                                "name": "Headpat",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Headpat2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1629868,
+                                            "gamerTag": "Headpat"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13258986,
+                                "name": "UwU | Luvas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1632963,
+                                            "gamerTag": "Luvas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13245168,
+                                "name": "snasdvish >:(",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605,
+                                            "gamerTag": "snasdvish >:("
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13253363,
+                                "name": "Rk",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "845r845"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633353,
+                                            "gamerTag": "Rk"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Liga MS 2023 na Minds English School",
@@ -912,6 +1130,8 @@
         "tournament_multievent": false,
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Afonso Pena, 4227 - Cidade Jardim, Campo Grande - MS, 79002-520, Brasil",
-        "tournament_addrState": "MS"
+        "tournament_addrState": "MS",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
