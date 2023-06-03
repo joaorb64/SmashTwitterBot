@@ -643,8 +643,8 @@
         "id": 919628,
         "name": "Smash Ultimate 1x1",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 2,
+        "state": "ACTIVE",
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -652,11 +652,296 @@
         "phaseGroups": [
             {
                 "id": 2097227,
+                "state": 2,
                 "phase": {
-                    "id": 1379925,
-                    "name": "Chave"
+                    "name": "Rodada do Robinho"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 8954198
+                    },
+                    {
+                        "id": 8954199
+                    },
+                    {
+                        "id": 8954200
+                    },
+                    {
+                        "id": 8954201
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13281774,
+                                "name": "LMS | Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13302387,
+                                "name": "snasdvish >:(",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13325852,
+                                "name": "AkagamiArt | akame",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3120330
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13325861,
+                                "name": "LMS | J. VHS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Joao_VHS_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 355368
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13325906,
+                                "name": "Rk",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "845r845"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633353
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13325909,
+                                "name": "QbT | | Midna",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MidnaYuri"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1401835
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2104337,
+                "state": 1,
+                "phase": {
+                    "name": "Final"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13325909,
+                                "name": "QbT | | Midna",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MidnaYuri"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1401835,
+                                            "gamerTag": "Midna"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13302387,
+                                "name": "snasdvish >:(",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605,
+                                            "gamerTag": "snasdvish >:("
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13281774,
+                                "name": "LMS | Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354,
+                                            "gamerTag": "Dagoth Ur"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13325861,
+                                "name": "LMS | J. VHS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Joao_VHS_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 355368,
+                                            "gamerTag": "J. VHS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13325906,
+                                "name": "Rk",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "845r845"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633353,
+                                            "gamerTag": "Rk"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13325852,
+                                "name": "AkagamiArt | akame",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3120330,
+                                            "gamerTag": "akame"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Liga MS 2023 na Banca Modular #2",
@@ -687,7 +972,9 @@
         "tournament_multievent": false,
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Vinte e Cinco de Dezembro, 924 - Jardim dos Estados, Campo Grande - MS, 79002-061, Brasil",
-        "tournament_addrState": "MS"
+        "tournament_addrState": "MS",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "921405": {
         "id": 921405,
@@ -1388,7 +1675,7 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "retries": 9
+        "retries": 10
     },
     "922671": {
         "id": 922671,
