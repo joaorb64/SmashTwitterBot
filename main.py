@@ -253,7 +253,7 @@ for account in accounts:
                 time.sleep(1)
 
                 events_json[evento["id"]] = evento
-                events_json[evento["id"]]["tweet_id"] = tweet_id["id"]
+                events_json[evento["id"]]["tweet_id"] = tweet_id.data["id"]
     except Exception as e:
         print(traceback.format_exc())
 

@@ -12,6 +12,7 @@ import urllib
 from moviepy.editor import *
 from PIL import Image, ImageDraw, ImageFont
 import traceback
+import twitch
 
 f = open('accounts.json')
 accounts = json.load(f)
@@ -27,8 +28,7 @@ MAX_DURATION_SECONDS = 2*60
 
 def DownloadClips(account):
     try:
-        clips = requests.get("https://raw.githubusercontent.com/joaorb64/tournament_api/multigames/out/" +
-                             account["game"]+"/twitchclips.json").json()
+        clips = twitch.get_clips(account["twitch_game_name"])
 
         myClips = []
 
@@ -155,7 +155,7 @@ def DownloadClips(account):
         final.write_videofile("clips/final.mp4", preset='ultrafast',
                               codec='libx264', audio_codec="aac", threads=4)
     except:
-        print(traceback.format_exception)
+        print(traceback.format_exc())
 
 
 for account in accounts:
@@ -192,6 +192,5 @@ for account in accounts:
     print(upload_result)
 
     twitter_API_v2.create_tweet(
-        text="🎬 [Top 5 clips da semana]\nConfira todos os clips no PowerRankings: https://powerrankings.gg/" +
-        accounts[account]["game"]+"/clips/pt-br",
+        text="🎬 [Top 5 clips da semana]",
         media_ids=[upload_result.media_id])
