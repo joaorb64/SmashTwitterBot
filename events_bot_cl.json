@@ -339,8 +339,8 @@
         "id": 929393,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 3,
+        "state": "ACTIVE",
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -348,11 +348,146 @@
         "phaseGroups": [
             {
                 "id": 2114355,
+                "state": 2,
                 "phase": {
-                    "id": 1392661,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13413103,
+                                "name": "PM | POTO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "POTO_SVRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1237311,
+                                            "gamerTag": "POTO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13418264,
+                                "name": "WLC | Martan",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1469943,
+                                            "gamerTag": "Martan"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13421817,
+                                "name": "TW | ORD | NessQuik",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NessQuikSSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 965448,
+                                            "gamerTag": "NessQuik"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13422072,
+                                "name": "OW | magatsu muplop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "diegomedina50"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 274734,
+                                            "gamerTag": "OW | magatsu muplop"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13422077,
+                                "name": "SSF | EL PRINCIPE SAYAYIN",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PrincipeFGC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1454134,
+                                            "gamerTag": "EL PRINCIPE SAYAYIN"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 13422088,
+                                "name": "Markton_saxx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MarcoDalmazzo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2728905,
+                                            "gamerTag": "Markton_saxx"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "NOT DM 65",
@@ -381,6 +516,8 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1668755367310815234",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
