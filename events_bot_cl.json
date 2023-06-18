@@ -105,7 +105,7 @@
         "id": 929151,
         "name": "Dobles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 5,
         "videogame": {
             "id": 1386
@@ -114,11 +114,173 @@
         "phaseGroups": [
             {
                 "id": 2113875,
+                "state": 2,
                 "phase": {
-                    "id": 1392357,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13450185,
+                                "name": "som3thing / Tuxedo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tuxedo_Smash"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1137586,
+                                            "gamerTag": "Tuxedo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Som3thing_cl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1799081,
+                                            "gamerTag": "som3thing"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 13454445,
+                                "name": "AZ / Lric",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3171499,
+                                            "gamerTag": "AZ"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3282730,
+                                            "gamerTag": "Lric"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13454425,
+                                "name": "Kako / Ricky",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3483504,
+                                            "gamerTag": "Kako"
+                                        }
+                                    },
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3483594,
+                                            "gamerTag": "Ricky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13454440,
+                                "name": "OW | magatsu muplop / Rody",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "diegomedina50"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 274734,
+                                            "gamerTag": "OW | magatsu muplop"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RodySnake"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1259384,
+                                            "gamerTag": "Rody"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13454427,
+                                "name": "Hb2 / Dandelion",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pablo_Hb2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 131600,
+                                            "gamerTag": "Hb2"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DandelionDizzy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 517358,
+                                            "gamerTag": "Dandelion"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Bros \u00d1u\u00f1oa #16",
@@ -151,14 +313,16 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1668649670267076608",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "929150": {
         "id": 929150,
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 23,
+        "numEntrants": 24,
         "videogame": {
             "id": 1386
         },
