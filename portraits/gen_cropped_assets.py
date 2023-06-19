@@ -2,8 +2,8 @@ import json
 from PIL import Image
 
 game = "sf6"
-pack = "base_files/icon"
-customZoom = 2.4
+pack = "pixel_art"
+customZoom = 1.4
 targetW = 256
 targetH = 256
 
