@@ -77,7 +77,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 11,
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
@@ -854,6 +854,27 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 13506653,
+                                "name": "Penumbra",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Penumbra____"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2026425
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 13468341,
@@ -875,27 +896,6 @@
                             }
                         },
                         {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 13506653,
-                                "name": "Penumbra",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Penumbra____"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2026425
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 13511201,
@@ -911,6 +911,40 @@
                                         },
                                         "player": {
                                             "id": 697040
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13300322,
+                                "name": "Atena",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1948416
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13511969,
+                                "name": "AntiSora",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2027200
                                         }
                                     }
                                 ]
@@ -957,23 +991,6 @@
                         {
                             "placement": 7,
                             "entrant": {
-                                "id": 13300322,
-                                "name": "Atena",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1948416
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
                                 "id": 13511943,
                                 "name": "Jikan",
                                 "participants": [
@@ -987,23 +1004,6 @@
                                         },
                                         "player": {
                                             "id": 982125
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 13511969,
-                                "name": "AntiSora",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2027200
                                         }
                                     }
                                 ]
@@ -1151,6 +1151,28 @@
                             }
                         },
                         {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13506653,
+                                "name": "Penumbra",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Penumbra____"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2026425,
+                                            "gamerTag": "Penumbra"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 13468341,
@@ -1207,28 +1229,6 @@
                                         "player": {
                                             "id": 514426,
                                             "gamerTag": "Elekid"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 13506653,
-                                "name": "Penumbra",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Penumbra____"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2026425,
-                                            "gamerTag": "Penumbra"
                                         }
                                     }
                                 ]
@@ -1484,7 +1484,7 @@
         "id": 922671,
         "name": "Double Battle - Doubles",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -1493,11 +1493,282 @@
         "phaseGroups": [
             {
                 "id": 2102566,
+                "state": 2,
                 "phase": {
-                    "id": 1383891,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13511840,
+                                "name": "Patati/Patat\u00e1",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TSD_GotM"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1741316,
+                                            "gamerTag": "GotM"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "SmokeSSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2218202,
+                                            "gamerTag": "Smoke"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13315585,
+                                "name": "Bloop-dee-doo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1575060,
+                                            "gamerTag": "Paulo Eduardo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3396412,
+                                            "gamerTag": "LuaSol"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13512110,
+                                "name": "Crimson Beasts",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Storm23248000"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1078880,
+                                            "gamerTag": "Storm"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1966258,
+                                            "gamerTag": "TonixNes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13468260,
+                                "name": "GrandeLaranja",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2068666,
+                                            "gamerTag": "Grandmemes"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "guisr_laranja"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2076678,
+                                            "gamerTag": "Guisr"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13309751,
+                                "name": "VOTO DE SIL\u00caNCIO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PolyphonyIngrid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397,
+                                            "gamerTag": "Polyphony"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NoeeIlL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2032135,
+                                            "gamerTag": "Noel"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13308091,
+                                "name": "Gato(elho) e Rato",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lukey_Mnd"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1355473,
+                                            "gamerTag": "Luchave"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Parabasyl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1871766,
+                                            "gamerTag": "Paraba"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13451814,
+                                "name": "Drag\u00e3o e Ladr\u00e3o",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Scafffffff"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1290330,
+                                            "gamerTag": "Scaff"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kyrion"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2201723,
+                                            "gamerTag": "Kyrion"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13510503,
+                                "name": "Amigos do Marcelo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "p_guglielmi75"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1291244,
+                                            "gamerTag": "Impec\u00e1vel Marea"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LNKLucca"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2531317,
+                                            "gamerTag": "Linklel"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "GRINDCORD - BATTLE SUBWAY - M\u00eas 1",
@@ -1534,7 +1805,9 @@
         "tournament_multievent": true,
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
-        "tournament_addrState": null
+        "tournament_addrState": null,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "925385": {
         "id": 925385,
@@ -1633,7 +1906,7 @@
         "name": "Copa Zelldas Games SSBU Round Robin",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 14,
+        "numEntrants": 13,
         "videogame": {
             "id": 1386
         },
@@ -1754,7 +2027,7 @@
         "name": "Kokiri Festival (Iniciantes)",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 18,
+        "numEntrants": 19,
         "videogame": {
             "id": 1386
         },
