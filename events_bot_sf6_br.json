@@ -443,7 +443,7 @@
         "id": 933559,
         "name": "Treta Fighting Grounds #1",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 10,
         "videogame": {
             "id": 43868
@@ -452,44 +452,200 @@
         "phaseGroups": [
             {
                 "id": 2121539,
+                "state": 2,
                 "phase": {
-                    "id": 1398140,
                     "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 9024360
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 10
                     },
-                    {
-                        "id": 9024361
-                    },
-                    {
-                        "id": 9024362
-                    },
-                    {
-                        "id": 9024363
-                    },
-                    {
-                        "id": 9024364
-                    },
-                    {
-                        "id": 9024365
-                    },
-                    {
-                        "id": 9024366
-                    },
-                    {
-                        "id": 9024367
-                    }
-                ]
-            },
-            {
-                "id": 2121540,
-                "phase": {
-                    "id": 1398141,
-                    "name": "Top 8 (MD5)"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13569104,
+                                "name": "TRT Zero",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 657720,
+                                            "gamerTag": "TRT Zero"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13571232,
+                                "name": "TRT | Nomad",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1391401,
+                                            "gamerTag": "Nomad"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13571994,
+                                "name": "TRT | PK2",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 870681,
+                                            "gamerTag": "PK2"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13570942,
+                                "name": "goodNight",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3377448,
+                                            "gamerTag": "goodNight"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13572059,
+                                "name": "Sotobello",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3503391,
+                                            "gamerTag": "Sotobello"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13572141,
+                                "name": "TRT | Viola",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3503409,
+                                            "gamerTag": "Viola"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13569098,
+                                "name": "TRT | Emanos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TheEmanos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 36968,
+                                            "gamerTag": "Emanos"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13572028,
+                                "name": "TRT | Rock",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2913850,
+                                            "gamerTag": "Rock"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13571976,
+                                "name": "SOA | Mad Reis",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "reis_mad"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 367641,
+                                            "gamerTag": "Mad Reis"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13569601,
+                                "name": "STA | TATTOO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503022,
+                                            "gamerTag": "TATTOO"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Treta Fighting Grounds #1",
@@ -522,7 +678,9 @@
         "tournament_venueAddress": "R. Vicente Machado, 1059 - Batel, Curitiba - PR, 80420-011, Brazil",
         "tournament_addrState": "PR",
         "tweet_id": "1674138306915848205",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "937231": {
         "id": 937231,
