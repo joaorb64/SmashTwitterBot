@@ -120,11 +120,11 @@ for account in accounts:
 
             weekday = weekdays[accounts[account]
                                ["language"]][data_time.weekday()]
-            w, h = d.textsize(weekday, font=fnt_big)
+            _, _, w, h = d.textbbox((0, 0), weekday, font=fnt_big)
             d.text(((4+96)/2.0 - w/2.0, y+16), weekday, font=fnt_big,
                    fill=(255, 255, 255), align="center")
 
-            w, h = d.textsize(day, font=fnt_big)
+            _, _, w, h = d.textbbox((0, 0), day, font=fnt_big)
             d.text(((4+96)/2.0 - w/2.0, y+48), day, font=fnt_big,
                    fill=(255, 255, 255), align="center")
 
@@ -155,12 +155,12 @@ for account in accounts:
 
         if banner_proportion < goal_proportion:
             banner = banner.resize(
-                (256, int(256/banner_w*banner_h)), Image.ANTIALIAS)
+                (256, int(256/banner_w*banner_h)), Image.LANCZOS)
             banner_w, banner_h = banner.size
             banner = banner.crop((0, (banner_h-96)/2, 256, 96+(banner_h-96)/2))
         else:
             banner = banner.resize(
-                (int(96/banner_h*banner_w), 96), Image.ANTIALIAS)
+                (int(96/banner_h*banner_w), 96), Image.LANCZOS)
 
         banner = banner.crop((0, 0, 256, 96))
 
