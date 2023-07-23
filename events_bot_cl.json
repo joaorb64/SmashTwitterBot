@@ -503,7 +503,7 @@
         "phaseGroups": [
             {
                 "id": 2146280,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Top 8"
                 },
@@ -513,6 +513,28 @@
                         "total": 8
                     },
                     "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13760556,
+                                "name": "ORD | Mantolio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mantoliossb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2016113
+                                        }
+                                    }
+                                ]
+                            },
+                            "char_usage": {}
+                        },
                         {
                             "placement": 2,
                             "entrant": {
@@ -532,28 +554,8 @@
                                         }
                                     }
                                 ]
-                            }
-                        },
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 13760556,
-                                "name": "ORD | Mantolio",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Mantoliossb"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2016113
-                                        }
-                                    }
-                                ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 3,
@@ -574,7 +576,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 4,
@@ -595,7 +598,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -612,7 +616,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -633,7 +638,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 7,
@@ -650,7 +656,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 7,
@@ -671,7 +678,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 },
@@ -1502,7 +1510,9 @@
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1680993497636130816",
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": [],
+        "postedPhaseResultIds": [
+            2146280
+        ],
         "postedStarting": true
     },
     "936067": {
@@ -1557,7 +1567,7 @@
         "name": "Smash Life",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 28,
+        "numEntrants": 27,
         "videogame": {
             "id": 1386
         },
@@ -1586,6 +1596,7 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Bernardo O'Higgins 233, Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
-        "tweet_id": "1682088216424218624"
+        "tweet_id": "1682088216424218624",
+        "postedRegistrationClosing": true
     }
 }
