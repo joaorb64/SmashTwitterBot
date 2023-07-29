@@ -1084,7 +1084,7 @@
         "id": 951570,
         "name": "Ultimate #69",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -1093,11 +1093,168 @@
         "phaseGroups": [
             {
                 "id": 2154545,
+                "state": 2,
                 "phase": {
-                    "id": 1421566,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13797538,
+                                "name": "dead_ish",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dead_ish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1200085,
+                                            "gamerTag": "dead_ish"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13824425,
+                                "name": "Rafario",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rafario448"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 151672,
+                                            "gamerTag": "Rafario"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13795774,
+                                "name": "UA | Samwa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vitormenezello"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 970727,
+                                            "gamerTag": "Samwa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13796455,
+                                "name": "UA | Airos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AirosPK"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1696912,
+                                            "gamerTag": "Airos"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13796183,
+                                "name": "Lobby | Rettore",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1384764,
+                                            "gamerTag": "Rettore"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13796031,
+                                "name": "UA | Hikky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BiaNazuma"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1049957,
+                                            "gamerTag": "Hikky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13795791,
+                                "name": "GRP | NabutiJinja",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NabutiJinja"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3213887,
+                                            "gamerTag": "NabutiJinja"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Semanal Ultra Arcade #78",
@@ -1126,6 +1283,8 @@
         "tournament_venueAddress": "R. Tom\u00e9 de Souza, 810 - Savassi, Belo Horizonte - MG, 30140-131, Brazil",
         "tournament_addrState": "MG",
         "tweet_id": "1683847378304901121",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
