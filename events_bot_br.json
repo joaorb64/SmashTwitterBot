@@ -635,7 +635,7 @@
         "id": 945470,
         "name": "Ira 9, runs!",
         "isOnline": false,
-        "state": "ACTIVE",
+        "state": "COMPLETED",
         "numEntrants": 23,
         "videogame": {
             "id": 1386
@@ -1137,7 +1137,7 @@
             },
             {
                 "id": 2159551,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Top 8"
                 },
@@ -1147,6 +1147,28 @@
                         "total": 23
                     },
                     "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13813275,
+                                "name": "OW / WLC | Peppa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "EOmorbido"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1330165,
+                                            "gamerTag": "Peppa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 2,
                             "entrant": {
@@ -1164,28 +1186,6 @@
                                         "player": {
                                             "id": 953008,
                                             "gamerTag": "Sabino"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 13813275,
-                                "name": "OW / WLC | Peppa",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "EOmorbido"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1330165,
-                                            "gamerTag": "Peppa"
                                         }
                                     }
                                 ]
@@ -1599,6 +1599,27 @@
                         {
                             "placement": 1,
                             "entrant": {
+                                "id": 13833516,
+                                "name": "Mr.Zitu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MrZitu07"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1635553
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
                                 "id": 13833192,
                                 "name": "Delaberry",
                                 "participants": [
@@ -1618,7 +1639,7 @@
                             }
                         },
                         {
-                            "placement": 2,
+                            "placement": 3,
                             "entrant": {
                                 "id": 13833193,
                                 "name": "Alteron",
@@ -1635,7 +1656,7 @@
                             }
                         },
                         {
-                            "placement": 3,
+                            "placement": 4,
                             "entrant": {
                                 "id": 13833196,
                                 "name": "nice_sloth",
@@ -1652,7 +1673,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 5,
                             "entrant": {
                                 "id": 13833077,
                                 "name": "FraKk",
@@ -1661,27 +1682,6 @@
                                         "user": null,
                                         "player": {
                                             "id": 3549711
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 13833516,
-                                "name": "Mr.Zitu",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MrZitu07"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1635553
                                         }
                                     }
                                 ]
@@ -1730,13 +1730,19 @@
                         {
                             "placement": 2,
                             "entrant": {
-                                "id": 13833090,
-                                "name": "ArturPilot",
+                                "id": 13833197,
+                                "name": "lucayaki",
                                 "participants": [
                                     {
-                                        "user": null,
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lucayaki"
+                                                }
+                                            ]
+                                        },
                                         "player": {
-                                            "id": 3549714
+                                            "id": 3327010
                                         }
                                     }
                                 ]
@@ -1745,15 +1751,13 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 13833194,
-                                "name": "1234_heros",
+                                "id": 13833090,
+                                "name": "ArturPilot",
                                 "participants": [
                                     {
-                                        "user": {
-                                            "authorizations": null
-                                        },
+                                        "user": null,
                                         "player": {
-                                            "id": 1702461
+                                            "id": 3549714
                                         }
                                     }
                                 ]
@@ -1783,19 +1787,15 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 13833197,
-                                "name": "lucayaki",
+                                "id": 13833194,
+                                "name": "1234_heros",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "lucayaki"
-                                                }
-                                            ]
+                                            "authorizations": null
                                         },
                                         "player": {
-                                            "id": 3327010
+                                            "id": 1702461
                                         }
                                     }
                                 ]
@@ -2461,6 +2461,28 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 13810901,
+                                "name": "Mr. Zitu | Loces",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "__Loces"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 980292,
+                                            "gamerTag": "Loces"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 13735133,
@@ -2477,28 +2499,6 @@
                                         "player": {
                                             "id": 1660190,
                                             "gamerTag": "Delong"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 13810901,
-                                "name": "Mr. Zitu | Loces",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "__Loces"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 980292,
-                                            "gamerTag": "Loces"
                                         }
                                     }
                                 ]
