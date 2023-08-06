@@ -2201,7 +2201,7 @@
         "id": 957563,
         "name": "Smash Vila Anime 2023",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 11,
         "videogame": {
             "id": 1386
@@ -2210,8 +2210,8 @@
         "phaseGroups": [
             {
                 "id": 2168901,
+                "state": 2,
                 "phase": {
-                    "id": 1430185,
                     "name": "Pool A (13hs)"
                 },
                 "progressionsOut": [
@@ -2221,12 +2221,127 @@
                     {
                         "id": 9220836
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13881612,
+                                "name": "SBF/DG | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13881628,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13887440,
+                                "name": "Saxtto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3560070
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13887642,
+                                "name": "Dandandan",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3104596
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13881594,
+                                "name": "SMB | Raya",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raya_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172950
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13887460,
+                                "name": "UF | Ultimate",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 795203
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2168902,
+                "state": 1,
                 "phase": {
-                    "id": 1430186,
                     "name": "Pool B (14:30)"
                 },
                 "progressionsOut": [
@@ -2236,15 +2351,350 @@
                     {
                         "id": 9220834
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13881601,
+                                "name": "Wasco | Nightwolf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "eeu_jean"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172489
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13881609,
+                                "name": "cebola",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "cebolakkjj"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1989632
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13886593,
+                                "name": "YGUIK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3485846
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13881622,
+                                "name": "SBF | Foxxy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Isis_Foxxy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503597
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 13886582,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2168903,
+                "state": 1,
                 "phase": {
-                    "id": 1430187,
                     "name": "Top 4 (16hs)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 11
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 13886582,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13881628,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13887440,
+                                "name": "Saxtto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3560070,
+                                            "gamerTag": "Saxtto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13881612,
+                                "name": "SBF/DG | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "Taunt"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13887642,
+                                "name": "Dandandan",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3104596,
+                                            "gamerTag": "Dandandan"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13887460,
+                                "name": "UF | Ultimate",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 795203,
+                                            "gamerTag": "Ultimate"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13881594,
+                                "name": "SMB | Raya",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raya_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172950,
+                                            "gamerTag": "Raya"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13881622,
+                                "name": "SBF | Foxxy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Isis_Foxxy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503597,
+                                            "gamerTag": "Foxxy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13886593,
+                                "name": "YGUIK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3485846,
+                                            "gamerTag": "YGUIK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13881609,
+                                "name": "cebola",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "cebolakkjj"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1989632,
+                                            "gamerTag": "cebola"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13881601,
+                                "name": "Wasco | Nightwolf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "eeu_jean"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172489,
+                                            "gamerTag": "Nightwolf"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Vila Anime 2023",
@@ -2273,6 +2723,8 @@
         "tournament_venueAddress": "R. Bernardino de Andrade, 200 - Madureira, Rio de Janeiro - RJ, 21550-090, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1687871335173648385",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
