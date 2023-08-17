@@ -98,7 +98,7 @@
         "id": 962350,
         "name": "Singles!",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -107,52 +107,142 @@
         "phaseGroups": [
             {
                 "id": 2178530,
+                "state": 2,
                 "phase": {
-                    "id": 1436469,
                     "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 9259102
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
                     },
-                    {
-                        "id": 9259103
-                    },
-                    {
-                        "id": 9259104
-                    },
-                    {
-                        "id": 9259105
-                    },
-                    {
-                        "id": 9259106
-                    },
-                    {
-                        "id": 9259107
-                    },
-                    {
-                        "id": 9259108
-                    },
-                    {
-                        "id": 9259109
-                    }
-                ]
-            },
-            {
-                "id": 2178531,
-                "phase": {
-                    "id": 1436470,
-                    "name": "Top 8"
-                },
-                "progressionsOut": null
-            },
-            {
-                "id": 2178532,
-                "phase": {
-                    "id": 1436471,
-                    "name": "Resurrection Bracket"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13983757,
+                                "name": "TSC | Cradioz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "cradioz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1469790,
+                                            "gamerTag": "Cradioz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13983075,
+                                "name": "Cos | Yamil",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1128132,
+                                            "gamerTag": "Cos | Yamil"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13983081,
+                                "name": "CoS|ORD | Xepher",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "joseidiel"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 518380,
+                                            "gamerTag": "Xepher"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13984827,
+                                "name": "Mapashiet",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3194124,
+                                            "gamerTag": "Mapashiet"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13983865,
+                                "name": "ORD | Mantolio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mantoliossb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2016113,
+                                            "gamerTag": "Mantolio"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 13985368,
+                                "name": "ORD | Ch4mito",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ElCh4mito"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2895853,
+                                            "gamerTag": "Ch4mito"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Duellum Ad Mortem Cultris #2",
@@ -185,7 +275,9 @@
         "tournament_venueAddress": "Av. Libertador Bernardo O'Higgins 3470, 9160000 Estaci\u00f3n Central, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1691072462073597952",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "962890": {
         "id": 962890,
