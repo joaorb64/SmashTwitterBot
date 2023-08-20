@@ -302,34 +302,35 @@ for account in accounts:
 
                         for entrant in phase["standings"]["nodes"]:
                             r = requests.post(
-                                'https://api.start.gg/gql/alpha',
+                                "https://www.start.gg/api/-/gql",
                                 headers={
-                                    'Authorization': 'Bearer'+SMASHGG_KEY,
+                                    "client-version": "20",
+                                    'Content-Type': 'application/json'
                                 },
                                 json={
                                     'query': '''
-										query PlayerSetsInEvent($eventId: ID!) {
-										event(id: $eventId) {
-											sets(
-											page: 1,
-											perPage: 200,
-											filters: {entrantIds: ''' + str(entrant["entrant"]["id"]) + '''},
-											) {
-											nodes {
-												displayScore
-												games {
-												selections {
-													entrant {
-													id
-													}
-													selectionValue
-												}
-												}
-											}
-											}
-										}
-										},
-									''',
+                                    query PlayerSetsInEvent($eventId: ID!) {
+                                    event(id: $eventId) {
+                                        sets(
+                                        page: 1,
+                                        perPage: 200,
+                                        filters: {entrantIds: ''' + str(entrant["entrant"]["id"]) + '''},
+                                        ) {
+                                            nodes {
+                                                displayScore
+                                                    games {
+                                                        selections {
+                                                            entrant {
+                                                            id
+                                                            }
+                                                            selectionValue
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                ''',
                                     'variables': {
                                         "eventId": events_json[evento]["id"]
                                     },

@@ -91,7 +91,7 @@ def DownloadClips(account):
             # topo
             d.rectangle((0, 0, 1280, 50), (49, 49, 49, 255))
 
-            w, h = d.textsize(clip["title"], font=fnt_big)
+            _, _, w, h = d.textbbox((0, 0), clip["title"], font=fnt_big)
             d.text((640-w/2, 5), clip["title"], font=fnt_big,
                    fill=(255, 255, 255), align="center")
 
@@ -108,13 +108,13 @@ def DownloadClips(account):
 
             # view_count
             view_count = str(clip["view_count"]) + " views"
-            w, h = d.textsize(view_count, font=fnt)
+            _, _, w, h = d.textbbox((0, 0), view_count, font=fnt)
             d.text((1280-32-w, 720-64), view_count,
                    font=fnt, fill=(255, 255, 255))
 
             # bot
             bot_text = "Vídeo gerado por @"+account["handle"]
-            w, h = d.textsize(bot_text, font=fnt)
+            _, _, w, h = d.textbbox((0, 0), bot_text, font=fnt)
             d.text((1280-32-w, 720-32), "Vídeo gerado por @" +
                    account["handle"], font=fnt, fill=(255, 255, 255))
 

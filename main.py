@@ -103,57 +103,58 @@ for account in accounts:
 
         for tournament in data:
             r = requests.post(
-                'https://api.start.gg/gql/alpha',
+                "https://www.start.gg/api/-/gql",
                 headers={
-                    'Authorization': 'Bearer'+SMASHGG_KEY,
+                    "client-version": "20",
+                    'Content-Type': 'application/json'
                 },
                 json={
                     'query': '''
-            query Tournament($tournamentId: ID!) {
-              tournament(id: $tournamentId) {
-                id
-                name
-                url
-                city
-                timezone
-                startAt
-                endAt
-                registrationClosesAt
-                venueName
-                venueAddress
-                addrState
-                events {
-                  id
-                  name
-                  isOnline
-                  state
-                  numEntrants
-                  videogame {
-                    id
-                  }
-                  startAt
-                  phaseGroups {
-                    id
-                    phase {
-                      id
-                      name
-                    }
-                    progressionsOut {
-                      id
-                    }
-                  }
-                }
-                streams {
-                  streamName
-                }
-                images{
-                  id
-                  url
-                  type
-                }
-              }
-            },
-          ''',
+                    query Tournament($tournamentId: ID!) {
+                        tournament(id: $tournamentId) {
+                            id
+                            name
+                            url
+                            city
+                            timezone
+                            startAt
+                            endAt
+                            registrationClosesAt
+                            venueName
+                            venueAddress
+                            addrState
+                            events {
+                                id
+                                name
+                                isOnline
+                                state
+                                numEntrants
+                                videogame {
+                                    id
+                                }
+                                startAt
+                                phaseGroups {
+                                    id
+                                    phase {
+                                        id
+                                        name
+                                    }
+                                    progressionsOut {
+                                        id
+                                    }
+                                }
+                            }
+                            streams {
+                                streamName
+                            }
+                            images{
+                                id
+                                url
+                                type
+                            }
+                        }
+                    },
+                ''',
                     'variables': {
                         "tournamentId": tournament["id"]
                     },
