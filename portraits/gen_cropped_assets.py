@@ -1,5 +1,5 @@
 import json
-from PIL import Image
+from PIL import Image, ImageOps
 
 game = "sf6"
 pack = "pixel_art"
@@ -114,5 +114,7 @@ for char_data in game_config["character_to_codename"].values():
         int(-xx+targetW),
         int(-yy+targetH)
     ))
+
+    img = ImageOps.mirror(img)
 
     img.save(f"./{game}/{startgg_name}.png")
