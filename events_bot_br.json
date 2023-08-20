@@ -430,7 +430,7 @@
         "name": "Smash Station",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 48,
+        "numEntrants": 49,
         "videogame": {
             "id": 1386
         },
@@ -1182,7 +1182,7 @@
             },
             {
                 "id": 2184124,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 8"
                 },
@@ -1192,6 +1192,46 @@
                         "total": 16
                     },
                     "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 13979735,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 13981122,
+                                "name": "Maestas | osasXD",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2805612,
+                                            "gamerTag": "osasXD"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 5,
                             "entrant": {
@@ -1231,46 +1271,6 @@
                                         "player": {
                                             "id": 2248414,
                                             "gamerTag": "chinelo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 13979735,
-                                "name": "Prime",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Prime_Samus"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2935129,
-                                            "gamerTag": "Prime"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 13981122,
-                                "name": "Maestas | osasXD",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2805612,
-                                            "gamerTag": "osasXD"
                                         }
                                     }
                                 ]
@@ -1550,8 +1550,8 @@
         "id": 960969,
         "name": "Out top 8",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 11,
+        "state": "ACTIVE",
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
@@ -1559,11 +1559,238 @@
         "phaseGroups": [
             {
                 "id": 2175941,
+                "state": 2,
                 "phase": {
-                    "id": 1434635,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 12
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14010913,
+                                "name": "Andromeda",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 214303,
+                                            "gamerTag": "Andromeda"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14010490,
+                                "name": "YGUIK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3485846,
+                                            "gamerTag": "YGUIK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14010497,
+                                "name": "SBF | Liryco",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3266292,
+                                            "gamerTag": "Liryco"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14010916,
+                                "name": "SBF | Foxxy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Isis_Foxxy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503597,
+                                            "gamerTag": "Foxxy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14010757,
+                                "name": "SBF | Malike",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3488818,
+                                            "gamerTag": "Malike"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14010505,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14010833,
+                                "name": "SBF | RK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3505250,
+                                            "gamerTag": "RK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14011108,
+                                "name": "Celly",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 998834,
+                                            "gamerTag": "Celly"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 13937786,
+                                "name": "Capcomaniac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sasamoto007"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2889650,
+                                            "gamerTag": "Capcomaniac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14003033,
+                                "name": "Evil",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 995188,
+                                            "gamerTag": "Evil"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14010511,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14010519,
+                                "name": "BL | Chromatico",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3525719,
+                                            "gamerTag": "Chromatico"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "ENGASGATO'S",
@@ -1592,7 +1819,9 @@
         "tournament_venueAddress": "R. Athaide Pimenta de Morais, 495 - Centro, Nova Igua\u00e7u - RJ, 26210-190, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1690000407538302977",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "962846": {
         "id": 962846,
@@ -1958,7 +2187,7 @@
         "name": "Kakariko Party 5 - Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 5,
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
