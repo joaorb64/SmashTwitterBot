@@ -147,13 +147,13 @@
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1693639403279683590",
         "postedRegistrationClosing": true,
-        "retries": 2
+        "retries": 3
     },
     "967686": {
         "id": 967686,
         "name": "Singles!",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 3,
         "videogame": {
             "id": 1386
@@ -162,11 +162,80 @@
         "phaseGroups": [
             {
                 "id": 2187046,
+                "state": 2,
                 "phase": {
-                    "id": 1443186,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14048031,
+                                "name": "Elden",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Elden_YL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3237564,
+                                            "gamerTag": "Elden"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14048420,
+                                "name": "Cos | Yamil",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1128132,
+                                            "gamerTag": "Cos | Yamil"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14048364,
+                                "name": "ORD | Neitor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NeitorKD"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2085354,
+                                            "gamerTag": "Neitor"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Duellum Ad Mortem Cultris #3",
@@ -199,100 +268,9 @@
         "tournament_venueAddress": "Av. Libertador Bernardo O'Higgins 3470, 9160000 Estaci\u00f3n Central, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1693684648902099393",
-        "postedRegistrationClosing": true
-    },
-    "967200": {
-        "id": 967200,
-        "name": "Ultimate Singles",
-        "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 6,
-        "videogame": {
-            "id": 1386
-        },
-        "startAt": 1693072800,
-        "phaseGroups": [
-            {
-                "id": 2186382,
-                "phase": {
-                    "id": 1442596,
-                    "name": "Bracket"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 9293238
-                    },
-                    {
-                        "id": 9293239
-                    },
-                    {
-                        "id": 9293240
-                    },
-                    {
-                        "id": 9293241
-                    },
-                    {
-                        "id": 9293242
-                    },
-                    {
-                        "id": 9293243
-                    },
-                    {
-                        "id": 9293244
-                    },
-                    {
-                        "id": 9293245
-                    }
-                ]
-            },
-            {
-                "id": 2186383,
-                "phase": {
-                    "id": 1442597,
-                    "name": "Top 8"
-                },
-                "progressionsOut": null
-            },
-            {
-                "id": 2187180,
-                "phase": {
-                    "id": 1443279,
-                    "name": "Resurrection"
-                },
-                "progressionsOut": null
-            }
-        ],
-        "tournament": "Semana Juventud Codegua 2023",
-        "tournament_id": 580789,
-        "city": "Codegua",
-        "url": "https://start.gg/tournament/semana-juventud-codegua-2023/event/ultimate-singles",
-        "streams": [
-            {
-                "streamName": "smashfamily"
-            }
-        ],
-        "timezone": "America/Santiago",
-        "tournament_startAt": 1693072800,
-        "tournament_endAt": 1693090800,
-        "tournament_registrationClosesAt": 1693067400,
-        "images": [
-            {
-                "id": "6034170",
-                "url": "https://images.start.gg/images/tournament/580789/image-8879587e268ff4dae6163332350d0b9d.png?ehk=fl40j2nn5ySq9OaiGcRMHMtPGFn%2FT8Lxvjd897M3uRU%3D&ehkOptimized=E3%2B0oAPK%2FYuNsJEsMf9zHvRQ6NkUhN5K3IQNBHfGhg4%3D",
-                "type": "profile"
-            },
-            {
-                "id": "6034171",
-                "url": "https://images.start.gg/images/tournament/580789/image-0038992a1c302f5a84bf440b31a96c26.png?ehk=RBCTYNVLfQoZXYcfY317Wf7kTKv1rk17%2FMfWfA2AlTU%3D&ehkOptimized=QIO0sLS%2Fnq7w4pXpmlA6Ys3mALBrvSpu%2Bh39hcjdIGA%3D",
-                "type": "banner"
-            }
-        ],
-        "tournament_multievent": false,
-        "tournament_venueName": null,
-        "tournament_venueAddress": "Codegua, O'Higgins, Chile",
-        "tournament_addrState": "O'Higgins",
-        "tweet_id": "1693752587198017803",
-        "retries": 50
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "969583": {
         "id": 969583,
