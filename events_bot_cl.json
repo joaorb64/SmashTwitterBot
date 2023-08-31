@@ -148,7 +148,7 @@
         "name": "Dobles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -199,7 +199,7 @@
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 17,
+        "numEntrants": 22,
         "videogame": {
             "id": 1386
         },
@@ -471,7 +471,7 @@
         "id": 975514,
         "name": "Singles!",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -480,11 +480,138 @@
         "phaseGroups": [
             {
                 "id": 2200588,
+                "state": 2,
                 "phase": {
-                    "id": 1453125,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 14113944,
+                                "name": "GR | Rollo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 140031,
+                                            "gamerTag": "Rollo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 14114781,
+                                "name": "TSC | Cradioz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "cradioz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1469790,
+                                            "gamerTag": "Cradioz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 14117301,
+                                "name": "ORD | OneWay | Mochila",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mochilaa_Rhythm"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 556488,
+                                            "gamerTag": "Mochila"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 14115155,
+                                "name": "Cos | Yamil",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1128132,
+                                            "gamerTag": "Cos | Yamil"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 14117371,
+                                "name": "SyC | SaNin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "SapoNinja7"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1613987,
+                                            "gamerTag": "SaNin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 14117002,
+                                "name": "CoS| Jadees",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1407665,
+                                            "gamerTag": "CoS| Jadees"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Duellum Ad Mortem Cultris #4",
@@ -517,6 +644,8 @@
         "tournament_venueAddress": "Av. Libertador Bernardo O'Higgins 3470, 9160000 Estaci\u00f3n Central, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1697278340283969966",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
