@@ -78,7 +78,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 2,
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
@@ -118,7 +118,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
-        "tweet_id": "1698735513912381897"
+        "tweet_id": "1698735513912381897",
+        "postedRegistrationClosing": true
     },
     "964439": {
         "id": 964439,
@@ -265,8 +266,8 @@
         "id": 978655,
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 12,
+        "state": "ACTIVE",
+        "numEntrants": 15,
         "videogame": {
             "id": 1386
         },
@@ -274,44 +275,639 @@
         "phaseGroups": [
             {
                 "id": 2206115,
+                "state": 1,
                 "phase": {
-                    "id": 1457231,
                     "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 15
+                    },
+                    "nodes": [
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14198799,
+                                "name": "0TD | Braixen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BunnyBraixen"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 293126,
+                                            "gamerTag": "Braixen"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14190624,
+                                "name": "OW | magatsu muplop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "diegomedina50"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 274734,
+                                            "gamerTag": "OW | magatsu muplop"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14200661,
+                                "name": "Hik1",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2695363,
+                                            "gamerTag": "Hik1"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14200422,
+                                "name": "Dragon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 62827,
+                                            "gamerTag": "Dragon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14200319,
+                                "name": "imollen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3008475,
+                                            "gamerTag": "imollen"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14180809,
+                                "name": "Niconga",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3605412,
+                                            "gamerTag": "Niconga"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14187966,
+                                "name": "Leon sj",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lensj452518_sj"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3217805,
+                                            "gamerTag": "Leon sj"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 14190640,
+                                "name": "Renatoide",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2439608,
+                                            "gamerTag": "Renatoide"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 14199964,
+                                "name": "Elden",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Elden_YL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3237564,
+                                            "gamerTag": "Elden"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 14200066,
+                                "name": "WLC | Martan",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1469943,
+                                            "gamerTag": "Martan"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 14200180,
+                                "name": "Broskee",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "brossqui"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2648537,
+                                            "gamerTag": "Broskee"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 14200701,
+                                "name": "SSF | EL PRINCIPE SAYAYIN",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PrincipeFGC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1454134,
+                                            "gamerTag": "EL PRINCIPE SAYAYIN"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 14192936,
+                                "name": "Nicanor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1123604,
+                                            "gamerTag": "Nicanor"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 14200174,
+                                "name": "AngeredNessie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3443078,
+                                            "gamerTag": "AngeredNessie"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 14180815,
+                                "name": "ThoMario86",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3389782,
+                                            "gamerTag": "ThoMario86"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2206116,
+                "state": 2,
                 "phase": {
-                    "id": 1457232,
                     "name": "Singles"
                 },
                 "progressionsOut": [
                     {
-                        "id": 9368175
+                        "id": 9380724
                     },
                     {
-                        "id": 9368176
+                        "id": 9380726
                     },
                     {
-                        "id": 9368177
+                        "id": 9380728
                     },
                     {
-                        "id": 9368178
-                    },
-                    {
-                        "id": 9368179
-                    },
-                    {
-                        "id": 9368180
-                    },
-                    {
-                        "id": 9368181
-                    },
-                    {
-                        "id": 9368182
+                        "id": 9380730
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14190624,
+                                "name": "OW | magatsu muplop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "diegomedina50"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 274734
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14198799,
+                                "name": "0TD | Braixen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BunnyBraixen"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 293126
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14200661,
+                                "name": "Hik1",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2695363
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14200422,
+                                "name": "Dragon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 62827
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14180809,
+                                "name": "Niconga",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3605412
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14187966,
+                                "name": "Leon sj",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lensj452518_sj"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3217805
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14200319,
+                                "name": "imollen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3008475
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2209316,
+                "state": 2,
+                "phase": {
+                    "name": "Singles"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 9380725
+                    },
+                    {
+                        "id": 9380727
+                    },
+                    {
+                        "id": 9380729
+                    },
+                    {
+                        "id": 9380731
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 14200066,
+                                "name": "WLC | Martan",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1469943
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 14190640,
+                                "name": "Renatoide",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2439608
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 14199964,
+                                "name": "Elden",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Elden_YL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3237564
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 14200174,
+                                "name": "AngeredNessie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3443078
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 14200180,
+                                "name": "Broskee",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "brossqui"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2648537
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 14192936,
+                                "name": "Nicanor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1123604
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 14180815,
+                                "name": "ThoMario86",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3389782
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 14200701,
+                                "name": "SSF | EL PRINCIPE SAYAYIN",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PrincipeFGC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1454134
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Bros \u00d1u\u00f1oa #25",
@@ -344,7 +940,9 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1699173397941330105",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "967200": {
         "id": 967200,
