@@ -805,7 +805,7 @@
         "phaseGroups": [
             {
                 "id": 2199774,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Pool A"
                 },
@@ -823,7 +823,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 4,
+                            "placement": 1,
                             "entrant": {
                                 "id": 14195594,
                                 "name": "Blank",
@@ -844,7 +844,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 2,
                             "entrant": {
                                 "id": 14201551,
                                 "name": "TSD | Kyrion",
@@ -865,7 +865,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 3,
                             "entrant": {
                                 "id": 14201617,
                                 "name": "SMB | Gin Moon",
@@ -911,7 +911,7 @@
             },
             {
                 "id": 2209366,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Pool B"
                 },
@@ -929,28 +929,49 @@
                     },
                     "nodes": [
                         {
-                            "placement": 4,
+                            "placement": 1,
                             "entrant": {
-                                "id": 14199227,
-                                "name": "Rafarofael",
+                                "id": 14201741,
+                                "name": "BDB | Wanshitong",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "RafaelCvSantos"
+                                                    "externalUsername": "Wanshitong_SSB"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 3262373
+                                            "id": 2816343
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 2,
+                            "entrant": {
+                                "id": 14200557,
+                                "name": "Heypolit",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Real_Heypolit"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3563447
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
                             "entrant": {
                                 "id": 14200021,
                                 "name": "Ike Ryike",
@@ -973,40 +994,19 @@
                         {
                             "placement": 4,
                             "entrant": {
-                                "id": 14201741,
-                                "name": "BDB | Wanshitong",
+                                "id": 14199227,
+                                "name": "Rafarofael",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "Wanshitong_SSB"
+                                                    "externalUsername": "RafaelCvSantos"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 2816343
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 14200557,
-                                "name": "Heypolit",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Real_Heypolit"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 3563447
+                                            "id": 3262373
                                         }
                                     }
                                 ]
@@ -1017,7 +1017,7 @@
             },
             {
                 "id": 2209367,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Pool C"
                 },
@@ -1035,7 +1035,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 4,
+                            "placement": 1,
                             "entrant": {
                                 "id": 14199517,
                                 "name": "FT | Obelisk",
@@ -1056,7 +1056,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 2,
                             "entrant": {
                                 "id": 14200664,
                                 "name": "Prime",
@@ -1071,6 +1071,27 @@
                                         },
                                         "player": {
                                             "id": 2935129
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14201820,
+                                "name": "CPS | Celo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Celo_92"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1412356
                                         }
                                     }
                                 ]
@@ -1096,27 +1117,6 @@
                                     }
                                 ]
                             }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 14201820,
-                                "name": "CPS | Celo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Celo_92"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1412356
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     ]
                 }
@@ -1130,9 +1130,354 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 0
+                        "total": 16
                     },
-                    "nodes": []
+                    "nodes": [
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14195594,
+                                "name": "Blank",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PaleBl_nk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221948,
+                                            "gamerTag": "Blank"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14201551,
+                                "name": "TSD | Kyrion",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kyrion"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2201723,
+                                            "gamerTag": "Kyrion"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14201617,
+                                "name": "SMB | Gin Moon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ginmoon_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2559787,
+                                            "gamerTag": "Gin Moon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14199125,
+                                "name": "SBF | OsmoZ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "OsmoZNilo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3198794,
+                                            "gamerTag": "OsmoZ"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14200021,
+                                "name": "Ike Ryike",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ike_Ryike"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1556466,
+                                            "gamerTag": "Ike Ryike"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14199227,
+                                "name": "Rafarofael",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RafaelCvSantos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3262373,
+                                            "gamerTag": "Rafarofael"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14201741,
+                                "name": "BDB | Wanshitong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wanshitong_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2816343,
+                                            "gamerTag": "Wanshitong"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14200557,
+                                "name": "Heypolit",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Real_Heypolit"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3563447,
+                                            "gamerTag": "Heypolit"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14199517,
+                                "name": "FT | Obelisk",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "O_BeliscoFT"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1487891,
+                                            "gamerTag": "Obelisk"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14200664,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14201820,
+                                "name": "CPS | Celo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Celo_92"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1412356,
+                                            "gamerTag": "Celo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14200411,
+                                "name": "ChriS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ChriSTamashiro_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2974618,
+                                            "gamerTag": "ChriS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14202145,
+                                "name": "Scaff",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2341744,
+                                            "gamerTag": "Scaff"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14198421,
+                                "name": "SSBPE | Luchave",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lukey_Mnd"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1355473,
+                                            "gamerTag": "Luchave"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14198542,
+                                "name": "IKE1 | Lynx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LNKLucca"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2531317,
+                                            "gamerTag": "Lynx"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14199948,
+                                "name": "Tribo | Dario",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1741026,
+                                            "gamerTag": "Dario"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -1155,7 +1500,24 @@
                     },
                     "nodes": [
                         {
-                            "placement": 4,
+                            "placement": 1,
+                            "entrant": {
+                                "id": 14202145,
+                                "name": "Scaff",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2341744
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
                             "entrant": {
                                 "id": 14198421,
                                 "name": "SSBPE | Luchave",
@@ -1176,7 +1538,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 3,
                             "entrant": {
                                 "id": 14198542,
                                 "name": "IKE1 | Lynx",
@@ -1208,23 +1570,6 @@
                                         },
                                         "player": {
                                             "id": 1741026
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 14202145,
-                                "name": "Scaff",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2341744
                                         }
                                     }
                                 ]
