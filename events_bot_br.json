@@ -868,7 +868,7 @@
         "id": 977378,
         "name": "Engasga 2, run",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 14,
         "videogame": {
             "id": 1386
@@ -877,11 +877,17 @@
         "phaseGroups": [
             {
                 "id": 2204025,
+                "state": 2,
                 "phase": {
-                    "id": 1455611,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "ENGASGATO'S 2",
@@ -910,7 +916,9 @@
         "tournament_venueAddress": "R. Athaide Pimenta de Morais, 495 - Centro, Nova Igua\u00e7u - RJ, 26210-190, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1698682581535936840",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "977379": {
         "id": 977379,
