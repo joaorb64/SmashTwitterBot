@@ -43,7 +43,7 @@
         "name": "Fase 10 (14/09)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 28,
+        "numEntrants": 32,
         "videogame": {
             "id": 1386
         },
@@ -604,7 +604,7 @@
         "name": "Etapa 3 (15/09)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 1,
+        "numEntrants": 2,
         "videogame": {
             "id": 1386
         },
@@ -756,13 +756,195 @@
         "id": 975199,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
         "startAt": 1694728800,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 2200090,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14116563,
+                                "name": "Bnuyy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Bnuyy_Sora"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1725329,
+                                            "gamerTag": "Bnuyy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14262470,
+                                "name": "Takkar",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Takkar118"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3135194,
+                                            "gamerTag": "Takkar"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14261555,
+                                "name": "TBB | eB0NES",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "eB0NES"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2566526,
+                                            "gamerTag": "eB0NES"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14251389,
+                                "name": "Frml Bsn",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3629651,
+                                            "gamerTag": "Frml Bsn"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14261607,
+                                "name": "YFST | Quilavis",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Quilavis_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 697040,
+                                            "gamerTag": "Quilavis"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14175215,
+                                "name": "Jay O's",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dudsuno"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3433558,
+                                            "gamerTag": "Jay O's"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14262400,
+                                "name": "A-",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3631845,
+                                            "gamerTag": "A-"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14110033,
+                                "name": "Haze",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "hazefeedback"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1773920,
+                                            "gamerTag": "Haze"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "Smash Fellas #13",
         "tournament_id": 584907,
         "city": "Asa Sul",
@@ -789,7 +971,9 @@
         "tournament_venueAddress": "BLOCO C - LOJA 02 - Asa Sul, Bras\u00edlia - DF, 70254-530, Brasil",
         "tournament_addrState": "DF",
         "tweet_id": "1697059347929444815",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "978027": {
         "id": 978027,
@@ -910,7 +1094,7 @@
         "name": "Smash Station",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 21,
+        "numEntrants": 22,
         "videogame": {
             "id": 1386
         },
