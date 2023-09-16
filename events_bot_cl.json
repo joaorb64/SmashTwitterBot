@@ -354,7 +354,7 @@
         "name": "Singles!",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 13,
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
@@ -492,7 +492,7 @@
         "id": 986028,
         "name": "Dobles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -501,11 +501,208 @@
         "phaseGroups": [
             {
                 "id": 2217856,
+                "state": 2,
                 "phase": {
-                    "id": 1466052,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14279986,
+                                "name": "Fa / Hb2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pablo_Hb2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 131600,
+                                            "gamerTag": "Hb2"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FA_cosplay"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 152540,
+                                            "gamerTag": "Fa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14280165,
+                                "name": "Cos | Yamil / Xepher",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "joseidiel"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 518380,
+                                            "gamerTag": "Xepher"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1128132,
+                                            "gamerTag": "Cos | Yamil"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14280302,
+                                "name": "CoS| Jadees / Peppa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "EOmorbido"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1330165,
+                                            "gamerTag": "Peppa"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1407665,
+                                            "gamerTag": "CoS| Jadees"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14279975,
+                                "name": "Memperra / Mabrix",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1469269,
+                                            "gamerTag": "Mabrix"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2085669,
+                                            "gamerTag": "Memperra"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14280296,
+                                "name": "nicompleto / Darkness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 265926,
+                                            "gamerTag": "Darkness"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nihotdogssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1132784,
+                                            "gamerTag": "nicompleto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14280291,
+                                "name": "FeliaPunky / Rafita Gilipollas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FeliaPonk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1547218,
+                                            "gamerTag": "FeliaPunky"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Som3thing_cl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1799081,
+                                            "gamerTag": "Rafita Gilipollas"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Duellum Ad Mortem Cultris: Special #2",
@@ -538,6 +735,8 @@
         "tournament_venueAddress": "Av. Libertador Bernardo O'Higgins 3470, 9160000 Estaci\u00f3n Central, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1703061412661145748",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
