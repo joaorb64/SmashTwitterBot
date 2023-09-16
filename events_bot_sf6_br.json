@@ -3,18 +3,18 @@
         "id": 928053,
         "name": "Finais Liga Sabadouken",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 0,
+        "state": "ACTIVE",
+        "numEntrants": 8,
         "videogame": {
             "id": 43868
         },
-        "startAt": 1694883600,
+        "startAt": 1694894400,
         "phaseGroups": [
             {
                 "id": 2111930,
+                "state": 2,
                 "phase": {
-                    "id": 1390909,
-                    "name": "Bracket"
+                    "name": "Fase 1"
                 },
                 "progressionsOut": [
                     {
@@ -41,15 +41,192 @@
                     {
                         "id": 8982860
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14282370,
+                                "name": "Warriors Team | Pauloweb",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PaulowebTV"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358548
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14282378,
+                                "name": "Warriors Team | DigJoyGodoy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "digjoygodoy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3426009
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14282382,
+                                "name": "Warriors Team | Drunken Bokah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DiegoBokaRJ"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 360848
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14282386,
+                                "name": "WT | ProGamer | MrSantanaRJ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 748409
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14282399,
+                                "name": "Careca",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Henri83140895"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1135775
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14282401,
+                                "name": "Warriors Team ErudonBR",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CarlosErudon"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 717677
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14282407,
+                                "name": "Warrior Team | Goretthy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Goretthyjogador"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1131273
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14282412,
+                                "name": "Warriors Team | WarriorsTeam|killerzincf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "killerzincf"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 709680
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2111931,
+                "state": 1,
                 "phase": {
-                    "id": 1390910,
                     "name": "TOP 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Sabadouken #9 \u2014 Finais do Circuito",
@@ -82,7 +259,9 @@
         "tournament_venueAddress": "R. Francisco Vasconcelos, 75 - S\u00e3o Crist\u00f3v\u00e3o, Cabo Frio - RJ, 28909-440, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1668075956953554944",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "971051": {
         "id": 971051,
@@ -297,6 +476,40 @@
                             }
                         },
                         {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14236274,
+                                "name": "Sabotinha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3625743,
+                                            "gamerTag": "Sabotinha"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14280265,
+                                "name": "Diego Mendes",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3634834,
+                                            "gamerTag": "Diego Mendes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 17,
                             "entrant": {
                                 "id": 14264478,
@@ -487,16 +700,16 @@
                         {
                             "placement": 17,
                             "entrant": {
-                                "id": 14236274,
-                                "name": "Sabotinha",
+                                "id": 14221649,
+                                "name": "N10 | Neynash",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 3625743,
-                                            "gamerTag": "Sabotinha"
+                                            "id": 3432382,
+                                            "gamerTag": "Neynash"
                                         }
                                     }
                                 ]
@@ -515,42 +728,6 @@
                                         "player": {
                                             "id": 3522480,
                                             "gamerTag": "Angelkyo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 17,
-                            "entrant": {
-                                "id": 14268261,
-                                "name": "Jogador de Ken | .",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2179863,
-                                            "gamerTag": "."
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 17,
-                            "entrant": {
-                                "id": 14225422,
-                                "name": "Lukejr",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3626366,
-                                            "gamerTag": "Lukejr"
                                         }
                                     }
                                 ]
@@ -806,7 +983,7 @@
         "id": 984316,
         "name": "Street Fighter 6 #13",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 14,
         "videogame": {
             "id": 43868
@@ -815,11 +992,274 @@
         "phaseGroups": [
             {
                 "id": 2215089,
+                "state": 2,
                 "phase": {
-                    "id": 1463885,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 14
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14281382,
+                                "name": "Garga",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 514579,
+                                            "gamerTag": "Garga"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14276164,
+                                "name": "wangi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3403503,
+                                            "gamerTag": "wangi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14249869,
+                                "name": "txt | youngeeky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1424953,
+                                            "gamerTag": "youngeeky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14246878,
+                                "name": "AdK | Zate",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Zatefgc"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 611907,
+                                            "gamerTag": "Zate"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14281046,
+                                "name": "Lobby | Abuhid",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1384769,
+                                            "gamerTag": "Abuhid"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14250359,
+                                "name": "mascoooot",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3482485,
+                                            "gamerTag": "mascoooot"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14276362,
+                                "name": "Crocks",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3406228,
+                                            "gamerTag": "Crocks"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14280520,
+                                "name": "My wallet | Novin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 970635,
+                                            "gamerTag": "Novin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14281130,
+                                "name": "Murielisson Uber",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1537326,
+                                            "gamerTag": "Murielisson Uber"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14281925,
+                                "name": "Filipe",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3635097,
+                                            "gamerTag": "Filipe"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14279943,
+                                "name": "Jangalove",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3634646,
+                                            "gamerTag": "Jangalove"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14246906,
+                                "name": "Pocket",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1442193,
+                                            "gamerTag": "Pocket"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14279472,
+                                "name": "Tichamon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MTichamon"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1199421,
+                                            "gamerTag": "Tichamon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14281928,
+                                "name": "Enzo",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3635098,
+                                            "gamerTag": "Enzo"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Semanal Ultra Arcade #84",
@@ -855,7 +1295,9 @@
         "tournament_venueAddress": "R. Tom\u00e9 de Souza, 810 - Savassi, Belo Horizonte - MG, 30140-131, Brazil",
         "tournament_addrState": "MG",
         "tweet_id": "1701989379063857191",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "986117": {
         "id": 986117,
@@ -880,7 +1322,7 @@
         "tournament": "Magic & Grind 30",
         "tournament_id": 590798,
         "city": "Vila Isabel",
-        "url": "https://start.gg/tournament/magic-grind-30",
+        "url": "https://start.gg/tournament/magic-grind-30/event/magic-grind-sf-6",
         "streams": [
             {
                 "streamName": "twilight_squad"
