@@ -648,7 +648,7 @@
         "name": "Rotation Battle (Ladder)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 14,
+        "numEntrants": 15,
         "videogame": {
             "id": 1386
         },
@@ -910,8 +910,8 @@
         "id": 986505,
         "name": "Smash Geek, run.",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 5,
+        "state": "ACTIVE",
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -919,8 +919,8 @@
         "phaseGroups": [
             {
                 "id": 2218602,
+                "state": 2,
                 "phase": {
-                    "id": 1466654,
                     "name": "Pool A"
                 },
                 "progressionsOut": [
@@ -930,12 +930,72 @@
                     {
                         "id": 9416077
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 14295789,
+                                "name": "TwS | Dypherius",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dypherius"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1369571
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 14297053,
+                                "name": "pedrova70",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3636692
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14295797,
+                                "name": "BDB | NICOLAI DO BERMUD\u00c3O",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3196543
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2218603,
+                "state": 1,
                 "phase": {
-                    "id": 1466655,
                     "name": "Pool B"
                 },
                 "progressionsOut": [
@@ -945,45 +1005,194 @@
                     {
                         "id": 9416079
                     }
-                ]
-            },
-            {
-                "id": 2218604,
-                "phase": {
-                    "id": 1466656,
-                    "name": "Pool C"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 9416080
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
                     },
-                    {
-                        "id": 9416081
-                    }
-                ]
-            },
-            {
-                "id": 2218606,
-                "phase": {
-                    "id": 1466658,
-                    "name": "Pool D"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 9416082
-                    },
-                    {
-                        "id": 9416083
-                    }
-                ]
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14295793,
+                                "name": "BDB | Tunico",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3196542
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14295800,
+                                "name": "Wanshitong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wanshitong_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2816343
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14297421,
+                                "name": "Blasivas",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3636746
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2218607,
+                "state": 1,
                 "phase": {
-                    "id": 1466659,
-                    "name": "Top 8"
+                    "name": "Top 4"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14295789,
+                                "name": "TwS | Dypherius",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dypherius"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1369571,
+                                            "gamerTag": "Dypherius"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14295797,
+                                "name": "BDB | NICOLAI DO BERMUD\u00c3O",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3196543,
+                                            "gamerTag": "NICOLAI DO BERMUD\u00c3O"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14297053,
+                                "name": "pedrova70",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3636692,
+                                            "gamerTag": "pedrova70"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14295800,
+                                "name": "Wanshitong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wanshitong_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2816343,
+                                            "gamerTag": "Wanshitong"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14295793,
+                                "name": "BDB | Tunico",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3196542,
+                                            "gamerTag": "Tunico"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14297421,
+                                "name": "Blasivas",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3636746,
+                                            "gamerTag": "Blasivas"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Geek Tijuca, SET. 2023",
@@ -1012,6 +1221,8 @@
         "tournament_venueAddress": "Av. Melo Matos, 25 - Tijuca, Rio de Janeiro - RJ, 20270-290, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1703416220685340852",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
