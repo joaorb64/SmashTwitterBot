@@ -693,7 +693,7 @@
         "id": 987232,
         "name": "Ultimate #74",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -702,11 +702,168 @@
         "phaseGroups": [
             {
                 "id": 2219886,
+                "state": 2,
                 "phase": {
-                    "id": 1467612,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14328392,
+                                "name": "UA | Hikky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BiaNazuma"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1049957,
+                                            "gamerTag": "Hikky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14369194,
+                                "name": "NN | Abuhid",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1384769,
+                                            "gamerTag": "Abuhid"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14357330,
+                                "name": "UA | Airos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AirosPK"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1696912,
+                                            "gamerTag": "Airos"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14335043,
+                                "name": "UA | Samwa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vitormenezello"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 970727,
+                                            "gamerTag": "Samwa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14360250,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14327617,
+                                "name": "UA | Morphales",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MorphalesBR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1024243,
+                                            "gamerTag": "Morphales"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 14339143,
+                                "name": "dead_ish",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dead_ish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1200085,
+                                            "gamerTag": "dead_ish"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Semanal Ultra Arcade #85",
@@ -742,7 +899,9 @@
         "tournament_venueAddress": "R. Tom\u00e9 de Souza, 810 - Savassi, Belo Horizonte - MG, 30140-131, Brazil",
         "tournament_addrState": "MG",
         "tweet_id": "1703801263740137813",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "987313": {
         "id": 987313,
@@ -1069,23 +1228,6 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 14320189,
-                                "name": "SBF | Igor Sonic",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3503417
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
                                 "id": 14334450,
                                 "name": "SBF/DG | Taunt",
                                 "participants": [
@@ -1099,6 +1241,23 @@
                                         },
                                         "player": {
                                             "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14320189,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417
                                         }
                                     }
                                 ]
