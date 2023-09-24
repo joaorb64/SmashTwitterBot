@@ -371,7 +371,7 @@
         "name": "Rental Battle (Random)",
         "isOnline": true,
         "state": "ACTIVE",
-        "numEntrants": 12,
+        "numEntrants": 13,
         "videogame": {
             "id": 1386
         },
@@ -386,7 +386,7 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 5
+                        "total": 6
                     },
                     "nodes": [
                         {
@@ -404,14 +404,15 @@
                                             ]
                                         },
                                         "player": {
-                                            "id": 2068666
+                                            "id": 2068666,
+                                            "gamerTag": "Grandmemes"
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 2,
                             "entrant": {
                                 "id": 14378191,
                                 "name": "SMB/CNTR | Meps",
@@ -425,14 +426,15 @@
                                             ]
                                         },
                                         "player": {
-                                            "id": 1795745
+                                            "id": 1795745,
+                                            "gamerTag": "Meps"
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 3,
                             "entrant": {
                                 "id": 14325570,
                                 "name": "Polyphony",
@@ -446,7 +448,8 @@
                                             ]
                                         },
                                         "player": {
-                                            "id": 1448397
+                                            "id": 1448397,
+                                            "gamerTag": "Polyphony"
                                         }
                                     }
                                 ]
@@ -467,14 +470,15 @@
                                             ]
                                         },
                                         "player": {
-                                            "id": 2974618
+                                            "id": 2974618,
+                                            "gamerTag": "ChriS"
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 5,
                             "entrant": {
                                 "id": 14377639,
                                 "name": "??? | Rafarofael",
@@ -488,136 +492,37 @@
                                             ]
                                         },
                                         "player": {
-                                            "id": 3262373
+                                            "id": 3262373,
+                                            "gamerTag": "Rafarofael"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14379191,
+                                "name": "CounterEncounters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CounterEncount"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2240241,
+                                            "gamerTag": "CounterEncounters"
                                         }
                                     }
                                 ]
                             }
                         }
                     ]
-                },
-                "multiphase": true
-            },
-            {
-                "id": 2205049,
-                "state": 2,
-                "phase": {
-                    "name": "Random Ladder"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 5
-                    },
-                    "nodes": [
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 14295908,
-                                "name": "Grandmemes",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Grandmemes_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2068666
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 14378191,
-                                "name": "SMB/CNTR | Meps",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Meps219"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1795745
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 14325570,
-                                "name": "Polyphony",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "PolyphonyIngrid"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1448397
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 14377834,
-                                "name": "ChriS",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "ChriSTamashiro_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2974618
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 14377639,
-                                "name": "??? | Rafarofael",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "RafaelCvSantos"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 3262373
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                "multiphase": true
+                }
             }
         ],
         "tournament": "BATTLE SUBWAY - M\u00caS 3",
