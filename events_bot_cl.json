@@ -471,7 +471,7 @@
         "id": 998660,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 2,
         "videogame": {
             "id": 1386
@@ -480,11 +480,62 @@
         "phaseGroups": [
             {
                 "id": 2238885,
+                "state": 2,
                 "phase": {
-                    "id": 1482013,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 14500056,
+                                "name": "Mandinga",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MandingaSBC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1001644,
+                                            "gamerTag": "Mandinga"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 14500310,
+                                "name": "Hb2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pablo_Hb2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 131600,
+                                            "gamerTag": "Hb2"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "PowerUP #22",
@@ -517,6 +568,8 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1709659893735559312",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
