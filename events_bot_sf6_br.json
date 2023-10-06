@@ -148,8 +148,8 @@
         "id": 998510,
         "name": "SF6 Segunda Classificatoria 6 de outubro",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 6,
+        "state": "ACTIVE",
+        "numEntrants": 5,
         "videogame": {
             "id": 43868
         },
@@ -157,11 +157,108 @@
         "phaseGroups": [
             {
                 "id": 2238677,
+                "state": 2,
                 "phase": {
-                    "id": 1481834,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 14496655,
+                                "name": "ThePendragonBR",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3668092,
+                                            "gamerTag": "ThePendragonBR"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14496176,
+                                "name": "Ateotalo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3316654,
+                                            "gamerTag": "Ateotalo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14495590,
+                                "name": "TAY",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3669395,
+                                            "gamerTag": "TAY"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14496202,
+                                "name": "FCBR | Samukof",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3669968,
+                                            "gamerTag": "Samukof"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 14496315,
+                                "name": "Fafafodao",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3668023,
+                                            "gamerTag": "Fafafodao"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Sebrae Inova 2023",
@@ -185,7 +282,9 @@
         "tournament_venueAddress": "Eixo Monumental - SDC - Ulysses Guimar\u00e3es, Bras\u00edlia - DF, 70655-775, Brasil",
         "tournament_addrState": "DF",
         "tweet_id": "1709607036797731179",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "998511": {
         "id": 998511,
@@ -339,7 +438,7 @@
         "tournament": "Super Fighters - Santos Comic Expo 23",
         "tournament_id": 566447,
         "city": "Vila Matias",
-        "url": "https://start.gg/tournament/super-fighters-santos-comic-expo-23",
+        "url": "https://start.gg/tournament/super-fighters-santos-comic-expo-23/event/super-fighters-street-fighter-6",
         "streams": [
             {
                 "streamName": "z13gameclub"
