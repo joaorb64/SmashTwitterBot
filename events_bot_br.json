@@ -647,54 +647,6 @@
         "tournament_addrState": null,
         "tweet_id": "1709561749978874180"
     },
-    "1008211": {
-        "id": 1008211,
-        "name": "Ultimate Class B",
-        "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 1,
-        "videogame": {
-            "id": 1386
-        },
-        "startAt": 1698602400,
-        "phaseGroups": [
-            {
-                "id": 2254607,
-                "phase": {
-                    "id": 1494132,
-                    "name": "Bracket"
-                },
-                "progressionsOut": null
-            }
-        ],
-        "tournament": "Smatch\u00ea #32 @ 4Beer",
-        "tournament_id": 602421,
-        "city": "Menino Deus",
-        "url": "https://start.gg/tournament/smatch-32-4beer/event/ultimate-class-b",
-        "streams": null,
-        "timezone": "America/Sao_Paulo",
-        "tournament_startAt": 1698602400,
-        "tournament_endAt": 1698620400,
-        "tournament_registrationClosesAt": 1698642000,
-        "images": [
-            {
-                "id": "6232270",
-                "url": "https://images.start.gg/images/tournament/602421/image-a7b15946185760b9f710dcf1ac14a551.jpg?ehk=D%2FQHC3sg7vLtS4zLsSzTqlW%2BEY5bBVNIcKNDsJSPAyU%3D&ehkOptimized=4I%2BbAh0ggxcbedmT%2BpfzyZK3slk58ADPF9gKX0AgqJg%3D",
-                "type": "banner"
-            },
-            {
-                "id": "6232275",
-                "url": "https://images.start.gg/images/tournament/602421/image-830e2d7c4ba1bab656bc025625bba107.png?ehk=rWa%2F5dC0h6Pbheq%2F3YjoNDXIUGIlOjH89efYBCJDoNo%3D&ehkOptimized=Cy7Q8lbjjNfWJK%2FmnNpqX06aDCWjYmp13xUSz6MbiRQ%3D",
-                "type": "profile"
-            }
-        ],
-        "tournament_multievent": true,
-        "tournament_venueName": null,
-        "tournament_venueAddress": "Av. Get\u00falio Vargas, 1157 - Menino Deus, Porto Alegre - RS, 90150-005, Brazil",
-        "tournament_addrState": "RS",
-        "tweet_id": "1715503382008357098",
-        "postedRegistrationClosing": true
-    },
     "1009201": {
         "id": 1009201,
         "name": "3 de Nov. - Torneio Super Smash Bros. Ultimate",
@@ -1268,7 +1220,7 @@
         "id": 1017557,
         "name": "Etapa 1",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 15,
         "videogame": {
             "id": 1386
@@ -1277,8 +1229,8 @@
         "phaseGroups": [
             {
                 "id": 2270362,
+                "state": 2,
                 "phase": {
-                    "id": 1506057,
                     "name": "Pool A"
                 },
                 "progressionsOut": [
@@ -1288,12 +1240,103 @@
                     {
                         "id": 9607561
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14777310,
+                                "name": "G59 | mingau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mingauup"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2244622
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14778352,
+                                "name": "FAZoV | CounterEncounters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CounterEncount"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2240241
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14779443,
+                                "name": "CPS | Celo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Celo_92"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1412356
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14779780,
+                                "name": "FT | Grandmemes",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Grandmemes_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2068666
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2270373,
+                "state": 2,
                 "phase": {
-                    "id": 1506068,
                     "name": "Pool B"
                 },
                 "progressionsOut": [
@@ -1303,15 +1346,618 @@
                     {
                         "id": 9607563
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14779058,
+                                "name": "PTM/SPB/WASCO| | SpitTrap19",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "STrapezzzz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1859557
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14777461,
+                                "name": "Los Brabos | Feraligatr",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukeHidron"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 540604
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14775538,
+                                "name": "InklingGirl | YukiNobody",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CielGaymer"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2756733
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14775242,
+                                "name": "Andromeda",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 214303
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2270374,
+                "state": 1,
                 "phase": {
-                    "id": 1506069,
-                    "name": "Top 4"
+                    "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 15
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14778761,
+                                "name": "FV | Blank",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PaleBl_nk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221948,
+                                            "gamerTag": "Blank"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14778336,
+                                "name": "SMB | Lukz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1092002,
+                                            "gamerTag": "Lukz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14776595,
+                                "name": "cebola",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "cebolakkjj"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1989632,
+                                            "gamerTag": "cebola"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14779780,
+                                "name": "FT | Grandmemes",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Grandmemes_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2068666,
+                                            "gamerTag": "Grandmemes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14779443,
+                                "name": "CPS | Celo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Celo_92"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1412356,
+                                            "gamerTag": "Celo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14778352,
+                                "name": "FAZoV | CounterEncounters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CounterEncount"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2240241,
+                                            "gamerTag": "CounterEncounters"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14777310,
+                                "name": "G59 | mingau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mingauup"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2244622,
+                                            "gamerTag": "mingau"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14779058,
+                                "name": "PTM/SPB/WASCO| | SpitTrap19",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "STrapezzzz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1859557,
+                                            "gamerTag": "SpitTrap19"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14777461,
+                                "name": "Los Brabos | Feraligatr",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LukeHidron"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 540604,
+                                            "gamerTag": "Feraligatr"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14775538,
+                                "name": "InklingGirl | YukiNobody",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CielGaymer"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2756733,
+                                            "gamerTag": "YukiNobody"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14775242,
+                                "name": "Andromeda",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 214303,
+                                            "gamerTag": "Andromeda"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14777761,
+                                "name": "SSBPE | Luchave",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lukey_Mnd"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1355473,
+                                            "gamerTag": "Luchave"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14779305,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14774750,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14776688,
+                                "name": "LaisMoshii~",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "laishoe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2213575,
+                                            "gamerTag": "LaisMoshii~"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2270896,
+                "state": 2,
+                "phase": {
+                    "name": "Pool C"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 9609142
+                    },
+                    {
+                        "id": 9609143
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14777761,
+                                "name": "SSBPE | Luchave",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lukey_Mnd"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1355473
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14779305,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14774750,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14776688,
+                                "name": "LaisMoshii~",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "laishoe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2213575
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2270897,
+                "state": 2,
+                "phase": {
+                    "name": "Pool D"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 9609144
+                    },
+                    {
+                        "id": 9609145
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14778761,
+                                "name": "FV | Blank",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PaleBl_nk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221948
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14778336,
+                                "name": "SMB | Lukz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1092002
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 14776595,
+                                "name": "cebola",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "cebolakkjj"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1989632
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "COPA RED RIBBON",
@@ -1340,7 +1986,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1720433359812260300",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1017566": {
         "id": 1017566,
@@ -1388,7 +2036,7 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1720433364849610760",
-        "retries": 13
+        "retries": 14
     },
     "1017559": {
         "id": 1017559,
