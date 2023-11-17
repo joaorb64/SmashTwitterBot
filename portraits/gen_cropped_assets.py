@@ -18,6 +18,9 @@ pack_config = json.load(
 print(pack_config)
 
 for char_data in game_config["character_to_codename"].values():
+    if not "smashgg_name" in char_data:
+        continue
+
     startgg_name = char_data["smashgg_name"]
 
     img = Image.open(
