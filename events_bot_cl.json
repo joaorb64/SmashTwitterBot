@@ -737,7 +737,7 @@
         "id": 1026358,
         "name": "Squad-Strike",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -746,11 +746,102 @@
         "phaseGroups": [
             {
                 "id": 2285190,
+                "state": 2,
                 "phase": {
-                    "id": 1517379,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14912862,
+                                "name": "TYRS | Oden",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 135252,
+                                            "gamerTag": "Oden"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14922666,
+                                "name": "BLZ | Corwar",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "corwarXD"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 605716,
+                                            "gamerTag": "Corwar"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14912910,
+                                "name": "Wetayo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "wolffalco"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1880299,
+                                            "gamerTag": "Wetayo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14913422,
+                                "name": "Diares",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DiaresFloresx2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 978698,
+                                            "gamerTag": "Diares"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Helheim Showdown 2",
@@ -782,7 +873,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Concepci\u00f3n, B\u00edo B\u00edo, Chile",
         "tournament_addrState": "B\u00edo B\u00edo",
-        "tweet_id": "1725521874442915887"
+        "tweet_id": "1725521874442915887",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1026357": {
         "id": 1026357,
