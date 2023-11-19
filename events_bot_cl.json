@@ -589,7 +589,7 @@
         "id": 1020453,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -598,11 +598,102 @@
         "phaseGroups": [
             {
                 "id": 2275262,
+                "state": 2,
                 "phase": {
-                    "id": 1509778,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14857729,
+                                "name": "Nutriazo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1657486,
+                                            "gamerTag": "Nutriazo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14900180,
+                                "name": "Q37 | Mago",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mago_Ea"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 428401,
+                                            "gamerTag": "Mago"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14886024,
+                                "name": "Kingcrimson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "kcrimsonssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1005497,
+                                            "gamerTag": "Kingcrimson"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 14900175,
+                                "name": "Sekai Doggo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "SekaiDoggo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132195,
+                                            "gamerTag": "Sekai Doggo"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Pelican Town #5",
@@ -638,7 +729,9 @@
         "tournament_venueAddress": "Calle Nueva Ote. 4, Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
         "tweet_id": "1723498569557070192",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1026358": {
         "id": 1026358,
