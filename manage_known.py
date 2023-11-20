@@ -455,7 +455,7 @@ for account in accounts:
                                     twitter = twitter.get(
                                         "authorizations", None)
 
-                            if False and twitter is not None and isinstance(twitter, list) and len(twitter) > 0 and twitter[0] != None and twitter[0].get("externalUsername"):
+                            if twitter is not None and isinstance(twitter, list) and len(twitter) > 0 and twitter[0] != None and twitter[0].get("externalUsername"):
                                 placement_text += "@" + \
                                     str(twitter[0].get("externalUsername"))
                             else:
