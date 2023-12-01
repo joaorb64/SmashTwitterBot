@@ -706,6 +706,50 @@
                     },
                     "nodes": [
                         {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15017327,
+                                "name": "SMB/CNTR | Meps",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Meps219"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1795745,
+                                            "gamerTag": "Meps"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15022020,
+                                "name": "FT | Grandmemes",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Grandmemes_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2068666,
+                                            "gamerTag": "Grandmemes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 15018837,
@@ -872,28 +916,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 15017327,
-                                "name": "SMB/CNTR | Meps",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Meps219"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1795745,
-                                            "gamerTag": "Meps"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 15019108,
                                 "name": "ChriS",
                                 "participants": [
@@ -908,28 +930,6 @@
                                         "player": {
                                             "id": 2974618,
                                             "gamerTag": "ChriS"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 15022020,
-                                "name": "FT | Grandmemes",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Grandmemes_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2068666,
-                                            "gamerTag": "Grandmemes"
                                         }
                                     }
                                 ]
@@ -965,7 +965,14 @@
         "tournament_id": 615723,
         "city": null,
         "url": "https://start.gg/tournament/apenas-uma-bracket/event/apenas-uma-bracket",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "Grandmemes"
+            },
+            {
+                "streamName": "FR_7"
+            }
+        ],
         "timezone": "America/Campo_Grande",
         "tournament_startAt": 1701471600,
         "tournament_endAt": 1701482400,
