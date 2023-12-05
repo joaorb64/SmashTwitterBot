@@ -965,7 +965,11 @@
         "tournament_id": 617063,
         "city": null,
         "url": "https://start.gg/tournament/copa-red-ribbon-10-torneio-final/event/classe-a-chefe-magenta",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "Grandmemes"
+            }
+        ],
         "timezone": "America/Campo_Grande",
         "tournament_startAt": 1701817200,
         "tournament_endAt": 1702152000,
@@ -993,7 +997,7 @@
         "id": 1036314,
         "name": "CLASSE B (Comandante Red)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -1002,8 +1006,8 @@
         "phaseGroups": [
             {
                 "id": 2301937,
+                "state": 2,
                 "phase": {
-                    "id": 1530234,
                     "name": "Pool A"
                 },
                 "progressionsOut": [
@@ -1013,12 +1017,99 @@
                     {
                         "id": 9736033
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 15051624,
+                                "name": "CHALLENGER | Polyphony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PolyphonyIngrid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 15051586,
+                                "name": "Casa suja ch\u00e3o sujo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kakishisann"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2694162
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15051672,
+                                "name": "??? | Rafarofael",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RafaelCvSantos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3262373
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15051561,
+                                "name": "BDB | osasXD",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2805612
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2301982,
+                "state": 2,
                 "phase": {
-                    "id": 1530266,
                     "name": "Pool B"
                 },
                 "progressionsOut": [
@@ -1028,22 +1119,296 @@
                     {
                         "id": 9736031
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 15051557,
+                                "name": "TwS | FR7",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "fr7live"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 211496
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 15051618,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15051675,
+                                "name": "SMB | Gin Moon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ginmoon_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2559787
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15051620,
+                                "name": "SSBPE | Luchave",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lukey_Mnd"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1355473
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2301983,
+                "state": 1,
                 "phase": {
-                    "id": 1530267,
                     "name": "Top 4"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15051624,
+                                "name": "CHALLENGER | Polyphony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PolyphonyIngrid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397,
+                                            "gamerTag": "Polyphony"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15051586,
+                                "name": "Casa suja ch\u00e3o sujo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kakishisann"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2694162,
+                                            "gamerTag": "Casa suja ch\u00e3o sujo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15051672,
+                                "name": "??? | Rafarofael",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RafaelCvSantos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3262373,
+                                            "gamerTag": "Rafarofael"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15051561,
+                                "name": "BDB | osasXD",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2805612,
+                                            "gamerTag": "osasXD"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15051675,
+                                "name": "SMB | Gin Moon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ginmoon_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2559787,
+                                            "gamerTag": "Gin Moon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15051557,
+                                "name": "TwS | FR7",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "fr7live"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 211496,
+                                            "gamerTag": "FR7"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15051620,
+                                "name": "SSBPE | Luchave",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lukey_Mnd"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1355473,
+                                            "gamerTag": "Luchave"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15051618,
+                                "name": "Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "COPA RED RIBBON 10 / TORNEIO FINAL",
         "tournament_id": 617063,
         "city": null,
         "url": "https://start.gg/tournament/copa-red-ribbon-10-torneio-final/event/classe-b-comandante-red",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "Grandmemes"
+            }
+        ],
         "timezone": "America/Campo_Grande",
         "tournament_startAt": 1701817200,
         "tournament_endAt": 1702152000,
@@ -1065,7 +1430,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1732029752855183808",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1036315": {
         "id": 1036315,
@@ -1091,7 +1458,11 @@
         "tournament_id": 617063,
         "city": null,
         "url": "https://start.gg/tournament/copa-red-ribbon-10-torneio-final/event/classe-c-conselheiro-black",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "Grandmemes"
+            }
+        ],
         "timezone": "America/Campo_Grande",
         "tournament_startAt": 1701817200,
         "tournament_endAt": 1702152000,
