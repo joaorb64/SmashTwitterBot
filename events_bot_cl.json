@@ -751,7 +751,7 @@
         "id": 1035775,
         "name": "Dobles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 5,
         "videogame": {
             "id": 1386
@@ -760,11 +760,181 @@
         "phaseGroups": [
             {
                 "id": 2301164,
+                "state": 2,
                 "phase": {
-                    "id": 1529564,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15077627,
+                                "name": "Toon / Braixen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BunnyBraixen"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 293126,
+                                            "gamerTag": "Braixen"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ToonJorgitox"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1250001,
+                                            "gamerTag": "Toon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15073793,
+                                "name": "Rafita Gilipollas / Tuxedo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tuxedo_Smash"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1137586,
+                                            "gamerTag": "Tuxedo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Som3thing_cl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1799081,
+                                            "gamerTag": "Rafita Gilipollas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15077638,
+                                "name": "POTO / nicompleto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nihotdogssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1132784,
+                                            "gamerTag": "nicompleto"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "POTO_SVRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1237311,
+                                            "gamerTag": "POTO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15077778,
+                                "name": "Hb2 / Nekokatsu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pablo_Hb2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 131600,
+                                            "gamerTag": "Hb2"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MSSNekokatsu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 530938,
+                                            "gamerTag": "Nekokatsu"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15077761,
+                                "name": "Bastilolp123 / Red 505",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3772020,
+                                            "gamerTag": "Red 505"
+                                        }
+                                    },
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3772021,
+                                            "gamerTag": "Bastilolp123"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Bros \u00d1u\u00f1oa #31",
@@ -797,7 +967,9 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1731780650829517091",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1035774": {
         "id": 1035774,
