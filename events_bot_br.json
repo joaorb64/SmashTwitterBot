@@ -658,7 +658,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Tiradentes, Campo Grande - MS, Brasil",
         "tournament_addrState": "MS",
-        "tweet_id": "1731448441853603921"
+        "tweet_id": "1731448441853603921",
+        "postedRegistrationClosing": true
     },
     "1035587": {
         "id": 1035587,
@@ -725,7 +726,7 @@
         "phaseGroups": [
             {
                 "id": 2301936,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Pool A"
                 },
@@ -766,27 +767,6 @@
                         {
                             "placement": 2,
                             "entrant": {
-                                "id": 15051506,
-                                "name": "PTM/SPB/WASCO| | SpitTrap19",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "STrapezzzz"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1859557
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
                                 "id": 15051551,
                                 "name": "FT | Grandmemes",
                                 "participants": [
@@ -800,6 +780,27 @@
                                         },
                                         "player": {
                                             "id": 2068666
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15051506,
+                                "name": "PTM/SPB/WASCO| | SpitTrap19",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "STrapezzzz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1859557
                                         }
                                     }
                                 ]
@@ -831,7 +832,7 @@
             },
             {
                 "id": 2301980,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 4"
                 },
@@ -841,6 +842,50 @@
                         "total": 8
                     },
                     "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15051549,
+                                "name": "FV | Blank",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PaleBl_nk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221948,
+                                            "gamerTag": "Blank"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15051551,
+                                "name": "FT | Grandmemes",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Grandmemes_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2068666,
+                                            "gamerTag": "Grandmemes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 3,
                             "entrant": {
@@ -888,28 +933,6 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 15051464,
-                                "name": "SMB/CNTR | Meps",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Meps219"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1795745,
-                                            "gamerTag": "Meps"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
                                 "id": 15051506,
                                 "name": "PTM/SPB/WASCO| | SpitTrap19",
                                 "participants": [
@@ -930,44 +953,22 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 5,
                             "entrant": {
-                                "id": 15051549,
-                                "name": "FV | Blank",
+                                "id": 15051464,
+                                "name": "SMB/CNTR | Meps",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "PaleBl_nk"
+                                                    "externalUsername": "Meps219"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 2221948,
-                                            "gamerTag": "Blank"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 15051551,
-                                "name": "FT | Grandmemes",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Grandmemes_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2068666,
-                                            "gamerTag": "Grandmemes"
+                                            "id": 1795745,
+                                            "gamerTag": "Meps"
                                         }
                                     }
                                 ]
