@@ -1277,13 +1277,13 @@
         "tournament_addrState": "Antofagasta",
         "tweet_id": "1736099146224803848",
         "postedRegistrationClosing": true,
-        "retries": 1
+        "retries": 2
     },
     "1041997": {
         "id": 1041997,
         "name": "Smash Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -1292,11 +1292,192 @@
         "phaseGroups": [
             {
                 "id": 2311356,
+                "state": 2,
                 "phase": {
-                    "id": 1537503,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15139447,
+                                "name": "ACR | Bomba",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1646188,
+                                            "gamerTag": "Bomba"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15139370,
+                                "name": "ACR EVIL | Majin Yugo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MajinYugo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2229027,
+                                            "gamerTag": "Majin Yugo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15139375,
+                                "name": "Maiin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3314124,
+                                            "gamerTag": "Maiin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15139439,
+                                "name": "Giulli",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3588117,
+                                            "gamerTag": "Giulli"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15139443,
+                                "name": "MSH | 0X1DA0",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3635346,
+                                            "gamerTag": "0X1DA0"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15139435,
+                                "name": "PM | T\u00edo Brian",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TioBrian_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 530506,
+                                            "gamerTag": "T\u00edo Brian"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15139367,
+                                "name": "EVIL | Laki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Laki_Chikito"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2613219,
+                                            "gamerTag": "Laki"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15139372,
+                                "name": "ACR | Gerik",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2514176,
+                                            "gamerTag": "Gerik"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15139430,
+                                "name": "Nic.",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3635400,
+                                            "gamerTag": "Nic."
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Sandbag Series #5: Paradise City",
@@ -1324,6 +1505,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Salvador Allende 145, Antofagasta, Chile",
         "tournament_addrState": "Antofagasta",
-        "tweet_id": "1736099151241183610"
+        "tweet_id": "1736099151241183610",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
