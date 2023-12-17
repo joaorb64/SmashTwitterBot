@@ -404,7 +404,7 @@
         "id": 1042191,
         "name": "Smash Hero 2",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 13,
         "videogame": {
             "id": 1386
@@ -413,41 +413,250 @@
         "phaseGroups": [
             {
                 "id": 2311709,
+                "state": 2,
                 "phase": {
-                    "id": 1537763,
                     "name": "Pool A"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 9773902
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 13
                     },
-                    {
-                        "id": 9773903
-                    }
-                ]
-            },
-            {
-                "id": 2311710,
-                "phase": {
-                    "id": 1537764,
-                    "name": "Pool B"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 9773904
-                    },
-                    {
-                        "id": 9773905
-                    }
-                ]
-            },
-            {
-                "id": 2311711,
-                "phase": {
-                    "id": 1537765,
-                    "name": "Top 4"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15143400,
+                                "name": "Gusm\u00e3o",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3790038,
+                                            "gamerTag": "Gusm\u00e3o"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15143425,
+                                "name": "MatWolf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "matwolfxx"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1293522,
+                                            "gamerTag": "MatWolf"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15143277,
+                                "name": "Lucy",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3789995,
+                                            "gamerTag": "Lucy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15143469,
+                                "name": "Gusta Sonic",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3790052,
+                                            "gamerTag": "Gusta Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15142695,
+                                "name": "SBF | Malike",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3488818,
+                                            "gamerTag": "Malike"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15143556,
+                                "name": "Gus 64",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3790085,
+                                            "gamerTag": "Gus 64"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15142689,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15142693,
+                                "name": "SBF | Liryco",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3266292,
+                                            "gamerTag": "Liryco"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15142984,
+                                "name": "SBF|YGUIK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3485846,
+                                            "gamerTag": "SBF|YGUIK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15142696,
+                                "name": "Dreigel",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2823590,
+                                            "gamerTag": "Dreigel"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 15143633,
+                                "name": "Darkisinha",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3790106,
+                                            "gamerTag": "Darkisinha"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 15142694,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 15143602,
+                                "name": "Noob",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 597158,
+                                            "gamerTag": "Noob"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "SMASH JAPAN HERO 2023 / 2",
@@ -476,6 +685,8 @@
         "tournament_venueAddress": "R. Jos\u00e9 de Alvarenga, 562 - Centro, Duque de Caxias - RJ, 25020-140, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1736348201676878066",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
