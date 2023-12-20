@@ -972,7 +972,7 @@
         "id": 1043057,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -981,26 +981,150 @@
         "phaseGroups": [
             {
                 "id": 2313023,
+                "state": 2,
                 "phase": {
-                    "id": 1538819,
                     "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 9777931
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
                     },
-                    {
-                        "id": 9777932
-                    }
-                ]
-            },
-            {
-                "id": 2313024,
-                "phase": {
-                    "id": 1538820,
-                    "name": "Resurrection"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 15161696,
+                                "name": "SSF | Capi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Capi_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 411556,
+                                            "gamerTag": "Capi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 15163194,
+                                "name": "ORD | LasChelaDelLethalCompany",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Andymetry"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2256783,
+                                            "gamerTag": "LasChelaDelLethalCompany"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 15164987,
+                                "name": "TW | SMB | ORD | NessQuik",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NessQuikSSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 965448,
+                                            "gamerTag": "NessQuik"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 15165013,
+                                "name": "ORD | KingSheikah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "KingSheikah"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 895687,
+                                            "gamerTag": "KingSheikah"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 15161893,
+                                "name": "Mandinga",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MandingaSBC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1001644,
+                                            "gamerTag": "Mandinga"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 15165915,
+                                "name": "GH | ORD | HumbertoJuega",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TFCNaNa_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2690603,
+                                            "gamerTag": "HumbertoJuega"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "NOT DM #91",
@@ -1033,6 +1157,8 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1736891797450703157",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
