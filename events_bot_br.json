@@ -253,8 +253,8 @@
         "id": 1048309,
         "name": "Smash Ultimate Ladder (03/01)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 13,
+        "state": "ACTIVE",
+        "numEntrants": 14,
         "videogame": {
             "id": 1386
         },
@@ -262,11 +262,17 @@
         "phaseGroups": [
             {
                 "id": 2322000,
+                "state": 2,
                 "phase": {
-                    "id": 1545484,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "BATTLE SUBWAY - M\u00caS 7",
@@ -311,7 +317,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1742018057046745267",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1048312": {
         "id": 1048312,
