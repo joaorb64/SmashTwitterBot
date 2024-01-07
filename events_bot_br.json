@@ -420,7 +420,7 @@
         "id": 1051130,
         "name": "ADB 2",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -429,11 +429,323 @@
         "phaseGroups": [
             {
                 "id": 2327126,
+                "state": 2,
                 "phase": {
-                    "id": 1549198,
-                    "name": "Pool A"
+                    "name": "Pool A (15hs)"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 9829451
+                    },
+                    {
+                        "id": 9829452
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15265425,
+                                "name": "WasF | Dantas04",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dnt04"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2617553
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15265430,
+                                "name": "SBF | RK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3505250
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15265428,
+                                "name": "SBF|YGUIK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3485846
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2327144,
+                "state": 1,
+                "phase": {
+                    "name": "Pool B (16hs)"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 9829453
+                    },
+                    {
+                        "id": 9829454
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15265420,
+                                "name": "SBF | Liryco",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3266292
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15265429,
+                                "name": "SBF | Malike",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3488818
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15267619,
+                                "name": "Avatar",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3488852
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15265426,
+                                "name": "SBF/DG | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2327145,
+                "state": 1,
+                "phase": {
+                    "name": "Top 4 (17hs)"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15265425,
+                                "name": "WasF | Dantas04",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dnt04"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2617553,
+                                            "gamerTag": "Dantas04"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15265430,
+                                "name": "SBF | RK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3505250,
+                                            "gamerTag": "RK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15265428,
+                                "name": "SBF|YGUIK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3485846,
+                                            "gamerTag": "SBF|YGUIK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15265420,
+                                "name": "SBF | Liryco",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3266292,
+                                            "gamerTag": "Liryco"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15265429,
+                                "name": "SBF | Malike",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3488818,
+                                            "gamerTag": "Malike"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15267619,
+                                "name": "Avatar",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3488852,
+                                            "gamerTag": "Avatar"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15265426,
+                                "name": "SBF/DG | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "Taunt"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "ARENA DA BAIXADA 2",
@@ -462,6 +774,8 @@
         "tournament_venueAddress": "Baixada Fluminense, RJ, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1743950788395704362",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
