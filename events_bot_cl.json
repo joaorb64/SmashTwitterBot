@@ -1043,13 +1043,205 @@
         "id": 1054630,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 10,
         "videogame": {
             "id": 1386
         },
         "startAt": 1705091400,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 2333375,
+                "state": 2,
+                "phase": {
+                    "name": "Singles"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 10
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15315301,
+                                "name": "Matygol",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3773726,
+                                            "gamerTag": "Matygol"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15312540,
+                                "name": "PipoCL",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "piposanchez5"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3101197,
+                                            "gamerTag": "PipoCL"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15312536,
+                                "name": "AKN | Reinshiro",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1948326,
+                                            "gamerTag": "Reinshiro"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15315311,
+                                "name": "Insomnio",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3818847,
+                                            "gamerTag": "Insomnio"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15315309,
+                                "name": "Thorfinn",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3818846,
+                                            "gamerTag": "Thorfinn"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15315323,
+                                "name": "TSC | Wawa",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3818851,
+                                            "gamerTag": "Wawa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15315319,
+                                "name": "Yaris",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3818849,
+                                            "gamerTag": "Yaris"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15315315,
+                                "name": "TSC | Vicho",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3818848,
+                                            "gamerTag": "Vicho"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15314189,
+                                "name": "TSC | J",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2267498,
+                                            "gamerTag": "J"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15312535,
+                                "name": "TX | Sposh",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sposhtrainer"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1840386,
+                                            "gamerTag": "Sposh"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "Juan\u00b4s Mansion Ultimate",
         "tournament_id": 626573,
         "city": "Paipote",
@@ -1058,7 +1250,7 @@
         "timezone": "America/Santiago",
         "tournament_startAt": 1705091400,
         "tournament_endAt": 1705105800,
-        "tournament_registrationClosesAt": 1705102200,
+        "tournament_registrationClosesAt": 1705094880,
         "images": [
             {
                 "id": "6471549",
@@ -1076,6 +1268,8 @@
         "tournament_venueAddress": "Totoral 6416, 1534319 Paipote, Copiap\u00f3, Atacama, Chile",
         "tournament_addrState": "Atacama",
         "tweet_id": "1745860907954044985",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
