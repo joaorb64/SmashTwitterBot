@@ -450,13 +450,13 @@
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1736786106811633889",
         "postedRegistrationClosing": true,
-        "retries": 1
+        "retries": 2
     },
     "1041164": {
         "id": 1041164,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 13,
         "videogame": {
             "id": 1386
@@ -465,8 +465,8 @@
         "phaseGroups": [
             {
                 "id": 2309821,
+                "state": 2,
                 "phase": {
-                    "id": 1536381,
                     "name": "Bracket"
                 },
                 "progressionsOut": [
@@ -493,24 +493,373 @@
                     },
                     {
                         "id": 9766624
+                    },
+                    {
+                        "id": 9851174
+                    },
+                    {
+                        "id": 9851175
+                    },
+                    {
+                        "id": 9851185
+                    },
+                    {
+                        "id": 9851186
+                    },
+                    {
+                        "id": 9851187
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 13
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15232871,
+                                "name": "TYRS | nicompleto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nihotdogssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1132784
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15294772,
+                                "name": "Rayas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AbyssalCinder"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3599663
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15305906,
+                                "name": "PM | SyC~Tsubasa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tsubasa_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1059907
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15317982,
+                                "name": "Dandelion",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DandelionDizzy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 517358
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15321245,
+                                "name": "PM | Tuxedo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tuxedo_Smash"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1137586
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15321250,
+                                "name": "PHX | Bear",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "bearded_bowser"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 409154
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15321253,
+                                "name": "Endless Mugen",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3819830
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15321258,
+                                "name": "PM | Aknoid",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Aknoid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 10951
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15321294,
+                                "name": "PM | POTO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "POTO_SVRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1237311
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 15321243,
+                                "name": "OW | magatsu muplop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "diegomedina50"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 274734
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 15321260,
+                                "name": "PM | tisO_CL",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "tiso_cl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1249942
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 15321266,
+                                "name": "SSF | Darkness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 265926
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 15321285,
+                                "name": "I<3inputs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3508872
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2309854,
+                "state": 1,
                 "phase": {
-                    "id": 1536405,
                     "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             },
             {
                 "id": 2309855,
+                "state": 1,
                 "phase": {
-                    "id": 1536406,
                     "name": "Resurrection bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             }
         ],
         "tournament": "DM:  Bolero of Battle #1",
@@ -534,14 +883,16 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1736786111777673349",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1049841": {
         "id": 1049841,
-        "name": "Ultimate Singles",
+        "name": "Squad Strike",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 9,
+        "numEntrants": 11,
         "videogame": {
             "id": 1386
         },
@@ -559,7 +910,7 @@
         "tournament": "Pelican Town 5.5 SP",
         "tournament_id": 624167,
         "city": "Puerto Montt",
-        "url": "https://start.gg/tournament/pelican-town-5-5-sp/event/ultimate-singles",
+        "url": "https://start.gg/tournament/pelican-town-5-5-sp/event/squad-strike",
         "streams": [
             {
                 "streamName": "sekaidoggo"
@@ -584,7 +935,7 @@
                 "type": "banner"
             }
         ],
-        "tournament_multievent": false,
+        "tournament_multievent": true,
         "tournament_venueName": null,
         "tournament_venueAddress": "Calle Nueva Ote. 4, Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
