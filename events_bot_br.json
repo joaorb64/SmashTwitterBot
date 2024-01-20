@@ -405,7 +405,7 @@
         "tournament_venueAddress": "R. Athaide Pimenta de Morais, 495 - Centro, Nova Igua\u00e7u - RJ, 26210-190, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1745996799079235660",
-        "retries": 47
+        "retries": 48
     },
     "1054806": {
         "id": 1054806,
@@ -552,7 +552,7 @@
         "id": 1057051,
         "name": "Ultimate #85",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -561,11 +561,196 @@
         "phaseGroups": [
             {
                 "id": 2337396,
+                "state": 2,
                 "phase": {
-                    "id": 1556866,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15369476,
+                                "name": "lima",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1316618,
+                                            "gamerTag": "lima"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15393288,
+                                "name": "UA | Airos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AirosPK"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1696912,
+                                            "gamerTag": "Airos"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15393689,
+                                "name": "Bruz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Bruszan"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 258138,
+                                            "gamerTag": "Bruz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15359453,
+                                "name": "Adrian",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2054861,
+                                            "gamerTag": "Adrian"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15383043,
+                                "name": "UA | Samwa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vitormenezello"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 970727,
+                                            "gamerTag": "Samwa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15383016,
+                                "name": "Tichamon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MTichamon"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1199421,
+                                            "gamerTag": "Tichamon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15383107,
+                                "name": "rop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3581943,
+                                            "gamerTag": "rop"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15380318,
+                                "name": "vinny",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2116050,
+                                            "gamerTag": "vinny"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 15383544,
+                                "name": "Bolado",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1316568,
+                                            "gamerTag": "Bolado"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Semanal Ultra Arcade #98",
@@ -598,7 +783,9 @@
         "tournament_venueAddress": "R. Tom\u00e9 de Souza, 810 - Savassi, Belo Horizonte - MG, 30140-131, Brazil",
         "tournament_addrState": "MG",
         "tweet_id": "1747272699179933814",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1058085": {
         "id": 1058085,
