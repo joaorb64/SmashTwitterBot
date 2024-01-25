@@ -1105,7 +1105,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 15420622,
                                 "name": "NotPedro",
@@ -1121,6 +1121,24 @@
                                         "player": {
                                             "id": 2461262,
                                             "gamerTag": "NotPedro"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15429449,
+                                "name": "FGCSP | Nick",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 657365,
+                                            "gamerTag": "Nick"
                                         }
                                     }
                                 ]
@@ -1151,16 +1169,20 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 15429449,
-                                "name": "FGCSP | Nick",
+                                "id": 15286869,
+                                "name": "Ori",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Or1Ori"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 657365,
-                                            "gamerTag": "Nick"
+                                            "id": 2788074,
+                                            "gamerTag": "Ori"
                                         }
                                     }
                                 ]
@@ -1183,28 +1205,6 @@
                                         "player": {
                                             "id": 1075322,
                                             "gamerTag": "ronaldocharuto"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 15286869,
-                                "name": "Ori",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Or1Ori"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2788074,
-                                            "gamerTag": "Ori"
                                         }
                                     }
                                 ]
@@ -1404,7 +1404,11 @@
         "tournament_id": 600156,
         "city": "Liberdade",
         "url": "https://start.gg/tournament/sampex-2024/event/street-fighter-6",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "teamdashbr"
+            }
+        ],
         "timezone": "America/Sao_Paulo",
         "tournament_startAt": 1706202000,
         "tournament_endAt": 1706234400,
