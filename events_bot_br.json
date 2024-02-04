@@ -379,7 +379,7 @@
         "id": 1069129,
         "name": "ADB 3",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -388,41 +388,17 @@
         "phaseGroups": [
             {
                 "id": 2357272,
+                "state": 2,
                 "phase": {
-                    "id": 1572160,
-                    "name": "Pool A (15hs)"
+                    "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 9947773
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
                     },
-                    {
-                        "id": 9947774
-                    }
-                ]
-            },
-            {
-                "id": 2357274,
-                "phase": {
-                    "id": 1572162,
-                    "name": "Pool B (16hs)"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 9947775
-                    },
-                    {
-                        "id": 9947776
-                    }
-                ]
-            },
-            {
-                "id": 2357275,
-                "phase": {
-                    "id": 1572163,
-                    "name": "Top 4 (17hs)"
-                },
-                "progressionsOut": null
+                    "nodes": []
+                }
             }
         ],
         "tournament": "ARENA DA BAIXADA 3",
@@ -451,7 +427,9 @@
         "tournament_venueAddress": "Baixada Fluminense, RJ, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1753508806934294704",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1069543": {
         "id": 1069543,
