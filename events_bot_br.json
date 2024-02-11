@@ -1125,7 +1125,7 @@
             },
             {
                 "id": 2361785,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Pool B (14:30hs)"
                 },
@@ -1166,23 +1166,6 @@
                         {
                             "placement": 2,
                             "entrant": {
-                                "id": 15571760,
-                                "name": "FaxRigby",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3823868
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
                                 "id": 15571690,
                                 "name": "SBF | Taunt",
                                 "participants": [
@@ -1202,22 +1185,24 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 3,
                             "entrant": {
-                                "id": 15629154,
-                                "name": "TS | Red Bee",
+                                "id": 15571760,
+                                "name": "FaxRigby",
                                 "participants": [
                                     {
-                                        "user": null,
+                                        "user": {
+                                            "authorizations": null
+                                        },
                                         "player": {
-                                            "id": 2667264
+                                            "id": 3823868
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 15630214,
                                 "name": "Bahia",
@@ -1226,6 +1211,21 @@
                                         "user": null,
                                         "player": {
                                             "id": 1013419
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15629154,
+                                "name": "TS | Red Bee",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2667264
                                         }
                                     }
                                 ]
@@ -1290,11 +1290,45 @@
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 15571678,
+                                "name": "SMB | Raya",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raya_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172950
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 1,
-                            "entrant": null
+                            "entrant": {
+                                "id": 15571690,
+                                "name": "SBF | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 },
@@ -1304,12 +1338,12 @@
                 "id": 2367122,
                 "state": 1,
                 "phase": {
-                    "name": "Cinzas (out top 6)"
+                    "name": "Cinzas (out top 4)"
                 },
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 3
+                        "total": 6
                     },
                     "nodes": [
                         {
@@ -1362,6 +1396,53 @@
                                         },
                                         "player": {
                                             "id": 2889650
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 15571760,
+                                "name": "FaxRigby",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3823868
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 15630214,
+                                "name": "Bahia",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 1013419
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 15629154,
+                                "name": "TS | Red Bee",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2667264
                                         }
                                     }
                                 ]
