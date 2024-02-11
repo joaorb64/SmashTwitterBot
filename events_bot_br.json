@@ -997,7 +997,7 @@
         "id": 1071954,
         "name": "A Saideira",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 10,
         "videogame": {
             "id": 1386
@@ -1006,8 +1006,8 @@
         "phaseGroups": [
             {
                 "id": 2361784,
+                "state": 2,
                 "phase": {
-                    "id": 1575744,
                     "name": "Pool A (13:30)"
                 },
                 "progressionsOut": [
@@ -1017,12 +1017,116 @@
                     {
                         "id": 9991416
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 15571697,
+                                "name": "Wasco | Nightwolf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "eeu_jean"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172489
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 15629444,
+                                "name": "FrosT",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "romulohas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2606786
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15630209,
+                                "name": "SBF | VVenon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3824205
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15571785,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15571779,
+                                "name": "Capcomaniac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sasamoto007"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2889650
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2361785,
+                "state": 1,
                 "phase": {
-                    "id": 1575745,
                     "name": "Pool B (14:30hs)"
                 },
                 "progressionsOut": [
@@ -1032,23 +1136,150 @@
                     {
                         "id": 9991418
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15571690,
+                                "name": "SBF | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15571678,
+                                "name": "SMB | Raya",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raya_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172950
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15629154,
+                                "name": "TS | Red Bee",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2667264
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15571760,
+                                "name": "FaxRigby",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3823868
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15630214,
+                                "name": "Bahia",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 1013419
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2361788,
+                "state": 1,
                 "phase": {
-                    "id": 1575748,
                     "name": "Folia (Top 4)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             },
             {
                 "id": 2367122,
+                "state": 1,
                 "phase": {
-                    "id": 1579584,
                     "name": "Cinzas (out top 4)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": null
+                },
+                "multiphase": true
             }
         ],
         "tournament": "SMASH FOLIA 7. A saideira",
@@ -1072,6 +1303,8 @@
         "tournament_venueAddress": "R. Athaide Pimenta de Morais, 495 - Centro, Nova Igua\u00e7u - RJ, 26210-190, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1756672175698751961",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
