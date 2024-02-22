@@ -229,7 +229,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 35,
+        "numEntrants": 36,
         "videogame": {
             "id": 1386
         },
@@ -452,8 +452,8 @@
         "id": 1071805,
         "name": "Start showdown",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 6,
+        "state": "ACTIVE",
+        "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
@@ -461,11 +461,160 @@
         "phaseGroups": [
             {
                 "id": 2361575,
+                "state": 2,
                 "phase": {
-                    "id": 1575565,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15732028,
+                                "name": "Sekai Doggo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "SekaiDoggo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132195,
+                                            "gamerTag": "Sekai Doggo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15738845,
+                                "name": "Mohax",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3903372,
+                                            "gamerTag": "Mohax"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15569269,
+                                "name": "SMB | SMB/.PNG!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3592282,
+                                            "gamerTag": "SMB/.PNG!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15686156,
+                                "name": "SMB-PHX | Darkez",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mac_Darkez"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1864837,
+                                            "gamerTag": "Darkez"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15748851,
+                                "name": "TEW | Diptox",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diptox44"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 844310,
+                                            "gamerTag": "Diptox"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15731674,
+                                "name": "Mago",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mago_Ea"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 428401,
+                                            "gamerTag": "Mago"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15739639,
+                                "name": "Diaz_Mochi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3560475,
+                                            "gamerTag": "Diaz_Mochi"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Start Showdown",
@@ -482,7 +631,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Angelm\u00f3 2240, Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
-        "tweet_id": "1758710614615101659"
+        "tweet_id": "1758710614615101659",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1078688": {
         "id": 1078688,
@@ -818,7 +969,7 @@
         "tournament_venueAddress": "Estado 592, Rancagua, VI Ohiggins, Chile",
         "tournament_addrState": "VI Ohiggins",
         "tweet_id": "1759050343730581612",
-        "retries": 42
+        "retries": 43
     },
     "1074450": {
         "id": 1074450,
