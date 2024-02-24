@@ -45,7 +45,7 @@
         "id": 1039055,
         "name": "Street Fighter 6 Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 26,
         "videogame": {
             "id": 43868
@@ -53,78 +53,359 @@
         "startAt": 1708794000,
         "phaseGroups": [
             {
-                "id": 2306340,
-                "phase": {
-                    "id": 1533664,
-                    "name": "Pools Phase"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 9754849
-                    },
-                    {
-                        "id": 9754851
-                    },
-                    {
-                        "id": 9754853
-                    },
-                    {
-                        "id": 9754855
-                    },
-                    {
-                        "id": 9754857
-                    },
-                    {
-                        "id": 9754859
-                    },
-                    {
-                        "id": 9754861
-                    },
-                    {
-                        "id": 9754863
-                    }
-                ]
-            },
-            {
-                "id": 2306341,
-                "phase": {
-                    "id": 1533664,
-                    "name": "Pools Phase"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 9754850
-                    },
-                    {
-                        "id": 9754852
-                    },
-                    {
-                        "id": 9754854
-                    },
-                    {
-                        "id": 9754856
-                    },
-                    {
-                        "id": 9754858
-                    },
-                    {
-                        "id": 9754860
-                    },
-                    {
-                        "id": 9754862
-                    },
-                    {
-                        "id": 9754864
-                    }
-                ]
-            },
-            {
                 "id": 2306342,
+                "state": 2,
                 "phase": {
-                    "id": 1533665,
-                    "name": "Top16"
+                    "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 26
+                    },
+                    "nodes": [
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15435109,
+                                "name": "Counter | Offline",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Offline_SL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2345480,
+                                            "gamerTag": "Offline"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15605385,
+                                "name": "MudinhoSim4s",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mudinhosim4s"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3854901,
+                                            "gamerTag": "MudinhoSim4s"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15731166,
+                                "name": "araujofabio01",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3435003,
+                                            "gamerTag": "araujofabio01"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15573114,
+                                "name": "TSD | GotM",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TSD_GotM"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1741316,
+                                            "gamerTag": "GotM"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15568162,
+                                "name": "ronaldocharuto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ronaldocharuto"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1075322,
+                                            "gamerTag": "ronaldocharuto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15435093,
+                                "name": "dead_ish",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dead_ish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1200085,
+                                            "gamerTag": "dead_ish"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15729360,
+                                "name": "Breno",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3901914,
+                                            "gamerTag": "Breno"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15506329,
+                                "name": "Dash | TSD | marxseny",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "marxseny"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1165963,
+                                            "gamerTag": "marxseny"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15723027,
+                                "name": "Chib\u00e9-Fight | A. Fellipe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "A_Fellipe_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1352879,
+                                            "gamerTag": "A. Fellipe"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15573110,
+                                "name": "KenOver",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1039079,
+                                            "gamerTag": "KenOver"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15745732,
+                                "name": "FSN | Player 7",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Player7akaP7"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 38393,
+                                            "gamerTag": "Player 7"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15435089,
+                                "name": "Guntadela",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "guntadela"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 494971,
+                                            "gamerTag": "Guntadela"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15660597,
+                                "name": "Shodown | ChuChu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "chuchuzera1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 639236,
+                                            "gamerTag": "ChuChu"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15753663,
+                                "name": "FSN | Zangief_bolado",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BoladoZangief"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1408573,
+                                            "gamerTag": "Zangief_bolado"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15505410,
+                                "name": "Ori",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Or1Ori"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2788074,
+                                            "gamerTag": "Ori"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 15745537,
+                                "name": "Shodown | Jah_lexe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JahLexe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 662584,
+                                            "gamerTag": "Jah_lexe"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Opera\u00e7\u00e3o: O Verdadeiro",
@@ -153,7 +434,9 @@
         "tournament_venueAddress": "R. Pires da Mota, 1201 - Liberdade, S\u00e3o Paulo - SP, 01529-001, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1750239869014622574",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1063032": {
         "id": 1063032,
