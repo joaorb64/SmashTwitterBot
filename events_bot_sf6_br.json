@@ -1299,7 +1299,7 @@
         "id": 1082142,
         "name": "Street Fighter 6 #26",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 43868
@@ -1308,11 +1308,174 @@
         "phaseGroups": [
             {
                 "id": 2379182,
+                "state": 2,
                 "phase": {
-                    "id": 1588729,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 15779795,
+                                "name": "UA | Pocket",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1442193,
+                                            "gamerTag": "Pocket"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15778493,
+                                "name": "Murielisson Uber",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1537326,
+                                            "gamerTag": "Murielisson Uber"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15780307,
+                                "name": "UA | Ten\u00f3bio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TenobioO"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1655812,
+                                            "gamerTag": "Ten\u00f3bio"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15748298,
+                                "name": "mascoooot",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3482485,
+                                            "gamerTag": "mascoooot"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15771995,
+                                "name": "Tichamon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MTichamon"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1199421,
+                                            "gamerTag": "Tichamon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15748139,
+                                "name": "txt | youngeeky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "YoungeekY"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1424953,
+                                            "gamerTag": "youngeeky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15780252,
+                                "name": "dvd",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1655837,
+                                            "gamerTag": "dvd"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15748969,
+                                "name": "GRP | Bydo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1359669,
+                                            "gamerTag": "Bydo"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Semanal Ultra Arcade #101",
@@ -1345,6 +1508,8 @@
         "tournament_venueAddress": "R. Tom\u00e9 de Souza, 810 - Savassi, Belo Horizonte - MG, 30140-131, Brazil",
         "tournament_addrState": "MG",
         "tweet_id": "1760341352246579650",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
