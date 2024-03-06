@@ -1023,8 +1023,8 @@
         "id": 1091171,
         "name": "NDM#102: SSB.U",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 16,
+        "state": "ACTIVE",
+        "numEntrants": 17,
         "videogame": {
             "id": 1386
         },
@@ -1032,11 +1032,17 @@
         "phaseGroups": [
             {
                 "id": 2393946,
+                "state": 2,
                 "phase": {
-                    "id": 1600290,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Not DM #102: SSB.U",
@@ -1060,7 +1066,9 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1764818357734236554",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1091910": {
         "id": 1091910,
