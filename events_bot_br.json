@@ -156,8 +156,8 @@
         "id": 1088135,
         "name": "Smash Ultimate Ladder (13/03)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 20,
+        "state": "ACTIVE",
+        "numEntrants": 24,
         "videogame": {
             "id": 1386
         },
@@ -165,11 +165,17 @@
         "phaseGroups": [
             {
                 "id": 2388994,
+                "state": 2,
                 "phase": {
-                    "id": 1596385,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "BATTLE SUBWAY - M\u00caS 9",
@@ -214,7 +220,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1763361255174082795",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1088136": {
         "id": 1088136,
@@ -1570,7 +1578,7 @@
         "name": "Smash Station",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 2,
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
