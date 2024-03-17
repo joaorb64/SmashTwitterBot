@@ -253,7 +253,7 @@
         "name": "Torneio Smash Ultimate (1v1)",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 18,
+        "numEntrants": 19,
         "videogame": {
             "id": 1386
         },
@@ -1419,7 +1419,7 @@
         "id": 1098696,
         "name": "Smash Ultimate",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -1428,11 +1428,176 @@
         "phaseGroups": [
             {
                 "id": 2407425,
+                "state": 2,
                 "phase": {
-                    "id": 1610266,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15999792,
+                                "name": "BDB | Xalusc",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 227645,
+                                            "gamerTag": "Xalusc"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15985510,
+                                "name": "BL | Chromatico",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3525719,
+                                            "gamerTag": "Chromatico"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 15985386,
+                                "name": "SBF | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "Taunt"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16004892,
+                                "name": "TwS| Wasco | KNG",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3949729,
+                                            "gamerTag": "KNG"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15992458,
+                                "name": "UF / SsT | Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16004899,
+                                "name": "Alves",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1243627,
+                                            "gamerTag": "Alves"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15985482,
+                                "name": "Heypolit",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Real_Heypolit"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3563447,
+                                            "gamerTag": "Heypolit"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 15985494,
+                                "name": "BDB | Wanshitong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wanshitong_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2816343,
+                                            "gamerTag": "Wanshitong"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Geek Tijuca 2024",
@@ -1461,7 +1626,9 @@
         "tournament_venueAddress": "Av. Melo Matos, 25 - Tijuca, Rio de Janeiro - RJ, 20270-290, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1768759289689083909",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1098004": {
         "id": 1098004,
