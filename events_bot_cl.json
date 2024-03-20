@@ -1357,7 +1357,7 @@
         "id": 1097501,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 23,
         "videogame": {
             "id": 1386
@@ -1365,78 +1365,305 @@
         "startAt": 1710946800,
         "phaseGroups": [
             {
-                "id": 2405350,
+                "id": 2413042,
+                "state": 2,
                 "phase": {
-                    "id": 1608651,
                     "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 10135739
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 23
                     },
-                    {
-                        "id": 10135741
-                    },
-                    {
-                        "id": 10135743
-                    },
-                    {
-                        "id": 10135745
-                    },
-                    {
-                        "id": 10135747
-                    },
-                    {
-                        "id": 10135749
-                    },
-                    {
-                        "id": 10135751
-                    },
-                    {
-                        "id": 10135753
-                    }
-                ]
-            },
-            {
-                "id": 2405351,
-                "phase": {
-                    "id": 1608651,
-                    "name": "Bracket"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 10135740
-                    },
-                    {
-                        "id": 10135742
-                    },
-                    {
-                        "id": 10135744
-                    },
-                    {
-                        "id": 10135746
-                    },
-                    {
-                        "id": 10135748
-                    },
-                    {
-                        "id": 10135750
-                    },
-                    {
-                        "id": 10135752
-                    },
-                    {
-                        "id": 10135754
-                    }
-                ]
-            },
-            {
-                "id": 2405352,
-                "phase": {
-                    "id": 1608652,
-                    "name": "Top 8"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16024674,
+                                "name": "U-smash | xeki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2655168,
+                                            "gamerTag": "xeki"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16035148,
+                                "name": "Oreee",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3936948,
+                                            "gamerTag": "Oreee"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16024573,
+                                "name": "U-Smash | Oso",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3936371,
+                                            "gamerTag": "Oso"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16025253,
+                                "name": "Nicox",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3937429,
+                                            "gamerTag": "Nicox"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16035109,
+                                "name": "U-smash | Fifo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3937391,
+                                            "gamerTag": "Fifo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16034676,
+                                "name": "Smash fan 404",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3956022,
+                                            "gamerTag": "Smash fan 404"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16032744,
+                                "name": "U-Smash | PLAC",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3692021,
+                                            "gamerTag": "PLAC"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16034615,
+                                "name": "U-Smash | ThoMario63",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3389782,
+                                            "gamerTag": "ThoMario63"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16024609,
+                                "name": "U-Smash | Stood",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3631454,
+                                            "gamerTag": "Stood"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16035991,
+                                "name": "BastyDB",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3956229,
+                                            "gamerTag": "BastyDB"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16012726,
+                                "name": "#Ban | Cazuxs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2125261,
+                                            "gamerTag": "Cazuxs"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16025372,
+                                "name": "JesuKryzpo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3954727,
+                                            "gamerTag": "JesuKryzpo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16035756,
+                                "name": "Megip",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3940960,
+                                            "gamerTag": "Megip"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16012276,
+                                "name": "U-Smash | Pozo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3669893,
+                                            "gamerTag": "Pozo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16028627,
+                                "name": "ElNChou",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3926634,
+                                            "gamerTag": "ElNChou"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 16024494,
+                                "name": "U-Smash | Xupapapa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2980335,
+                                            "gamerTag": "Xupapapa"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Quincenal U-smash #1",
@@ -1469,7 +1696,9 @@
         "tournament_venueAddress": "Tupper 2140, 8370482 Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1768049677042163967",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1098694": {
         "id": 1098694,
