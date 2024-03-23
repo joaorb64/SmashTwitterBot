@@ -1228,8 +1228,8 @@
         "id": 1103985,
         "name": "Singles!",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 23,
+        "state": "ACTIVE",
+        "numEntrants": 22,
         "videogame": {
             "id": 1386
         },
@@ -1237,11 +1237,17 @@
         "phaseGroups": [
             {
                 "id": 2416586,
+                "state": 2,
                 "phase": {
-                    "id": 1617167,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Up Smash Saga Express! #9",
@@ -1270,6 +1276,8 @@
         "tournament_venueAddress": "Chile",
         "tournament_addrState": null,
         "tweet_id": "1771605587928776744",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
