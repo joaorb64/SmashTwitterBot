@@ -1268,7 +1268,7 @@
         "id": 1107730,
         "name": "Smash Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -1277,41 +1277,293 @@
         "phaseGroups": [
             {
                 "id": 2422851,
+                "state": 2,
                 "phase": {
-                    "id": 1621912,
-                    "name": "Pool A"
+                    "name": "Todos contra todos"
                 },
                 "progressionsOut": [
                     {
-                        "id": 10205999
+                        "id": 10211049
                     },
                     {
-                        "id": 10206000
+                        "id": 10211050
                     }
-                ]
-            },
-            {
-                "id": 2422852,
-                "phase": {
-                    "id": 1621913,
-                    "name": "Pool B"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 10206001
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
                     },
-                    {
-                        "id": 10206002
-                    }
-                ]
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 16146548,
+                                "name": "DG | Mi$TeR RoWDiGao",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3037762
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 16127475,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16147772,
+                                "name": "Capcomaniac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sasamoto007"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2889650
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16127258,
+                                "name": "SBF | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16143072,
+                                "name": "Gui66seisRandom",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3189203
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 16147777,
+                                "name": "Brazz",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3976293
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16147794,
+                                "name": "Luan",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3976298
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
-                "id": 2422854,
+                "id": 2424396,
+                "state": 1,
                 "phase": {
-                    "id": 1621915,
-                    "name": "Top 4"
+                    "name": "FINAL"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16127258,
+                                "name": "SBF | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "Taunt"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16146548,
+                                "name": "DG | Mi$TeR RoWDiGao",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3037762,
+                                            "gamerTag": "Mi$TeR RoWDiGao"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16127475,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16147772,
+                                "name": "Capcomaniac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sasamoto007"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2889650,
+                                            "gamerTag": "Capcomaniac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16143072,
+                                "name": "Gui66seisRandom",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3189203,
+                                            "gamerTag": "Gui66seisRandom"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16147777,
+                                "name": "Brazz",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3976293,
+                                            "gamerTag": "Brazz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16147794,
+                                "name": "Luan",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3976298,
+                                            "gamerTag": "Luan"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "SMASH DG",
@@ -1340,6 +1592,8 @@
         "tournament_venueAddress": "R. Bacanga, 126 - Iraj\u00e1, Rio de Janeiro - RJ, 21235-380, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1773455294523207750",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
