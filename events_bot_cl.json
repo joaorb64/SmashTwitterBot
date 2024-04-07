@@ -702,7 +702,7 @@
         "id": 1111820,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -711,11 +711,182 @@
         "phaseGroups": [
             {
                 "id": 2429979,
+                "state": 2,
                 "phase": {
-                    "id": 1627161,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16205967,
+                                "name": "SMB | Tadoo<3",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tadoo04"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2565233,
+                                            "gamerTag": "Tadoo<3"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16236997,
+                                "name": "TMT | RTS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RTS_FromHell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 313253,
+                                            "gamerTag": "RTS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16236875,
+                                "name": "F3rd_Z",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "F3rd_Z"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221687,
+                                            "gamerTag": "F3rd_Z"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16187863,
+                                "name": "TW | Nova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Novaaaaa_CL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2224238,
+                                            "gamerTag": "Nova"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16237662,
+                                "name": "Lucky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3991599,
+                                            "gamerTag": "Lucky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16236871,
+                                "name": "Gosfell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gosfell_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3926830,
+                                            "gamerTag": "Gosfell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16230468,
+                                "name": "coolkid_carl",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2714632,
+                                            "gamerTag": "coolkid_carl"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16236885,
+                                "name": "Nage",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3926674,
+                                            "gamerTag": "Nage"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Nage House #4",
@@ -744,7 +915,9 @@
         "tournament_venueAddress": "Los Talletes 1365, 01365 Temuco, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1775584326635176298",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1112547": {
         "id": 1112547,
@@ -770,7 +943,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 16235043,
                                 "name": "UDEC | Abejorro",
@@ -792,7 +965,7 @@
                             }
                         },
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 16235000,
                                 "name": "UQS | GH | Wawychanger",
@@ -804,6 +977,28 @@
                                         "player": {
                                             "id": 939933,
                                             "gamerTag": "Wawychanger"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16235558,
+                                "name": "Wetayo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "wolffalco"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1880299,
+                                            "gamerTag": "Wetayo"
                                         }
                                     }
                                 ]
@@ -822,28 +1017,6 @@
                                         "player": {
                                             "id": 135252,
                                             "gamerTag": "Oden"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 16235558,
-                                "name": "Wetayo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "wolffalco"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1880299,
-                                            "gamerTag": "Wetayo"
                                         }
                                     }
                                 ]
@@ -1168,6 +1341,6 @@
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1776633671757295872",
         "postedRegistrationClosing": true,
-        "retries": 3
+        "retries": 4
     }
 }
