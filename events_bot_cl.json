@@ -661,8 +661,8 @@
         "id": 1117358,
         "name": "Dobles",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 3,
+        "state": "ACTIVE",
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
@@ -670,11 +670,144 @@
         "phaseGroups": [
             {
                 "id": 2438910,
+                "state": 2,
                 "phase": {
-                    "id": 1634157,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16311430,
+                                "name": "Darkness / nicompleto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 265926,
+                                            "gamerTag": "Darkness"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nihotdogssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1132784,
+                                            "gamerTag": "nicompleto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16313604,
+                                "name": "scars / MeWky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3498837,
+                                            "gamerTag": "MeWky"
+                                        }
+                                    },
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4007592,
+                                            "gamerTag": "scars"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16313581,
+                                "name": "SyC~Tsubasa / Neitor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tsubasa_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1059907,
+                                            "gamerTag": "SyC~Tsubasa"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NeitorKD"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2085354,
+                                            "gamerTag": "Neitor"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16313582,
+                                "name": "Lric / Benny!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Bennyad64"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1469513,
+                                            "gamerTag": "Benny!"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lric92"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3806802,
+                                            "gamerTag": "Lric"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Bros \u00d1u\u00f1oa #43",
@@ -707,7 +840,9 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1778196503254745512",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1117357": {
         "id": 1117357,
@@ -771,7 +906,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 3,
                             "entrant": {
                                 "id": 16306120,
                                 "name": "ORD | Neitor",
@@ -1384,7 +1519,7 @@
             },
             {
                 "id": 2438909,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "SemiPro"
                 },
@@ -1395,7 +1530,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 16275353,
                                 "name": "Benny!",
@@ -1413,7 +1548,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 2,
@@ -1434,7 +1570,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 3,
@@ -1455,7 +1592,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 3,
@@ -1476,7 +1614,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -1493,7 +1632,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -1508,7 +1648,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -1525,7 +1666,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -1546,7 +1688,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 },
@@ -1584,7 +1727,9 @@
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1778196508979962124",
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": [],
+        "postedPhaseResultIds": [
+            2438909
+        ],
         "postedStarting": true
     },
     "1117944": {
