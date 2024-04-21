@@ -895,7 +895,7 @@
         "id": 1115057,
         "name": "Street Fighter 6",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 43868
@@ -904,11 +904,170 @@
         "phaseGroups": [
             {
                 "id": 2435429,
+                "state": 2,
                 "phase": {
-                    "id": 1631331,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 16289112,
+                                "name": "BP | Diego",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1135788,
+                                            "gamerTag": "Diego"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 16291788,
+                                "name": "UA | SMB | Delong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HenriDelong"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1660190,
+                                            "gamerTag": "Delong"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 16300179,
+                                "name": "Gyoki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3699116,
+                                            "gamerTag": "Gyoki"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 16310679,
+                                "name": "Churrasco | Zumbimarinho",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3502053,
+                                            "gamerTag": "Zumbimarinho"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 16320883,
+                                "name": "vini",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vinicivs_o"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2960163,
+                                            "gamerTag": "vini"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 16341635,
+                                "name": "Pires",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2957408,
+                                            "gamerTag": "Pires"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 16375330,
+                                "name": "papermoon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3654054,
+                                            "gamerTag": "papermoon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 16378452,
+                                "name": "lpdouglas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3597526,
+                                            "gamerTag": "lpdouglas"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smatch\u00ea #36",
@@ -937,7 +1096,9 @@
         "tournament_venueAddress": "Av. Get\u00falio Vargas, 1026 - Menino Deus, Porto Alegre - RS, 90150-002, Brazil",
         "tournament_addrState": "RS",
         "tweet_id": "1778853355722289535",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "989544": {
         "id": 989544,
