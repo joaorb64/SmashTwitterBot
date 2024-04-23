@@ -928,7 +928,7 @@
         "id": 1123172,
         "name": "Semanal Fundio 2",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 10,
         "videogame": {
             "id": 1386
@@ -937,11 +937,212 @@
         "phaseGroups": [
             {
                 "id": 2449429,
+                "state": 2,
                 "phase": {
-                    "id": 1641568,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 10
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16364977,
+                                "name": "Poison",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PoisonCL_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1311232,
+                                            "gamerTag": "Poison"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16400474,
+                                "name": "Zore",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2417772,
+                                            "gamerTag": "Zore"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16365081,
+                                "name": "KT/ | Kusa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1311225,
+                                            "gamerTag": "Kusa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16400437,
+                                "name": "Kowy!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3794238,
+                                            "gamerTag": "Kowy!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16399737,
+                                "name": "GH | Thugpac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1844202,
+                                            "gamerTag": "Thugpac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16400511,
+                                "name": "KT | Suicida",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 3379815,
+                                            "gamerTag": "Suicida"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16400448,
+                                "name": "KT | | zButter",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "bxtter_v"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3687613,
+                                            "gamerTag": "zButter"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16364969,
+                                "name": "SF | Rodo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rudolfaraya2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132871,
+                                            "gamerTag": "Rodo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16399774,
+                                "name": "SF | JajaSC",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JajaSC_art"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 560296,
+                                            "gamerTag": "JajaSC"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16399380,
+                                "name": "KT | Chorroca",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2362276,
+                                            "gamerTag": "Chorroca"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Semanales Fundidos",
@@ -970,7 +1171,9 @@
         "tournament_venueAddress": "Estado 634, 2840967 Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
         "tweet_id": "1781420276057554949",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1123326": {
         "id": 1123326,
