@@ -800,7 +800,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 25,
+        "numEntrants": 26,
         "videogame": {
             "id": 1386
         },
@@ -1434,7 +1434,7 @@
         "id": 1127045,
         "name": "POW#32: SSB. U",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 3,
         "videogame": {
             "id": 1386
@@ -1442,12 +1442,81 @@
         "startAt": 1714172400,
         "phaseGroups": [
             {
-                "id": 2456245,
+                "id": 2458254,
+                "state": 2,
                 "phase": {
-                    "id": 1646571,
-                    "name": "Bracket"
+                    "name": "Singles"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16443887,
+                                "name": "TW | Fundamentals",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1964085,
+                                            "gamerTag": "Fundamentals"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16446341,
+                                "name": "Pepperoni",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GyJavierignacio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1723324,
+                                            "gamerTag": "Pepperoni"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16444376,
+                                "name": "DLX | Rayas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AbyssalCinder"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3599663,
+                                            "gamerTag": "Rayas"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Power Up#32: Super Smash Bros. Ultimate",
@@ -1465,7 +1534,9 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1783292597823312045",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1128043": {
         "id": 1128043,
