@@ -796,7 +796,7 @@
         "id": 1039057,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "ACTIVE",
+        "state": "COMPLETED",
         "numEntrants": 33,
         "videogame": {
             "id": 1386
@@ -805,7 +805,7 @@
         "phaseGroups": [
             {
                 "id": 2306356,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Top 8"
                 },
@@ -816,7 +816,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 16170913,
                                 "name": "GotM",
@@ -828,6 +828,40 @@
                                         "player": {
                                             "id": 1741316,
                                             "gamerTag": "GotM"
+                                        }
+                                    }
+                                ]
+                            },
+                            "char_usage": {
+                                "Sephiroth": {
+                                    "name": "Sephiroth",
+                                    "usage": 13,
+                                    "icon": "https://images.start.gg/images/character/1777/image-1c876c8c8a76fbfa4306f31daa856145.png?ehk=UnVy7QTh1QK9ZOhzLZjU520Uh2IuPa9%2FZDRkci2Avws%3D&ehkOptimized=%2F4uQpIR4fY2EbpEcb5I4m0OcrLvYofezSH7px4xEwT8%3D"
+                                },
+                                "Falco": {
+                                    "name": "Falco",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1285/image-9e61f7a91a6c642bc3f14409f6f1cb69.png?ehk=Saq4tson3cB7H0i9bjS99hXFl9cDsZAu1aj5A2JeRgY%3D&ehkOptimized=SBrHgpbq38YSH74zYNABp91lUjIgZuNC5JCPK37kEpc%3D"
+                                }
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 16082424,
+                                "name": "Counter | Offline",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Offline_SL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2345480,
+                                            "gamerTag": "Offline"
                                         }
                                     }
                                 ]
@@ -850,28 +884,6 @@
                                         "player": {
                                             "id": 1795745,
                                             "gamerTag": "Meps"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 16082424,
-                                "name": "Counter | Offline",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Offline_SL"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2345480,
-                                            "gamerTag": "Offline"
                                         }
                                     }
                                 ]
