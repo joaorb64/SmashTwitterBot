@@ -397,7 +397,7 @@
         "name": "Smash Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 17,
+        "numEntrants": 18,
         "videogame": {
             "id": 1386
         },
@@ -1556,7 +1556,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Angostura, San Fernando, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
-        "tweet_id": "1785157362736587107"
+        "tweet_id": "1785157362736587107",
+        "retries": 1
     },
     "1130200": {
         "id": 1130200,
@@ -1777,7 +1778,7 @@
         "id": 1131346,
         "name": "Smash Ultimate Duplas",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 10,
         "videogame": {
             "id": 1386
@@ -1786,11 +1787,356 @@
         "phaseGroups": [
             {
                 "id": 2463290,
+                "state": 2,
                 "phase": {
-                    "id": 1652064,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 10
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16494505,
+                                "name": "Darkness / nicompleto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 265926,
+                                            "gamerTag": "Darkness"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nihotdogssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1132784,
+                                            "gamerTag": "nicompleto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16494499,
+                                "name": "Neitor / Mantolio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mantoliossb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2016113,
+                                            "gamerTag": "Mantolio"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NeitorKD"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2085354,
+                                            "gamerTag": "Neitor"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16494516,
+                                "name": "Dandelion / Hb2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pablo_Hb2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 131600,
+                                            "gamerTag": "Hb2"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DandelionDizzy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 517358,
+                                            "gamerTag": "Dandelion"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16494494,
+                                "name": "Belceb\u00fa / Capi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Capi_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 411556,
+                                            "gamerTag": "Capi"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "belcebu_sorath"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 595242,
+                                            "gamerTag": "Belceb\u00fa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16494510,
+                                "name": "Tuxedo / Zenma",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "zenmasb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 322381,
+                                            "gamerTag": "Zenma"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tuxedo_Smash"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1137586,
+                                            "gamerTag": "Tuxedo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16494451,
+                                "name": "FeliaPunky / SyC~Venharcore",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FeliaPonk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1547218,
+                                            "gamerTag": "FeliaPunky"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "venharcore"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1723490,
+                                            "gamerTag": "SyC~Venharcore"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16494489,
+                                "name": "HumbertoCrea / Bardo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TFCNaNa_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2690603,
+                                            "gamerTag": "HumbertoCrea"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Bardossbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3053454,
+                                            "gamerTag": "Bardo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16494519,
+                                "name": "Howl CL / Rhoam",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Howl_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1194446,
+                                            "gamerTag": "Howl CL"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2124271,
+                                            "gamerTag": "Rhoam"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16494482,
+                                "name": "Xepher / KingSheikah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "joseidiel"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 518380,
+                                            "gamerTag": "Xepher"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "KingSheikah"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 895687,
+                                            "gamerTag": "KingSheikah"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16494527,
+                                "name": "L4U / Dam!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2362200,
+                                            "gamerTag": "Dam!"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "L4U_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3931463,
+                                            "gamerTag": "L4U"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Not DM #110: Especial Edici\u00f3n",
@@ -1807,6 +2153,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
-        "tweet_id": "1785768966981316648"
+        "tweet_id": "1785768966981316648",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
