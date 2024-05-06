@@ -1775,8 +1775,8 @@
         "id": 1133026,
         "name": "XD 4",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 4,
+        "state": "ACTIVE",
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -1784,11 +1784,112 @@
         "phaseGroups": [
             {
                 "id": 2466179,
+                "state": 2,
                 "phase": {
-                    "id": 1654302,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16520961,
+                                "name": "POS | DLX | Darkness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3800656,
+                                            "gamerTag": "Darkness"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16528071,
+                                "name": "POS| | Dino",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3936054,
+                                            "gamerTag": "Dino"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16542875,
+                                "name": "Psychedelic catarsis",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3879217,
+                                            "gamerTag": "Psychedelic catarsis"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16526221,
+                                "name": "POS| | Kyber",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3890862,
+                                            "gamerTag": "Kyber"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16527649,
+                                "name": "POS| | Raymanjamon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raymanaaronrun"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3880955,
+                                            "gamerTag": "Raymanjamon"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Santo cura 4",
@@ -1817,6 +1918,8 @@
         "tournament_venueAddress": "Carmen Mena 929, 8930180 San Miguel, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1786614475132416354",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
