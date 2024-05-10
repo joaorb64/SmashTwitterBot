@@ -1322,7 +1322,7 @@
         "id": 1135486,
         "name": "CPS NextGen",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -1331,11 +1331,315 @@
         "phaseGroups": [
             {
                 "id": 2470075,
+                "state": 2,
                 "phase": {
-                    "id": 1657463,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 10417461
+                    },
+                    {
+                        "id": 10417463
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16576079,
+                                "name": "Rafones",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 562514
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16576081,
+                                "name": "E.",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pietro349"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1515360
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16576082,
+                                "name": "Andr\u00e9",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4064710
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2472966,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 10417462
+                    },
+                    {
+                        "id": 10417464
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 16575608,
+                                "name": "CPS | Micky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pedro_Microso"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 598521
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 16575603,
+                                "name": "CPS | Guido",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 598527
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16576083,
+                                "name": "Dario",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4064711
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16576080,
+                                "name": "M\u00e1fia",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1134859
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2472967,
+                "state": 1,
+                "phase": {
+                    "name": "Top 4"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16576081,
+                                "name": "E.",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pietro349"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1515360,
+                                            "gamerTag": "E."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16576082,
+                                "name": "Andr\u00e9",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4064710,
+                                            "gamerTag": "Andr\u00e9"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16576079,
+                                "name": "Rafones",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 562514,
+                                            "gamerTag": "Rafones"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16575608,
+                                "name": "CPS | Micky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pedro_Microso"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 598521,
+                                            "gamerTag": "Micky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16575603,
+                                "name": "CPS | Guido",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 598527,
+                                            "gamerTag": "Guido"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16576083,
+                                "name": "Dario",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4064711,
+                                            "gamerTag": "Dario"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16576080,
+                                "name": "M\u00e1fia",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1134859,
+                                            "gamerTag": "M\u00e1fia"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Station #85",
@@ -1368,7 +1672,9 @@
         "tournament_venueAddress": "Av. Professor At\u00edlio Martini, 469 - Cidade Universit\u00e1ria, Campinas - SP, 13084-727, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1788026243922714804",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1135485": {
         "id": 1135485,
@@ -1383,7 +1689,7 @@
         "phaseGroups": [
             {
                 "id": 2470073,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket (BO3)"
                 },
@@ -1435,6 +1741,27 @@
                                         },
                                         "player": {
                                             "id": 595796
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16560624,
+                                "name": "Harpers | Norun",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NorunSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2734928
                                         }
                                     }
                                 ]
@@ -1511,27 +1838,6 @@
                                         },
                                         "player": {
                                             "id": 562514
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 16560624,
-                                "name": "Harpers | Norun",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "NorunSSB"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2734928
                                         }
                                     }
                                 ]
@@ -1686,7 +1992,7 @@
             },
             {
                 "id": 2470074,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 4 (BO5)"
                 },
@@ -1697,7 +2003,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 16574803,
                                 "name": "CPS | TOURONGA",
@@ -1727,6 +2033,28 @@
                                         "player": {
                                             "id": 1472195,
                                             "gamerTag": "Bigode"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16560624,
+                                "name": "Harpers | Norun",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NorunSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2734928,
+                                            "gamerTag": "Norun"
                                         }
                                     }
                                 ]
@@ -1829,28 +2157,6 @@
                                         "player": {
                                             "id": 562514,
                                             "gamerTag": "Rafones"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 16560624,
-                                "name": "Harpers | Norun",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "NorunSSB"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2734928,
-                                            "gamerTag": "Norun"
                                         }
                                     }
                                 ]
