@@ -368,7 +368,7 @@
             },
             {
                 "id": 2445706,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -434,7 +434,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 15811713,
                                 "name": "FR7",
@@ -449,6 +449,23 @@
                                         },
                                         "player": {
                                             "id": 211496
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 15740804,
+                                "name": "FT | PRWN | Pseudo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1846485
                                         }
                                     }
                                 ]
@@ -470,23 +487,6 @@
                                         },
                                         "player": {
                                             "id": 2072354
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 15740804,
-                                "name": "FT | PRWN | Pseudo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1846485
                                         }
                                     }
                                 ]
@@ -835,6 +835,24 @@
                         {
                             "placement": 7,
                             "entrant": {
+                                "id": 15740804,
+                                "name": "FT | PRWN | Pseudo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1846485,
+                                            "gamerTag": "Pseudo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
                                 "id": 16102492,
                                 "name": "Norun",
                                 "participants": [
@@ -855,18 +873,22 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 7,
                             "entrant": {
-                                "id": 15740804,
-                                "name": "FT | PRWN | Pseudo",
+                                "id": 15811713,
+                                "name": "FR7",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "fr7live"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 1846485,
-                                            "gamerTag": "Pseudo"
+                                            "id": 211496,
+                                            "gamerTag": "FR7"
                                         }
                                     }
                                 ]
@@ -955,28 +977,6 @@
                                         "player": {
                                             "id": 2072354,
                                             "gamerTag": "KNG"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 15811713,
-                                "name": "FR7",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "fr7live"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 211496,
-                                            "gamerTag": "FR7"
                                         }
                                     }
                                 ]
