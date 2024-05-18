@@ -915,7 +915,7 @@
         "id": 1135153,
         "name": "Singles - Nage House 7",
         "isOnline": false,
-        "state": "ACTIVE",
+        "state": "COMPLETED",
         "numEntrants": 12,
         "videogame": {
             "id": 1386
@@ -924,7 +924,7 @@
         "phaseGroups": [
             {
                 "id": 2469568,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -935,7 +935,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 16608417,
                                 "name": "TW | Nova",
@@ -1212,7 +1212,7 @@
         "id": 1135157,
         "name": "Dobles - Nage House 7",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -1221,11 +1221,138 @@
         "phaseGroups": [
             {
                 "id": 2469573,
+                "state": 2,
                 "phase": {
-                    "id": 1657056,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16649707,
+                                "name": "Estudiantes DE",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "F3rd_Z"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221687,
+                                            "gamerTag": "F3rd_Z"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tadoo04"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2565233,
+                                            "gamerTag": "Tadoo<3"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16649711,
+                                "name": "Gimpel / SaPo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 134465,
+                                            "gamerTag": "SaPo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 323124,
+                                            "gamerTag": "Gimpel"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16649731,
+                                "name": "Phantom Team",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4052360,
+                                            "gamerTag": "SLuis1"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4055569,
+                                            "gamerTag": "FelixSenpai.GG"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16647287,
+                                "name": "SonicxShadow",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3926674,
+                                            "gamerTag": "Nage"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gosfell_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3926830,
+                                            "gamerTag": "Gosfell"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Nage House 7",
@@ -1258,7 +1385,9 @@
         "tournament_venueAddress": "Los Talletes 1365, 01365 Temuco, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1791159417108336820",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1141441": {
         "id": 1141441,
