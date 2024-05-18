@@ -661,7 +661,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 32,
+        "numEntrants": 33,
         "videogame": {
             "id": 1386
         },
@@ -935,7 +935,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 16621942,
                                 "name": "TMT | Gimpel",
@@ -947,6 +947,90 @@
                                         "player": {
                                             "id": 323124,
                                             "gamerTag": "Gimpel"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16608417,
+                                "name": "TW | Nova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Novaaaaa_CL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2224238,
+                                            "gamerTag": "Nova"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16647326,
+                                "name": "TMT | SaPo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 134465,
+                                            "gamerTag": "SaPo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16608158,
+                                "name": "TMT | RTS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RTS_FromHell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 313253,
+                                            "gamerTag": "RTS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16611776,
+                                "name": "F3rd_Z",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "F3rd_Z"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221687,
+                                            "gamerTag": "F3rd_Z"
                                         }
                                     }
                                 ]
@@ -1035,28 +1119,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 16611776,
-                                "name": "F3rd_Z",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "F3rd_Z"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2221687,
-                                            "gamerTag": "F3rd_Z"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 16645014,
                                 "name": "LizardonYT",
                                 "participants": [
@@ -1107,68 +1169,6 @@
                                     }
                                 ]
                             }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16608417,
-                                "name": "TW | Nova",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Novaaaaa_CL"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2224238,
-                                            "gamerTag": "Nova"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16647326,
-                                "name": "TMT | SaPo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 134465,
-                                            "gamerTag": "SaPo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16608158,
-                                "name": "TMT | RTS",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "RTS_FromHell"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 313253,
-                                            "gamerTag": "RTS"
-                                        }
-                                    }
-                                ]
-                            }
                         }
                     ]
                 }
@@ -1178,7 +1178,11 @@
         "tournament_id": 667372,
         "city": "Temuco",
         "url": "https://start.gg/tournament/nage-house-7/event/singles-nage-house-7",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "nagemcpollo"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1715990400,
         "tournament_endAt": 1716008400,
@@ -1228,7 +1232,11 @@
         "tournament_id": 667372,
         "city": "Temuco",
         "url": "https://start.gg/tournament/nage-house-7/event/dobles-nage-house-7",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "nagemcpollo"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1715990400,
         "tournament_endAt": 1716008400,
