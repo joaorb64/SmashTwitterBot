@@ -1029,7 +1029,7 @@
         "name": "RTC - Smash Ultimate 1v1",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 32,
+        "numEntrants": 31,
         "videogame": {
             "id": 1386
         },
@@ -2397,7 +2397,7 @@
         "id": 1142354,
         "name": "Campeoes da Biscuit Run 2023",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -2406,11 +2406,138 @@
         "phaseGroups": [
             {
                 "id": 2483392,
+                "state": 2,
                 "phase": {
-                    "id": 1666702,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 16730300,
+                                "name": "SBF | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "Taunt"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16730302,
+                                "name": "SBF | Malike",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3488818,
+                                            "gamerTag": "Malike"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16729569,
+                                "name": "Capcomaniac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sasamoto007"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2889650,
+                                            "gamerTag": "Capcomaniac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16730318,
+                                "name": "Dreigel",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2823590,
+                                            "gamerTag": "Dreigel"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16730316,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16730342,
+                                "name": "Wanshitong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wanshitong_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2816343,
+                                            "gamerTag": "Wanshitong"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "IRA DE CAMPE\u00d5ES",
@@ -2439,7 +2566,9 @@
         "tournament_venueAddress": "R. Bacanga, 126 - Iraj\u00e1, Rio de Janeiro - RJ, 21235-380, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1792208841637007383",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1142375": {
         "id": 1142375,
@@ -2488,7 +2617,7 @@
         "tournament_addrState": "RJ",
         "tweet_id": "1792208846628209072",
         "postedRegistrationClosing": true,
-        "retries": 6
+        "retries": 7
     },
     "1143589": {
         "id": 1143589,
