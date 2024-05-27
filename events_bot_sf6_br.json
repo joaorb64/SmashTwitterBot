@@ -867,7 +867,7 @@
         "id": 1146602,
         "name": "Arena Brasil",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 43868
@@ -876,8 +876,8 @@
         "phaseGroups": [
             {
                 "id": 2490826,
+                "state": 2,
                 "phase": {
-                    "id": 1672262,
                     "name": "Pr\u00e9 - Top 8"
                 },
                 "progressionsOut": [
@@ -905,15 +905,192 @@
                     {
                         "id": 10484953
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16727501,
+                                "name": "DARK-RAS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diego_DARK_Lins"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358693
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16727505,
+                                "name": "PHT | Brayan_Job",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BrayanJob1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 658918
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16727507,
+                                "name": "Arena Team | Kyuki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "KyukiVT"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2025508
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16727510,
+                                "name": "Shodown | NamikazeExTM",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NamikazeExTM"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1699589
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16727517,
+                                "name": "Zangief_bolado",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BoladoZangief"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1408573
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16727522,
+                                "name": "DR | Wendson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3455630
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16727526,
+                                "name": "Shodown | Jah_lexe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JahLexe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 662584
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16740787,
+                                "name": "Comit\u00ea | Dragon_Legend",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dragonlegendfgc"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1933085
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2490827,
+                "state": 1,
                 "phase": {
-                    "id": 1672263,
                     "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "#2 Arena Brasil - Top 8",
@@ -946,7 +1123,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1794564424163803274",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1145913": {
         "id": 1145913,
