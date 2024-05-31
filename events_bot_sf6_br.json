@@ -420,7 +420,7 @@
         "id": 989544,
         "name": "Continental Fight #2",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 13,
         "videogame": {
             "id": 43868
@@ -429,7 +429,7 @@
         "phaseGroups": [
             {
                 "id": 2223625,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "POOL"
                 },
@@ -461,43 +461,9 @@
                 ],
                 "standings": {
                     "pageInfo": {
-                        "total": 11
+                        "total": 13
                     },
                     "nodes": [
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 16769133,
-                                "name": "Lukejr",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3626366
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 14457355,
-                                "name": "CabulososFGC | ProfAndre",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3590013
-                                        }
-                                    }
-                                ]
-                            }
-                        },
                         {
                             "placement": 9,
                             "entrant": {
@@ -560,57 +526,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 16752674,
-                                "name": "Arena Team | Siinon",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2163709
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16752676,
-                                "name": "Nadal",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3504878
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16752679,
-                                "name": "manuelpbriones",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2892333
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 16752682,
                                 "name": "GNOCZERA",
                                 "participants": [
@@ -620,23 +535,6 @@
                                         },
                                         "player": {
                                             "id": 3510390
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16752686,
-                                "name": "GCF | Uadson",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1818832
                                         }
                                     }
                                 ]
@@ -662,6 +560,142 @@
                                     }
                                 ]
                             }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16769133,
+                                "name": "Lukejr",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3626366
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 14457355,
+                                "name": "CabulososFGC | ProfAndre",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3590013
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16752674,
+                                "name": "Arena Team | Siinon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2163709
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16752676,
+                                "name": "Nadal",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3504878
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16752679,
+                                "name": "manuelpbriones",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2892333
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16752686,
+                                "name": "GCF | Uadson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1818832
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16776633,
+                                "name": "RoadSector",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2079771
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16776643,
+                                "name": "ARENA LAURO | Sabota",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4107368
+                                        }
+                                    }
+                                ]
+                            }
                         }
                     ]
                 }
@@ -675,45 +709,9 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 10
+                        "total": 13
                     },
                     "nodes": [
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16752686,
-                                "name": "GCF | Uadson",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1818832,
-                                            "gamerTag": "Uadson"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16752679,
-                                "name": "manuelpbriones",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2892333,
-                                            "gamerTag": "manuelpbriones"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
                         {
                             "placement": 9,
                             "entrant": {
@@ -739,16 +737,34 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 14457355,
-                                "name": "CabulososFGC | ProfAndre",
+                                "id": 16769133,
+                                "name": "Lukejr",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 3590013,
-                                            "gamerTag": "ProfAndre"
+                                            "id": 3626366,
+                                            "gamerTag": "Lukejr"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16752682,
+                                "name": "GNOCZERA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3510390,
+                                            "gamerTag": "GNOCZERA"
                                         }
                                     }
                                 ]
@@ -779,42 +795,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 16752682,
-                                "name": "GNOCZERA",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3510390,
-                                            "gamerTag": "GNOCZERA"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16752676,
-                                "name": "Nadal",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3504878,
-                                            "gamerTag": "Nadal"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 16752666,
                                 "name": "Marcos98Vini",
                                 "participants": [
@@ -825,24 +805,6 @@
                                         "player": {
                                             "id": 3916039,
                                             "gamerTag": "Marcos98Vini"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16769133,
-                                "name": "Lukejr",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3626366,
-                                            "gamerTag": "Lukejr"
                                         }
                                     }
                                 ]
@@ -865,6 +827,132 @@
                                         "player": {
                                             "id": 3722065,
                                             "gamerTag": "Afr0_Kong"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16752674,
+                                "name": "Arena Team | Siinon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2163709,
+                                            "gamerTag": "Siinon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 14457355,
+                                "name": "CabulososFGC | ProfAndre",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3590013,
+                                            "gamerTag": "ProfAndre"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 16752679,
+                                "name": "manuelpbriones",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2892333,
+                                            "gamerTag": "manuelpbriones"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16752676,
+                                "name": "Nadal",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3504878,
+                                            "gamerTag": "Nadal"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16776643,
+                                "name": "ARENA LAURO | Sabota",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4107368,
+                                            "gamerTag": "Sabota"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16752686,
+                                "name": "GCF | Uadson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1818832,
+                                            "gamerTag": "Uadson"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 16776633,
+                                "name": "RoadSector",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2079771,
+                                            "gamerTag": "RoadSector"
                                         }
                                     }
                                 ]
