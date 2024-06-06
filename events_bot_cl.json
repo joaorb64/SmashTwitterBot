@@ -1075,7 +1075,7 @@
         "id": 1151948,
         "name": "Singles - Nage House #9",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -1084,18 +1084,189 @@
         "phaseGroups": [
             {
                 "id": 2500110,
+                "state": 2,
                 "phase": {
-                    "id": 1679243,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16814160,
+                                "name": "TW | Nova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Novaaaaa_CL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2224238,
+                                            "gamerTag": "Nova"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16814982,
+                                "name": "F3rd_Z",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "F3rd_Z"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221687,
+                                            "gamerTag": "F3rd_Z"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16831027,
+                                "name": "TMT | RTS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RTS_FromHell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 313253,
+                                            "gamerTag": "RTS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16813987,
+                                "name": "Gosfell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gosfell_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3926830,
+                                            "gamerTag": "Gosfell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16835476,
+                                "name": "EL | rottzi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4083221,
+                                            "gamerTag": "rottzi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16823300,
+                                "name": "SLuis1",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4052360,
+                                            "gamerTag": "SLuis1"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16833353,
+                                "name": "Myxis",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4055914,
+                                            "gamerTag": "Myxis"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16824893,
+                                "name": "FelixSenpai.GG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4055569,
+                                            "gamerTag": "FelixSenpai.GG"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Nage House 9: Blue card edition",
         "tournament_id": 676411,
         "city": "Cautin",
         "url": "https://start.gg/tournament/nage-house-9-blue-card-edition/event/singles-nage-house-9",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "F3rd_"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1717711200,
         "tournament_endAt": 1717727400,
@@ -1117,7 +1288,9 @@
         "tournament_venueAddress": "Lago Ri\u00f1ihue 01890, 4810895 Cautin, Temuco, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1797780720766575104",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1152763": {
         "id": 1152763,
@@ -1305,7 +1478,7 @@
         "name": "Ultimate Singles",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 7,
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
