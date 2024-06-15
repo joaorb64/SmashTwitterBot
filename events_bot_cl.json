@@ -689,7 +689,7 @@
         "name": "Singles - Frikital",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 32,
+        "numEntrants": 35,
         "videogame": {
             "id": 1386
         },
@@ -820,7 +820,7 @@
         "id": 1155453,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 36,
         "videogame": {
             "id": 1386
@@ -829,11 +829,17 @@
         "phaseGroups": [
             {
                 "id": 2506287,
+                "state": 2,
                 "phase": {
-                    "id": 1683949,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Completada y Smash!",
@@ -862,7 +868,9 @@
         "tournament_venueAddress": "Las Palmeras 3425, 7800003 \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1800196453903565129",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1155875": {
         "id": 1155875,
