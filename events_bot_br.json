@@ -479,8 +479,8 @@
         "id": 1136225,
         "name": "Skyworld vs. Alrest",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 0,
+        "state": "ACTIVE",
+        "numEntrants": 2,
         "videogame": {
             "id": 1386
         },
@@ -488,11 +488,50 @@
         "phaseGroups": [
             {
                 "id": 2471565,
+                "state": 2,
                 "phase": {
-                    "id": 1658450,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 16934364,
+                                "name": "SKYWORLD (Ribeir\u00e3o)",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4135759,
+                                            "gamerTag": "SKYWORLD (Ribeir\u00e3o)"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 16934366,
+                                "name": "ALREST (Campinas)",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4135758,
+                                            "gamerTag": "ALREST (Campinas)"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "TEMPEST",
@@ -525,7 +564,9 @@
         "tournament_venueAddress": "Av. Brasil, 1456 - Jardim Guanabara, Campinas - SP, 13073-148, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1789747625673007388",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1139735": {
         "id": 1139735,
@@ -608,21 +649,6 @@
                         {
                             "placement": 1,
                             "entrant": {
-                                "id": 16925039,
-                                "name": "Cartola",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4133944
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
-                            "entrant": {
                                 "id": 16615386,
                                 "name": "NaSC | Kami",
                                 "participants": [
@@ -632,6 +658,23 @@
                                         },
                                         "player": {
                                             "id": 3200579
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 16907891,
+                                "name": "NaSC | Gobi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 548068
                                         }
                                     }
                                 ]
@@ -657,15 +700,13 @@
                         {
                             "placement": 4,
                             "entrant": {
-                                "id": 16907891,
-                                "name": "NaSC | Gobi",
+                                "id": 16925039,
+                                "name": "Cartola",
                                 "participants": [
                                     {
-                                        "user": {
-                                            "authorizations": null
-                                        },
+                                        "user": null,
                                         "player": {
-                                            "id": 548068
+                                            "id": 4133944
                                         }
                                     }
                                 ]
@@ -751,6 +792,21 @@
                         {
                             "placement": 3,
                             "entrant": {
+                                "id": 16926441,
+                                "name": "PedroGH96",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4133945
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
                                 "id": 16933798,
                                 "name": "NaSC | Tyrk",
                                 "participants": [
@@ -766,7 +822,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 5,
                             "entrant": {
                                 "id": 16925404,
                                 "name": "Chachamaru",
@@ -775,21 +831,6 @@
                                         "user": null,
                                         "player": {
                                             "id": 4134018
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 16926441,
-                                "name": "PedroGH96",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4133945
                                         }
                                     }
                                 ]
@@ -854,21 +895,6 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 16922330,
-                                "name": "Felps",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4133490
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
                                 "id": 16922306,
                                 "name": "DALSU",
                                 "participants": [
@@ -878,6 +904,21 @@
                                         },
                                         "player": {
                                             "id": 2041238
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16922330,
+                                "name": "Felps",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4133490
                                         }
                                     }
                                 ]
@@ -1164,7 +1205,7 @@
         "name": "Smash Ultimate 1x1",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 13,
+        "numEntrants": 14,
         "videogame": {
             "id": 1386
         },
@@ -1975,7 +2016,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 9,
+                            "placement": 5,
                             "entrant": {
                                 "id": 16933397,
                                 "name": "Andreskies",
@@ -1991,6 +2032,68 @@
                                         "player": {
                                             "id": 1331702,
                                             "gamerTag": "Andreskies"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16933439,
+                                "name": "Press Wasco | JuanitoWhatsapp",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NoiadoBaiano"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1728473,
+                                            "gamerTag": "JuanitoWhatsapp"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 16933445,
+                                "name": "LLN | JGee",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "jgeeHK"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 315456,
+                                            "gamerTag": "JGee"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 16933400,
+                                "name": "Sofos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3859813,
+                                            "gamerTag": "Sofos"
                                         }
                                     }
                                 ]
@@ -2013,28 +2116,6 @@
                                         "player": {
                                             "id": 1331736,
                                             "gamerTag": "LeoShadow"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 16933439,
-                                "name": "Press Wasco | JuanitoWhatsapp",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "NoiadoBaiano"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1728473,
-                                            "gamerTag": "JuanitoWhatsapp"
                                         }
                                     }
                                 ]
@@ -2075,16 +2156,14 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 16933400,
-                                "name": "Sofos",
+                                "id": 16933435,
+                                "name": "Nages",
                                 "participants": [
                                     {
-                                        "user": {
-                                            "authorizations": null
-                                        },
+                                        "user": null,
                                         "player": {
-                                            "id": 3859813,
-                                            "gamerTag": "Sofos"
+                                            "id": 4135671,
+                                            "gamerTag": "Nages"
                                         }
                                     }
                                 ]
@@ -2093,20 +2172,20 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 16933445,
-                                "name": "LLN | JGee",
+                                "id": 16933675,
+                                "name": "Saito",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "jgeeHK"
+                                                    "externalUsername": "eliwadson"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 315456,
-                                            "gamerTag": "JGee"
+                                            "id": 3339951,
+                                            "gamerTag": "Saito"
                                         }
                                     }
                                 ]
@@ -2207,22 +2286,6 @@
                         {
                             "placement": 13,
                             "entrant": {
-                                "id": 16933435,
-                                "name": "Nages",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4135671,
-                                            "gamerTag": "Nages"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
                                 "id": 16933775,
                                 "name": "LightningThunder",
                                 "participants": [
@@ -2231,28 +2294,6 @@
                                         "player": {
                                             "id": 4135712,
                                             "gamerTag": "LightningThunder"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 16933675,
-                                "name": "Saito",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "eliwadson"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 3339951,
-                                            "gamerTag": "Saito"
                                         }
                                     }
                                 ]
