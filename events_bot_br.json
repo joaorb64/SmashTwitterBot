@@ -581,7 +581,7 @@
         "phaseGroups": [
             {
                 "id": 2495609,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Pool A (Ter. 19hs)"
                 },
@@ -610,7 +610,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 2,
@@ -631,27 +632,11 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 3,
-                            "entrant": {
-                                "id": 16971283,
-                                "name": "SMB | Lukz",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1092002
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
                             "entrant": {
                                 "id": 16951492,
                                 "name": "SST | Lo",
@@ -665,7 +650,26 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 16971283,
+                                "name": "SMB | Lukz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1092002
+                                        }
+                                    }
+                                ]
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -686,7 +690,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 6,
@@ -703,7 +708,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 },
@@ -711,7 +717,7 @@
             },
             {
                 "id": 2495641,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Pool B (Ter. 20:30)"
                 },
@@ -1682,7 +1688,9 @@
         "tournament_addrState": null,
         "tweet_id": "1796263027966115939",
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": [],
+        "postedPhaseResultIds": [
+            2495609
+        ],
         "postedStarting": true
     },
     "1149420": {
