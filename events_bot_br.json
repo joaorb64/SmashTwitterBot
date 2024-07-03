@@ -1067,7 +1067,7 @@
         "name": "NIVER DO TAUNT 3 - 40 anos!",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 12,
+        "numEntrants": 14,
         "videogame": {
             "id": 1386
         },
@@ -1130,7 +1130,7 @@
         "name": "Hylian`s Arena",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 8,
+        "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
@@ -1213,8 +1213,8 @@
         "id": 1168580,
         "name": "Smash Ultimate Ladder (03/07)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 15,
+        "state": "ACTIVE",
+        "numEntrants": 21,
         "videogame": {
             "id": 1386
         },
@@ -1222,11 +1222,17 @@
         "phaseGroups": [
             {
                 "id": 2529386,
+                "state": 2,
                 "phase": {
-                    "id": 1701115,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "BATTLE SUBWAY \u2699 - M\u00caS 13",
@@ -1259,14 +1265,16 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1807882318662504709",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1168581": {
         "id": 1168581,
         "name": "Smash Ultimate Singles (17/07)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 7,
+        "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
@@ -1485,7 +1493,7 @@
         "tournament_venueAddress": "Av. Paulista - Bela Vista, S\u00e3o Paulo - SP, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1808538897619575129",
-        "retries": 9
+        "retries": 10
     },
     "1169557": {
         "id": 1169557,
