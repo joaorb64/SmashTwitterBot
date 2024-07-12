@@ -465,7 +465,7 @@
         "id": 1166444,
         "name": "KaBuM! Starter Street Fighter 6 - Playoffs / Finals",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 43868
@@ -474,11 +474,221 @@
         "phaseGroups": [
             {
                 "id": 2525511,
+                "state": 2,
                 "phase": {
-                    "id": 1698325,
-                    "name": "Bracket"
+                    "name": "Playoffs"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 10688090
+                    },
+                    {
+                        "id": 10688091
+                    },
+                    {
+                        "id": 10688092
+                    },
+                    {
+                        "id": 10688093
+                    },
+                    {
+                        "id": 10688094
+                    },
+                    {
+                        "id": 10688095
+                    },
+                    {
+                        "id": 10688096
+                    },
+                    {
+                        "id": 10688097
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17128770,
+                                "name": "Zangief_bolado",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BoladoZangief"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1408573
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17158381,
+                                "name": "2Game | JUNINHO-RAS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JuninhoRas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1917872
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17158384,
+                                "name": "Shodown | NamikazeExTM",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NamikazeExTM"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1699589
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17158385,
+                                "name": "Comit\u00ea | Mimam",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MimamDadau"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2285854
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17158392,
+                                "name": "Arena Team | Kyuki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "KyukiVT"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2025508
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17159805,
+                                "name": "E1Sports | NotPedro",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NotPedro3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2461262
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17159807,
+                                "name": "FGC_KEYZ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3619912
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17159843,
+                                "name": "DMX | RonaldinhoBR",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RonaldinhoBRR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1864770
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2541083,
+                "state": 1,
+                "phase": {
+                    "name": "Top 8"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "KaBuM! Starter Street Fighter 6 - 2024",
@@ -529,7 +739,8 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1807444258162381267",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "1170652": {
         "id": 1170652,
