@@ -1036,6 +1036,24 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 17395136,
+                                "name": "U-Smash | xeki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2655168,
+                                            "gamerTag": "xeki"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 17409513,
@@ -1048,6 +1066,24 @@
                                         "player": {
                                             "id": 2978822,
                                             "gamerTag": "Spac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 17399735,
+                                "name": "U-Smash | P24",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3392408,
+                                            "gamerTag": "P24"
                                         }
                                     }
                                 ]
@@ -1092,24 +1128,6 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 17395136,
-                                "name": "U-Smash | xeki",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2655168,
-                                            "gamerTag": "xeki"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
                                 "id": 17396409,
                                 "name": "U-Smash | Oreee",
                                 "participants": [
@@ -1126,18 +1144,40 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 7,
                             "entrant": {
-                                "id": 17399735,
-                                "name": "U-Smash | P24",
+                                "id": 17396129,
+                                "name": "U-Smash | Mania",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ManiaSSBUEra"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2918332,
+                                            "gamerTag": "Mania"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17402996,
+                                "name": "Elshoro",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 3392408,
-                                            "gamerTag": "P24"
+                                            "id": 1093895,
+                                            "gamerTag": "Elshoro"
                                         }
                                     }
                                 ]
@@ -1164,28 +1204,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 17396129,
-                                "name": "U-Smash | Mania",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "ManiaSSBUEra"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2918332,
-                                            "gamerTag": "Mania"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 17409528,
                                 "name": "U-Smash | Stood",
                                 "participants": [
@@ -1194,24 +1212,6 @@
                                         "player": {
                                             "id": 3852058,
                                             "gamerTag": "Stood"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 17402996,
-                                "name": "Elshoro",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1093895,
-                                            "gamerTag": "Elshoro"
                                         }
                                     }
                                 ]
@@ -1380,7 +1380,7 @@
         "name": "Singles!",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 10,
+        "numEntrants": 11,
         "videogame": {
             "id": 1386
         },
