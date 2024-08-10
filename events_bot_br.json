@@ -3190,7 +3190,7 @@
         "id": 1191231,
         "name": "Ultimate #94",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -3199,11 +3199,168 @@
         "phaseGroups": [
             {
                 "id": 2570177,
+                "state": 2,
                 "phase": {
-                    "id": 1730566,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17439129,
+                                "name": "UA | Hikky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BiaNazuma"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1049957,
+                                            "gamerTag": "Hikky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17430806,
+                                "name": "UA | Rivaldinho Fen\u00f4meno",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MorphalesBR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1024243,
+                                            "gamerTag": "Rivaldinho Fen\u00f4meno"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17430211,
+                                "name": "UA | Samwa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vitormenezello"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 970727,
+                                            "gamerTag": "Samwa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17438492,
+                                "name": "UA | Airos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AirosPK"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1696912,
+                                            "gamerTag": "Airos"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17440169,
+                                "name": "UA | piu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "piuzera_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 257657,
+                                            "gamerTag": "piu"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17438169,
+                                "name": "FGCMT | Itto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Itto_Gabriel"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1901387,
+                                            "gamerTag": "Itto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17430274,
+                                "name": "GRP | Rekom",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3216457,
+                                            "gamerTag": "Rekom"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Quinzenal Ultra Arcade #8",
@@ -3236,6 +3393,8 @@
         "tournament_venueAddress": "R. Tom\u00e9 de Souza, 810 - Savassi, Belo Horizonte - MG, 30140-131, Brazil",
         "tournament_addrState": "MG",
         "tweet_id": "1821962381783625801",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
