@@ -839,7 +839,7 @@
         "id": 1190731,
         "name": "Farofation Cup Circuit - Street Fighter 6 - Last Chance",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 43868
@@ -848,11 +848,209 @@
         "phaseGroups": [
             {
                 "id": 2576148,
+                "state": 2,
                 "phase": {
-                    "id": 1735059,
-                    "name": "Bracket"
+                    "name": "Pr\u00e9-Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 10853185
+                    },
+                    {
+                        "id": 10853186
+                    },
+                    {
+                        "id": 10853187
+                    },
+                    {
+                        "id": 10853188
+                    },
+                    {
+                        "id": 10853189
+                    },
+                    {
+                        "id": 10853190
+                    },
+                    {
+                        "id": 10853191
+                    },
+                    {
+                        "id": 10853192
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17466953,
+                                "name": "UB | Salvatore",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1219408
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17466973,
+                                "name": "Next Gen | Z\u00e9 da Manga",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MarceloSetsuna"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3484611
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17466983,
+                                "name": "Arena Team | Siinon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2163709
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17466995,
+                                "name": "Comit\u00ea | Dragon_Legend",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dragonlegendfgc"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1933085
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17467054,
+                                "name": "Shodown | Jah_lexe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JahLexe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 662584
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17467104,
+                                "name": "Cancelados | -Hickzx-",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Hickzx"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1490877
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17467120,
+                                "name": "DR | Wendson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3455630
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17469543,
+                                "name": "Arena Team | Xampson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3139787
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2576340,
+                "state": 2,
+                "phase": {
+                    "name": "Top 8"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "#1 Farofation Cup Circuit - Street Fighter 6 - Finais",
@@ -883,7 +1081,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1823457259432656959",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1190734": {
         "id": 1190734,
