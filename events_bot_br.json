@@ -2623,7 +2623,7 @@
         "id": 1190307,
         "name": "Singles da solidariedade tche!",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -2632,53 +2632,331 @@
         "phaseGroups": [
             {
                 "id": 2568768,
+                "state": 2,
                 "phase": {
-                    "id": 1729403,
-                    "name": "Pool A (13hs)"
+                    "name": "Fase 1"
                 },
                 "progressionsOut": [
                     {
-                        "id": 10823404
+                        "id": 10873048
                     },
                     {
-                        "id": 10823405
+                        "id": 10873049
                     },
                     {
-                        "id": 10823406
+                        "id": 10873050
                     },
                     {
-                        "id": 10823407
+                        "id": 10873051
                     }
-                ]
-            },
-            {
-                "id": 2568770,
-                "phase": {
-                    "id": 1729405,
-                    "name": "Pool B (14hs)"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 10823408
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
                     },
-                    {
-                        "id": 10823409
-                    },
-                    {
-                        "id": 10823410
-                    },
-                    {
-                        "id": 10823411
-                    }
-                ]
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 17399081,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 17426378,
+                                "name": "SST | Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 17399118,
+                                "name": "SBF/BSO | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 17521050,
+                                "name": "SBF | Foxxy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Isis_Foxxy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503597
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17399078,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 17399198,
+                                "name": "SMB | Raya",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raya_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172950
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17476827,
+                                "name": "SBF | VVenon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3824205
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2568771,
+                "state": 1,
                 "phase": {
-                    "id": 1729406,
-                    "name": "Top 8 (15:30)"
+                    "name": "Top 8 (16:30)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17426378,
+                                "name": "SST | Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17399198,
+                                "name": "SMB | Raya",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Raya_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172950,
+                                            "gamerTag": "Raya"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17399081,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17399118,
+                                "name": "SBF/BSO | Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "Taunt"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17521050,
+                                "name": "SBF | Foxxy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Isis_Foxxy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503597,
+                                            "gamerTag": "Foxxy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17476827,
+                                "name": "SBF | VVenon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3824205,
+                                            "gamerTag": "VVenon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17399078,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "ENGASGATO'S SOLIDARIEDADE",
@@ -2707,7 +2985,9 @@
         "tournament_venueAddress": "R. Athaide Pimenta de Morais, 495 - Centro, Nova Igua\u00e7u - RJ, 26210-190, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1820777122970968131",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1190679": {
         "id": 1190679,
