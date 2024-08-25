@@ -397,7 +397,7 @@
         "name": "Singles!",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 3,
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
@@ -488,13 +488,193 @@
         "id": 1191325,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
         "startAt": 1724605200,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 2570326,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17416360,
+                                "name": "L.I.A.N",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3728102,
+                                            "gamerTag": "L.I.A.N"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17517553,
+                                "name": "PHX | Gohi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GohiCL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1341505,
+                                            "gamerTag": "Gohi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17416352,
+                                "name": "DMS | TVicenT85",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3522824,
+                                            "gamerTag": "TVicenT85"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17416359,
+                                "name": "Kameno",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4193741,
+                                            "gamerTag": "Kameno"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 17436247,
+                                "name": "SAYRHA",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4196016,
+                                            "gamerTag": "SAYRHA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 17537076,
+                                "name": "DMS | Takeshi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4041005,
+                                            "gamerTag": "Takeshi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 17418099,
+                                "name": "Shaco",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4232378,
+                                            "gamerTag": "Shaco"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 17416349,
+                                "name": "Frosh",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4039044,
+                                            "gamerTag": "Frosh"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 17416355,
+                                "name": "Zucky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ZuckyDee"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4193664,
+                                            "gamerTag": "Zucky"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "PermaFrosh 2",
         "tournament_id": 696829,
         "city": "Cabrero",
@@ -516,7 +696,9 @@
         "tournament_venueAddress": "Cabrero, B\u00edo B\u00edo, Chile",
         "tournament_addrState": "B\u00edo B\u00edo",
         "tweet_id": "1821388601961169277",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1193216": {
         "id": 1193216,
@@ -568,7 +750,7 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1822740049194074319",
-        "retries": 31
+        "retries": 32
     },
     "1193220": {
         "id": 1193220,
@@ -627,7 +809,7 @@
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 13,
+        "numEntrants": 15,
         "videogame": {
             "id": 1386
         },
@@ -1231,7 +1413,7 @@
         "name": "Hospicity Series #2",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 3,
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
