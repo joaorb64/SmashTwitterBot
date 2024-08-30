@@ -1753,6 +1753,27 @@
                         {
                             "placement": 10,
                             "entrant": {
+                                "id": 17141182,
+                                "name": "Rafarofael",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RafaelCvSantos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3262373
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 11,
+                            "entrant": {
                                 "id": 17100432,
                                 "name": "NaSC | Y8shikage",
                                 "participants": [
@@ -1772,7 +1793,7 @@
                             }
                         },
                         {
-                            "placement": 11,
+                            "placement": 12,
                             "entrant": {
                                 "id": 16895879,
                                 "name": "SST | Prime",
@@ -1793,7 +1814,7 @@
                             }
                         },
                         {
-                            "placement": 12,
+                            "placement": 13,
                             "entrant": {
                                 "id": 17048553,
                                 "name": "Atos | Dark Sun",
@@ -1810,7 +1831,7 @@
                             }
                         },
                         {
-                            "placement": 13,
+                            "placement": 14,
                             "entrant": {
                                 "id": 16914656,
                                 "name": "Los Brabos | Feraligatr",
@@ -1825,27 +1846,6 @@
                                         },
                                         "player": {
                                             "id": 540604
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 14,
-                            "entrant": {
-                                "id": 17141182,
-                                "name": "Rafarofael",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "RafaelCvSantos"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 3262373
                                         }
                                     }
                                 ]
@@ -2631,7 +2631,7 @@
         "name": "RTC - Smash Ultimate 1v1",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 13,
+        "numEntrants": 14,
         "videogame": {
             "id": 1386
         },
@@ -3318,8 +3318,8 @@
         "id": 1203589,
         "name": "CPS Next Gen",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 0,
+        "state": "ACTIVE",
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
@@ -3327,11 +3327,17 @@
         "phaseGroups": [
             {
                 "id": 2591814,
+                "state": 2,
                 "phase": {
-                    "id": 1746621,
                     "name": "Bracket (BO3)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Smash Station 92",
@@ -3364,7 +3370,9 @@
         "tournament_venueAddress": "Av. Professor At\u00edlio Martini, 469 - Cidade Universit\u00e1ria, Campinas - SP, 13084-727, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1828523180052381990",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1203588": {
         "id": 1203588,
@@ -3402,6 +3410,69 @@
                         "total": 13
                     },
                     "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 17638070,
+                                "name": "CPS | Holy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heyimHoly"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 557882
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 17638100,
+                                "name": "CPS | E.",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pietro349"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1515360
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17637194,
+                                "name": "Endless | CPS | Light",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Endless_Light_9"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3152535
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 5,
                             "entrant": {
@@ -3443,40 +3514,15 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 17638070,
-                                "name": "CPS | Holy",
+                                "id": 17637844,
+                                "name": "CPS | TOURONGA",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "heyimHoly"
-                                                }
-                                            ]
+                                            "authorizations": null
                                         },
                                         "player": {
-                                            "id": 557882
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 17638100,
-                                "name": "CPS | E.",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Pietro349"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1515360
+                                            "id": 595796
                                         }
                                     }
                                 ]
@@ -3485,19 +3531,15 @@
                         {
                             "placement": 7,
                             "entrant": {
-                                "id": 17637194,
-                                "name": "Endless | CPS | Light",
+                                "id": 17619079,
+                                "name": "CPS | Vitor Pimenta",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Endless_Light_9"
-                                                }
-                                            ]
+                                            "authorizations": null
                                         },
                                         "player": {
-                                            "id": 3152535
+                                            "id": 1514567
                                         }
                                     }
                                 ]
@@ -3525,23 +3567,6 @@
                             }
                         },
                         {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 17637844,
-                                "name": "CPS | TOURONGA",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 595796
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 17616115,
@@ -3553,23 +3578,6 @@
                                         },
                                         "player": {
                                             "id": 562514
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 17619079,
-                                "name": "CPS | Vitor Pimenta",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1514567
                                         }
                                     }
                                 ]
@@ -3661,25 +3669,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 17637371,
-                                "name": "CPS | Guido",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 598527,
-                                            "gamerTag": "Guido"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 17638070,
                                 "name": "CPS | Holy",
@@ -3701,7 +3691,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 17638100,
                                 "name": "CPS | E.",
@@ -3717,6 +3707,64 @@
                                         "player": {
                                             "id": 1515360,
                                             "gamerTag": "E."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17637371,
+                                "name": "CPS | Guido",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 598527,
+                                            "gamerTag": "Guido"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17637844,
+                                "name": "CPS | TOURONGA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 595796,
+                                            "gamerTag": "TOURONGA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17637194,
+                                "name": "Endless | CPS | Light",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Endless_Light_9"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3152535,
+                                            "gamerTag": "Light"
                                         }
                                     }
                                 ]
@@ -3747,6 +3795,24 @@
                         {
                             "placement": 7,
                             "entrant": {
+                                "id": 17619079,
+                                "name": "CPS | Vitor Pimenta",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1514567,
+                                            "gamerTag": "Vitor Pimenta"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
                                 "id": 17637410,
                                 "name": "CPS | Tithi",
                                 "participants": [
@@ -3761,64 +3827,6 @@
                                         "player": {
                                             "id": 3157941,
                                             "gamerTag": "Tithi"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 17637844,
-                                "name": "CPS | TOURONGA",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 595796,
-                                            "gamerTag": "TOURONGA"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 17637194,
-                                "name": "Endless | CPS | Light",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Endless_Light_9"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 3152535,
-                                            "gamerTag": "Light"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 17619079,
-                                "name": "CPS | Vitor Pimenta",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1514567,
-                                            "gamerTag": "Vitor Pimenta"
                                         }
                                     }
                                 ]
