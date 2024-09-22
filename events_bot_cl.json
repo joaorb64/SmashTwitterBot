@@ -356,6 +356,28 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 17884953,
+                                "name": "Belceb\u00fa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "belcebu_sorath"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 595242,
+                                            "gamerTag": "Belceb\u00fa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 17862428,
@@ -378,22 +400,22 @@
                             }
                         },
                         {
-                            "placement": 3,
+                            "placement": 4,
                             "entrant": {
-                                "id": 17884953,
-                                "name": "Belceb\u00fa",
+                                "id": 17862616,
+                                "name": "PM | SyC~Tsubasa",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "belcebu_sorath"
+                                                    "externalUsername": "Tsubasa_ssbu"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 595242,
-                                            "gamerTag": "Belceb\u00fa"
+                                            "id": 1059907,
+                                            "gamerTag": "SyC~Tsubasa"
                                         }
                                     }
                                 ]
@@ -416,28 +438,6 @@
                                         "player": {
                                             "id": 2085354,
                                             "gamerTag": "Neitor"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 17862616,
-                                "name": "PM | SyC~Tsubasa",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Tsubasa_ssbu"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1059907,
-                                            "gamerTag": "SyC~Tsubasa"
                                         }
                                     }
                                 ]
@@ -733,7 +733,7 @@
         "id": 1218398,
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 56,
         "videogame": {
             "id": 1386
@@ -742,16 +742,56 @@
         "phaseGroups": [
             {
                 "id": 2617944,
+                "state": 1,
                 "phase": {
-                    "id": 1766208,
                     "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             },
             {
                 "id": 2617945,
+                "state": 2,
                 "phase": {
-                    "id": 1766209,
                     "name": "Singles"
                 },
                 "progressionsOut": [
@@ -826,24 +866,555 @@
                     },
                     {
                         "id": 11019364
+                    },
+                    {
+                        "id": 11041252
+                    },
+                    {
+                        "id": 11041253
+                    },
+                    {
+                        "id": 11041325
+                    },
+                    {
+                        "id": 11041470
+                    },
+                    {
+                        "id": 11041525
+                    },
+                    {
+                        "id": 11042037
+                    },
+                    {
+                        "id": 11042125
+                    },
+                    {
+                        "id": 11042732
+                    },
+                    {
+                        "id": 11042803
+                    },
+                    {
+                        "id": 11042804
+                    },
+                    {
+                        "id": 11042850
+                    },
+                    {
+                        "id": 11042851
+                    },
+                    {
+                        "id": 11042860
+                    },
+                    {
+                        "id": 11042870
+                    },
+                    {
+                        "id": 11042871
+                    },
+                    {
+                        "id": 11042872
+                    },
+                    {
+                        "id": 11042873
+                    },
+                    {
+                        "id": 11042874
+                    },
+                    {
+                        "id": 11042886
+                    },
+                    {
+                        "id": 11042887
+                    },
+                    {
+                        "id": 11042888
+                    },
+                    {
+                        "id": 11042889
+                    },
+                    {
+                        "id": 11042891
+                    },
+                    {
+                        "id": 11042892
+                    },
+                    {
+                        "id": 11042945
+                    },
+                    {
+                        "id": 11042961
+                    },
+                    {
+                        "id": 11042962
+                    },
+                    {
+                        "id": 11043254
+                    },
+                    {
+                        "id": 11043288
+                    },
+                    {
+                        "id": 11043363
+                    },
+                    {
+                        "id": 11043364
+                    },
+                    {
+                        "id": 11043458
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 56
+                    },
+                    "nodes": [
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17846449,
+                                "name": "nicompleto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nihotdogssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1132784
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17854001,
+                                "name": "ORD | Neitor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NeitorKD"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2085354
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17860108,
+                                "name": "B7N",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4327453
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17862427,
+                                "name": "OW / PHX | Peppa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "EOmorbido"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1330165
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17862614,
+                                "name": "PM | SyC~Tsubasa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tsubasa_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1059907
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17865117,
+                                "name": "ORD | KingSheikah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 895687
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17868436,
+                                "name": "Broskee",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "brossqui"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2648537
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17874414,
+                                "name": "Yuizz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3185414
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17875024,
+                                "name": "DaltNes",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3393801
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17879758,
+                                "name": "UQS | Lopino",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lopino_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 268946
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17881954,
+                                "name": "GH | DSL | ChoriPandy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ChoriPandyzzzz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2104724
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17882498,
+                                "name": "SSF | Capi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Capi_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 411556
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17884593,
+                                "name": "CoS | Paira",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PairaAlice"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2218342
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17885563,
+                                "name": "DSL | Benny!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Bennyad64"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1469513
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17886554,
+                                "name": "SSF | Darkness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 265926
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 33,
+                            "entrant": {
+                                "id": 17886638,
+                                "name": "CM | KT | Leoxe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LeoxeSsbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1303144
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2617946,
+                "state": 1,
                 "phase": {
-                    "id": 1766210,
                     "name": "Amateur"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 40
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             },
             {
                 "id": 2617947,
+                "state": 1,
                 "phase": {
-                    "id": 1766211,
                     "name": "SemiPro"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             }
         ],
         "tournament": "One Way Road to Delfino Maza",
@@ -876,7 +1447,9 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1836216311828898233",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1220567": {
         "id": 1220567,
