@@ -3364,7 +3364,7 @@
         "phaseGroups": [
             {
                 "id": 2626335,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket (BO3)"
                 },
@@ -3409,7 +3409,28 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 3,
+                            "entrant": {
+                                "id": 17934823,
+                                "name": "CPS | Holy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heyimHoly"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 557882
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
                             "entrant": {
                                 "id": 17934585,
                                 "name": "CPS | Micky",
@@ -3430,7 +3451,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 17934621,
                                 "name": "Endless | CPS | Light",
@@ -3453,27 +3474,6 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 17934823,
-                                "name": "CPS | Holy",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "heyimHoly"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 557882
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
                                 "id": 17916410,
                                 "name": "CPS | Guido",
                                 "participants": [
@@ -3483,6 +3483,27 @@
                                         },
                                         "player": {
                                             "id": 598527
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17934579,
+                                "name": "CPS | E.",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pietro349"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1515360
                                         }
                                     }
                                 ]
@@ -3504,27 +3525,6 @@
                                         },
                                         "player": {
                                             "id": 2734928
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 17934579,
-                                "name": "CPS | E.",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Pietro349"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1515360
                                         }
                                     }
                                 ]
@@ -3694,7 +3694,7 @@
             },
             {
                 "id": 2626336,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 4 (BO5)"
                 },
@@ -3704,6 +3704,28 @@
                         "total": 19
                     },
                     "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 17934823,
+                                "name": "CPS | Holy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heyimHoly"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 557882,
+                                            "gamerTag": "Holy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 3,
                             "entrant": {
@@ -3727,29 +3749,7 @@
                             }
                         },
                         {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 17934823,
-                                "name": "CPS | Holy",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "heyimHoly"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 557882,
-                                            "gamerTag": "Holy"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 17934585,
                                 "name": "CPS | Micky",
@@ -3771,7 +3771,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 17934621,
                                 "name": "Endless | CPS | Light",
@@ -3787,6 +3787,46 @@
                                         "player": {
                                             "id": 3152535,
                                             "gamerTag": "Light"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17934579,
+                                "name": "CPS | E.",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pietro349"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1515360,
+                                            "gamerTag": "E."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17916410,
+                                "name": "CPS | Guido",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 598527,
+                                            "gamerTag": "Guido"
                                         }
                                     }
                                 ]
@@ -3809,46 +3849,6 @@
                                         "player": {
                                             "id": 2734928,
                                             "gamerTag": "Norun"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 17934579,
-                                "name": "CPS | E.",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Pietro349"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1515360,
-                                            "gamerTag": "E."
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 17916410,
-                                "name": "CPS | Guido",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 598527,
-                                            "gamerTag": "Guido"
                                         }
                                     }
                                 ]
@@ -4116,42 +4116,6 @@
                         {
                             "placement": 2,
                             "entrant": {
-                                "id": 17936465,
-                                "name": "Yabusas D. Dazai",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "DARKVOIDop"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 3402513
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 17936466,
-                                "name": "Luna",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4339312
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
                                 "id": 17936467,
                                 "name": "Raphael",
                                 "participants": [
@@ -4165,7 +4129,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 17936464,
                                 "name": "Meialua",
@@ -4180,6 +4144,42 @@
                                         },
                                         "player": {
                                             "id": 3859383
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 17936466,
+                                "name": "Luna",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4339312
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17936465,
+                                "name": "Yabusas D. Dazai",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DARKVOIDop"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3402513
                                         }
                                     }
                                 ]
