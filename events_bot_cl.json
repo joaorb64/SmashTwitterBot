@@ -183,7 +183,7 @@
         "id": 1218341,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 16,
         "videogame": {
             "id": 1386
@@ -192,11 +192,17 @@
         "phaseGroups": [
             {
                 "id": 2617866,
+                "state": 2,
                 "phase": {
-                    "id": 1766142,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Copa Civetana #4",
@@ -229,7 +235,9 @@
         "tournament_venueAddress": "Av. Vicu\u00f1a Mackenna 38, 7500907 Providencia, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1836163445722427461",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1218353": {
         "id": 1218353,
