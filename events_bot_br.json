@@ -3388,8 +3388,8 @@
         "id": 1228098,
         "name": "Smash Ultimate Ladder (09/10)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 11,
+        "state": "ACTIVE",
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
@@ -3397,11 +3397,17 @@
         "phaseGroups": [
             {
                 "id": 2634134,
+                "state": 2,
                 "phase": {
-                    "id": 1778782,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "BATTLE SUBWAY \u2699 - M\u00caS 16",
@@ -3434,14 +3440,16 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1841131219540427225",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1228099": {
         "id": 1228099,
         "name": "Smash Ultimate Singles (23/10)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 7,
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
