@@ -3,7 +3,7 @@
         "id": 1182959,
         "name": "1\u00b0 Martins_Silva Championship SF6 (Liga aberta)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 18,
         "videogame": {
             "id": 43868
@@ -12,110 +12,330 @@
         "phaseGroups": [
             {
                 "id": 2556246,
+                "state": 2,
                 "phase": {
-                    "id": 1719894,
-                    "name": "POOLS"
+                    "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 10764785
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 18
                     },
-                    {
-                        "id": 10764787
-                    },
-                    {
-                        "id": 10764789
-                    },
-                    {
-                        "id": 10764791
-                    },
-                    {
-                        "id": 10764793
-                    },
-                    {
-                        "id": 10764795
-                    },
-                    {
-                        "id": 10764797
-                    },
-                    {
-                        "id": 10764799
-                    }
-                ]
-            },
-            {
-                "id": 2556247,
-                "phase": {
-                    "id": 1719894,
-                    "name": "POOLS"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 10764786
-                    },
-                    {
-                        "id": 10764788
-                    },
-                    {
-                        "id": 10764790
-                    },
-                    {
-                        "id": 10764792
-                    },
-                    {
-                        "id": 10764794
-                    },
-                    {
-                        "id": 10764796
-                    },
-                    {
-                        "id": 10764798
-                    },
-                    {
-                        "id": 10764800
-                    }
-                ]
-            },
-            {
-                "id": 2556248,
-                "phase": {
-                    "id": 1719895,
-                    "name": "TOP 16"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 10764801
-                    },
-                    {
-                        "id": 10764802
-                    },
-                    {
-                        "id": 10764803
-                    },
-                    {
-                        "id": 10764804
-                    },
-                    {
-                        "id": 10764805
-                    },
-                    {
-                        "id": 10764806
-                    },
-                    {
-                        "id": 10764807
-                    },
-                    {
-                        "id": 10764808
-                    }
-                ]
-            },
-            {
-                "id": 2556249,
-                "phase": {
-                    "id": 1719896,
-                    "name": "TOP 8"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17409639,
+                                "name": "ZSFIGHTERS | ZydaniFGC",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ZydaniFGC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3369170,
+                                            "gamerTag": "ZydaniFGC"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 17628649,
+                                "name": "Tecnologgamer",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2312288,
+                                            "gamerTag": "Tecnologgamer"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18086731,
+                                "name": "tilti1",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "tilti111"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2172163,
+                                            "gamerTag": "tilti1"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 17322106,
+                                "name": "Aliens | Aliensnash_waian",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1019852,
+                                            "gamerTag": "Aliensnash_waian"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 17634748,
+                                "name": "DR | Wendson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3455630,
+                                            "gamerTag": "Wendson"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 17648237,
+                                "name": "ZSF | Astuty",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2080445,
+                                            "gamerTag": "ZSF | Astuty"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 17315783,
+                                "name": "PHT | NamiFGC",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "huazizhongchua1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3000365,
+                                            "gamerTag": "NamiFGC"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 17448375,
+                                "name": "ZSF | moog city",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3157893,
+                                            "gamerTag": "moog city"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 17630472,
+                                "name": "PHT | Malakabadoz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Malakabados"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3376604,
+                                            "gamerTag": "Malakabadoz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 17391793,
+                                "name": "JG_AVELINO | JG_AVELINO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2189399,
+                                            "gamerTag": "JG_AVELINO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 17573029,
+                                "name": "Flavio Einzbern",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FlavioEinzbern"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2158737,
+                                            "gamerTag": "Flavio Einzbern"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 17369362,
+                                "name": "CFN | Pakkito STORM",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4172527,
+                                            "gamerTag": "Pakkito STORM"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 17350062,
+                                "name": "PVH | Artur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4167087,
+                                            "gamerTag": "PVH | Artur"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 17418837,
+                                "name": "Kaiiru",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3448005,
+                                            "gamerTag": "Kaiiru"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 17594111,
+                                "name": "Wha_Ts_On78PS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "watsonfolow1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 713032,
+                                            "gamerTag": "Wha_Ts_On78PS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 17645606,
+                                "name": "Tyzok",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4271564,
+                                            "gamerTag": "Tyzok"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "1\u00ba Martins_Silva Championship",
@@ -148,7 +368,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1817341931971559669",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1196209": {
         "id": 1196209,
