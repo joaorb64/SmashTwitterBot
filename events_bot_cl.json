@@ -179,7 +179,7 @@
         "tournament_endAt": 1728784800,
         "tournament_registrationClosesAt": 1728748800,
         "images": [],
-        "tournament_multievent": false,
+        "tournament_multievent": true,
         "tournament_venueName": null,
         "tournament_venueAddress": "Cuatro Sur B 2879, 3481219 Talca, Maule, Chile",
         "tournament_addrState": "Maule",
@@ -280,7 +280,7 @@
         "id": 1234307,
         "name": "KBC 3 Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -289,8 +289,8 @@
         "phaseGroups": [
             {
                 "id": 2643997,
+                "state": 1,
                 "phase": {
-                    "id": 1786496,
                     "name": "Round Robin Pools"
                 },
                 "progressionsOut": [
@@ -303,12 +303,82 @@
                     {
                         "id": 11124612
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18067253,
+                                "name": "OW / PHX | Peppa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "EOmorbido"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1330165
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18067251,
+                                "name": "PHX | Hikarii",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Hikarii_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1856467
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18080220,
+                                "name": "PHX | Huanito",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HuanitoU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2265166
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2643999,
+                "state": 2,
                 "phase": {
-                    "id": 1786496,
                     "name": "Round Robin Pools"
                 },
                 "progressionsOut": [
@@ -321,15 +391,224 @@
                     {
                         "id": 11124613
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18067247,
+                                "name": "PHX | Kero~",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "23Kero"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 616537
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18080470,
+                                "name": "PHX | Wakanda",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wakandasb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1817149
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18067753,
+                                "name": "TEW | Piporex",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Piporex86"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1328248
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2644002,
+                "state": 1,
                 "phase": {
-                    "id": 1786500,
                     "name": "Bracket Final"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18067253,
+                                "name": "OW / PHX | Peppa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "EOmorbido"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1330165,
+                                            "gamerTag": "Peppa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18080220,
+                                "name": "PHX | Huanito",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HuanitoU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2265166,
+                                            "gamerTag": "Huanito"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18067251,
+                                "name": "PHX | Hikarii",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Hikarii_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1856467,
+                                            "gamerTag": "Hikarii"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18080470,
+                                "name": "PHX | Wakanda",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wakandasb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1817149,
+                                            "gamerTag": "Wakanda"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18067753,
+                                "name": "TEW | Piporex",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Piporex86"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1328248,
+                                            "gamerTag": "Piporex"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18067247,
+                                "name": "PHX | Kero~",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "23Kero"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 616537,
+                                            "gamerTag": "Kero~"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Kero\u00b4s Birthday Clash 3",
@@ -357,7 +636,9 @@
         "tournament_venueAddress": "Conc\u00f3n, Valpara\u00edso, Chile",
         "tournament_addrState": "Valpara\u00edso",
         "tweet_id": "1844098270164906279",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1234524": {
         "id": 1234524,
@@ -512,7 +793,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 13,
+        "numEntrants": 14,
         "videogame": {
             "id": 1386
         },
@@ -554,7 +835,7 @@
         "name": "Squad Strike",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 12,
+        "numEntrants": 13,
         "videogame": {
             "id": 1386
         },
@@ -763,7 +1044,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 17,
+                            "placement": 9,
                             "entrant": {
                                 "id": 18012123,
                                 "name": "TEW | CondeLizard",
@@ -778,6 +1059,86 @@
                                         },
                                         "player": {
                                             "id": 1296208
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18058002,
+                                "name": "NEO | ORD | Andysito",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Andymetry"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2256783
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18071916,
+                                "name": "Som3thing",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Som3thing_cl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1799081
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18080323,
+                                "name": "PHX | GuachPerry",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GuachParry"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1311169
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18084071,
+                                "name": "ORD | El Manu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2446048
                                         }
                                     }
                                 ]
@@ -828,6 +1189,27 @@
                         {
                             "placement": 17,
                             "entrant": {
+                                "id": 18055318,
+                                "name": "Toon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ToonJorgitox"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1250001
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
                                 "id": 18055928,
                                 "name": "GH | SyC~Venharcore",
                                 "participants": [
@@ -841,6 +1223,27 @@
                                         },
                                         "player": {
                                             "id": 1723490
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18056003,
+                                "name": "CoS|ORD|UQS|TW | Ruiz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RuizGL_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2275201
                                         }
                                     }
                                 ]
@@ -870,27 +1273,6 @@
                         {
                             "placement": 17,
                             "entrant": {
-                                "id": 18071916,
-                                "name": "Som3thing",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Som3thing_cl"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1799081
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 17,
-                            "entrant": {
                                 "id": 18077959,
                                 "name": "GH | YoshiXPlay",
                                 "participants": [
@@ -904,44 +1286,6 @@
                                         },
                                         "player": {
                                             "id": 1541635
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 17,
-                            "entrant": {
-                                "id": 18080323,
-                                "name": "PHX | GuachPerry",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "GuachParry"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1311169
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 17,
-                            "entrant": {
-                                "id": 18084071,
-                                "name": "ORD | El Manu",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2446048
                                         }
                                     }
                                 ]
@@ -971,6 +1315,23 @@
                         {
                             "placement": 17,
                             "entrant": {
+                                "id": 18092354,
+                                "name": "Bros",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3807502
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
                                 "id": 18094340,
                                 "name": "SMB | DSL | SirLuma",
                                 "participants": [
@@ -990,93 +1351,21 @@
                             }
                         },
                         {
-                            "placement": 25,
+                            "placement": 17,
                             "entrant": {
-                                "id": 18006509,
-                                "name": "mar123gd",
+                                "id": 18094431,
+                                "name": "Castle",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "mar123gd"
+                                                    "externalUsername": "michaelthefresh"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 3565318
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 25,
-                            "entrant": {
-                                "id": 18045463,
-                                "name": "Ablito",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3966639
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 25,
-                            "entrant": {
-                                "id": 18054709,
-                                "name": "Xoxviz",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2057879
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 25,
-                            "entrant": {
-                                "id": 18055318,
-                                "name": "Toon",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "ToonJorgitox"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1250001
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 25,
-                            "entrant": {
-                                "id": 18055697,
-                                "name": "Gallego",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1032253
+                                            "id": 1250268
                                         }
                                     }
                                 ]
