@@ -243,7 +243,7 @@
         "id": 1234524,
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 17,
         "videogame": {
             "id": 1386
@@ -252,16 +252,56 @@
         "phaseGroups": [
             {
                 "id": 2644367,
+                "state": 1,
                 "phase": {
-                    "id": 1786786,
                     "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             },
             {
                 "id": 2644368,
+                "state": 2,
                 "phase": {
-                    "id": 1786787,
                     "name": "Singles"
                 },
                 "progressionsOut": [
@@ -337,23 +377,408 @@
                     {
                         "id": 11125937
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 17
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18104701,
+                                "name": "ORD | KingSheikah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "kingsheikah"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 895687
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18105144,
+                                "name": "SSF | lAoZ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 65141
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18098872,
+                                "name": "Neitor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NeitorKD"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2085354
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18098875,
+                                "name": "OW | magatsu muplop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "diegomedina50"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 274734
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18098882,
+                                "name": "ORD | OneWay | Worst Cloud",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mochilaa_Rhythm"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 556488
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18101736,
+                                "name": "KT | Pap\u00e1Xion",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2884258
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18102221,
+                                "name": "AXB | ORD | Slaxy~",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2120773
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18103619,
+                                "name": "lepi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4368961
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18103765,
+                                "name": "Valenz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "IceGatuno"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2264976
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18104368,
+                                "name": "KT| | Poison",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PoisonCL_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1311232
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18104396,
+                                "name": "Mttck",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1904161
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18104619,
+                                "name": "Dam!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dam_despair21"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2362200
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18105045,
+                                "name": "El donche",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3939448
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18105568,
+                                "name": "Milei",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4369269
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18092585,
+                                "name": "mugi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4366914
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18102220,
+                                "name": "Snake",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 314353
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2644369,
+                "state": 1,
                 "phase": {
-                    "id": 1786788,
                     "name": "Amateur"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             },
             {
                 "id": 2644370,
+                "state": 1,
                 "phase": {
-                    "id": 1786789,
                     "name": "SemiPro"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": null
+                        }
+                    ]
+                },
+                "multiphase": true
             }
         ],
         "tournament": "Smash Bros \u00d1u\u00f1oa #63",
@@ -386,7 +811,9 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1844173770132525320",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1234366": {
         "id": 1234366,
@@ -522,262 +949,5 @@
         "tournament_venueAddress": "Beaucheff 850, 8370451 Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1844204023265554446"
-    },
-    "1236504": {
-        "id": 1236504,
-        "name": "Squad Strike OW",
-        "isOnline": false,
-        "state": "ACTIVE",
-        "numEntrants": 10,
-        "videogame": {
-            "id": 1386
-        },
-        "startAt": 1728842400,
-        "phaseGroups": [
-            {
-                "id": 2647635,
-                "state": 2,
-                "phase": {
-                    "name": "Bracket"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 10
-                    },
-                    "nodes": [
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 18105069,
-                                "name": "AXB | ORD | Slaxy~",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2120773,
-                                            "gamerTag": "Slaxy~"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 18105060,
-                                "name": "Neitor",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "NeitorKD"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2085354,
-                                            "gamerTag": "Neitor"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 18105077,
-                                "name": "KT| | Poison",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "PoisonCL_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1311232,
-                                            "gamerTag": "Poison"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 18105067,
-                                "name": "Snake",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 314353,
-                                            "gamerTag": "Snake"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 18105078,
-                                "name": "Mttck",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1904161,
-                                            "gamerTag": "Mttck"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 18105145,
-                                "name": "SSF | lAoZ",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 65141,
-                                            "gamerTag": "lAoZ"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 18105138,
-                                "name": "mugi",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4366914,
-                                            "gamerTag": "mugi"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 18105105,
-                                "name": "OW | magatsu muplop",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "diegomedina50"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 274734,
-                                            "gamerTag": "OW | magatsu muplop"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18105136,
-                                "name": "lepi",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4368961,
-                                            "gamerTag": "lepi"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18105062,
-                                "name": "ORD | OneWay | Worst Cloud",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "mochilaa_Rhythm"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 556488,
-                                            "gamerTag": "Worst Cloud"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
-        "tournament": "Smash Bros \u00d1u\u00f1oa #63",
-        "tournament_id": 718702,
-        "city": "Santiago",
-        "url": "https://start.gg/tournament/smash-bros-u-oa-63/event/squad-strike-ow",
-        "streams": [
-            {
-                "streamName": "oneway_esports"
-            }
-        ],
-        "timezone": "America/Santiago",
-        "tournament_startAt": 1728842400,
-        "tournament_endAt": 1728860400,
-        "tournament_registrationClosesAt": 1728849600,
-        "images": [
-            {
-                "id": "7462870",
-                "url": "https://images.start.gg/images/tournament/718702/image-f0fa4ca13db79c058640a3f73d2286cc.png?ehk=BibCa4PzvMrxzSlDWd0efbDb3IR1NE3KBSJywcJAuP4%3D&ehkOptimized=QO%2FtOhZO6s%2FyZNctX990BHfhsaPaMVhDsbujwf95mkQ%3D",
-                "type": "profile"
-            },
-            {
-                "id": "7462871",
-                "url": "https://images.start.gg/images/tournament/718702/image-e3f6ef75db1529f493c2a18d87498e5e.jpg?ehk=GquRE%2FtwXLUMcVs9vLvVWZPKQPbSwWpB4kFBfDhjvow%3D&ehkOptimized=IxTWdlc8BaM1%2FU5mwrNpbs%2FBQoKBAKQHjdXhN6oJyhg%3D",
-                "type": "banner"
-            }
-        ],
-        "tournament_multievent": true,
-        "tournament_venueName": null,
-        "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
-        "tournament_addrState": "Regi\u00f3n Metropolitana",
-        "tweet_id": "1845502515397189658",
-        "postedRegistrationClosing": true,
-        "postedPhaseResultIds": [],
-        "postedStarting": true
     }
 }
