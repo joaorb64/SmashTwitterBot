@@ -1118,8 +1118,8 @@
         "id": 1234600,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 29,
+        "state": "ACTIVE",
+        "numEntrants": 30,
         "videogame": {
             "id": 1386
         },
@@ -1127,11 +1127,17 @@
         "phaseGroups": [
             {
                 "id": 2644477,
+                "state": 2,
                 "phase": {
-                    "id": 1786875,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Quincenal Primavera 2024 #4",
@@ -1164,7 +1170,9 @@
         "tournament_venueAddress": "Beaucheff 850, 8370451 Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1844204023265554446",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1236785": {
         "id": 1236785,
