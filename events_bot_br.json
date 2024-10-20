@@ -2968,15 +2968,19 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 18047945,
-                                "name": "Beckerzin",
+                                "id": 18178388,
+                                "name": "NaSC | F-Zero",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FZeRoW"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 4222290
+                                            "id": 472371
                                         }
                                     }
                                 ]
@@ -2984,27 +2988,6 @@
                         },
                         {
                             "placement": 4,
-                            "entrant": {
-                                "id": 18047644,
-                                "name": "LMS | Dagoth Ur",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "RSkyrim3"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1633354
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
                             "entrant": {
                                 "id": 18047646,
                                 "name": "Muddy",
@@ -3025,7 +3008,7 @@
                             }
                         },
                         {
-                            "placement": 6,
+                            "placement": 5,
                             "entrant": {
                                 "id": 17919404,
                                 "name": "ProRD | frodO",
@@ -3046,7 +3029,7 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 6,
                             "entrant": {
                                 "id": 18120273,
                                 "name": "Strife",
@@ -3063,21 +3046,38 @@
                             }
                         },
                         {
-                            "placement": 8,
+                            "placement": 7,
                             "entrant": {
-                                "id": 18178388,
-                                "name": "NaSC | F-Zero",
+                                "id": 18047644,
+                                "name": "LMS | Dagoth Ur",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "FZeRoW"
+                                                    "externalUsername": "RSkyrim3"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 472371
+                                            "id": 1633354
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 18047945,
+                                "name": "Beckerzin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4222290
                                         }
                                     }
                                 ]
@@ -3085,6 +3085,21 @@
                         },
                         {
                             "placement": 9,
+                            "entrant": {
+                                "id": 18178440,
+                                "name": "Lucas",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4380586
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 10,
                             "entrant": {
                                 "id": 18177853,
                                 "name": "Rickblzinea",
@@ -3101,7 +3116,7 @@
                             }
                         },
                         {
-                            "placement": 10,
+                            "placement": 11,
                             "entrant": {
                                 "id": 18177934,
                                 "name": "NicolasDN",
@@ -3112,21 +3127,6 @@
                                         },
                                         "player": {
                                             "id": 4300019
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 11,
-                            "entrant": {
-                                "id": 18178440,
-                                "name": "Lucas",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4380586
                                         }
                                     }
                                 ]
@@ -3468,7 +3468,7 @@
         "tournament_venueAddress": "Pra\u00e7a Severino Azevedo, 435 - Centro, Nova Igua\u00e7u - RJ, 26215-215, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1840157311043612699",
-        "retries": 19
+        "retries": 20
     },
     "1197344": {
         "id": 1197344,
@@ -4357,7 +4357,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 4,
@@ -4374,7 +4375,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 },
@@ -4392,7 +4394,8 @@
                         "total": 0
                     },
                     "nodes": []
-                }
+                },
+                "multiphase": true
             }
         ],
         "tournament": "Rapadura Smash 20 - O Renascimento",
@@ -4422,7 +4425,9 @@
         "tournament_addrState": "CE",
         "tweet_id": "1841576665073246301",
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": [],
+        "postedPhaseResultIds": [
+            2657571
+        ],
         "postedStarting": true
     },
     "1213606": {
