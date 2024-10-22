@@ -1487,7 +1487,7 @@
         "id": 1241194,
         "name": "Singles!",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -1496,11 +1496,204 @@
         "phaseGroups": [
             {
                 "id": 2656619,
+                "state": 2,
                 "phase": {
-                    "id": 1795351,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18193034,
+                                "name": "ORD | El Manu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2446048,
+                                            "gamerTag": "El Manu"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18199077,
+                                "name": "PM | Gonzalo Tapia",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "POTO_SVRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1237311,
+                                            "gamerTag": "Gonzalo Tapia"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18198929,
+                                "name": "CoS | Yamil",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1128132,
+                                            "gamerTag": "Yamil"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18198927,
+                                "name": "NEO | ORD | Andysito",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Andymetry"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2256783,
+                                            "gamerTag": "Andysito"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18192008,
+                                "name": "Con | Pepperoni",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GyJavierignacio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1723324,
+                                            "gamerTag": "Pepperoni"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18197927,
+                                "name": "DLX | Rayas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rayasICD"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3599663,
+                                            "gamerTag": "Rayas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18193404,
+                                "name": "AndyJango",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AndyJango"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3304535,
+                                            "gamerTag": "AndyJango"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18194595,
+                                "name": "PM | SyC~Tsubasa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tsubasa_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1059907,
+                                            "gamerTag": "SyC~Tsubasa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18185423,
+                                "name": "Xoxviz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2057879,
+                                            "gamerTag": "Xoxviz"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Coliseo Smash : IR Training #19",
@@ -1536,7 +1729,9 @@
         "tournament_venueAddress": "Portugal 412, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1847624000689619416",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1239813": {
         "id": 1239813,
@@ -1911,7 +2106,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 18191307,
                                 "name": "SSF | Capi",
@@ -1927,6 +2122,28 @@
                                         "player": {
                                             "id": 411556,
                                             "gamerTag": "Capi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18191377,
+                                "name": "Neitor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NeitorKD"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2085354,
+                                            "gamerTag": "Neitor"
                                         }
                                     }
                                 ]
@@ -1953,20 +2170,38 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 18191377,
-                                "name": "Neitor",
+                                "id": 18191324,
+                                "name": "U-Smash | Spac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2978822,
+                                            "gamerTag": "Spac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18191843,
+                                "name": "AXB | ORD | Slaxy~",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "NeitorKD"
+                                                    "externalUsername": "SlaxyYuumi"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 2085354,
-                                            "gamerTag": "Neitor"
+                                            "id": 2120773,
+                                            "gamerTag": "Slaxy~"
                                         }
                                     }
                                 ]
@@ -1989,6 +2224,40 @@
                                         "player": {
                                             "id": 4348749,
                                             "gamerTag": "Elden"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18191337,
+                                "name": "U-Smash | P24",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4325460,
+                                            "gamerTag": "P24"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18191311,
+                                "name": "U-Smash | xeki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2655168,
+                                            "gamerTag": "xeki"
                                         }
                                     }
                                 ]
@@ -2019,40 +2288,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 18191337,
-                                "name": "U-Smash | P24",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4325460,
-                                            "gamerTag": "P24"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18191311,
-                                "name": "U-Smash | xeki",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2655168,
-                                            "gamerTag": "xeki"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 18191366,
                                 "name": "jjoseLo",
                                 "participants": [
@@ -2063,24 +2298,6 @@
                                         "player": {
                                             "id": 2297626,
                                             "gamerTag": "jjoseLo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18191324,
-                                "name": "U-Smash | Spac",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2978822,
-                                            "gamerTag": "Spac"
                                         }
                                     }
                                 ]
@@ -2183,28 +2400,6 @@
                                         "player": {
                                             "id": 2648537,
                                             "gamerTag": "Broskee"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 18191843,
-                                "name": "AXB | ORD | Slaxy~",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "SlaxyYuumi"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2120773,
-                                            "gamerTag": "Slaxy~"
                                         }
                                     }
                                 ]
