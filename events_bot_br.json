@@ -2974,7 +2974,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Pires da Mota, 1201 - Liberdade, S\u00e3o Paulo - SP, 01529-001, Brasil",
         "tournament_addrState": "SP",
-        "tweet_id": "1840406467238629862"
+        "tweet_id": "1840406467238629862",
+        "postedRegistrationClosing": true
     },
     "1213606": {
         "id": 1213606,
@@ -3652,28 +3653,6 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 18222358,
-                                "name": "CPS | Micky",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Pedro_Microso"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 598521,
-                                            "gamerTag": "Micky"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
                                 "id": 18221642,
                                 "name": "CPS | Celo",
                                 "participants": [
@@ -3688,6 +3667,28 @@
                                         "player": {
                                             "id": 1412356,
                                             "gamerTag": "Celo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18222358,
+                                "name": "CPS | Micky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pedro_Microso"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 598521,
+                                            "gamerTag": "Micky"
                                         }
                                     }
                                 ]
@@ -3887,7 +3888,7 @@
         "phaseGroups": [
             {
                 "id": 2659814,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Grupo"
                 },
@@ -3907,15 +3908,15 @@
                         {
                             "placement": 1,
                             "entrant": {
-                                "id": 18224014,
-                                "name": "Andromeda",
+                                "id": 18224013,
+                                "name": "CPS Guigo",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 4058712
+                                            "id": 3416286
                                         }
                                     }
                                 ]
@@ -3941,15 +3942,15 @@
                         {
                             "placement": 3,
                             "entrant": {
-                                "id": 18224013,
-                                "name": "CPS Guigo",
+                                "id": 18224014,
+                                "name": "Andromeda",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 3416286
+                                            "id": 4058712
                                         }
                                     }
                                 ]
@@ -3977,7 +3978,7 @@
             },
             {
                 "id": 2659815,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -3988,43 +3989,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 18224011,
-                                "name": "M\u00e1fia",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1134859,
-                                            "gamerTag": "M\u00e1fia"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 18224012,
-                                "name": "Miduz",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 969718,
-                                            "gamerTag": "Miduz"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
+                            "placement": 2,
                             "entrant": {
                                 "id": 18224013,
                                 "name": "CPS Guigo",
@@ -4042,7 +4007,25 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 2,
+                            "entrant": {
+                                "id": 18224012,
+                                "name": "Miduz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 969718,
+                                            "gamerTag": "Miduz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
                             "entrant": {
                                 "id": 18224014,
                                 "name": "Andromeda",
@@ -4054,6 +4037,24 @@
                                         "player": {
                                             "id": 4058712,
                                             "gamerTag": "Andromeda"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18224011,
+                                "name": "M\u00e1fia",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1134859,
+                                            "gamerTag": "M\u00e1fia"
                                         }
                                     }
                                 ]
