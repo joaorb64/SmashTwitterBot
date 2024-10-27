@@ -1422,13 +1422,179 @@
         "id": 1234142,
         "name": "SF6: TOP 8.",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 43868
         },
         "startAt": 1730048400,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 2643774,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18242537,
+                                "name": "Brayan_Job",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BrayanJob1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 658918,
+                                            "gamerTag": "Brayan_Job"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18242534,
+                                "name": "ALoNe-DF",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AquilesMonteiro"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 378782,
+                                            "gamerTag": "ALoNe-DF"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18242539,
+                                "name": "Rabisco",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2785892,
+                                            "gamerTag": "Rabisco"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18242538,
+                                "name": "Renameless",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3552879,
+                                            "gamerTag": "Renameless"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18242533,
+                                "name": "Astuty",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3926637,
+                                            "gamerTag": "Astuty"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18242535,
+                                "name": "RAKESH",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2588383,
+                                            "gamerTag": "RAKESH"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18242540,
+                                "name": "Comite Ramon",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4390178,
+                                            "gamerTag": "Comite Ramon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18242536,
+                                "name": "Saviola44",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4375911,
+                                            "gamerTag": "Saviola44"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "Copa Fliperama de Verdade",
         "tournament_id": 718495,
         "city": null,
@@ -1444,7 +1610,9 @@
         "tournament_venueAddress": "Eixo Monumental, s/n - Bras\u00edlia, DF, 70610-300, Brasil",
         "tournament_addrState": "DF",
         "tweet_id": "1844038019533136238",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1234294": {
         "id": 1234294,
@@ -1681,7 +1849,7 @@
         "name": "Drett League Champions",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 5,
         "videogame": {
             "id": 43868
         },
