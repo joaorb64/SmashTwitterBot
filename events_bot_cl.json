@@ -1437,7 +1437,7 @@
         "id": 1248448,
         "name": "XD 8, the last dance",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -1446,11 +1446,164 @@
         "phaseGroups": [
             {
                 "id": 2668142,
+                "state": 2,
                 "phase": {
-                    "id": 1804562,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18264468,
+                                "name": "POS | DLX | Darkness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3800656,
+                                            "gamerTag": "Darkness"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18264453,
+                                "name": "POS| | Kyber",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3890862,
+                                            "gamerTag": "Kyber"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18264452,
+                                "name": "POS| | Dino",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DinoDante07"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3936054,
+                                            "gamerTag": "Dino"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18264701,
+                                "name": "DoD | sayrn",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4287461,
+                                            "gamerTag": "sayrn"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18264487,
+                                "name": "Psychedelic catarsis",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3879217,
+                                            "gamerTag": "Psychedelic catarsis"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18264467,
+                                "name": "HarkaXD",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4198849,
+                                            "gamerTag": "HarkaXD"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18264456,
+                                "name": "NXT-DRAGON",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2204694,
+                                            "gamerTag": "NXT-DRAGON"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18264460,
+                                "name": "\u00d1aid | Tutito",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4393255,
+                                            "gamerTag": "Tutito"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Santo cura final edition of the year",
@@ -1479,6 +1632,8 @@
         "tournament_venueAddress": "Carmen Mena 929, 8930180 San Miguel, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1851096905683472804",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
