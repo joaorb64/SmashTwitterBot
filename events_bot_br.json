@@ -3557,7 +3557,7 @@
         "id": 1239896,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 14,
         "videogame": {
             "id": 1386
@@ -3566,47 +3566,17 @@
         "phaseGroups": [
             {
                 "id": 2653932,
+                "state": 2,
                 "phase": {
-                    "id": 1793675,
-                    "name": "Pools"
+                    "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 11163444
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
                     },
-                    {
-                        "id": 11163446
-                    },
-                    {
-                        "id": 11163448
-                    }
-                ]
-            },
-            {
-                "id": 2653933,
-                "phase": {
-                    "id": 1793675,
-                    "name": "Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 11163445
-                    },
-                    {
-                        "id": 11163447
-                    },
-                    {
-                        "id": 11163449
-                    }
-                ]
-            },
-            {
-                "id": 2653934,
-                "phase": {
-                    "id": 1793676,
-                    "name": "Top 6"
-                },
-                "progressionsOut": null
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Smatch\u00ea #39 @ Ilus\u00f5es Industriais",
@@ -3635,14 +3605,16 @@
         "tournament_venueAddress": "R. Riachuelo, 1334 - Loja 6 - Centro Hist\u00f3rico, Porto Alegre - RS, 90010-273, Brazil",
         "tournament_addrState": "RS",
         "tweet_id": "1847374886043603096",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1242456": {
         "id": 1242456,
         "name": "Super Smash Bros. Ultimate",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 3,
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
