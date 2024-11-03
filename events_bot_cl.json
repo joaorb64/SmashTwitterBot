@@ -474,6 +474,64 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 18314548,
+                                "name": "Gimpel / SaPo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 134465,
+                                            "gamerTag": "SaPo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 323124,
+                                            "gamerTag": "Gimpel"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18314806,
+                                "name": "Gino / Mikaldo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mikaldo_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 798219,
+                                            "gamerTag": "Mikaldo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1946924,
+                                            "gamerTag": "Gino"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 18306314,
@@ -509,33 +567,6 @@
                             }
                         },
                         {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 18314548,
-                                "name": "Gimpel / SaPo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 134465,
-                                            "gamerTag": "SaPo"
-                                        }
-                                    },
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 323124,
-                                            "gamerTag": "Gimpel"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 4,
                             "entrant": {
                                 "id": 18315035,
@@ -561,37 +592,6 @@
                                         "player": {
                                             "id": 3991599,
                                             "gamerTag": "Lucky"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 18314806,
-                                "name": "Gino / Mikaldo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Mikaldo_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 798219,
-                                            "gamerTag": "Mikaldo"
-                                        }
-                                    },
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1946924,
-                                            "gamerTag": "Gino"
                                         }
                                     }
                                 ]
@@ -776,7 +776,7 @@
         "id": 1243315,
         "name": "Singles Showdown",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 17,
         "videogame": {
             "id": 1386
@@ -785,11 +785,316 @@
         "phaseGroups": [
             {
                 "id": 2659754,
+                "state": 2,
                 "phase": {
-                    "id": 1798019,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 17
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18280278,
+                                "name": "Naozen | Naozen_Voidheart",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 627938,
+                                            "gamerTag": "Naozen_Voidheart"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18315441,
+                                "name": "Gs | Green",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2146968,
+                                            "gamerTag": "Green"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18243274,
+                                "name": "Sekai Doggo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "SekaiDoggo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132195,
+                                            "gamerTag": "Sekai Doggo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18288279,
+                                "name": "TEW | Diptox",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diptox44"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 844310,
+                                            "gamerTag": "Diptox"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18315426,
+                                "name": "Kaezon_Mirio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2735787,
+                                            "gamerTag": "Kaezon_Mirio"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18273039,
+                                "name": "Maiin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3314124,
+                                            "gamerTag": "Maiin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18297506,
+                                "name": "LAG | DrifCS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3806805,
+                                            "gamerTag": "DrifCS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18298597,
+                                "name": "ElPerroWuaton",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4208597,
+                                            "gamerTag": "ElPerroWuaton"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18260052,
+                                "name": "SMB | Flame",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MrFlame177"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 428407,
+                                            "gamerTag": "Flame"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18315076,
+                                "name": "Nicolini",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4358097,
+                                            "gamerTag": "Nicolini"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18218618,
+                                "name": "SMB | .Png!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3592282,
+                                            "gamerTag": ".Png!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18194249,
+                                "name": "Diaz_Mochi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3560475,
+                                            "gamerTag": "Diaz_Mochi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18315452,
+                                "name": "Mohax",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3903372,
+                                            "gamerTag": "Mohax"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18315440,
+                                "name": "Sac",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4400769,
+                                            "gamerTag": "Sac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18315435,
+                                "name": "Ez",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4400768,
+                                            "gamerTag": "Ez"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18314933,
+                                "name": "Darkez",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mac_Darkez"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1864837,
+                                            "gamerTag": "Darkez"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Start Showdown #8 ET Edition",
@@ -813,7 +1118,9 @@
         "tournament_venueAddress": "Arturo Prat 444, 5502144 Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
         "tweet_id": "1848537571753710064",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1243333": {
         "id": 1243333,
@@ -856,7 +1163,7 @@
         "tournament_venueAddress": "Arturo Prat 444, 5502144 Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
         "tweet_id": "1848537576694546691",
-        "retries": 48
+        "retries": 49
     },
     "1243587": {
         "id": 1243587,
@@ -1266,7 +1573,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 18236955,
                                 "name": "OW / PHX | Peppa",
@@ -1288,7 +1595,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 18314718,
                                 "name": "TEW | L\u00f6rd",
@@ -1378,6 +1685,28 @@
                         {
                             "placement": 7,
                             "entrant": {
+                                "id": 18235156,
+                                "name": "OW | magatsu muplop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "diegomedina50"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 274734,
+                                            "gamerTag": "OW | magatsu muplop"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
                                 "id": 18315060,
                                 "name": "GH | DSL | ChoriPandy",
                                 "participants": [
@@ -1398,6 +1727,24 @@
                             }
                         },
                         {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18225120,
+                                "name": "SSF | Darkness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 265926,
+                                            "gamerTag": "Darkness"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 18303378,
@@ -1410,28 +1757,6 @@
                                         "player": {
                                             "id": 3393801,
                                             "gamerTag": "DaltNes"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18235156,
-                                "name": "OW | magatsu muplop",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "diegomedina50"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 274734,
-                                            "gamerTag": "OW | magatsu muplop"
                                         }
                                     }
                                 ]
@@ -1476,24 +1801,6 @@
                                         "player": {
                                             "id": 1314869,
                                             "gamerTag": "Tusk"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18225120,
-                                "name": "SSF | Darkness",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 265926,
-                                            "gamerTag": "Darkness"
                                         }
                                     }
                                 ]
@@ -1578,7 +1885,7 @@
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 28,
+        "numEntrants": 26,
         "videogame": {
             "id": 1386
         },
@@ -1755,7 +2062,7 @@
         "name": "Victory Road",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 0,
+        "numEntrants": 1,
         "videogame": {
             "id": 1386
         },
@@ -1773,7 +2080,7 @@
         "tournament": "Final de Liga Smash O'Higgins 2024",
         "tournament_id": 721171,
         "city": "Rancagua",
-        "url": "https://start.gg/tournament/final-de-liga-smash-o-higgins-2024",
+        "url": "https://start.gg/tournament/final-de-liga-smash-o-higgins-2024/event/victory-road",
         "streams": [
             {
                 "streamName": "smashfamily"
@@ -1799,7 +2106,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av - Av. Libertador Gral. Bernardo O'Higgins 34, 2840252 Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
-        "tweet_id": "1853120232115601765"
+        "tweet_id": "1853120232115601765",
+        "postedRegistrationClosing": true
     },
     "1239336": {
         "id": 1239336,
@@ -1824,7 +2132,7 @@
         "tournament": "Final de Liga Smash O'Higgins 2024",
         "tournament_id": 721171,
         "city": "Rancagua",
-        "url": "https://start.gg/tournament/final-de-liga-smash-o-higgins-2024",
+        "url": "https://start.gg/tournament/final-de-liga-smash-o-higgins-2024/event/final-de-liga-top8",
         "streams": [
             {
                 "streamName": "smashfamily"
@@ -1850,6 +2158,7 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av - Av. Libertador Gral. Bernardo O'Higgins 34, 2840252 Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
-        "tweet_id": "1853120237203271886"
+        "tweet_id": "1853120237203271886",
+        "postedRegistrationClosing": true
     }
 }
