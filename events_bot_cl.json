@@ -455,7 +455,7 @@
         "name": "Smash Ultimate Doubles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -507,7 +507,7 @@
         "name": "Smash Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 15,
+        "numEntrants": 16,
         "videogame": {
             "id": 1386
         },
@@ -637,7 +637,7 @@
         "tournament_venueAddress": "Arturo Prat 444, 5502144 Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
         "tweet_id": "1848537576694546691",
-        "retries": 44
+        "retries": 45
     },
     "1243587": {
         "id": 1243587,
@@ -807,8 +807,8 @@
         "id": 1245449,
         "name": "Dobles Team Battle",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 4,
+        "state": "ACTIVE",
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -816,11 +816,177 @@
         "phaseGroups": [
             {
                 "id": 2663273,
+                "state": 2,
                 "phase": {
-                    "id": 1800767,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18242385,
+                                "name": "Peppa / SyC~Tsubasa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tsubasa_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1059907,
+                                            "gamerTag": "SyC~Tsubasa"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "EOmorbido"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1330165,
+                                            "gamerTag": "Peppa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18303377,
+                                "name": "DaltNes / Yuizz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3185414,
+                                            "gamerTag": "Yuizz"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3393801,
+                                            "gamerTag": "DaltNes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18284582,
+                                "name": "Tusk / Kaihua",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Act3Tusk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1314869,
+                                            "gamerTag": "Tusk"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4051424,
+                                            "gamerTag": "Kaihua"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18235141,
+                                "name": "nicompleto / Darkness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 265926,
+                                            "gamerTag": "Darkness"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nihotdogssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1132784,
+                                            "gamerTag": "nicompleto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18314717,
+                                "name": "L\u00f6rd / OW | magatsu muplop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "diegomedina50"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 274734,
+                                            "gamerTag": "OW | magatsu muplop"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_Lord1_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 409153,
+                                            "gamerTag": "L\u00f6rd"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "One Way road to Delfino Maza 2",
@@ -853,14 +1019,16 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1849579454323999090",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1245450": {
         "id": 1245450,
         "name": "Squad Strike OW",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 14,
+        "numEntrants": 15,
         "videogame": {
             "id": 1386
         },
@@ -1089,7 +1257,7 @@
         "name": "SINGLES",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 3,
+        "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
