@@ -3943,8 +3943,8 @@
         "id": 1255163,
         "name": "CPS Next Gen",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 0,
+        "state": "ACTIVE",
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -3952,26 +3952,130 @@
         "phaseGroups": [
             {
                 "id": 2679923,
+                "state": 2,
                 "phase": {
-                    "id": 1813028,
                     "name": "Grupo"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 11255257
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
                     },
-                    {
-                        "id": 11255258
-                    }
-                ]
-            },
-            {
-                "id": 2679924,
-                "phase": {
-                    "id": 1813029,
-                    "name": "Bracket"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18359038,
+                                "name": "M\u00e1fia",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1134859,
+                                            "gamerTag": "M\u00e1fia"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18359039,
+                                "name": "origami",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4407156,
+                                            "gamerTag": "origami"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18359037,
+                                "name": "Jojodoid\u00e3o",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1524594,
+                                            "gamerTag": "Jojodoid\u00e3o"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18359033,
+                                "name": "CPS Guigo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3416286,
+                                            "gamerTag": "CPS Guigo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18359036,
+                                "name": "Andromeda",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4058712,
+                                            "gamerTag": "Andromeda"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18359035,
+                                "name": "RAFooos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RAFooos2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3770136,
+                                            "gamerTag": "RAFooos"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smash Station 97",
@@ -3999,7 +4103,9 @@
         "tournament_venueAddress": "Av. Professor At\u00edlio Martini, 469 - Cidade Universit\u00e1ria, Campinas - SP, 13084-727, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1854539557905031428",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1255162": {
         "id": 1255162,
@@ -4014,7 +4120,7 @@
         "phaseGroups": [
             {
                 "id": 2679921,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket (BO3)"
                 },
@@ -4059,41 +4165,7 @@
                             }
                         },
                         {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 18355406,
-                                "name": "CPS | Vitor Pimenta",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1514567
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 18356665,
-                                "name": "CPS | M@RCIO",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1415043
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 18356853,
                                 "name": "CPS | Celo",
@@ -4114,7 +4186,24 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18355406,
+                                "name": "CPS | Vitor Pimenta",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1514567
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
                             "entrant": {
                                 "id": 18357096,
                                 "name": "CPS | Lv.100",
@@ -4135,7 +4224,7 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 5,
                             "entrant": {
                                 "id": 18352298,
                                 "name": "CPS | Rafones",
@@ -4146,6 +4235,23 @@
                                         },
                                         "player": {
                                             "id": 562514
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18356665,
+                                "name": "CPS | M@RCIO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1415043
                                         }
                                     }
                                 ]
@@ -4262,7 +4368,7 @@
             },
             {
                 "id": 2679922,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 4 (BO5)"
                 },
@@ -4272,6 +4378,28 @@
                         "total": 12
                     },
                     "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 18356853,
+                                "name": "CPS | Celo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Celo_92"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1412356,
+                                            "gamerTag": "Celo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 3,
                             "entrant": {
@@ -4295,7 +4423,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 18357096,
                                 "name": "CPS | Lv.100",
@@ -4311,6 +4439,24 @@
                                         "player": {
                                             "id": 1391470,
                                             "gamerTag": "Lv.100"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18355406,
+                                "name": "CPS | Vitor Pimenta",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1514567,
+                                            "gamerTag": "Vitor Pimenta"
                                         }
                                     }
                                 ]
@@ -4337,38 +4483,16 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 18356853,
-                                "name": "CPS | Celo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Celo_92"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1412356,
-                                            "gamerTag": "Celo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 18355406,
-                                "name": "CPS | Vitor Pimenta",
+                                "id": 18352298,
+                                "name": "CPS | Rafones",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 1514567,
-                                            "gamerTag": "Vitor Pimenta"
+                                            "id": 562514,
+                                            "gamerTag": "Rafones"
                                         }
                                     }
                                 ]
@@ -4405,24 +4529,6 @@
                                         "player": {
                                             "id": 4407156,
                                             "gamerTag": "origami"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 18352298,
-                                "name": "CPS | Rafones",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 562514,
-                                            "gamerTag": "Rafones"
                                         }
                                     }
                                 ]
