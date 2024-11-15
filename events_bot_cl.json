@@ -842,7 +842,7 @@
         "id": 1258510,
         "name": "Smash Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -851,18 +851,215 @@
         "phaseGroups": [
             {
                 "id": 2685466,
+                "state": 2,
                 "phase": {
-                    "id": 1817391,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18432536,
+                                "name": "NGC | Cizs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Cizs459"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3651383,
+                                            "gamerTag": "Cizs"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18402477,
+                                "name": "Swiftness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Swiftness_ss"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2439966,
+                                            "gamerTag": "Swiftness"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18439651,
+                                "name": "TMT | RTS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RTS_FromHell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 313253,
+                                            "gamerTag": "RTS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18402481,
+                                "name": "NGC | Gosfell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gosfell_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3926830,
+                                            "gamerTag": "Gosfell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18434765,
+                                "name": "Lucky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sbbotello8410"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3991599,
+                                            "gamerTag": "Lucky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18402707,
+                                "name": "NGC | Kazuyoye",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3980274,
+                                            "gamerTag": "Kazuyoye"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18438669,
+                                "name": "NGC | Nage",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3926674,
+                                            "gamerTag": "Nage"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18439640,
+                                "name": "NGC | F3rd_Z",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "F3rd_Z"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2221687,
+                                            "gamerTag": "F3rd_Z"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18439888,
+                                "name": "TMT | Gino",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1946924,
+                                            "gamerTag": "Gino"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Nage House #13",
         "tournament_id": 730477,
         "city": "Temuco",
         "url": "https://start.gg/tournament/nage-house-13/event/smash-ultimate-singles",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "ngc_nogoodcrew"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1731709800,
         "tournament_endAt": 1731720600,
@@ -884,7 +1081,9 @@
         "tournament_venueAddress": "Los Talletes 1365, 01365 Temuco, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1856298732850921523",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1258511": {
         "id": 1258511,
@@ -910,7 +1109,11 @@
         "tournament_id": 730477,
         "city": "Temuco",
         "url": "https://start.gg/tournament/nage-house-13/event/smash-ultimate-side-event",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "ngc_nogoodcrew"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1731709800,
         "tournament_endAt": 1731720600,
