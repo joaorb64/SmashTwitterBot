@@ -104,7 +104,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 30,
+        "numEntrants": 31,
         "videogame": {
             "id": 1386
         },
@@ -590,8 +590,8 @@
         "id": 1255322,
         "name": "Duplas Random",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 4,
+        "state": "ACTIVE",
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -599,11 +599,181 @@
         "phaseGroups": [
             {
                 "id": 2680145,
+                "state": 2,
                 "phase": {
-                    "id": 1813227,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18373303,
+                                "name": "Demon_2121 / Momantai",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1375479,
+                                            "gamerTag": "Momantai"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_Demon_2121"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1843341,
+                                            "gamerTag": "Demon_2121"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18373298,
+                                "name": "zButter / Thugpac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1844202,
+                                            "gamerTag": "Thugpac"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "bxtter_v"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3687613,
+                                            "gamerTag": "zButter"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18450563,
+                                "name": "Chayanne / Leoxe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LeoxeSsbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1303144,
+                                            "gamerTag": "Leoxe"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PharaMoth"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1965606,
+                                            "gamerTag": "Chayanne"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18450900,
+                                "name": "DarkNRT / AkaFrySvn",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nelson_RT3301"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3903833,
+                                            "gamerTag": "DarkNRT"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ForyAkaSeven"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3953326,
+                                            "gamerTag": "AkaFrySvn"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18448131,
+                                "name": "Zore / Gago",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gago115935"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2399742,
+                                            "gamerTag": "Gago"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2417772,
+                                            "gamerTag": "Zore"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Trade Battle Arena Invitational Edition",
@@ -627,14 +797,16 @@
         "tournament_venueAddress": "Paula Jaraquemada 0359, 2841150 Cachapoal, Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
         "tweet_id": "1854675855387074983",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1258360": {
         "id": 1258360,
         "name": "Smash Masters",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 2,
+        "numEntrants": 3,
         "videogame": {
             "id": 1386
         },
