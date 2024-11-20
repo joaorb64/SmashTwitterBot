@@ -1164,6 +1164,24 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 17141200,
+                                "name": "Muwkas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3721376,
+                                            "gamerTag": "Muwkas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 17141203,
                                 "name": "SBF | Werleth",
                                 "participants": [
@@ -1236,24 +1254,6 @@
                                         "player": {
                                             "id": 214303,
                                             "gamerTag": "Andromeda"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 17141200,
-                                "name": "Muwkas",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3721376,
-                                            "gamerTag": "Muwkas"
                                         }
                                     }
                                 ]
@@ -2845,7 +2845,7 @@
         "id": 1249034,
         "name": "Smash Ultimate Singles (20/11)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 27,
         "videogame": {
             "id": 1386
@@ -2854,11 +2854,17 @@
         "phaseGroups": [
             {
                 "id": 2669054,
+                "state": 2,
                 "phase": {
-                    "id": 1805293,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "BATTLE SUBWAY \u2699 - M\u00caS 17",
@@ -2894,7 +2900,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1851398880081915913",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1197349": {
         "id": 1197349,
