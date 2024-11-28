@@ -3392,7 +3392,7 @@
         "id": 1266473,
         "name": "Ultimate 1v1",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 2,
         "videogame": {
             "id": 1386
@@ -3401,11 +3401,62 @@
         "phaseGroups": [
             {
                 "id": 2699318,
+                "state": 2,
                 "phase": {
-                    "id": 1827761,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 18522729,
+                                "name": "Polyphony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PolyphonyIngrid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397,
+                                            "gamerTag": "Polyphony"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 18555311,
+                                "name": "DatJoe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "jsonwebb1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1901749,
+                                            "gamerTag": "DatJoe"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "PST - Battle Tower ( Now on Switch !! )",
@@ -3433,7 +3484,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "tweet_id": "1860496389588832438"
+        "tweet_id": "1860496389588832438",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1264150": {
         "id": 1264150,
