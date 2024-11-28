@@ -3392,7 +3392,7 @@
         "id": 1266473,
         "name": "Ultimate 1v1",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 10,
         "videogame": {
             "id": 1386
@@ -3408,54 +3408,9 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 2
+                        "total": 0
                     },
-                    "nodes": [
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 18522729,
-                                "name": "Polyphony",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "PolyphonyIngrid"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1448397,
-                                            "gamerTag": "Polyphony"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 18555311,
-                                "name": "DatJoe",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "jsonwebb1"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1901749,
-                                            "gamerTag": "DatJoe"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                    "nodes": []
                 }
             }
         ],
@@ -3463,7 +3418,11 @@
         "tournament_id": 734468,
         "city": null,
         "url": "https://start.gg/tournament/pst-battle-tower-now-on-switch/event/ultimate-1v1",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "polyphonyingrid"
+            }
+        ],
         "timezone": "America/Campo_Grande",
         "tournament_startAt": 1732831200,
         "tournament_endAt": 1732892400,
