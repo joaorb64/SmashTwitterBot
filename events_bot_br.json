@@ -2858,7 +2858,7 @@
         "id": 1197349,
         "name": "Smash Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 22,
         "videogame": {
             "id": 1386
@@ -2867,53 +2867,342 @@
         "phaseGroups": [
             {
                 "id": 2581036,
+                "state": 2,
                 "phase": {
-                    "id": 1738601,
-                    "name": "Pools"
+                    "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 10873103
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 22
                     },
-                    {
-                        "id": 10873105
-                    },
-                    {
-                        "id": 10873107
-                    },
-                    {
-                        "id": 10873109
-                    }
-                ]
-            },
-            {
-                "id": 2581037,
-                "phase": {
-                    "id": 1738601,
-                    "name": "Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 10873104
-                    },
-                    {
-                        "id": 10873106
-                    },
-                    {
-                        "id": 10873108
-                    },
-                    {
-                        "id": 10873110
-                    }
-                ]
-            },
-            {
-                "id": 2581038,
-                "phase": {
-                    "id": 1738602,
-                    "name": "Top 8"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18524941,
+                                "name": "Blaze Z",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1035512,
+                                            "gamerTag": "Blaze Z"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 18561449,
+                                "name": "FT | OmegaVitor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MH_OmegaVitor"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1141468,
+                                            "gamerTag": "OmegaVitor"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18286777,
+                                "name": "Guntadela",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "guntadela"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 494971,
+                                            "gamerTag": "Guntadela"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18540157,
+                                "name": "Dinamite",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4132637,
+                                            "gamerTag": "Dinamite"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18557924,
+                                "name": "Giordajani",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1449664,
+                                            "gamerTag": "Giordajani"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18540486,
+                                "name": "DASH | Quinho",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 756974,
+                                            "gamerTag": "Quinho"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18286755,
+                                "name": "DASH | PODEROSO PNC",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ManoPhoca"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 37340,
+                                            "gamerTag": "PODEROSO PNC"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18550751,
+                                "name": "DASH | marxseny",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "marxseny"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1165963,
+                                            "gamerTag": "marxseny"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18532546,
+                                "name": "[BR] | Doc Marion",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1081066,
+                                            "gamerTag": "Doc Marion"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18326561,
+                                "name": "FT*TSD | IGU",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "IgoRogi_S"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1091339,
+                                            "gamerTag": "IGU"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18557967,
+                                "name": "Heypolit",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Real_Heypolit"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3563447,
+                                            "gamerTag": "Heypolit"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18327026,
+                                "name": "KenOver",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1039079,
+                                            "gamerTag": "KenOver"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18556390,
+                                "name": "FT | PRWN | Pseudo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1846485,
+                                            "gamerTag": "Pseudo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18286773,
+                                "name": "ronaldocharuto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ronaldocharuto"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1075322,
+                                            "gamerTag": "ronaldocharuto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18286786,
+                                "name": "Counter | Offline",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Offline_SL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2345480,
+                                            "gamerTag": "Offline"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 17,
+                            "entrant": {
+                                "id": 18326555,
+                                "name": "Counter | MikeAmogus",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MikeAmogus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1741637,
+                                            "gamerTag": "MikeAmogus"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Taverna do Smash Novembro 2024",
@@ -2942,7 +3231,9 @@
         "tournament_venueAddress": "R. Pires da Mota, 1201 - Liberdade, S\u00e3o Paulo - SP, 01529-001, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1852018019234406703",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1258046": {
         "id": 1258046,
