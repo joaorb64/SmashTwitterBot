@@ -2552,8 +2552,8 @@
         "id": 1270480,
         "name": "Smash Ultimate Ladder (04/12)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 8,
+        "state": "ACTIVE",
+        "numEntrants": 10,
         "videogame": {
             "id": 1386
         },
@@ -2561,11 +2561,17 @@
         "phaseGroups": [
             {
                 "id": 2706064,
+                "state": 2,
                 "phase": {
-                    "id": 1833011,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "BATTLE SUBWAY \u2699 - M\u00caS 18",
@@ -2601,14 +2607,16 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1863237043893026822",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1270481": {
         "id": 1270481,
         "name": "Random Singles (11/12)",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
