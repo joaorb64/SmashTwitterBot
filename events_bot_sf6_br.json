@@ -454,7 +454,7 @@
         "id": 1225723,
         "name": "#4 Circuito BR Kumite - Final",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 43868
@@ -463,8 +463,8 @@
         "phaseGroups": [
             {
                 "id": 2630116,
+                "state": 2,
                 "phase": {
-                    "id": 1775678,
                     "name": "Bracket"
                 },
                 "progressionsOut": [
@@ -492,15 +492,196 @@
                     {
                         "id": 11071456
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18572917,
+                                "name": "Comit\u00ea | Dragon_Legend",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dragonlegendfgc"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1933085
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18572927,
+                                "name": "Zangief_bolado",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BoladoZangief"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1408573
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18572990,
+                                "name": "Gor\u00edtalo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Goritalo_BR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3491451
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18572992,
+                                "name": "2Game | JUNINHO-RAS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "JuninhoRas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1917872
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18572997,
+                                "name": "Astronaut | HorusPaulin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HorusPaulin"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1135542
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18573003,
+                                "name": "DARK817",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diego_DARK_Lins"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358693
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18573007,
+                                "name": "theforce90",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "theforce90"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2202474
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18625401,
+                                "name": "PHT | Brayan_Job",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BrayanJob1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 658918
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2630117,
+                "state": 1,
                 "phase": {
-                    "id": 1775679,
                     "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "#4 Circuito BR Kumite Street Fighter 6",
@@ -533,7 +714,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1840436751988347334",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1267561": {
         "id": 1267561,
