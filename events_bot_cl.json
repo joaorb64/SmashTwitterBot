@@ -795,7 +795,7 @@
         "id": 1276161,
         "name": "Smash Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -804,11 +804,192 @@
         "phaseGroups": [
             {
                 "id": 2715015,
+                "state": 2,
                 "phase": {
-                    "id": 1840229,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18644765,
+                                "name": "SLuis1",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4052360,
+                                            "gamerTag": "SLuis1"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18672155,
+                                "name": "Vicell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4134884,
+                                            "gamerTag": "Vicell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18674151,
+                                "name": "TMT | RTS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RTS_FromHell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 313253,
+                                            "gamerTag": "RTS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18654199,
+                                "name": "TW | NGC | Nova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Novaaaaa_CL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2224238,
+                                            "gamerTag": "Nova"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18674656,
+                                "name": "FelixSenpai.GG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4055569,
+                                            "gamerTag": "FelixSenpai.GG"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18672837,
+                                "name": "Swiftness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Swiftness_ss"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2439966,
+                                            "gamerTag": "Swiftness"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18674707,
+                                "name": ". | Hakuryu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4026498,
+                                            "gamerTag": "Hakuryu"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18671986,
+                                "name": "NGC | Kazuyoye",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3980274,
+                                            "gamerTag": "Kazuyoye"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18676634,
+                                "name": "NGC | Nage",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3926674,
+                                            "gamerTag": "Nage"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Nage House #14",
@@ -841,7 +1022,9 @@
         "tournament_venueAddress": "Los Talletes 1365, 01365 Temuco, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1866241767575531923",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1276208": {
         "id": 1276208,
@@ -972,7 +1155,7 @@
         "tournament_venueAddress": "Julio Zegers 4223, 7790728 Santiago, \u00d1u\u00f1oa, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1866981571795759339",
-        "retries": 17
+        "retries": 18
     },
     "1277426": {
         "id": 1277426,
@@ -998,7 +1181,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 18672587,
                                 "name": "Neitor",
@@ -1019,7 +1202,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 18672298,
                                 "name": "SSF | Capi",
@@ -1040,7 +1223,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 18675159,
                                 "name": "Hb2",
@@ -1061,7 +1244,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 18675013,
                                 "name": "PM | SyC~Tsubasa",
@@ -1510,7 +1693,7 @@
             },
             {
                 "id": 2716913,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "SemiPro"
                 },
@@ -1522,7 +1705,43 @@
                     "nodes": [
                         {
                             "placement": 1,
+                            "entrant": {
+                                "id": 18675207,
+                                "name": "TSC | Jack47",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "El_Jack47"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2143322
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
                             "entrant": null
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 18672566,
+                                "name": "Japapa",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4464331
+                                        }
+                                    }
+                                ]
+                            }
                         },
                         {
                             "placement": 3,
@@ -1557,42 +1776,6 @@
                                         },
                                         "player": {
                                             "id": 2297626
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 18675207,
-                                "name": "TSC | Jack47",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "El_Jack47"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2143322
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 18672566,
-                                "name": "Japapa",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4464331
                                         }
                                     }
                                 ]
