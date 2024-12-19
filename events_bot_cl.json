@@ -887,7 +887,7 @@
         "id": 1279521,
         "name": "Singles!",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -896,11 +896,122 @@
         "phaseGroups": [
             {
                 "id": 2720231,
+                "state": 2,
                 "phase": {
-                    "id": 1844512,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18695059,
+                                "name": "DarkNRT",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nelson_RT3301"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3903833,
+                                            "gamerTag": "DarkNRT"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18709176,
+                                "name": "DarkMario",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4473910,
+                                            "gamerTag": "DarkMario"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18695082,
+                                "name": "TYoshi64",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4468289,
+                                            "gamerTag": "TYoshi64"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18695075,
+                                "name": "vickysph13",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4468286,
+                                            "gamerTag": "vickysph13"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18695056,
+                                "name": "BaldovinoTT",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4165893,
+                                            "gamerTag": "BaldovinoTT"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18720254,
+                                "name": "elchangoDK",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4476321,
+                                            "gamerTag": "elchangoDK"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "SSBUT Session",
@@ -924,7 +1035,9 @@
         "tournament_venueAddress": "Centenario 663, 2851607 Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
         "tweet_id": "1869201269144875018",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1276473": {
         "id": 1276473,
