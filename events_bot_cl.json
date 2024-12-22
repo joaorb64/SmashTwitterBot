@@ -1027,6 +1027,28 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 18732537,
+                                "name": "S10 | Majin Yugo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MajinYugo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2229027,
+                                            "gamerTag": "Majin Yugo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 18715205,
                                 "name": "TSB | Blas",
                                 "participants": [
@@ -1103,28 +1125,6 @@
                                         "player": {
                                             "id": 3635400,
                                             "gamerTag": "Nic."
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 18732537,
-                                "name": "S10 | Majin Yugo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MajinYugo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2229027,
-                                            "gamerTag": "Majin Yugo"
                                         }
                                     }
                                 ]
@@ -1426,6 +1426,50 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 18737541,
+                                "name": "TW | vaiz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vaizssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1562606,
+                                            "gamerTag": "vaiz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18723083,
+                                "name": "roro",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "roro_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4181846,
+                                            "gamerTag": "roro"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 18723087,
                                 "name": "alice",
                                 "participants": [
@@ -1466,20 +1510,20 @@
                         {
                             "placement": 7,
                             "entrant": {
-                                "id": 18723083,
-                                "name": "roro",
+                                "id": 18729391,
+                                "name": "Visho",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "roro_SSBU"
+                                                    "externalUsername": "_zevsh"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 4181846,
-                                            "gamerTag": "roro"
+                                            "id": 2083644,
+                                            "gamerTag": "Visho"
                                         }
                                     }
                                 ]
@@ -1540,28 +1584,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 18737541,
-                                "name": "TW | vaiz",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "vaizssb"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1562606,
-                                            "gamerTag": "vaiz"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 18729386,
                                 "name": "NT | TW | MinMinMaru-Chan",
                                 "participants": [
@@ -1576,28 +1598,6 @@
                                         "player": {
                                             "id": 2294054,
                                             "gamerTag": "MinMinMaru-Chan"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18729391,
-                                "name": "Visho",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "_zevsh"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2083644,
-                                            "gamerTag": "Visho"
                                         }
                                     }
                                 ]
@@ -1772,7 +1772,7 @@
         "name": "Arena Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 9,
+        "numEntrants": 13,
         "videogame": {
             "id": 1386
         },
@@ -1791,7 +1791,11 @@
         "tournament_id": 742399,
         "city": "Puerto Montt",
         "url": "https://start.gg/tournament/arena-s-stadium-3/event/arena-singles",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "Start_showdown"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1734894000,
         "tournament_endAt": 1734908400,
