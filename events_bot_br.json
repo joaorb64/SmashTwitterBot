@@ -2323,7 +2323,7 @@
         "id": 1283487,
         "name": "Ultimate 1v1",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -2332,11 +2332,204 @@
         "phaseGroups": [
             {
                 "id": 2726582,
+                "state": 2,
                 "phase": {
-                    "id": 1849614,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18754196,
+                                "name": "Polyphony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PolyphonyIngrid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397,
+                                            "gamerTag": "Polyphony"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18753734,
+                                "name": "NaSC | Y8shikage",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Y8shikage_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1728594,
+                                            "gamerTag": "Y8shikage"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18753699,
+                                "name": "PTM/SPB/WASCO| | SpitTrap19",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "STrapezzzz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1859557,
+                                            "gamerTag": "SpitTrap19"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18753752,
+                                "name": "NaSC | Chaminha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4128495,
+                                            "gamerTag": "Chaminha"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 18754152,
+                                "name": "CNTR/SMB/SsT | White",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "White_Ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1569264,
+                                            "gamerTag": "White"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18754202,
+                                "name": "Nebula Wasco | TheSoL",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TheSoL__"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2928917,
+                                            "gamerTag": "TheSoL"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18753756,
+                                "name": "ChriS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ChriSTamashiro_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2974618,
+                                            "gamerTag": "ChriS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18753992,
+                                "name": "AsterS2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4104918,
+                                            "gamerTag": "AsterS2"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18754119,
+                                "name": "Pau FC | JustANub",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4124141,
+                                            "gamerTag": "JustANub"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "PST - Battle Tower #4",
@@ -2369,6 +2562,8 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1872372058845315224",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
