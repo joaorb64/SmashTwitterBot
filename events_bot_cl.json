@@ -604,7 +604,7 @@
         "phaseGroups": [
             {
                 "id": 2726816,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -743,6 +743,40 @@
                         {
                             "placement": 7,
                             "entrant": {
+                                "id": 18770594,
+                                "name": "U-Smash | P24",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3392408
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18772749,
+                                "name": "U-Smash | Spac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2978822
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
                                 "id": 18773087,
                                 "name": "0TD | Braixen",
                                 "participants": [
@@ -762,17 +796,21 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 7,
                             "entrant": {
-                                "id": 18770594,
-                                "name": "U-Smash | P24",
+                                "id": 18773908,
+                                "name": "ORD | KingSheikah",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "kingsheikah"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 3392408
+                                            "id": 895687
                                         }
                                     }
                                 ]
@@ -819,6 +857,23 @@
                         {
                             "placement": 9,
                             "entrant": {
+                                "id": 18772831,
+                                "name": "ORD|U-Smash|GG | Zeyer",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2365755
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
                                 "id": 18773472,
                                 "name": "Xoxviz",
                                 "participants": [
@@ -828,27 +883,6 @@
                                         },
                                         "player": {
                                             "id": 2057879
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18773908,
-                                "name": "ORD | KingSheikah",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "kingsheikah"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 895687
                                         }
                                     }
                                 ]
@@ -870,40 +904,6 @@
                                         },
                                         "player": {
                                             "id": 4114115
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 18772749,
-                                "name": "U-Smash | Spac",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2978822
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 18772831,
-                                "name": "ORD|U-Smash|GG | Zeyer",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2365755
                                         }
                                     }
                                 ]
@@ -967,7 +967,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 18769371,
                                 "name": "Toon",
@@ -1077,6 +1077,64 @@
                             }
                         },
                         {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18770594,
+                                "name": "U-Smash | P24",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3392408,
+                                            "gamerTag": "P24"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18772749,
+                                "name": "U-Smash | Spac",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2978822,
+                                            "gamerTag": "Spac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18773908,
+                                "name": "ORD | KingSheikah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "kingsheikah"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 895687,
+                                            "gamerTag": "KingSheikah"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 18770760,
@@ -1089,6 +1147,24 @@
                                         "player": {
                                             "id": 2980335,
                                             "gamerTag": "Xupapapa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18772831,
+                                "name": "ORD|U-Smash|GG | Zeyer",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2365755,
+                                            "gamerTag": "Zeyer"
                                         }
                                     }
                                 ]
@@ -1119,24 +1195,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 18770594,
-                                "name": "U-Smash | P24",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3392408,
-                                            "gamerTag": "P24"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 18773472,
                                 "name": "Xoxviz",
                                 "participants": [
@@ -1147,28 +1205,6 @@
                                         "player": {
                                             "id": 2057879,
                                             "gamerTag": "Xoxviz"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18773908,
-                                "name": "ORD | KingSheikah",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "kingsheikah"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 895687,
-                                            "gamerTag": "KingSheikah"
                                         }
                                     }
                                 ]
@@ -1191,24 +1227,6 @@
                                         "player": {
                                             "id": 2275201,
                                             "gamerTag": "Ruiz"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 18772831,
-                                "name": "ORD|U-Smash|GG | Zeyer",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2365755,
-                                            "gamerTag": "Zeyer"
                                         }
                                     }
                                 ]
@@ -1247,24 +1265,6 @@
                                         "player": {
                                             "id": 4214315,
                                             "gamerTag": "Nekokatsu"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 18772749,
-                                "name": "U-Smash | Spac",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2978822,
-                                            "gamerTag": "Spac"
                                         }
                                     }
                                 ]
@@ -1667,7 +1667,7 @@
         "name": "singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 16,
+        "numEntrants": 17,
         "videogame": {
             "id": 1386
         },
@@ -1685,7 +1685,7 @@
         "tournament": "Bardo House Especial Fin del 2024",
         "tournament_id": 743756,
         "city": "Iquique",
-        "url": "https://start.gg/tournament/bardo-house-especial-fin-del-2024",
+        "url": "https://start.gg/tournament/bardo-house-especial-fin-del-2024/event/singles",
         "streams": null,
         "timezone": "America/Santiago",
         "tournament_startAt": 1735509600,
@@ -1696,6 +1696,7 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Edmundo Wallis, Iquique, Tarapac\u00e1, Chile",
         "tournament_addrState": "Tarapac\u00e1",
-        "tweet_id": "1873481937295175884"
+        "tweet_id": "1873481937295175884",
+        "postedRegistrationClosing": true
     }
 }
