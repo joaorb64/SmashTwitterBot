@@ -293,7 +293,7 @@
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 5,
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -1982,8 +1982,8 @@
         "id": 1291652,
         "name": "NDM#139: SSB. U",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 5,
+        "state": "ACTIVE",
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
@@ -1991,18 +1991,195 @@
         "phaseGroups": [
             {
                 "id": 2741221,
+                "state": 2,
                 "phase": {
-                    "id": 1860183,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18898522,
+                                "name": "TSB | Blas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "iKillzone_Blas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 207717,
+                                            "gamerTag": "Blas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18906428,
+                                "name": "Zhenchi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3585172,
+                                            "gamerTag": "Zhenchi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18910030,
+                                "name": "Sugoi DK",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4516089,
+                                            "gamerTag": "Sugoi DK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18910079,
+                                "name": "CoS|ORD|UQS|TW | Ruiz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RuizGL_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2275201,
+                                            "gamerTag": "Ruiz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18909895,
+                                "name": "PM | SyC~Tsubasa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tsubasa_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1059907,
+                                            "gamerTag": "SyC~Tsubasa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18910075,
+                                "name": "U-Smash | xeki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "xekiyo12"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2655168,
+                                            "gamerTag": "xeki"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18909901,
+                                "name": "Con | Pepperoni",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GyJavierignacio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1723324,
+                                            "gamerTag": "Pepperoni"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18910034,
+                                "name": "TSC | Jack47",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "El_Jack47"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2143322,
+                                            "gamerTag": "Jack47"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Not DM#139: SSB. U",
         "tournament_id": 747020,
         "city": "Santiago",
         "url": "https://start.gg/tournament/not-dm-139-ssb-u/event/ndm-139-ssb-u",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "walito_10"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1736976600,
         "tournament_endAt": 1736989200,
@@ -2019,6 +2196,8 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1879204659593691143",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
