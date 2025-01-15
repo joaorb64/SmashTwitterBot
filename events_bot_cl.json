@@ -1593,8 +1593,8 @@
         "id": 1290618,
         "name": "Singles!",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 8,
+        "state": "ACTIVE",
+        "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
@@ -1602,52 +1602,136 @@
         "phaseGroups": [
             {
                 "id": 2739443,
+                "state": 2,
                 "phase": {
-                    "id": 1858832,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
-            },
-            {
-                "id": 2739444,
-                "phase": {
-                    "id": 1858832,
-                    "name": "Bracket"
-                },
-                "progressionsOut": null
-            },
-            {
-                "id": 2741622,
-                "phase": {
-                    "id": 1860477,
-                    "name": "Bracket playoff"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 11506888
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
                     },
-                    {
-                        "id": 11506889
-                    },
-                    {
-                        "id": 11506890
-                    },
-                    {
-                        "id": 11506891
-                    },
-                    {
-                        "id": 11506892
-                    },
-                    {
-                        "id": 11506893
-                    },
-                    {
-                        "id": 11506894
-                    },
-                    {
-                        "id": 11506895
-                    }
-                ]
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18870880,
+                                "name": "SSB | DarkMario",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4489190,
+                                            "gamerTag": "DarkMario"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18858358,
+                                "name": "Maurojpc93",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4468290,
+                                            "gamerTag": "Maurojpc93"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18910543,
+                                "name": ":v",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 420079,
+                                            "gamerTag": ":v"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18858372,
+                                "name": "vickysph13",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4468286,
+                                            "gamerTag": "vickysph13"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18870908,
+                                "name": "Mirkka:D",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4508848,
+                                            "gamerTag": "Mirkka:D"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18870910,
+                                "name": "Elexis:D",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4508849,
+                                            "gamerTag": "Elexis:D"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18870886,
+                                "name": "BaldovinoTT",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4165893,
+                                            "gamerTag": "BaldovinoTT"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "SSBUT Session II",
@@ -1671,7 +1755,9 @@
         "tournament_venueAddress": "Centenario 663, 2851607 Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
         "tweet_id": "1878087217744093337",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1293495": {
         "id": 1293495,
@@ -2002,7 +2088,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 7,
+                            "placement": 3,
                             "entrant": {
                                 "id": 18898522,
                                 "name": "TSB | Blas",
@@ -2024,25 +2110,29 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 3,
                             "entrant": {
-                                "id": 18906428,
-                                "name": "Zhenchi",
+                                "id": 18909895,
+                                "name": "PM | SyC~Tsubasa",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Tsubasa_ssbu"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 3585172,
-                                            "gamerTag": "Zhenchi"
+                                            "id": 1059907,
+                                            "gamerTag": "SyC~Tsubasa"
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 5,
                             "entrant": {
                                 "id": 18910030,
                                 "name": "Sugoi DK",
@@ -2058,7 +2148,7 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 5,
                             "entrant": {
                                 "id": 18910079,
                                 "name": "CoS|ORD|UQS|TW | Ruiz",
@@ -2080,22 +2170,40 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 5,
                             "entrant": {
-                                "id": 18909895,
-                                "name": "PM | SyC~Tsubasa",
+                                "id": 18910034,
+                                "name": "TSC | Jack47",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "Tsubasa_ssbu"
+                                                    "externalUsername": "El_Jack47"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 1059907,
-                                            "gamerTag": "SyC~Tsubasa"
+                                            "id": 2143322,
+                                            "gamerTag": "Jack47"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18906428,
+                                "name": "Zhenchi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3585172,
+                                            "gamerTag": "Zhenchi"
                                         }
                                     }
                                 ]
@@ -2140,28 +2248,6 @@
                                         "player": {
                                             "id": 1723324,
                                             "gamerTag": "Pepperoni"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 18910034,
-                                "name": "TSC | Jack47",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "El_Jack47"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2143322,
-                                            "gamerTag": "Jack47"
                                         }
                                     }
                                 ]
