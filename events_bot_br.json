@@ -1240,7 +1240,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 3,
                             "entrant": {
                                 "id": 18865168,
                                 "name": "Tropic\u00e1lia",
@@ -1262,6 +1262,24 @@
                             }
                         },
                         {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 18943183,
+                                "name": "RoABR | Bagre",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1854322,
+                                            "gamerTag": "Bagre"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 18889336,
@@ -1274,24 +1292,6 @@
                                         "player": {
                                             "id": 3581943,
                                             "gamerTag": "rop"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 18943183,
-                                "name": "RoABR | Bagre",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1854322,
-                                            "gamerTag": "Bagre"
                                         }
                                     }
                                 ]
@@ -1459,7 +1459,7 @@
         "id": 1291561,
         "name": "[Iniciantes] Small House Beginnings",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -1468,11 +1468,94 @@
         "phaseGroups": [
             {
                 "id": 2741041,
+                "state": 2,
                 "phase": {
-                    "id": 1860059,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 18951379,
+                                "name": "Risos rsrs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2717605,
+                                            "gamerTag": "Risos rsrs"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 18951434,
+                                "name": "Effect2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2522927,
+                                            "gamerTag": "Effect2"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18950965,
+                                "name": "Eetrexx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Eetrexx"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1391493,
+                                            "gamerTag": "Eetrexx"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18950984,
+                                "name": "GHV | GHVMarques1",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4178996,
+                                            "gamerTag": "GHVMarques1"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "SMALL HOUSE SMASH #10 @ PINBALL ZONE",
@@ -1505,7 +1588,9 @@
         "tournament_venueAddress": "R. Euclides da Cunha, 192 - Pomp\u00e9ia, Santos - SP, 11065-101, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1877815441965343224",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1292510": {
         "id": 1292510,
