@@ -1527,7 +1527,7 @@
         "phaseGroups": [
             {
                 "id": 2752903,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -1570,6 +1570,27 @@
                         {
                             "placement": 2,
                             "entrant": {
+                                "id": 18978308,
+                                "name": "Muddy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Muddy257"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 135520
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
                                 "id": 18985739,
                                 "name": "Mr.Zitu | FlipperG",
                                 "participants": [
@@ -1589,7 +1610,7 @@
                             }
                         },
                         {
-                            "placement": 3,
+                            "placement": 4,
                             "entrant": {
                                 "id": 19007326,
                                 "name": "NaSC | F-Zero",
@@ -1610,45 +1631,7 @@
                             }
                         },
                         {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 18978308,
-                                "name": "Muddy",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Muddy257"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 135520
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 5,
-                            "entrant": {
-                                "id": 18989456,
-                                "name": "Anazani",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4223260
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 6,
                             "entrant": {
                                 "id": 18978302,
                                 "name": "ProRD | frodO",
@@ -1663,6 +1646,23 @@
                                         },
                                         "player": {
                                             "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 18989456,
+                                "name": "Anazani",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4223260
                                         }
                                     }
                                 ]
@@ -1688,23 +1688,6 @@
                         {
                             "placement": 8,
                             "entrant": {
-                                "id": 18979514,
-                                "name": "MKKO | Axluniverse79",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4149433
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 18966712,
                                 "name": "Beck",
                                 "participants": [
@@ -1718,79 +1701,6 @@
                                     }
                                 ]
                             }
-                        }
-                    ]
-                }
-            },
-            {
-                "id": 2752904,
-                "state": 1,
-                "phase": {
-                    "name": "top4"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 9
-                    },
-                    "nodes": [
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18966712,
-                                "name": "Beck",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4222290,
-                                            "gamerTag": "Beck"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18979793,
-                                "name": "CSQ | Bnet",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4527235,
-                                            "gamerTag": "Bnet"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18978308,
-                                "name": "Muddy",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Muddy257"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 135520,
-                                            "gamerTag": "Muddy"
-                                        }
-                                    }
-                                ]
-                            }
                         },
                         {
                             "placement": 9,
@@ -1803,37 +1713,29 @@
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 4149433,
-                                            "gamerTag": "Axluniverse79"
+                                            "id": 4149433
                                         }
                                     }
                                 ]
                             }
-                        },
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2752904,
+                "state": 2,
+                "phase": {
+                    "name": "top4"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
                         {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 18978302,
-                                "name": "ProRD | frodO",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "andreyfrodo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 156155,
-                                            "gamerTag": "frodO"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
+                            "placement": 2,
                             "entrant": {
                                 "id": 18985739,
                                 "name": "Mr.Zitu | FlipperG",
@@ -1855,25 +1757,47 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 2,
                             "entrant": {
-                                "id": 18989456,
-                                "name": "Anazani",
+                                "id": 19017602,
+                                "name": "Hash",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 4223260,
-                                            "gamerTag": "Anazani"
+                                            "id": 2469107,
+                                            "gamerTag": "Hash"
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 3,
+                            "entrant": {
+                                "id": 18978308,
+                                "name": "Muddy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Muddy257"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 135520,
+                                            "gamerTag": "Muddy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
                             "entrant": {
                                 "id": 19007326,
                                 "name": "NaSC | F-Zero",
@@ -1895,18 +1819,94 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 5,
                             "entrant": {
-                                "id": 19017602,
-                                "name": "Hash",
+                                "id": 18978302,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155,
+                                            "gamerTag": "frodO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 18989456,
+                                "name": "Anazani",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 2469107,
-                                            "gamerTag": "Hash"
+                                            "id": 4223260,
+                                            "gamerTag": "Anazani"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18979793,
+                                "name": "CSQ | Bnet",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4527235,
+                                            "gamerTag": "Bnet"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 18966712,
+                                "name": "Beck",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4222290,
+                                            "gamerTag": "Beck"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18979514,
+                                "name": "MKKO | Axluniverse79",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4149433,
+                                            "gamerTag": "Axluniverse79"
                                         }
                                     }
                                 ]
