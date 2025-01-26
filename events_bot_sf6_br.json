@@ -796,7 +796,7 @@
         "name": "Street Fighter 6",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 11,
+        "numEntrants": 13,
         "videogame": {
             "id": 43868
         },
@@ -842,7 +842,7 @@
         "id": 1291465,
         "name": "Street Fighter 6",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 43868
@@ -851,11 +851,188 @@
         "phaseGroups": [
             {
                 "id": 2740882,
+                "state": 2,
                 "phase": {
-                    "id": 1859939,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18979407,
+                                "name": "PHT | Brayan_Job",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "BrayanJob1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 658918,
+                                            "gamerTag": "Brayan_Job"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18976521,
+                                "name": "NatanWS",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3582837,
+                                            "gamerTag": "NatanWS"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18981545,
+                                "name": "lpdouglas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3597526,
+                                            "gamerTag": "lpdouglas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 18862772,
+                                "name": "BP | Diego",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1135788,
+                                            "gamerTag": "Diego"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19004879,
+                                "name": "Fury | MCD^",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4048536,
+                                            "gamerTag": "MCD^"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18863204,
+                                "name": "Nubaso",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Nubao4"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3733261,
+                                            "gamerTag": "Nubaso"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18957922,
+                                "name": "lucayaki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3327010,
+                                            "gamerTag": "lucayaki"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18886961,
+                                "name": "papermoon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3654054,
+                                            "gamerTag": "papermoon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 18937100,
+                                "name": "Zumbimarinho",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3502053,
+                                            "gamerTag": "Zumbimarinho"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Smatch\u00ea #41",
@@ -884,7 +1061,9 @@
         "tournament_venueAddress": "R. Riachuelo, 1334 - Loja 6 - Centro Hist\u00f3rico, Porto Alegre - RS, 90010-273, Brazil",
         "tournament_addrState": "RS",
         "tweet_id": "1877762583370899925",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1291570": {
         "id": 1291570,
