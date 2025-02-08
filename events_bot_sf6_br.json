@@ -544,8 +544,8 @@
         "id": 1302454,
         "name": "Street Fighter 6",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 10,
+        "state": "ACTIVE",
+        "numEntrants": 9,
         "videogame": {
             "id": 43868
         },
@@ -553,11 +553,200 @@
         "phaseGroups": [
             {
                 "id": 2760079,
+                "state": 2,
                 "phase": {
-                    "id": 1874017,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19097795,
+                                "name": "TiagoMFM",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2025756,
+                                            "gamerTag": "TiagoMFM"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19100563,
+                                "name": "UA & RVL | Rez",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rezrrezrrrez"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1969804,
+                                            "gamerTag": "Rez"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19144001,
+                                "name": "Kermit",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sadsapo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4114209,
+                                            "gamerTag": "Kermit"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19133844,
+                                "name": "FredCrimson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "fredcrimson"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3761961,
+                                            "gamerTag": "FredCrimson"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19137925,
+                                "name": "saxopanda",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2491847,
+                                            "gamerTag": "saxopanda"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19144354,
+                                "name": "andrelucasrc",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2670024,
+                                            "gamerTag": "andrelucasrc"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19144391,
+                                "name": "OneBoy Player",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "OneBoy_BR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358695,
+                                            "gamerTag": "OneBoy Player"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 19144500,
+                                "name": "Sun",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lamego_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1579163,
+                                            "gamerTag": "Sun"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 19123451,
+                                "name": "Moreninho",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4038105,
+                                            "gamerTag": "Moreninho"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Arena Ultra Arcade 2025 #2",
@@ -586,6 +775,8 @@
         "tournament_venueAddress": "R. Dom Jos\u00e9 Gaspar, 701 - Cora\u00e7\u00e3o Eucar\u00edstico, Belo Horizonte - MG, 30535-610, Brasil",
         "tournament_addrState": "MG",
         "tweet_id": "1884965127432143217",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
