@@ -638,8 +638,8 @@
         "id": 1312429,
         "name": "BXD Fighters - Street Fighters 6",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 2,
+        "state": "ACTIVE",
+        "numEntrants": 4,
         "videogame": {
             "id": 43868
         },
@@ -647,8 +647,8 @@
         "phaseGroups": [
             {
                 "id": 2776355,
+                "state": 2,
                 "phase": {
-                    "id": 1886764,
                     "name": "Bracket"
                 },
                 "progressionsOut": [
@@ -676,21 +676,179 @@
                     {
                         "id": 11662160
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19231324,
+                                "name": "Smoke",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4416548
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19231383,
+                                "name": "BeerFighters | JrxSemedo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3518570
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19231438,
+                                "name": "BeerFighters Profeta",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4571425
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19231559,
+                                "name": "DARK817",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diego_DARK_Lins"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358693
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 2784876,
+                "state": 1,
                 "phase": {
-                    "id": 1893804,
                     "name": "Top 8"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 19231324,
+                                "name": "Smoke",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4416548,
+                                            "gamerTag": "Smoke"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 19231559,
+                                "name": "DARK817",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diego_DARK_Lins"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 358693,
+                                            "gamerTag": "DARK817"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 19231383,
+                                "name": "BeerFighters | JrxSemedo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3518570,
+                                            "gamerTag": "JrxSemedo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 19231438,
+                                "name": "BeerFighters Profeta",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4571425,
+                                            "gamerTag": "BeerFighters Profeta"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "BXD Fighters Tornament #1",
         "tournament_id": 757236,
         "city": "Centro",
-        "url": "https://start.gg/tournament/bxd-fighters-tornament-1",
+        "url": "https://start.gg/tournament/bxd-fighters-tornament-1/event/bxd-fighters-street-fighters-6",
         "streams": null,
         "timezone": "America/Sao_Paulo",
         "tournament_startAt": 1742738400,
@@ -712,6 +870,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Pra\u00e7a Severino Azevedo, 435 - Centro, Nova Igua\u00e7u - RJ, 26215-215, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": "1891623949106069758"
+        "tweet_id": "1891623949106069758",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
