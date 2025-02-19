@@ -963,7 +963,7 @@
         "id": 1317422,
         "name": "Torneo Main Swap",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 10,
         "videogame": {
             "id": 1386
@@ -972,11 +972,206 @@
         "phaseGroups": [
             {
                 "id": 2783883,
+                "state": 2,
                 "phase": {
-                    "id": 1893006,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 10
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19225468,
+                                "name": "GO CR1S",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4520521,
+                                            "gamerTag": "GO CR1S"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19234298,
+                                "name": "Lucky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sbbotello8410"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3991599,
+                                            "gamerTag": "Lucky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19246232,
+                                "name": "Kaiser",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4520511,
+                                            "gamerTag": "Kaiser"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19246297,
+                                "name": "Po",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4573670,
+                                            "gamerTag": "Po"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19243853,
+                                "name": "X1 | Erector99",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4548028,
+                                            "gamerTag": "Erector99"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 19240695,
+                                "name": "Randomv3",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4550175,
+                                            "gamerTag": "Randomv3"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 19243929,
+                                "name": "RyZ3",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4550193,
+                                            "gamerTag": "RyZ3"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 19244436,
+                                "name": "Abuelitagay",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4556536,
+                                            "gamerTag": "Abuelitagay"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 19224543,
+                                "name": "Shentai",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Shentai_80i"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4046128,
+                                            "gamerTag": "Shentai"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 19243693,
+                                "name": "Go 1uk0n",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4550647,
+                                            "gamerTag": "Go 1uk0n"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Cris torneo 3",
@@ -1004,7 +1199,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Colo Colo 455, 4920474 Cautin, Puc\u00f3n, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
-        "tweet_id": "1891382499231592908"
+        "tweet_id": "1891382499231592908",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1317431": {
         "id": 1317431,
@@ -1058,7 +1255,7 @@
         "name": "NDM#144: SSB. U",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 16,
+        "numEntrants": 18,
         "videogame": {
             "id": 1386
         },
@@ -1100,7 +1297,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 8,
+        "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
