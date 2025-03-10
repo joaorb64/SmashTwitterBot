@@ -539,7 +539,7 @@
         "id": 1331629,
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
-        "state": "ACTIVE",
+        "state": "COMPLETED",
         "numEntrants": 21,
         "videogame": {
             "id": 1386
@@ -548,7 +548,7 @@
         "phaseGroups": [
             {
                 "id": 2810401,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Top 8"
                 },
@@ -559,24 +559,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 19437803,
-                                "name": "ORD|U-Smash|GG | Zeyer",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2365755
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 19440322,
                                 "name": "PHX | Som3thing",
@@ -594,6 +577,37 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Mii Brawler": {
+                                    "name": "Mii Brawler",
+                                    "usage": 25,
+                                    "icon": "https://images.start.gg/images/character/1311/image-f6cd7a894956ae95c15c11cc9bfdbb98.png"
+                                }
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 19437803,
+                                "name": "ORD|U-Smash|GG | Zeyer",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2365755
+                                        }
+                                    }
+                                ]
+                            },
+                            "char_usage": {
+                                "Pichu": {
+                                    "name": "Pichu",
+                                    "usage": 24,
+                                    "icon": "https://images.start.gg/images/character/1318/image-681a1adc3d30a20912e1cee2eabca5e3.png"
+                                }
                             }
                         },
                         {
@@ -615,6 +629,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Roy": {
+                                    "name": "Roy",
+                                    "usage": 25,
+                                    "icon": "https://images.start.gg/images/character/1326/image-48f829e07a9c6b6ab3490116006cf71e.png"
+                                }
                             }
                         },
                         {
@@ -636,6 +657,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Sonic": {
+                                    "name": "Sonic",
+                                    "usage": 21,
+                                    "icon": "https://images.start.gg/images/character/1332/image-320255f78b2f9448b838495068eddc50.png"
+                                },
+                                "Random Character": {
+                                    "name": "Random Character",
+                                    "usage": 3,
+                                    "icon": "https://images.start.gg/images/character/1746/image-485930109cf8a08e1b05d21071a037e9.png"
+                                }
                             }
                         },
                         {
@@ -657,6 +690,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Zero Suit Samus": {
+                                    "name": "Zero Suit Samus",
+                                    "usage": 16,
+                                    "icon": "https://images.start.gg/images/character/1341/image-7c0c70110071ed9a863e712469118d10.png"
+                                }
                             }
                         },
                         {
@@ -674,6 +714,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Palutena": {
+                                    "name": "Palutena",
+                                    "usage": 20,
+                                    "icon": "https://images.start.gg/images/character/1316/image-3fab6611ff1cb12578ef5bed59c42ec3.png"
+                                }
                             }
                         },
                         {
@@ -695,6 +742,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Olimar": {
+                                    "name": "Olimar",
+                                    "usage": 15,
+                                    "icon": "https://images.start.gg/images/character/1314/image-d60bc7012d14c2b8b0810e1db3283b22.png"
+                                }
                             }
                         },
                         {
@@ -716,6 +770,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "R.O.B.": {
+                                    "name": "R.O.B.",
+                                    "usage": 14,
+                                    "icon": "https://images.start.gg/images/character/1323/image-ff45bd739bb70c5b557247b071757f9c.png"
+                                }
                             }
                         }
                     ]
@@ -1440,7 +1501,8 @@
         "tweet_id": "1898094068648804696",
         "postedRegistrationClosing": true,
         "postedPhaseResultIds": [
-            2810404
+            2810404,
+            2810401
         ],
         "postedStarting": true
     }
