@@ -634,7 +634,7 @@
         "name": "SAPPHIRE SEA (bracket)",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 8,
+        "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
@@ -1216,8 +1216,8 @@
         "id": 1340362,
         "name": "Ultimate 1v1",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 7,
+        "state": "ACTIVE",
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
@@ -1225,11 +1225,17 @@
         "phaseGroups": [
             {
                 "id": 2825154,
+                "state": 2,
                 "phase": {
-                    "id": 1922067,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "PST - Battle Tower #15",
@@ -1268,6 +1274,8 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1902518192683327928",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
