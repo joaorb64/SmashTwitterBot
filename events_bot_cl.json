@@ -474,7 +474,7 @@
         "id": 1331060,
         "name": "Smash Ultimate - Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -483,18 +483,193 @@
         "phaseGroups": [
             {
                 "id": 2807871,
+                "state": 2,
                 "phase": {
-                    "id": 1910211,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19415407,
+                                "name": "TW | NGC | Nova",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Novaaaaa_CL"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2224238,
+                                            "gamerTag": "Nova"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19517980,
+                                "name": "NGC | Cizs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Cizs459"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3651383,
+                                            "gamerTag": "Cizs"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19518402,
+                                "name": "Swiftness",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Swiftness_ss"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2439966,
+                                            "gamerTag": "Swiftness"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19557363,
+                                "name": "Kaiser",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4520511,
+                                            "gamerTag": "Kaiser"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19519301,
+                                "name": "SLuis1",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4052360,
+                                            "gamerTag": "SLuis1"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19517533,
+                                "name": "NGC | Gosfell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gosfell_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3926830,
+                                            "gamerTag": "Gosfell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19490506,
+                                "name": "NGC | Nage",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3926674,
+                                            "gamerTag": "Nage"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19518731,
+                                "name": "Lucky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sbbotello8410"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3991599,
+                                            "gamerTag": "Lucky"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Nage House #18",
         "tournament_id": 766194,
         "city": "Temuco",
         "url": "https://start.gg/tournament/nage-house-18/event/smash-ultimate-singles",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "ngc_nogoodcrew"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1742596200,
         "tournament_endAt": 1742605200,
@@ -516,7 +691,9 @@
         "tournament_venueAddress": "Los Talletes 1365, 01365 Temuco, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1900200441524211807",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1336537": {
         "id": 1336537,
