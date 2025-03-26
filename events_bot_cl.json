@@ -499,6 +499,24 @@
                             }
                         },
                         {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 19593066,
+                                "name": "U-Smash | Xupapapa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2980335,
+                                            "gamerTag": "Xupapapa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 4,
                             "entrant": {
                                 "id": 19618299,
@@ -515,24 +533,6 @@
                                         "player": {
                                             "id": 2655168,
                                             "gamerTag": "xeki"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 19593066,
-                                "name": "U-Smash | Xupapapa",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2980335,
-                                            "gamerTag": "Xupapapa"
                                         }
                                     }
                                 ]
@@ -1096,20 +1096,165 @@
         "id": 1343371,
         "name": "Random Bracket",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
-        "startAt": 1743026400,
+        "startAt": 1743017400,
         "phaseGroups": [
             {
                 "id": 2830505,
+                "state": 2,
                 "phase": {
-                    "id": 1926002,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 19601446,
+                                "name": "Magma23",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4642231,
+                                            "gamerTag": "Magma23"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 19600699,
+                                "name": "elchangoDK",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4476321,
+                                            "gamerTag": "elchangoDK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19600708,
+                                "name": "BaldovinoTT",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4165893,
+                                            "gamerTag": "BaldovinoTT"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19601312,
+                                "name": ":v",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4642218,
+                                            "gamerTag": ":v"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19601325,
+                                "name": "SF | DarkNRT",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nelson_RT3301"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3903833,
+                                            "gamerTag": "DarkNRT"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19600664,
+                                "name": "SSB | DarkMario",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4489190,
+                                            "gamerTag": "DarkMario"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19601546,
+                                "name": "ElLocoTron",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4642243,
+                                            "gamerTag": "ElLocoTron"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19600682,
+                                "name": "Vicky-chan",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4642163,
+                                            "gamerTag": "Vicky-chan"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "SSBUT Session #3",
@@ -1118,7 +1263,7 @@
         "url": "https://start.gg/tournament/ssbut-session-3/event/random-bracket",
         "streams": null,
         "timezone": "America/Santiago",
-        "tournament_startAt": 1743026400,
+        "tournament_startAt": 1743017400,
         "tournament_endAt": 1743040800,
         "tournament_registrationClosesAt": 1743040800,
         "images": [
@@ -1137,7 +1282,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Centenario 663, 2851607 Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
-        "tweet_id": "1904511456902881356"
+        "tweet_id": "1904511456902881356",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1343372": {
         "id": 1343372,
@@ -1165,7 +1312,7 @@
         "url": "https://start.gg/tournament/ssbut-session-3/event/singles",
         "streams": null,
         "timezone": "America/Santiago",
-        "tournament_startAt": 1743026400,
+        "tournament_startAt": 1743017400,
         "tournament_endAt": 1743040800,
         "tournament_registrationClosesAt": 1743040800,
         "images": [
