@@ -444,8 +444,8 @@
         "id": 1336853,
         "name": "PLG NextGen",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 0,
+        "state": "ACTIVE",
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
@@ -453,11 +453,94 @@
         "phaseGroups": [
             {
                 "id": 2819328,
+                "state": 2,
                 "phase": {
-                    "id": 1917636,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19664800,
+                                "name": "Juliana",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4651035,
+                                            "gamerTag": "Juliana"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19664801,
+                                "name": "Andromeda",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Andr__omeda"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4058712,
+                                            "gamerTag": "Andromeda"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19664802,
+                                "name": "Jojodoid\u00e3o",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1524594,
+                                            "gamerTag": "Jojodoid\u00e3o"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19664803,
+                                "name": "CamposJL",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4629754,
+                                            "gamerTag": "CamposJL"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Geek SMASH House #2",
@@ -490,7 +573,9 @@
         "tournament_venueAddress": "R. Mal. Floriano Peixoto, 87 - Centro, Americana - SP, 13465-080, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1901000877894250843",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1336852": {
         "id": 1336852,
@@ -505,7 +590,7 @@
         "phaseGroups": [
             {
                 "id": 2819326,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket (BO5)"
                 },
@@ -571,6 +656,40 @@
                             }
                         },
                         {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19661725,
+                                "name": "The | Quantum",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 480897
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19662162,
+                                "name": "CPS | Vitor Pimenta",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1514567
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 19536564,
@@ -582,23 +701,6 @@
                                         },
                                         "player": {
                                             "id": 4629754
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 19661725,
-                                "name": "The | Quantum",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 480897
                                         }
                                     }
                                 ]
@@ -660,23 +762,6 @@
                             }
                         },
                         {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 19662162,
-                                "name": "CPS | Vitor Pimenta",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1514567
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 19552800,
@@ -719,7 +804,7 @@
             },
             {
                 "id": 2819327,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 4 (BO5)"
                 },
@@ -774,6 +859,42 @@
                             }
                         },
                         {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19662162,
+                                "name": "CPS | Vitor Pimenta",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1514567,
+                                            "gamerTag": "Vitor Pimenta"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19661725,
+                                "name": "The | Quantum",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 480897,
+                                            "gamerTag": "Quantum"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 19662232,
@@ -790,24 +911,6 @@
                                         "player": {
                                             "id": 4058712,
                                             "gamerTag": "Andromeda"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 19661725,
-                                "name": "The | Quantum",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 480897,
-                                            "gamerTag": "Quantum"
                                         }
                                     }
                                 ]
@@ -844,24 +947,6 @@
                                         "player": {
                                             "id": 4651035,
                                             "gamerTag": "Juliana"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 19662162,
-                                "name": "CPS | Vitor Pimenta",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1514567,
-                                            "gamerTag": "Vitor Pimenta"
                                         }
                                     }
                                 ]
@@ -1060,6 +1145,28 @@
                             }
                         },
                         {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 19564835,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155,
+                                            "gamerTag": "frodO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 19561256,
@@ -1102,28 +1209,6 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 19564835,
-                                "name": "ProRD | frodO",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "andreyfrodo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 156155,
-                                            "gamerTag": "frodO"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
                                 "id": 19658848,
                                 "name": "MKKO | ZFernandooou",
                                 "participants": [
@@ -1134,6 +1219,28 @@
                                         "player": {
                                             "id": 4161728,
                                             "gamerTag": "ZFernandooou"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19638686,
+                                "name": "Emanos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TheEmanos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 36968,
+                                            "gamerTag": "Emanos"
                                         }
                                     }
                                 ]
@@ -1222,28 +1329,6 @@
                                         "player": {
                                             "id": 4223260,
                                             "gamerTag": "Anazani"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 19638686,
-                                "name": "Emanos",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "TheEmanos"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 36968,
-                                            "gamerTag": "Emanos"
                                         }
                                     }
                                 ]
@@ -1655,7 +1740,7 @@
         "name": "Hylian's Elite",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
