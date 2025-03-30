@@ -393,14 +393,14 @@
         "tournament_addrState": "O'Higgins",
         "tweet_id": "1904013120764276843",
         "postedRegistrationClosing": true,
-        "retries": 48
+        "retries": 49
     },
     "1346403": {
         "id": 1346403,
         "name": "Ultimate Singles Bracket",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 5,
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -595,8 +595,8 @@
         "id": 1347295,
         "name": "Duplas",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 4,
+        "state": "ACTIVE",
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -604,17 +604,179 @@
         "phaseGroups": [
             {
                 "id": 2837476,
+                "state": 2,
                 "phase": {
-                    "id": 1931238,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 19662360,
+                                "name": "roro / Webroder",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "wolffalco"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1880299,
+                                            "gamerTag": "Webroder"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "roro_SSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4181846,
+                                            "gamerTag": "roro"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19662363,
+                                "name": "MinMinMaru-Chan / Sakamoto",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MinMinMaruChan2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2294054,
+                                            "gamerTag": "MinMinMaru-Chan"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3916764,
+                                            "gamerTag": "Sakamoto"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 19662329,
+                                "name": "Wawychanger / vaiz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 939933,
+                                            "gamerTag": "Wawychanger"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vaizssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1562606,
+                                            "gamerTag": "vaiz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19662390,
+                                "name": "Woloh / Ikse",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1043132,
+                                            "gamerTag": "Woloh"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1409540,
+                                            "gamerTag": "Ikse"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 19662352,
+                                "name": "Visho / Bigsos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "_zevsh"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2083644,
+                                            "gamerTag": "Visho"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4486554,
+                                            "gamerTag": "Bigsos"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Donde Wolito  #1",
         "tournament_id": 773690,
         "city": "Concepci\u00f3n",
-        "url": "https://start.gg/tournament/donde-wolito-1-2",
+        "url": "https://start.gg/tournament/donde-wolito-1-2/event/duplas",
         "streams": null,
         "timezone": "America/Santiago",
         "tournament_startAt": 1743352200,
@@ -636,6 +798,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Concepci\u00f3n, Regi\u00f3n del Biob\u00edo, Chile",
         "tournament_addrState": "Regi\u00f3n del Biob\u00edo",
-        "tweet_id": "1906376151737516039"
+        "tweet_id": "1906376151737516039",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
