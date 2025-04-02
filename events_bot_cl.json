@@ -1334,8 +1334,8 @@
         "id": 1349484,
         "name": "NDM#150: SSB. U",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 5,
+        "state": "ACTIVE",
+        "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
@@ -1343,18 +1343,173 @@
         "phaseGroups": [
             {
                 "id": 2840977,
+                "state": 2,
                 "phase": {
-                    "id": 1934058,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19693124,
+                                "name": "Hb2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pablo_Hb2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 131600,
+                                            "gamerTag": "Hb2"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19693902,
+                                "name": "PM | Eduard Bello",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "POTO_SVRS"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1237311,
+                                            "gamerTag": "Eduard Bello"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19693025,
+                                "name": "Dam!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dam_696"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2362200,
+                                            "gamerTag": "Dam!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19693625,
+                                "name": "TSC | Jack47",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "El_Jack47"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2143322,
+                                            "gamerTag": "Jack47"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19694045,
+                                "name": "CoS | Walito_10",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Walito_10"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2528592,
+                                            "gamerTag": "Walito_10"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19694104,
+                                "name": "smashti",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4661572,
+                                            "gamerTag": "smashti"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 19694092,
+                                "name": "SDD | PIPERETRO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2024796,
+                                            "gamerTag": "PIPERETRO"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Not DM#150: Smash Ultimate",
         "tournament_id": 775172,
         "city": "Santiago",
         "url": "https://start.gg/tournament/not-dm-150-smash-ultimate/event/ndm-150-ssb-u",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "walito_10"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1743631200,
         "tournament_endAt": 1743642000,
@@ -1371,7 +1526,9 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1907222339114205658",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1350099": {
         "id": 1350099,
