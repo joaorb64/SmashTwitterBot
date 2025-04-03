@@ -1165,8 +1165,8 @@
         "id": 1350310,
         "name": "Ultimate 1v1",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 18,
+        "state": "ACTIVE",
+        "numEntrants": 19,
         "videogame": {
             "id": 1386
         },
@@ -1174,11 +1174,17 @@
         "phaseGroups": [
             {
                 "id": 2842117,
+                "state": 2,
                 "phase": {
-                    "id": 1935042,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "PST - Battle Tower #17",
@@ -1217,7 +1223,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1907591672059301988",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1350329": {
         "id": 1350329,
