@@ -732,6 +732,28 @@
                             }
                         },
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 19679899,
+                                "name": "Mr.Zitu | Loces",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Loces___"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 980292,
+                                            "gamerTag": "Loces"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 19725030,
@@ -748,28 +770,6 @@
                                         "player": {
                                             "id": 1945874,
                                             "gamerTag": "peebs"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 19679899,
-                                "name": "Mr.Zitu | Loces",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Loces___"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 980292,
-                                            "gamerTag": "Loces"
                                         }
                                     }
                                 ]
@@ -1097,7 +1097,7 @@
         "name": "Ultimate Swiss e Bracket",
         "isOnline": false,
         "state": "ACTIVE",
-        "numEntrants": 6,
+        "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
@@ -1105,7 +1105,7 @@
         "phaseGroups": [
             {
                 "id": 2848994,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Sui\u00e7o"
                 },
@@ -1134,7 +1134,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 2,
@@ -1151,7 +1152,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 3,
@@ -1168,7 +1170,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 },
@@ -1176,7 +1179,7 @@
             },
             {
                 "id": 2850769,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Sui\u00e7o"
                 },
@@ -1188,23 +1191,6 @@
                     "nodes": [
                         {
                             "placement": 1,
-                            "entrant": {
-                                "id": 19749333,
-                                "name": "HGS | PotMaster1337",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4121486
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
                             "entrant": {
                                 "id": 19788315,
                                 "name": "TwS | PUT\u00cdFERO #3",
@@ -1218,7 +1204,26 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 19749333,
+                                "name": "HGS | PotMaster1337",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4121486
+                                        }
+                                    }
+                                ]
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 3,
@@ -1235,7 +1240,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 },
@@ -1252,7 +1258,7 @@
                     "pageInfo": {
                         "total": 0
                     },
-                    "nodes": null
+                    "nodes": []
                 },
                 "multiphase": true
             }
@@ -1273,7 +1279,10 @@
         "tournament_addrState": "RJ",
         "tweet_id": "1909652944867180987",
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": [],
+        "postedPhaseResultIds": [
+            2848994,
+            2850769
+        ],
         "postedStarting": true
     },
     "1355898": {
