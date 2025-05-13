@@ -656,13 +656,13 @@
         "tournament_venueAddress": "Colo Colo 485, 4920474 Pucon, Puc\u00f3n, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1921785146887295055",
-        "retries": 44
+        "retries": 45
     },
     "1377496": {
         "id": 1377496,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -671,18 +671,149 @@
         "phaseGroups": [
             {
                 "id": 2891414,
+                "state": 2,
                 "phase": {
-                    "id": 1970051,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20090744,
+                                "name": "ST | Rashidz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Rashidz_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 534453,
+                                            "gamerTag": "Rashidz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20095100,
+                                "name": "GO 1UK0N",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4520517,
+                                            "gamerTag": "GO 1UK0N"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20088982,
+                                "name": "MegaKrisX",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4741467,
+                                            "gamerTag": "MegaKrisX"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20095295,
+                                "name": "TMT | Lucky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sbbotello8410"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3991599,
+                                            "gamerTag": "Lucky"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20088743,
+                                "name": "Shentai",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Shentai_80i"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4046128,
+                                            "gamerTag": "Shentai"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20088849,
+                                "name": "Sonilan",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4556304,
+                                            "gamerTag": "Sonilan"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Playcoffee League S2 #5",
         "tournament_id": 788874,
         "city": "Pucon",
         "url": "https://start.gg/tournament/playcoffee-league-s2-5/event/singles",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "luckyinozuto"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1747504800,
         "tournament_endAt": 1747526400,
@@ -703,7 +834,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Colo Colo 485, 4920474 Pucon, Puc\u00f3n, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
-        "tweet_id": "1921785151882748376"
+        "tweet_id": "1921785151882748376",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1378914": {
         "id": 1378914,
@@ -729,7 +862,11 @@
         "tournament_id": 788874,
         "city": "Pucon",
         "url": "https://start.gg/tournament/playcoffee-league-s2-5/event/side-event-doubles",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "luckyinozuto"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1747504800,
         "tournament_endAt": 1747526400,
