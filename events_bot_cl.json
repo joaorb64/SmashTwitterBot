@@ -4,7 +4,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 18,
+        "numEntrants": 19,
         "videogame": {
             "id": 1386
         },
@@ -96,7 +96,7 @@
         "id": 1378122,
         "name": "Duplas",
         "isOnline": false,
-        "state": "ACTIVE",
+        "state": "COMPLETED",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -105,7 +105,7 @@
         "phaseGroups": [
             {
                 "id": 2892494,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -116,7 +116,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 20146103,
                                 "name": "iBet / Piporex",
@@ -148,7 +148,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 2,
@@ -183,7 +184,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 3,
@@ -218,7 +220,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 4,
@@ -253,7 +256,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -284,7 +288,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 5,
@@ -311,7 +316,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         },
                         {
                             "placement": 7,
@@ -338,7 +344,8 @@
                                         }
                                     }
                                 ]
-                            }
+                            },
+                            "char_usage": {}
                         }
                     ]
                 }
@@ -1275,7 +1282,7 @@
         "name": "Side Event: Doubles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 3,
         "videogame": {
             "id": 1386
         },
@@ -1680,8 +1687,8 @@
         "id": 1380381,
         "name": "Featured Money Match",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 3,
+        "state": "ACTIVE",
+        "numEntrants": 2,
         "videogame": {
             "id": 1386
         },
@@ -1689,11 +1696,58 @@
         "phaseGroups": [
             {
                 "id": 2896125,
+                "state": 2,
                 "phase": {
-                    "id": 1973758,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 2
+                    },
+                    "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20113796,
+                                "name": "GO CR1S",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GO_CR1S"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4520521,
+                                            "gamerTag": "GO CR1S"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20133742,
+                                "name": "samurai_3045",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4579569,
+                                            "gamerTag": "samurai_3045"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Playcoffee League S2 #5",
@@ -1726,14 +1780,15 @@
         "tournament_venueAddress": "Colo Colo 485, 4920474 Pucon, Puc\u00f3n, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1922759273504792735",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "1354364": {
         "id": 1354364,
         "name": "Singles Showdown",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 5,
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -1830,7 +1885,7 @@
         "name": "ULTIMATE SINGLES 1V1",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 10,
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
