@@ -782,7 +782,7 @@
         "name": "Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 10,
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -822,11 +822,12 @@
                 "type": "banner"
             }
         ],
-        "tournament_multievent": false,
+        "tournament_multievent": true,
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Afonso Pena, 233 - Santo Amaro, Recife - PE, 50050-130, Brasil",
         "tournament_addrState": "PE",
-        "tweet_id": "1921008079400731025"
+        "tweet_id": "1921008079400731025",
+        "postedRegistrationClosing": true
     },
     "1376621": {
         "id": 1376621,
@@ -1163,6 +1164,28 @@
                     },
                     "nodes": [
                         {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20199843,
+                                "name": "PLG | SKPeter",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "skpeter_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 175453,
+                                            "gamerTag": "SKPeter"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 20168947,
@@ -1271,6 +1294,24 @@
                         {
                             "placement": 9,
                             "entrant": {
+                                "id": 20168990,
+                                "name": "EGGER | IsadoraGameOver",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4719248,
+                                            "gamerTag": "IsadoraGameOver"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
                                 "id": 20167436,
                                 "name": "PST/Nebula | bU",
                                 "participants": [
@@ -1291,6 +1332,46 @@
                             }
                         },
                         {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20215856,
+                                "name": "PST | Aylinn",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "aylinn03_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4136526,
+                                            "gamerTag": "Aylinn"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20176520,
+                                "name": "DKzinho",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4283131,
+                                            "gamerTag": "DKzinho"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 13,
                             "entrant": {
                                 "id": 20171752,
@@ -1303,46 +1384,6 @@
                                         "player": {
                                             "id": 3998706,
                                             "gamerTag": "Teguinha"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 20168990,
-                                "name": "EGGER | IsadoraGameOver",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4719248,
-                                            "gamerTag": "IsadoraGameOver"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 20199843,
-                                "name": "PLG | SKPeter",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "skpeter_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 175453,
-                                            "gamerTag": "SKPeter"
                                         }
                                     }
                                 ]
@@ -1387,28 +1428,6 @@
                         {
                             "placement": 13,
                             "entrant": {
-                                "id": 20215856,
-                                "name": "PST | Aylinn",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "aylinn03_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 4136526,
-                                            "gamerTag": "Aylinn"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
                                 "id": 20171074,
                                 "name": "EGGER | sagaz",
                                 "participants": [
@@ -1437,24 +1456,6 @@
                                         "player": {
                                             "id": 3327010,
                                             "gamerTag": "ProtoRamham"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 20176520,
-                                "name": "DKzinho",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4283131,
-                                            "gamerTag": "DKzinho"
                                         }
                                     }
                                 ]
