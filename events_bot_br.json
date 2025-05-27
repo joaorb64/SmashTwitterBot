@@ -1398,6 +1398,28 @@
                         {
                             "placement": 3,
                             "entrant": {
+                                "id": 20238464,
+                                "name": "UA | Samwa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "vitormenezello"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 970727,
+                                            "gamerTag": "Samwa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
                                 "id": 20236735,
                                 "name": "Ugiete",
                                 "participants": [
@@ -1434,28 +1456,6 @@
                                         "player": {
                                             "id": 1728594,
                                             "gamerTag": "Y8shikage"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 20238464,
-                                "name": "UA | Samwa",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "vitormenezello"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 970727,
-                                            "gamerTag": "Samwa"
                                         }
                                     }
                                 ]
@@ -1909,14 +1909,15 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Teixeira Mendes, 830 - Ch\u00e1cara das Pedras, Porto Alegre - RS, 91330-391, Brazil",
         "tournament_addrState": "RS",
-        "tweet_id": "1927175894801481800"
+        "tweet_id": "1927175894801481800",
+        "retries": 1
     },
     "1387801": {
         "id": 1387801,
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 0,
+        "numEntrants": 2,
         "videogame": {
             "id": 1386
         },
@@ -1934,7 +1935,7 @@
         "tournament": "Smatch\u00ea #44",
         "tournament_id": 793854,
         "city": "Ch\u00e1cara das Pedras",
-        "url": "https://start.gg/tournament/smatch-44",
+        "url": "https://start.gg/tournament/smatch-44/event/ultimate-singles",
         "streams": null,
         "timezone": "America/Sao_Paulo",
         "tournament_startAt": 1749398400,
@@ -1952,7 +1953,7 @@
                 "type": "profile"
             }
         ],
-        "tournament_multievent": true,
+        "tournament_multievent": false,
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Teixeira Mendes, 830 - Ch\u00e1cara das Pedras, Porto Alegre - RS, 91330-391, Brazil",
         "tournament_addrState": "RS",
