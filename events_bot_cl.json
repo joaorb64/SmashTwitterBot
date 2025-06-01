@@ -160,7 +160,7 @@
         "name": "Singles Smash Bros Ultimate",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 19,
+        "numEntrants": 20,
         "videogame": {
             "id": 1386
         },
@@ -686,7 +686,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Concepci\u00f3n, B\u00edo B\u00edo, Chile",
         "tournament_addrState": "B\u00edo B\u00edo",
-        "tweet_id": "1928195029169787135"
+        "tweet_id": "1928195029169787135",
+        "postedRegistrationClosing": true
     },
     "1390790": {
         "id": 1390790,
@@ -748,7 +749,11 @@
         "tournament_id": 795394,
         "city": "Vi\u00f1a del Mar",
         "url": "https://start.gg/tournament/mejor-cazador-1er-aniversario/event/singles-pro",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "ssbuxbri"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1748736000,
         "tournament_endAt": 1748761200,
@@ -776,7 +781,7 @@
         "id": 1391062,
         "name": "Singles Principal",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -785,18 +790,281 @@
         "phaseGroups": [
             {
                 "id": 2915208,
+                "state": 2,
                 "phase": {
-                    "id": 1987630,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 12267881
+                    },
+                    {
+                        "id": 12267883
+                    },
+                    {
+                        "id": 12267885
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 20289694,
+                                "name": "BRI | Neme799k",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4541058
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20289697,
+                                "name": "BRI | elmalditopepe666",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4467083
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 20289708,
+                                "name": "mierdonlover | 01hot!!!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4241669
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2915244,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 12267882
+                    },
+                    {
+                        "id": 12267884
+                    },
+                    {
+                        "id": 12267886
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 20289720,
+                                "name": "BRI | Tau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4202772
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20289676,
+                                "name": "BRI | AlexTaged217",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4332476
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 20289674,
+                                "name": "BRI | M.Harrier",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4614081
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2915245,
+                "state": 1,
+                "phase": {
+                    "name": "Singles"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20289694,
+                                "name": "BRI | Neme799k",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4541058,
+                                            "gamerTag": "Neme799k"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20289697,
+                                "name": "BRI | elmalditopepe666",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4467083,
+                                            "gamerTag": "elmalditopepe666"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20289708,
+                                "name": "mierdonlover | 01hot!!!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4241669,
+                                            "gamerTag": "01hot!!!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20289720,
+                                "name": "BRI | Tau",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4202772,
+                                            "gamerTag": "Tau"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20289676,
+                                "name": "BRI | AlexTaged217",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4332476,
+                                            "gamerTag": "AlexTaged217"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20289674,
+                                "name": "BRI | M.Harrier",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4614081,
+                                            "gamerTag": "M.Harrier"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Mejor Cazador 1er Aniversario",
         "tournament_id": 795394,
         "city": "Vi\u00f1a del Mar",
         "url": "https://start.gg/tournament/mejor-cazador-1er-aniversario/event/singles-principal",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "ssbuxbri"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1748736000,
         "tournament_endAt": 1748761200,
@@ -818,7 +1086,9 @@
         "tournament_venueAddress": "Vi\u00f1a del Mar, Valpara\u00edso, Chile",
         "tournament_addrState": "Valpara\u00edso",
         "tweet_id": "1928965740033442055",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1391063": {
         "id": 1391063,
@@ -844,7 +1114,11 @@
         "tournament_id": 795394,
         "city": "Vi\u00f1a del Mar",
         "url": "https://start.gg/tournament/mejor-cazador-1er-aniversario/event/2vs2",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "ssbuxbri"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1748736000,
         "tournament_endAt": 1748761200,
