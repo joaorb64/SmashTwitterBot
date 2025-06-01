@@ -360,7 +360,7 @@
         "id": 1372702,
         "name": "SC#1 Bracket",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -369,11 +369,378 @@
         "phaseGroups": [
             {
                 "id": 2883055,
+                "state": 2,
                 "phase": {
-                    "id": 1963648,
-                    "name": "Bracket"
+                    "name": "Pool A (14hs)"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 12269289
+                    },
+                    {
+                        "id": 12269290
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 20011235,
+                                "name": "WasF | Dantas04",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dnt04"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2617553
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20272752,
+                                "name": "Frost",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 267161
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 20272729,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "igorsonicgamer"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503417
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 20184735,
+                                "name": "MOURA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4770290
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2915740,
+                "state": 2,
+                "phase": {
+                    "name": "Pool B (15hs)"
+                },
+                "progressionsOut": [
+                    {
+                        "id": 12269291
+                    },
+                    {
+                        "id": 12269292
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 20294181,
+                                "name": "O Pai",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20293199,
+                                "name": "SBF | Nightwolf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "eeu_jean"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172489
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 20011236,
+                                "name": "SBF | Furniture",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mobilhass"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4675076
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 20272730,
+                                "name": "XD",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 621232
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 2915744,
+                "state": 1,
+                "phase": {
+                    "name": "Top 4"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20011235,
+                                "name": "WasF | Dantas04",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dnt04"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2617553,
+                                            "gamerTag": "Dantas04"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20272752,
+                                "name": "Frost",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 267161,
+                                            "gamerTag": "Frost"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20272729,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "igorsonicgamer"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20184735,
+                                "name": "MOURA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4770290,
+                                            "gamerTag": "MOURA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20293199,
+                                "name": "SBF | Nightwolf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "eeu_jean"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172489,
+                                            "gamerTag": "Nightwolf"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20272730,
+                                "name": "XD",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 621232,
+                                            "gamerTag": "XD"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20294181,
+                                "name": "O Pai",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "O Pai"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20011236,
+                                "name": "SBF | Furniture",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mobilhass"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4675076,
+                                            "gamerTag": "Furniture"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "SMASH CONECCTION #1",
@@ -402,7 +769,9 @@
         "tournament_venueAddress": "Rod. Washington Luiz, 2895 - Parque Duque, Duque de Caxias - RJ, 25085-008, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1919052370954043548",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1376621": {
         "id": 1376621,
