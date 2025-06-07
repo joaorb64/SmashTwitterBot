@@ -85,13 +85,207 @@
         "id": 1387880,
         "name": "Smash Ultimate Doubles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
         "startAt": 1749308400,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 2909652,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20345772,
+                                "name": "Gimpel / SaPo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 134465,
+                                            "gamerTag": "SaPo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 323124,
+                                            "gamerTag": "Gimpel"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20336078,
+                                "name": "Kazuyoye / Vicell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3980274,
+                                            "gamerTag": "Kazuyoye"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4134884,
+                                            "gamerTag": "Vicell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20349064,
+                                "name": "K.K. / Mikaldo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mikaldo_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 798219,
+                                            "gamerTag": "Mikaldo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4803728,
+                                            "gamerTag": "K.K."
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20348019,
+                                "name": "DLG SHEPARD / Chlomax",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3885854,
+                                            "gamerTag": "DLG SHEPARD"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4803547,
+                                            "gamerTag": "Chlomax"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20345214,
+                                "name": "Lucky / SLuis1",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sbbotello8410"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3991599,
+                                            "gamerTag": "Lucky"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4052360,
+                                            "gamerTag": "SLuis1"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20344941,
+                                "name": "Swiftness / Cizs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Swiftness_ss"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2439966,
+                                            "gamerTag": "Swiftness"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Cizs459"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3651383,
+                                            "gamerTag": "Cizs"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "All Mighty 39",
         "tournament_id": 793896,
         "city": "Temuco",
@@ -120,14 +314,16 @@
         "tournament_venueAddress": "Av. Alemania 671, 4800979 Temuco, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1927183347870019743",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1390790": {
         "id": 1390790,
         "name": "Random Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 14,
+        "numEntrants": 13,
         "videogame": {
             "id": 1386
         },
