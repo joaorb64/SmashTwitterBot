@@ -197,7 +197,7 @@
         "name": "Side Event",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 9,
+        "numEntrants": 10,
         "videogame": {
             "id": 1386
         },
@@ -249,7 +249,7 @@
         "name": "Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 11,
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
@@ -474,7 +474,7 @@
         "id": 1398914,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 11,
         "videogame": {
             "id": 1386
@@ -483,11 +483,206 @@
         "phaseGroups": [
             {
                 "id": 2928676,
+                "state": 2,
                 "phase": {
-                    "id": 1997742,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 11
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20395810,
+                                "name": "Frosh",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4039044,
+                                            "gamerTag": "Frosh"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20395881,
+                                "name": "JuaniGod",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4651909,
+                                            "gamerTag": "JuaniGod"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20395876,
+                                "name": "iver",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4747039,
+                                            "gamerTag": "iver"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20395854,
+                                "name": "Wolf_Guty",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4651903,
+                                            "gamerTag": "Wolf_Guty"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20407967,
+                                "name": "Endemic",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4651906,
+                                            "gamerTag": "Endemic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20407969,
+                                "name": "RPK",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4651904,
+                                            "gamerTag": "RPK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20408087,
+                                "name": "Lixier",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4812406,
+                                            "gamerTag": "Lixier"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20395814,
+                                "name": "L.I.A.N",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3728102,
+                                            "gamerTag": "L.I.A.N"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20395816,
+                                "name": "DMS | TVicenT85",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3522824,
+                                            "gamerTag": "TVicenT85"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20395832,
+                                "name": "Sando",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 2684385,
+                                            "gamerTag": "Sando"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20395821,
+                                "name": "TQS | Zucky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ZuckyDee"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4193664,
+                                            "gamerTag": "Zucky"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Tarreo 3",
@@ -511,7 +706,9 @@
         "tournament_venueAddress": "Av. 21 de Mayo 701, 4441187 Los Angeles, Los \u00c1ngeles, B\u00edo B\u00edo, Chile",
         "tournament_addrState": "B\u00edo B\u00edo",
         "tweet_id": "1933290990103654661",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1399278": {
         "id": 1399278,
