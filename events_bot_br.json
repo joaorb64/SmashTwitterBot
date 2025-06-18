@@ -855,8 +855,8 @@
         "id": 1400458,
         "name": "Ultimate Matchmaking",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 8,
+        "state": "ACTIVE",
+        "numEntrants": 10,
         "videogame": {
             "id": 1386
         },
@@ -864,11 +864,17 @@
         "phaseGroups": [
             {
                 "id": 2931291,
+                "state": 2,
                 "phase": {
-                    "id": 1999840,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "\ud83c\udf0c NEBULA VORTEX \ud83c\udf0c #9",
@@ -913,7 +919,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1934430972084129914",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1402467": {
         "id": 1402467,
@@ -985,7 +993,7 @@
         "tournament": "[R$60] GUARANEKO'S ZONE #21 - SMASH ULTIMATE BRASIL",
         "tournament_id": 800998,
         "city": null,
-        "url": "https://start.gg/tournament/r-60-guaraneko-s-zone-21-smash-ultimate-brasil",
+        "url": "https://start.gg/tournament/r-60-guaraneko-s-zone-21-smash-ultimate-brasil/event/smash-bros-ultimate-1v1",
         "streams": [
             {
                 "streamName": "polyphonyingrid"
