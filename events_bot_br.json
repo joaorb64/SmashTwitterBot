@@ -585,7 +585,7 @@
         "name": "Super Smash Bros. Ultimate",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 8,
+        "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
@@ -604,7 +604,11 @@
         "tournament_id": 792552,
         "city": "Rebou\u00e7as",
         "url": "https://start.gg/tournament/tretinha-curitiba-junho-2025/event/super-smash-bros-ultimate",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "trtchamp"
+            }
+        ],
         "timezone": "America/Sao_Paulo",
         "tournament_startAt": 1750608000,
         "tournament_endAt": 1750647540,
@@ -768,7 +772,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 20439603,
                                 "name": "PLG | Norun",
@@ -783,6 +787,27 @@
                                         },
                                         "player": {
                                             "id": 2734928
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20367842,
+                                "name": "PLG | SKPeter",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "skpeter_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 175453
                                         }
                                     }
                                 ]
@@ -808,6 +833,23 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 20446715,
+                                "name": "Jojodoid\u00e3o",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1524594
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 20474276,
                                 "name": "GNG_Podcast | Bidovale",
                                 "participants": [
@@ -821,6 +863,23 @@
                                         },
                                         "player": {
                                             "id": 2085966
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20485100,
+                                "name": "Just",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4825116
                                         }
                                     }
                                 ]
@@ -865,61 +924,6 @@
                             }
                         },
                         {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 20485100,
-                                "name": "Just",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4825116
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 20367842,
-                                "name": "PLG | SKPeter",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "skpeter_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 175453
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 20446715,
-                                "name": "Jojodoid\u00e3o",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1524594
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 20457893,
@@ -955,6 +959,50 @@
                         "total": 9
                     },
                     "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 20439603,
+                                "name": "PLG | Norun",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NorunSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2734928,
+                                            "gamerTag": "Norun"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20367842,
+                                "name": "PLG | SKPeter",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "skpeter_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 175453,
+                                            "gamerTag": "SKPeter"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 5,
                             "entrant": {
@@ -998,42 +1046,34 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 20439603,
-                                "name": "PLG | Norun",
+                                "id": 20485100,
+                                "name": "Just",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "NorunSSB"
-                                                }
-                                            ]
+                                            "authorizations": null
                                         },
                                         "player": {
-                                            "id": 2734928,
-                                            "gamerTag": "Norun"
+                                            "id": 4825116,
+                                            "gamerTag": "Just"
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 5,
                             "entrant": {
-                                "id": 20367842,
-                                "name": "PLG | SKPeter",
+                                "id": 20446715,
+                                "name": "Jojodoid\u00e3o",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "skpeter_"
-                                                }
-                                            ]
+                                            "authorizations": null
                                         },
                                         "player": {
-                                            "id": 175453,
-                                            "gamerTag": "SKPeter"
+                                            "id": 1524594,
+                                            "gamerTag": "Jojodoid\u00e3o"
                                         }
                                     }
                                 ]
@@ -1080,24 +1120,6 @@
                             }
                         },
                         {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 20485100,
-                                "name": "Just",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4825116,
-                                            "gamerTag": "Just"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 20457893,
@@ -1114,24 +1136,6 @@
                                         "player": {
                                             "id": 1981308,
                                             "gamerTag": "smokinsnake"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 20446715,
-                                "name": "Jojodoid\u00e3o",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1524594,
-                                            "gamerTag": "Jojodoid\u00e3o"
                                         }
                                     }
                                 ]
