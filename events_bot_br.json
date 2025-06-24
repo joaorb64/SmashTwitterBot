@@ -372,6 +372,24 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20492635,
+                                "name": "Kevin Net",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 627182,
+                                            "gamerTag": "Kevin Net"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 20429676,
@@ -394,7 +412,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 20226841,
                                 "name": "Counter | Offline",
@@ -418,16 +436,38 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 20492635,
-                                "name": "Kevin Net",
+                                "id": 20492623,
+                                "name": "FT | OmegaVitor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MH_OmegaVitor"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1141468,
+                                            "gamerTag": "OmegaVitor"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20366161,
+                                "name": "Pangolin",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 627182,
-                                            "gamerTag": "Kevin Net"
+                                            "id": 1035188,
+                                            "gamerTag": "Pangolin"
                                         }
                                     }
                                 ]
@@ -458,46 +498,6 @@
                         {
                             "placement": 7,
                             "entrant": {
-                                "id": 20366161,
-                                "name": "Pangolin",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1035188,
-                                            "gamerTag": "Pangolin"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 20492623,
-                                "name": "FT | OmegaVitor",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MH_OmegaVitor"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1141468,
-                                            "gamerTag": "OmegaVitor"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 20226874,
                                 "name": "FT | TSD | Espeonatic",
                                 "participants": [
@@ -512,6 +512,28 @@
                                         "player": {
                                             "id": 2436295,
                                             "gamerTag": "Espeonatic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20437135,
+                                "name": "Blaze Z",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Blaze_ZSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1035512,
+                                            "gamerTag": "Blaze Z"
                                         }
                                     }
                                 ]
@@ -596,28 +618,6 @@
                                         "player": {
                                             "id": 37340,
                                             "gamerTag": "PODEROSO PNC"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 20437135,
-                                "name": "Blaze Z",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Blaze_ZSSB"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1035512,
-                                            "gamerTag": "Blaze Z"
                                         }
                                     }
                                 ]
@@ -746,7 +746,7 @@
         "name": "Smash Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 25,
+        "numEntrants": 26,
         "videogame": {
             "id": 1386
         },
@@ -1326,7 +1326,7 @@
         "id": 1405313,
         "name": "Hylian's Elite",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 14,
         "videogame": {
             "id": 1386
@@ -1335,11 +1335,298 @@
         "phaseGroups": [
             {
                 "id": 2940014,
+                "state": 2,
                 "phase": {
-                    "id": 2006291,
                     "name": "battle for the throne (top 8)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 14
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20495942,
+                                "name": "SsT | Elias",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 229014,
+                                            "gamerTag": "Elias"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20493359,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20496980,
+                                "name": "BDB | Wanshitong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wanshitong_SSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2816343,
+                                            "gamerTag": "Wanshitong"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20495614,
+                                "name": "SsT | Ketch Up",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4021592,
+                                            "gamerTag": "Ketch Up"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20492787,
+                                "name": "SsT | Wasco | Peta",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Petasmash"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2112183,
+                                            "gamerTag": "Peta"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20492780,
+                                "name": "SsT | cebola",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "cebolakkjj"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1989632,
+                                            "gamerTag": "cebola"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20495175,
+                                "name": "SST | Lo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3132744,
+                                            "gamerTag": "Lo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20497404,
+                                "name": "SST | Prime",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20497303,
+                                "name": "CounterEncounters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CounterEncount"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2240241,
+                                            "gamerTag": "CounterEncounters"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20494858,
+                                "name": "Gusta_cpf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4289224,
+                                            "gamerTag": "Gusta_cpf"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 20496438,
+                                "name": "Beck",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4222290,
+                                            "gamerTag": "Beck"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 20495740,
+                                "name": "TheLyrio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4826352,
+                                            "gamerTag": "TheLyrio"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 20495663,
+                                "name": "MuriloSW",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4826345,
+                                            "gamerTag": "MuriloSW"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 20497090,
+                                "name": "TWS | K-BLADE",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TwsKBlade"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 981066,
+                                            "gamerTag": "K-BLADE"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Hylian's Arena #26",
@@ -1375,7 +1662,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1937171535434785236",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1405435": {
         "id": 1405435,
