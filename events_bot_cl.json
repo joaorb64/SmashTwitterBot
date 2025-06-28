@@ -273,20 +273,393 @@
         "id": 1403625,
         "name": "Ultimate Doubles",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 10,
+        "state": "ACTIVE",
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
-        "startAt": 1751131800,
+        "startAt": 1751135400,
         "phaseGroups": [
             {
                 "id": 2936916,
+                "state": 2,
                 "phase": {
-                    "id": 2004028,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 12
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20494032,
+                                "name": "Rodo / Day",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "rudolfaraya2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132871,
+                                            "gamerTag": "Rodo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DayanaHormazab3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 425896,
+                                            "gamerTag": "Day"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20535986,
+                                "name": "Pantheon / DarkNRT",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "The_Cuevas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1693203,
+                                            "gamerTag": "Pantheon"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "nelson_RT3301"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3903833,
+                                            "gamerTag": "DarkNRT"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20511341,
+                                "name": "Kowy! / SurgicalZ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3687613,
+                                            "gamerTag": "SurgicalZ"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3794238,
+                                            "gamerTag": "Kowy!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20521687,
+                                "name": "KenyanGC / Camilo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3937605,
+                                            "gamerTag": "KenyanGC"
+                                        }
+                                    },
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4830891,
+                                            "gamerTag": "Camilo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20541167,
+                                "name": "Leoxe / Diogo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LeoxeSsbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1303144,
+                                            "gamerTag": "Leoxe"
+                                        }
+                                    },
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4832003,
+                                            "gamerTag": "Diogo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20493981,
+                                "name": "rch^ / Mori",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MatiasCast31888"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4390927,
+                                            "gamerTag": "rch^"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4523819,
+                                            "gamerTag": "Mori"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20541096,
+                                "name": "SF | NoFear / Mr. PF",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PatoFellay"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 316733,
+                                            "gamerTag": "Mr. PF"
+                                        }
+                                    },
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 1495053,
+                                            "gamerTag": "SF | NoFear"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20540834,
+                                "name": "Shaska / Xiky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3745655,
+                                            "gamerTag": "Xiky"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4001967,
+                                            "gamerTag": "Shaska"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20520235,
+                                "name": "Compalonsuno 7 / Gonchitor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "gonchitor_ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3572656,
+                                            "gamerTag": "Gonchitor"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "compalonsuno"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3843740,
+                                            "gamerTag": "Compalonsuno 7"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20535355,
+                                "name": "marr / Alchemilla",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gago115935"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2399742,
+                                            "gamerTag": "Alchemilla"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3588393,
+                                            "gamerTag": "marr"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20520238,
+                                "name": "Firraveus / JustCallMeGio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Giondorf"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 328067,
+                                            "gamerTag": "JustCallMeGio"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2333724,
+                                            "gamerTag": "Firraveus"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20522262,
+                                "name": "Seadek / DanixCabe",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 316752,
+                                            "gamerTag": "Seadek"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DanixCabe"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1193470,
+                                            "gamerTag": "DanixCabe"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "\u2728Smash Down X3\u2728",
@@ -319,7 +692,9 @@
         "tournament_venueAddress": "C\u00e1ceres 153, Local 1, 2840225 Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
         "tweet_id": "1935918293254078797",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1403674": {
         "id": 1403674,
@@ -492,7 +867,7 @@
         "name": "DM#8: Duplas",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -529,7 +904,7 @@
         "name": "DM#8: Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 22,
+        "numEntrants": 26,
         "videogame": {
             "id": 1386
         },
