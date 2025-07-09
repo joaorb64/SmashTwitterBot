@@ -689,8 +689,8 @@
         "id": 1413636,
         "name": "Ultimate Matchmaking",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 13,
+        "state": "ACTIVE",
+        "numEntrants": 16,
         "videogame": {
             "id": 1386
         },
@@ -698,11 +698,212 @@
         "phaseGroups": [
             {
                 "id": 2954939,
+                "state": 2,
                 "phase": {
-                    "id": 2017131,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 20643664,
+                                "name": "PB | FT | Smat",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "smat_ssb"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1542713,
+                                            "gamerTag": "Smat"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20643080,
+                                "name": "Nebula | FR7",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "fr7live"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 211496,
+                                            "gamerTag": "FR7"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20643804,
+                                "name": "??? | Rafarofael",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RafaelCvSantos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3262373,
+                                            "gamerTag": "Rafarofael"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20643287,
+                                "name": "ADUPX",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3584484,
+                                            "gamerTag": "ADUPX"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 20643306,
+                                "name": "F4T | dokebu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "dokeb_alt"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1375945,
+                                            "gamerTag": "dokebu"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 20642944,
+                                "name": "PST | Muwkas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MuwkasMu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3721376,
+                                            "gamerTag": "Muwkas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 20618582,
+                                "name": "SGP | Jayho",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "jjunior921"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1888483,
+                                            "gamerTag": "Jayho"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 20643634,
+                                "name": "CAM | DudisMFE",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Eduardo24006644"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2043869,
+                                            "gamerTag": "DudisMFE"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 20642449,
+                                "name": "F4T | Sinner",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Helio_Sinner"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1692330,
+                                            "gamerTag": "Sinner"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "\ud83c\udf0c NEBULA VORTEX \ud83c\udf0c #12",
@@ -747,7 +948,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1942048685665194300",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1414558": {
         "id": 1414558,
