@@ -51,7 +51,7 @@
         "id": 1416026,
         "name": "PRIMEIRA FASE, 15/08",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 20,
         "videogame": {
             "id": 1386
@@ -60,11 +60,17 @@
         "phaseGroups": [
             {
                 "id": 2958668,
+                "state": 2,
                 "phase": {
-                    "id": 2020133,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "BRASILEIR\u00c3O NO SMASH ONLINE 2025",
@@ -107,7 +113,9 @@
         "tournament_addrState": null,
         "tweet_id": "1944351408871915995",
         "postedRegistrationClosing": true,
-        "retries": 1
+        "retries": 1,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1416033": {
         "id": 1416033,
@@ -1385,7 +1393,7 @@
         "tournament_venueAddress": "Natal, RN, Brasil",
         "tournament_addrState": "RN",
         "tweet_id": "1955147631681798241",
-        "retries": 3
+        "retries": 4
     },
     "1437511": {
         "id": 1437511,
