@@ -899,7 +899,7 @@
         "id": 1430943,
         "name": "Small House Smash (1v1)",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -908,47 +908,186 @@
         "phaseGroups": [
             {
                 "id": 2985765,
+                "state": 2,
                 "phase": {
-                    "id": 2039569,
-                    "name": "Round Robin"
+                    "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 12563789
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
                     },
-                    {
-                        "id": 12563791
-                    },
-                    {
-                        "id": 12563793
-                    }
-                ]
-            },
-            {
-                "id": 2985766,
-                "phase": {
-                    "id": 2039569,
-                    "name": "Round Robin"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 12563790
-                    },
-                    {
-                        "id": 12563792
-                    },
-                    {
-                        "id": 12563794
-                    }
-                ]
-            },
-            {
-                "id": 2985767,
-                "phase": {
-                    "id": 2039570,
-                    "name": "Bracket Final"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20961192,
+                                "name": "F4T | Polyphony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "PolyphonyIngrid"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1448397,
+                                            "gamerTag": "Polyphony"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20995985,
+                                "name": "VISION\u00c1RIOS | MockY03",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "binhobartolo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 513511,
+                                            "gamerTag": "MockY03"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20994472,
+                                "name": "ROP",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3581943,
+                                            "gamerTag": "ROP"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20985928,
+                                "name": "VISION\u00c1RIOS | | Alexandre Zx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1714557,
+                                            "gamerTag": "Alexandre Zx"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20887073,
+                                "name": "Wasco | Indigo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "IndigoIozzi"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1031013,
+                                            "gamerTag": "Indigo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20886938,
+                                "name": "Eetrexx",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Eetrexx"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1391493,
+                                            "gamerTag": "Eetrexx"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20905556,
+                                "name": "tropic\u00e1lia",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "tropicaliaSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3874964,
+                                            "gamerTag": "tropic\u00e1lia"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 20995971,
+                                "name": "Hadirus",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "brunolandin"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1965419,
+                                            "gamerTag": "Hadirus"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "SMALL HOUSE SMASH #17 @ ARENA GEEK",
@@ -984,7 +1123,9 @@
         "tournament_venueAddress": "Rua Dr. Armando Salles de Oliveira, 138 - Boqueir\u00e3o, Santos - SP, 11050-070, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1952210603038151012",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1430649": {
         "id": 1430649,
@@ -1230,7 +1371,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "ACTIVE",
-        "numEntrants": 9,
+        "numEntrants": 10,
         "videogame": {
             "id": 1386
         },
@@ -1363,11 +1504,11 @@
                 ],
                 "standings": {
                     "pageInfo": {
-                        "total": 4
+                        "total": 5
                     },
                     "nodes": [
                         {
-                            "placement": 1,
+                            "placement": 5,
                             "entrant": {
                                 "id": 20991993,
                                 "name": "NaSC | chanteuse",
@@ -1384,7 +1525,7 @@
                             }
                         },
                         {
-                            "placement": 2,
+                            "placement": 5,
                             "entrant": {
                                 "id": 20977447,
                                 "name": "Gusta_cpf",
@@ -1401,7 +1542,7 @@
                             }
                         },
                         {
-                            "placement": 3,
+                            "placement": 5,
                             "entrant": {
                                 "id": 20977454,
                                 "name": "NaSC | Tyrk",
@@ -1418,7 +1559,7 @@
                             }
                         },
                         {
-                            "placement": 4,
+                            "placement": 5,
                             "entrant": {
                                 "id": 20991989,
                                 "name": "NaSC | Palha\u00e7oGozadinha",
@@ -1429,6 +1570,27 @@
                                         },
                                         "player": {
                                             "id": 4611588
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20996134,
+                                "name": "PST/GNK | Muwkas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MuwkasMu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3721376
                                         }
                                     }
                                 ]
@@ -1446,7 +1608,7 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 9
+                        "total": 10
                     },
                     "nodes": [
                         {
@@ -1510,78 +1672,6 @@
                         {
                             "placement": 7,
                             "entrant": {
-                                "id": 20991993,
-                                "name": "NaSC | chanteuse",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4131157,
-                                            "gamerTag": "chanteuse"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 20977454,
-                                "name": "NaSC | Tyrk",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 671442,
-                                            "gamerTag": "Tyrk"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 20977447,
-                                "name": "Gusta_cpf",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4289224,
-                                            "gamerTag": "Gusta_cpf"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 20991989,
-                                "name": "NaSC | Palha\u00e7oGozadinha",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4611588,
-                                            "gamerTag": "Palha\u00e7oGozadinha"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
                                 "id": 20977463,
                                 "name": "NASC | Dodge",
                                 "participants": [
@@ -1600,6 +1690,78 @@
                         {
                             "placement": 9,
                             "entrant": {
+                                "id": 20991993,
+                                "name": "NaSC | chanteuse",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4131157,
+                                            "gamerTag": "chanteuse"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20977454,
+                                "name": "NaSC | Tyrk",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 671442,
+                                            "gamerTag": "Tyrk"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20977447,
+                                "name": "Gusta_cpf",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4289224,
+                                            "gamerTag": "Gusta_cpf"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20991989,
+                                "name": "NaSC | Palha\u00e7oGozadinha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4611588,
+                                            "gamerTag": "Palha\u00e7oGozadinha"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
                                 "id": 20977459,
                                 "name": "Cartola",
                                 "participants": [
@@ -1610,6 +1772,28 @@
                                         "player": {
                                             "id": 4132778,
                                             "gamerTag": "Cartola"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 20996134,
+                                "name": "PST/GNK | Muwkas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MuwkasMu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3721376,
+                                            "gamerTag": "Muwkas"
                                         }
                                     }
                                 ]
