@@ -3,8 +3,8 @@
         "id": 1434968,
         "name": "Squad Strike",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 6,
+        "state": "ACTIVE",
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -12,11 +12,120 @@
         "phaseGroups": [
             {
                 "id": 2993199,
+                "state": 2,
                 "phase": {
-                    "id": 2044811,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 20963894,
+                                "name": "PHX | Sekai Doggo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "SekaiDoggo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132195,
+                                            "gamerTag": "Sekai Doggo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21036722,
+                                "name": "Afro",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "AfroSSBU"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2730365,
+                                            "gamerTag": "Afro"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21013571,
+                                "name": "LEV/SMB | .Png!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3592282,
+                                            "gamerTag": ".Png!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21061610,
+                                "name": "Kaezon_Mirio",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2735787,
+                                            "gamerTag": "Kaezon_Mirio"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 20929986,
+                                "name": "Darkez",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mac_Darkez"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1864837,
+                                            "gamerTag": "Darkez"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Pelican Town - 15",
@@ -52,7 +161,9 @@
         "tournament_venueAddress": "Calle Nueva Ote. 4 5513, Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
         "tweet_id": "1954362351798366255",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1434967": {
         "id": 1434967,
@@ -263,7 +374,7 @@
         "name": "Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 13,
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
