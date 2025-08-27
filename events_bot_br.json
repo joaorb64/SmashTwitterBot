@@ -2217,8 +2217,8 @@
         "id": 1443632,
         "name": "Ultimate Matchmaking",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 8,
+        "state": "ACTIVE",
+        "numEntrants": 11,
         "videogame": {
             "id": 1386
         },
@@ -2226,11 +2226,17 @@
         "phaseGroups": [
             {
                 "id": 3008914,
+                "state": 2,
                 "phase": {
-                    "id": 2056011,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "\ud83c\udf0c NEBULA VORTEX \ud83c\udf0c #19",
@@ -2274,7 +2280,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "tweet_id": "1959013055666303267"
+        "tweet_id": "1959013055666303267",
+        "postedPhaseResultIds": []
     },
     "1444413": {
         "id": 1444413,
