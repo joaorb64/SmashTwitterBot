@@ -1878,49 +1878,6 @@
         "tournament_addrState": "SP",
         "tweet_id": "1956061062916166007"
     },
-    "1437659": {
-        "id": 1437659,
-        "name": "Ultimate Freeplay",
-        "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 14,
-        "videogame": {
-            "id": 1386
-        },
-        "startAt": 1755788400,
-        "phaseGroups": [
-            {
-                "id": 2997133,
-                "phase": {
-                    "id": 2048117,
-                    "name": "Bracket"
-                },
-                "progressionsOut": null
-            }
-        ],
-        "tournament": "Super CAEC Bros. -August Edition-",
-        "tournament_id": 818242,
-        "city": null,
-        "url": "https://start.gg/tournament/super-caec-bros-august-edition/event/ultimate-freeplay",
-        "streams": null,
-        "timezone": "America/Sao_Paulo",
-        "tournament_startAt": 1755874800,
-        "tournament_endAt": 1755903600,
-        "tournament_registrationClosesAt": 1755903600,
-        "images": [
-            {
-                "id": "8566395",
-                "url": "https://images.start.gg/images/tournament/818242/image-b3de73cf9360efb772e0afc3786490df.png",
-                "type": "profile"
-            }
-        ],
-        "tournament_multievent": true,
-        "tournament_venueName": null,
-        "tournament_venueAddress": "UnB - Instituto Central de Ci\u00eancias - Bras\u00edlia, DF, 70297-400, Brasil",
-        "tournament_addrState": "DF",
-        "tweet_id": "1956838745522503835",
-        "postedRegistrationClosing": true
-    },
     "1441282": {
         "id": 1441282,
         "name": "Ultimate Singles",
@@ -2218,7 +2175,7 @@
         "name": "Ultimate Matchmaking",
         "isOnline": true,
         "state": "ACTIVE",
-        "numEntrants": 16,
+        "numEntrants": 21,
         "videogame": {
             "id": 1386
         },
@@ -2233,67 +2190,9 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 8
+                        "total": 16
                     },
                     "nodes": [
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 21093102,
-                                "name": "SsT | Ketch Up",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4021592,
-                                            "gamerTag": "Ketch Up"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 21089815,
-                                "name": "SBF | Nick-IN",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4680543,
-                                            "gamerTag": "Nick-IN"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 21092348,
-                                "name": "RATTLER | Velxify",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Velxify"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 3614894,
-                                            "gamerTag": "Velxify"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
                         {
                             "placement": 1,
                             "entrant": {
@@ -2317,7 +2216,113 @@
                             }
                         },
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 21093405,
+                                "name": "SsT | Paraba",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Parabasyl"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1871766,
+                                            "gamerTag": "Paraba"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 21093561,
+                                "name": "CounterEncounters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CounterEncount"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2240241,
+                                            "gamerTag": "CounterEncounters"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 21093501,
+                                "name": "F4T | Sinner",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Helio_Sinner"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1692330,
+                                            "gamerTag": "Sinner"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
+                            "entrant": {
+                                "id": 21093777,
+                                "name": "??? | Rafarofael",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RafaelCvSantos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3262373,
+                                            "gamerTag": "Rafarofael"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21093718,
+                                "name": "SsT | Elias",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 229014,
+                                            "gamerTag": "Elias"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
                             "entrant": {
                                 "id": 21093075,
                                 "name": "Takandre",
@@ -2339,25 +2344,105 @@
                             }
                         },
                         {
-                            "placement": 6,
+                            "placement": 7,
                             "entrant": {
-                                "id": 21092397,
-                                "name": "LeonardoTQ",
+                                "id": 21093157,
+                                "name": "Nebula | FR7",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "fr7live"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 2721791,
-                                            "gamerTag": "LeonardoTQ"
+                                            "id": 211496,
+                                            "gamerTag": "FR7"
                                         }
                                     }
                                 ]
                             }
                         },
                         {
-                            "placement": 6,
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21093102,
+                                "name": "SsT | Ketch Up",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4021592,
+                                            "gamerTag": "Ketch Up"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21089815,
+                                "name": "SBF | Nick-IN",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4680543,
+                                            "gamerTag": "Nick-IN"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21092348,
+                                "name": "RATTLER | Velxify",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Velxify"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3614894,
+                                            "gamerTag": "Velxify"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 12,
+                            "entrant": {
+                                "id": 21093285,
+                                "name": "ROP",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3581943,
+                                            "gamerTag": "ROP"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
                             "entrant": {
                                 "id": 21089837,
                                 "name": "Gusta_cpf",
@@ -2375,7 +2460,7 @@
                             }
                         },
                         {
-                            "placement": 6,
+                            "placement": 13,
                             "entrant": {
                                 "id": 21091512,
                                 "name": "Shiro Crowe",
@@ -2387,6 +2472,42 @@
                                         "player": {
                                             "id": 792862,
                                             "gamerTag": "Shiro Crowe"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 21092397,
+                                "name": "LeonardoTQ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2721791,
+                                            "gamerTag": "LeonardoTQ"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 15,
+                            "entrant": {
+                                "id": 21091644,
+                                "name": "VGC | AldairVGC",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4831671,
+                                            "gamerTag": "AldairVGC"
                                         }
                                     }
                                 ]
