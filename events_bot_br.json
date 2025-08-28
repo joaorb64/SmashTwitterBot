@@ -2065,7 +2065,7 @@
         "tournament_venueAddress": "R. Arquias Cordeiro, 1516 - Engenho de Dentro, Rio de Janeiro - RJ, 20770-001, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1958197648164311396",
-        "retries": 3
+        "retries": 4
     },
     "1440447": {
         "id": 1440447,
@@ -2112,7 +2112,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Arquias Cordeiro, 1516 - Engenho de Dentro, Rio de Janeiro - RJ, 20770-001, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": "1958197653340094543"
+        "tweet_id": "1958197653340094543",
+        "retries": 1
     },
     "1443131": {
         "id": 1443131,
@@ -2176,7 +2177,7 @@
         "name": "Ultimate Matchmaking",
         "isOnline": true,
         "state": "ACTIVE",
-        "numEntrants": 28,
+        "numEntrants": 29,
         "videogame": {
             "id": 1386
         },
@@ -2191,9 +2192,31 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 24
+                        "total": 26
                     },
                     "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 21093501,
+                                "name": "F4T | Sinner",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Helio_Sinner"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1692330,
+                                            "gamerTag": "Sinner"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 1,
                             "entrant": {
@@ -2211,28 +2234,6 @@
                                         "player": {
                                             "id": 1542713,
                                             "gamerTag": "Smat"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 21093501,
-                                "name": "F4T | Sinner",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Helio_Sinner"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1692330,
-                                            "gamerTag": "Sinner"
                                         }
                                     }
                                 ]
@@ -2285,6 +2286,28 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 21095292,
+                                "name": "SBF | Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
                                 "id": 21093075,
                                 "name": "Takandre",
                                 "participants": [
@@ -2305,7 +2328,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 7,
                             "entrant": {
                                 "id": 21093777,
                                 "name": "??? | Rafarofael",
@@ -2327,7 +2350,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 7,
                             "entrant": {
                                 "id": 21094145,
                                 "name": "SST | Prime",
@@ -2349,7 +2372,7 @@
                             }
                         },
                         {
-                            "placement": 8,
+                            "placement": 9,
                             "entrant": {
                                 "id": 21093405,
                                 "name": "SsT | Paraba",
@@ -2371,7 +2394,7 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 10,
                             "entrant": {
                                 "id": 21092797,
                                 "name": "SsT | PROGETO",
@@ -2387,24 +2410,6 @@
                                         "player": {
                                             "id": 1599892,
                                             "gamerTag": "PROGETO"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 10,
-                            "entrant": {
-                                "id": 21093718,
-                                "name": "SsT | Elias",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 229014,
-                                            "gamerTag": "Elias"
                                         }
                                     }
                                 ]
@@ -2435,6 +2440,24 @@
                         {
                             "placement": 12,
                             "entrant": {
+                                "id": 21093718,
+                                "name": "SsT | Elias",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 229014,
+                                            "gamerTag": "Elias"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
                                 "id": 21094252,
                                 "name": "Nebula | TheSoL",
                                 "participants": [
@@ -2449,28 +2472,6 @@
                                         "player": {
                                             "id": 2928917,
                                             "gamerTag": "TheSoL"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 12,
-                            "entrant": {
-                                "id": 21095292,
-                                "name": "SBF | Werleth",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Werleth_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2128189,
-                                            "gamerTag": "Werleth"
                                         }
                                     }
                                 ]
@@ -2515,16 +2516,20 @@
                         {
                             "placement": 16,
                             "entrant": {
-                                "id": 21094762,
-                                "name": "CPS | Vitor Pimenta",
+                                "id": 21094045,
+                                "name": "Press Wasco | JuanitoWhatsapp",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NoiadoBaiano"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 1514567,
-                                            "gamerTag": "Vitor Pimenta"
+                                            "id": 1728473,
+                                            "gamerTag": "JuanitoWhatsapp"
                                         }
                                     }
                                 ]
