@@ -831,7 +831,7 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 5,
                             "entrant": {
                                 "id": 21148616,
                                 "name": "U-Smash | Spac",
@@ -843,6 +843,24 @@
                                         "player": {
                                             "id": 2978822,
                                             "gamerTag": "Spac"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21146034,
+                                "name": "U-Smash | P24",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3392408,
+                                            "gamerTag": "P24"
                                         }
                                     }
                                 ]
@@ -861,6 +879,42 @@
                                         "player": {
                                             "id": 2980335,
                                             "gamerTag": "Xupapapa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21156974,
+                                "name": "U-Smash | Pozo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3669893,
+                                            "gamerTag": "Pozo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21155503,
+                                "name": "U-Smash | Oreee",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3936948,
+                                            "gamerTag": "Oreee"
                                         }
                                     }
                                 ]
@@ -945,16 +999,20 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 21146034,
-                                "name": "U-Smash | P24",
+                                "id": 21156481,
+                                "name": "U-Smash | Cazuxs",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Cazuxs"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 3392408,
-                                            "gamerTag": "P24"
+                                            "id": 2125261,
+                                            "gamerTag": "Cazuxs"
                                         }
                                     }
                                 ]
@@ -1021,24 +1079,6 @@
                         {
                             "placement": 13,
                             "entrant": {
-                                "id": 21156974,
-                                "name": "U-Smash | Pozo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3669893,
-                                            "gamerTag": "Pozo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
                                 "id": 21146395,
                                 "name": "bicos",
                                 "participants": [
@@ -1071,46 +1111,6 @@
                                         "player": {
                                             "id": 4010575,
                                             "gamerTag": "Corhiems"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 21155503,
-                                "name": "U-Smash | Oreee",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3936948,
-                                            "gamerTag": "Oreee"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 21156481,
-                                "name": "U-Smash | Cazuxs",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Cazuxs"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2125261,
-                                            "gamerTag": "Cazuxs"
                                         }
                                     }
                                 ]
@@ -1264,7 +1264,7 @@
         "name": "NDM#169: Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 0,
+        "numEntrants": 1,
         "videogame": {
             "id": 1386
         },
@@ -1282,7 +1282,7 @@
         "tournament": "NOT DM #169: SSBU",
         "tournament_id": 825385,
         "city": "Santiago",
-        "url": "https://start.gg/tournament/not-dm-169-ssbu",
+        "url": "https://start.gg/tournament/not-dm-169-ssbu/event/ndm-169-singles",
         "streams": [
             {
                 "streamName": "walito_10"
@@ -1292,13 +1292,7 @@
         "tournament_startAt": 1756940400,
         "tournament_endAt": 1756954800,
         "tournament_registrationClosesAt": 1756954800,
-        "images": [
-            {
-                "id": "8636904",
-                "url": "https://images.start.gg/images/tournament/825385/image-a4c660c795a6da8e6c3cf977f1409555.jpg",
-                "type": "banner"
-            }
-        ],
+        "images": [],
         "tournament_multievent": false,
         "tournament_venueName": null,
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
