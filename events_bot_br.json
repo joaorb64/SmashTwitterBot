@@ -1444,7 +1444,7 @@
         "id": 1449340,
         "name": "Ultimate Matchmaking",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 13,
         "videogame": {
             "id": 1386
@@ -1453,11 +1453,17 @@
         "phaseGroups": [
             {
                 "id": 3018482,
+                "state": 2,
                 "phase": {
-                    "id": 2063351,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "\ud83c\udf0c NEBULA VORTEX \ud83c\udf0c #20",
@@ -1502,7 +1508,8 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1962251902382465087",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": []
     },
     "1442172": {
         "id": 1442172,
@@ -1556,7 +1563,7 @@
         "name": "Smash Station",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 5,
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
