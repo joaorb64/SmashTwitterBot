@@ -2903,7 +2903,7 @@
         "id": 1441696,
         "name": "Smash Ultimate",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -2912,11 +2912,130 @@
         "phaseGroups": [
             {
                 "id": 3005680,
+                "state": 2,
                 "phase": {
-                    "id": 2053494,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 21027211,
+                                "name": "SmashRS | Fonsie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 373972,
+                                            "gamerTag": "Fonsie"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 21075922,
+                                "name": "UA | SMB | Delong",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "HenriDelong"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1660190,
+                                            "gamerTag": "Delong"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 21109432,
+                                "name": "fumacinha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3327010,
+                                            "gamerTag": "fumacinha"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 21118761,
+                                "name": "Kaplof",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3436112,
+                                            "gamerTag": "Kaplof"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 21186904,
+                                "name": "Ocanha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3881249,
+                                            "gamerTag": "Ocanha"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 21191663,
+                                "name": "Alteron",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 256706,
+                                            "gamerTag": "Alteron"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Fightch\u00ea #2",
@@ -2945,7 +3064,9 @@
         "tournament_venueAddress": "R. 24 de Outubro, 529 - Independ\u00eancia, Porto Alegre - RS, 90510-002, Brazil",
         "tournament_addrState": "RS",
         "tweet_id": "1957940911096090837",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1444414": {
         "id": 1444414,
