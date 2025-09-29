@@ -1293,6 +1293,58 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 21408529,
+                                "name": "Timeskip / laki / timeskip",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1904537,
+                                            "gamerTag": "Timeskip"
+                                        }
+                                    },
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4997887,
+                                            "gamerTag": "laki / timeskip"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21407790,
+                                "name": "Donkey / Xavierrr",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4206494,
+                                            "gamerTag": "Xavierrr"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4997836,
+                                            "gamerTag": "Donkey"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 21407832,
@@ -1324,43 +1376,22 @@
                             }
                         },
                         {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 21408529,
-                                "name": "Timeskip / laki / timeskip",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1904537,
-                                            "gamerTag": "Timeskip"
-                                        }
-                                    },
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 4997887,
-                                            "gamerTag": "laki / timeskip"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 4,
                             "entrant": {
-                                "id": 21407790,
-                                "name": "Donkey / Xavierrr",
+                                "id": 21407046,
+                                "name": "Matcha / Hertx",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Fasian__"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 4206494,
-                                            "gamerTag": "Xavierrr"
+                                            "id": 544727,
+                                            "gamerTag": "Hertx"
                                         }
                                     },
                                     {
@@ -1368,8 +1399,8 @@
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 4997836,
-                                            "gamerTag": "Donkey"
+                                            "id": 3602503,
+                                            "gamerTag": "Matcha"
                                         }
                                     }
                                 ]
@@ -1397,37 +1428,6 @@
                                         "player": {
                                             "id": 4907067,
                                             "gamerTag": "TS"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 21407046,
-                                "name": "Matcha / Hertx",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Fasian__"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 544727,
-                                            "gamerTag": "Hertx"
-                                        }
-                                    },
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3602503,
-                                            "gamerTag": "Matcha"
                                         }
                                     }
                                 ]
@@ -1548,7 +1548,7 @@
         "id": 1464022,
         "name": "SINGLES 1V1",
         "isOnline": false,
-        "state": "ACTIVE",
+        "state": "COMPLETED",
         "numEntrants": 24,
         "videogame": {
             "id": 1386
@@ -1557,7 +1557,7 @@
         "phaseGroups": [
             {
                 "id": 3042078,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -1568,7 +1568,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 21402408,
                                 "name": "TSB | Blas",
@@ -1587,10 +1587,17 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Yoshi": {
+                                    "name": "Yoshi",
+                                    "usage": 15,
+                                    "icon": "https://images.start.gg/images/character/1338/image-86e5d2590efcb0d85b3337b456642eaa.png"
+                                }
                             }
                         },
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 21402475,
                                 "name": "ACR | Bomba",
@@ -1605,6 +1612,23 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Mega Man": {
+                                    "name": "Mega Man",
+                                    "usage": 14,
+                                    "icon": "https://images.start.gg/images/character/1305/image-7c5e2ec77199cbda9bcf7cf1e69e0c83.png"
+                                },
+                                "Ganondorf": {
+                                    "name": "Ganondorf",
+                                    "usage": 6,
+                                    "icon": "https://images.start.gg/images/character/1287/image-7b7e1497962c398ac8c8092aca493e89.png"
+                                },
+                                "Peach": {
+                                    "name": "Peach",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1317/image-0bea128a48c43f13c25bf6b1eb6e6a20.png"
+                                }
                             }
                         },
                         {
@@ -1627,6 +1651,23 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Fox": {
+                                    "name": "Fox",
+                                    "usage": 9,
+                                    "icon": "https://images.start.gg/images/character/1286/image-14f14c0145535ab65ae8c2bdd9196b3d.png"
+                                },
+                                "Greninja": {
+                                    "name": "Greninja",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1289/image-cc620acf7dd40071f90d624a11d1cd3d.png"
+                                },
+                                "Wolf": {
+                                    "name": "Wolf",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1337/image-9feb1e0a28cc77d6d180088c9df1d20e.png"
+                                }
                             }
                         },
                         {
@@ -1645,6 +1686,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Bayonetta": {
+                                    "name": "Bayonetta",
+                                    "usage": 12,
+                                    "icon": "https://images.start.gg/images/character/1271/image-371174b820db9018017a06988c546203.png"
+                                }
                             }
                         },
                         {
@@ -1667,6 +1715,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Ken": {
+                                    "name": "Ken",
+                                    "usage": 10,
+                                    "icon": "https://images.start.gg/images/character/1410/image-1dbe6ec2e0f0f2cbb9d462ec5a406325.png"
+                                },
+                                "Terry": {
+                                    "name": "Terry",
+                                    "usage": 6,
+                                    "icon": "https://images.start.gg/images/character/1532/image-53d1155c7c6909c3d652fc7ddd7e03b4.png"
+                                }
                             }
                         },
                         {
@@ -1689,6 +1749,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Greninja": {
+                                    "name": "Greninja",
+                                    "usage": 13,
+                                    "icon": "https://images.start.gg/images/character/1289/image-cc620acf7dd40071f90d624a11d1cd3d.png"
+                                }
                             }
                         },
                         {
@@ -1707,6 +1774,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Min Min": {
+                                    "name": "Min Min",
+                                    "usage": 9,
+                                    "icon": "https://images.start.gg/images/character/1747/image-dfd68d5d126ef189bd65e6382e79c8f7.png?ehk=N%2BgbOXTeg%2BY8f4baYWKjnOdP4PHZ%2F8gPrKfyQ5Hev58%3D&ehkOptimized=O7sICq67NfuBgxUSuSOg6snIp6L03jhgvJgjWHEgGJw%3D"
+                                },
+                                "Inkling": {
+                                    "name": "Inkling",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1292/image-af172ef6e2da4bb33409821b91610472.png"
+                                }
                             }
                         },
                         {
@@ -1729,6 +1808,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Terry": {
+                                    "name": "Terry",
+                                    "usage": 11,
+                                    "icon": "https://images.start.gg/images/character/1532/image-53d1155c7c6909c3d652fc7ddd7e03b4.png"
+                                }
                             }
                         },
                         {
@@ -1747,6 +1833,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Captain Falcon": {
+                                    "name": "Captain Falcon",
+                                    "usage": 11,
+                                    "icon": "https://images.start.gg/images/character/1274/image-2d8d86a2b1ad264e48b809f66be1fa1b.png"
+                                },
+                                "Sephiroth": {
+                                    "name": "Sephiroth",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1777/image-1c876c8c8a76fbfa4306f31daa856145.png?ehk=UnVy7QTh1QK9ZOhzLZjU520Uh2IuPa9%2FZDRkci2Avws%3D&ehkOptimized=%2F4uQpIR4fY2EbpEcb5I4m0OcrLvYofezSH7px4xEwT8%3D"
+                                }
                             }
                         },
                         {
@@ -1765,6 +1863,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Ness": {
+                                    "name": "Ness",
+                                    "usage": 8,
+                                    "icon": "https://images.start.gg/images/character/1313/image-3870ed5a1c84b3979055a5c5014eb3cb.png"
+                                }
                             }
                         },
                         {
@@ -1787,6 +1892,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Piranha Plant": {
+                                    "name": "Piranha Plant",
+                                    "usage": 13,
+                                    "icon": "https://images.start.gg/images/character/1441/image-b9aa4a03697eab36005ba72baa526be6.png"
+                                }
                             }
                         },
                         {
@@ -1805,6 +1917,23 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Byleth": {
+                                    "name": "Byleth",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1539/image-a7b3c5686c170a688cbd22ed36f9dac5.png?ehk=rxCMSD5p27H9Ow5lEGiHRlqDfkvgr6uVgJMAeZEyTAM%3D&ehkOptimized=DdRKJyoOywTpAzHV9xxgQ07bmrqvK18taOfuVZ%2FH5Tw%3D"
+                                },
+                                "Joker": {
+                                    "name": "Joker",
+                                    "usage": 3,
+                                    "icon": "https://images.start.gg/images/character/1453/image-b284052b845b6584f82c5c6d7dd71c55.png"
+                                },
+                                "Robin": {
+                                    "name": "Robin",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1324/image-05e9da41d7e8c97d4ff5aba0ee177701.png"
+                                }
                             }
                         },
                         {
@@ -1823,6 +1952,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Kirby": {
+                                    "name": "Kirby",
+                                    "usage": 7,
+                                    "icon": "https://images.start.gg/images/character/1295/image-58aeb3c055e3bfa9bdb357e6338c3b3d.png"
+                                },
+                                "Dr. Mario": {
+                                    "name": "Dr. Mario",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1282/image-f737994279feb13864b3d396e7088859.png"
+                                }
                             }
                         },
                         {
@@ -1845,6 +1986,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Samus": {
+                                    "name": "Samus",
+                                    "usage": 8,
+                                    "icon": "https://images.start.gg/images/character/1328/image-744eac2adeab1e55acfc3ef07054d635.png"
+                                }
                             }
                         },
                         {
@@ -1867,6 +2015,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Luigi": {
+                                    "name": "Luigi",
+                                    "usage": 8,
+                                    "icon": "https://images.start.gg/images/character/1301/image-ea4deed209104775ac064705e2abc4e0.png"
+                                }
                             }
                         },
                         {
@@ -1885,6 +2040,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Corrin": {
+                                    "name": "Corrin",
+                                    "usage": 7,
+                                    "icon": "https://images.start.gg/images/character/1276/image-13110600e5d35c17ac0186c4af78a1f7.png"
+                                },
+                                "Joker": {
+                                    "name": "Joker",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1453/image-b284052b845b6584f82c5c6d7dd71c55.png"
+                                }
                             }
                         }
                     ]
@@ -2625,7 +2792,7 @@
         "id": 1466778,
         "name": "Singles Smash Bros Ultimate",
         "isOnline": false,
-        "state": "ACTIVE",
+        "state": "COMPLETED",
         "numEntrants": 20,
         "videogame": {
             "id": 1386
@@ -2634,7 +2801,7 @@
         "phaseGroups": [
             {
                 "id": 3046556,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -2645,7 +2812,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 2,
+                            "placement": 1,
                             "entrant": {
                                 "id": 21362559,
                                 "name": "Meta",
@@ -2664,6 +2831,28 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Falco": {
+                                    "name": "Falco",
+                                    "usage": 6,
+                                    "icon": "https://images.start.gg/images/character/1285/image-9e61f7a91a6c642bc3f14409f6f1cb69.png"
+                                },
+                                "Ridley": {
+                                    "name": "Ridley",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1322/image-6944a1e50f8a87e11886b885db4bf0a8.png"
+                                },
+                                "Wolf": {
+                                    "name": "Wolf",
+                                    "usage": 3,
+                                    "icon": "https://images.start.gg/images/character/1337/image-9feb1e0a28cc77d6d180088c9df1d20e.png"
+                                },
+                                "Fox": {
+                                    "name": "Fox",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1286/image-14f14c0145535ab65ae8c2bdd9196b3d.png"
+                                }
                             }
                         },
                         {
@@ -2686,6 +2875,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Samus": {
+                                    "name": "Samus",
+                                    "usage": 16,
+                                    "icon": "https://images.start.gg/images/character/1328/image-744eac2adeab1e55acfc3ef07054d635.png"
+                                },
+                                "Piranha Plant": {
+                                    "name": "Piranha Plant",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1441/image-b9aa4a03697eab36005ba72baa526be6.png"
+                                }
                             }
                         },
                         {
@@ -2708,6 +2909,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Richter": {
+                                    "name": "Richter",
+                                    "usage": 12,
+                                    "icon": "https://images.start.gg/images/character/1412/image-de8ea9e1af72aa1a5f4ae8149f91684b.png"
+                                }
                             }
                         },
                         {
@@ -2730,6 +2938,23 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Palutena": {
+                                    "name": "Palutena",
+                                    "usage": 6,
+                                    "icon": "https://images.start.gg/images/character/1316/image-3fab6611ff1cb12578ef5bed59c42ec3.png"
+                                },
+                                "Terry": {
+                                    "name": "Terry",
+                                    "usage": 6,
+                                    "icon": "https://images.start.gg/images/character/1532/image-53d1155c7c6909c3d652fc7ddd7e03b4.png"
+                                },
+                                "Donkey Kong": {
+                                    "name": "Donkey Kong",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1280/image-9680c258ad520dab07302555559f8149.png"
+                                }
                             }
                         },
                         {
@@ -2752,6 +2977,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Greninja": {
+                                    "name": "Greninja",
+                                    "usage": 11,
+                                    "icon": "https://images.start.gg/images/character/1289/image-cc620acf7dd40071f90d624a11d1cd3d.png"
+                                },
+                                "Pokemon Trainer": {
+                                    "name": "Pokemon Trainer",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1321/image-afd5457b505f5d4893a0c2ee305787b7.png"
+                                }
                             }
                         },
                         {
@@ -2770,6 +3007,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Byleth": {
+                                    "name": "Byleth",
+                                    "usage": 12,
+                                    "icon": "https://images.start.gg/images/character/1539/image-a7b3c5686c170a688cbd22ed36f9dac5.png?ehk=rxCMSD5p27H9Ow5lEGiHRlqDfkvgr6uVgJMAeZEyTAM%3D&ehkOptimized=DdRKJyoOywTpAzHV9xxgQ07bmrqvK18taOfuVZ%2FH5Tw%3D"
+                                },
+                                "Joker": {
+                                    "name": "Joker",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1453/image-b284052b845b6584f82c5c6d7dd71c55.png"
+                                }
                             }
                         },
                         {
@@ -2788,6 +3037,28 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Mii Gunner": {
+                                    "name": "Mii Gunner",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1415/image-5eb42a77dd8766553ff2f09743e79848.png"
+                                },
+                                "Mii Brawler": {
+                                    "name": "Mii Brawler",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1311/image-f6cd7a894956ae95c15c11cc9bfdbb98.png"
+                                },
+                                "Pyra & Mythra": {
+                                    "name": "Pyra & Mythra",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1795/image-09419ab8410b5649ff571d3b6cc4a31b.png?ehk=72d9VlOOsVQlMnaK6UXme0GKePGExsRk1w6QeLkHShU%3D&ehkOptimized=EQf%2FVqeoOnH7SPmOgdBl9Sw9nYY1KLFtTr8X9NbKYJY%3D"
+                                },
+                                "Greninja": {
+                                    "name": "Greninja",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1289/image-cc620acf7dd40071f90d624a11d1cd3d.png"
+                                }
                             }
                         },
                         {
@@ -2806,6 +3077,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "R.O.B.": {
+                                    "name": "R.O.B.",
+                                    "usage": 8,
+                                    "icon": "https://images.start.gg/images/character/1323/image-ff45bd739bb70c5b557247b071757f9c.png"
+                                }
                             }
                         },
                         {
@@ -2828,6 +3106,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "King K. Rool": {
+                                    "name": "King K. Rool",
+                                    "usage": 5,
+                                    "icon": "https://images.start.gg/images/character/1407/image-649a64550b8848a082dbf9b8d6e545d1.png"
+                                },
+                                "Mr. Game & Watch": {
+                                    "name": "Mr. Game & Watch",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1405/image-b4c985b379395ad83fdb6ca689b23fd8.png"
+                                }
                             }
                         },
                         {
@@ -2844,6 +3134,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Duck Hunt": {
+                                    "name": "Duck Hunt",
+                                    "usage": 5,
+                                    "icon": "https://images.start.gg/images/character/1283/image-6e9518b5a239516afc62980ca204bfbe.png"
+                                },
+                                "Terry": {
+                                    "name": "Terry",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1532/image-53d1155c7c6909c3d652fc7ddd7e03b4.png"
+                                }
                             }
                         },
                         {
@@ -2866,6 +3168,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Toon Link": {
+                                    "name": "Toon Link",
+                                    "usage": 9,
+                                    "icon": "https://images.start.gg/images/character/1333/image-f6f2326cf212a37de4cd247d3a22c125.png"
+                                }
                             }
                         },
                         {
@@ -2888,6 +3197,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Mii Brawler": {
+                                    "name": "Mii Brawler",
+                                    "usage": 5,
+                                    "icon": "https://images.start.gg/images/character/1311/image-f6cd7a894956ae95c15c11cc9bfdbb98.png"
+                                },
+                                "Bowser": {
+                                    "name": "Bowser",
+                                    "usage": 5,
+                                    "icon": "https://images.start.gg/images/character/1273/image-ef8a42ec3c7d05279e1a7c9ccc213591.png"
+                                }
                             }
                         },
                         {
@@ -2904,6 +3225,18 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Lucina": {
+                                    "name": "Lucina",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1300/image-37b6105a4f599756c3c599e30ef69927.png"
+                                },
+                                "Yoshi": {
+                                    "name": "Yoshi",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1338/image-86e5d2590efcb0d85b3337b456642eaa.png"
+                                }
                             }
                         },
                         {
@@ -2922,6 +3255,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Cloud": {
+                                    "name": "Cloud",
+                                    "usage": 2,
+                                    "icon": "https://images.start.gg/images/character/1275/image-354129bab0aa613d617cbb3ff095a70a.png"
+                                }
                             }
                         },
                         {
@@ -2940,6 +3280,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Mr. Game & Watch": {
+                                    "name": "Mr. Game & Watch",
+                                    "usage": 7,
+                                    "icon": "https://images.start.gg/images/character/1405/image-b4c985b379395ad83fdb6ca689b23fd8.png"
+                                }
                             }
                         },
                         {
@@ -2958,6 +3305,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Captain Falcon": {
+                                    "name": "Captain Falcon",
+                                    "usage": 7,
+                                    "icon": "https://images.start.gg/images/character/1274/image-2d8d86a2b1ad264e48b809f66be1fa1b.png"
+                                }
                             }
                         }
                     ]
@@ -3264,6 +3618,28 @@
                             }
                         },
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 21408360,
+                                "name": "RFL | GO CR1S",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GO_CR1S"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4520521,
+                                            "gamerTag": "GO CR1S"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 21408394,
@@ -3296,28 +3672,6 @@
                                         "player": {
                                             "id": 4046128,
                                             "gamerTag": "Dorax"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 21408360,
-                                "name": "RFL | GO CR1S",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "GO_CR1S"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 4520521,
-                                            "gamerTag": "GO CR1S"
                                         }
                                     }
                                 ]
