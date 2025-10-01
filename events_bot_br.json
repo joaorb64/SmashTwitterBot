@@ -3419,8 +3419,8 @@
         "id": 1472130,
         "name": "Ultimate Matchmaking",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 8,
+        "state": "ACTIVE",
+        "numEntrants": 11,
         "videogame": {
             "id": 1386
         },
@@ -3428,11 +3428,17 @@
         "phaseGroups": [
             {
                 "id": 3054828,
+                "state": 2,
                 "phase": {
-                    "id": 2091894,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "\ud83c\udf0c NEBULA VORTEX \ud83c\udf0c #24",
@@ -3468,7 +3474,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1973161267012547045",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1471649": {
         "id": 1471649,
@@ -3664,7 +3672,7 @@
         "tournament": "NaSC VI 2025",
         "tournament_id": 835924,
         "city": "Natal",
-        "url": "https://start.gg/tournament/nasc-vi-2025",
+        "url": "https://start.gg/tournament/nasc-vi-2025/event/ultimate-singles",
         "streams": null,
         "timezone": "America/Fortaleza",
         "tournament_startAt": 1760202000,
