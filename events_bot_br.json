@@ -3278,7 +3278,7 @@
         "id": 1471205,
         "name": "SSBU Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -3287,11 +3287,194 @@
         "phaseGroups": [
             {
                 "id": 3053509,
+                "state": 2,
                 "phase": {
-                    "id": 2090755,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21418711,
+                                "name": "Mr.Zitu | FlipperG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "flippergx"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2451107,
+                                            "gamerTag": "FlipperG"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21418717,
+                                "name": "Tuca",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 584458,
+                                            "gamerTag": "Tuca"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21418715,
+                                "name": "Pepo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Pepopepao"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1305492,
+                                            "gamerTag": "Pepo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21432323,
+                                "name": "Manolean",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2743801,
+                                            "gamerTag": "Manolean"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21418720,
+                                "name": "manu",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1990965,
+                                            "gamerTag": "manu"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21418729,
+                                "name": "Shiroberry",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "shiroberryUT"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1115746,
+                                            "gamerTag": "Shiroberry"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21418724,
+                                "name": "xuczin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "xuczin"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4871208,
+                                            "gamerTag": "xuczin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21432118,
+                                "name": "tonhao",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5001582,
+                                            "gamerTag": "tonhao"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21418737,
+                                "name": "BOB | LopesZ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2743842,
+                                            "gamerTag": "LopesZ"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Jogatina do Tucao Hj #8",
@@ -3320,7 +3503,9 @@
         "tournament_venueAddress": "Florian\u00f3polis, State of Santa Catarina, Brazil",
         "tournament_addrState": "SC",
         "tweet_id": "1972806395293573307",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1470075": {
         "id": 1470075,
@@ -3420,7 +3605,7 @@
         "name": "Ultimate Matchmaking",
         "isOnline": true,
         "state": "ACTIVE",
-        "numEntrants": 14,
+        "numEntrants": 15,
         "videogame": {
             "id": 1386
         },
@@ -3435,7 +3620,7 @@
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 7
+                        "total": 8
                     },
                     "nodes": [
                         {
@@ -3499,6 +3684,24 @@
                         {
                             "placement": 4,
                             "entrant": {
+                                "id": 21438425,
+                                "name": "Kevin Net",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 627182,
+                                            "gamerTag": "Kevin Net"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 21437735,
                                 "name": "FT | TSD | Espeonatic",
                                 "participants": [
@@ -3519,7 +3722,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 6,
                             "entrant": {
                                 "id": 21436384,
                                 "name": "Ocanha",
@@ -3537,7 +3740,7 @@
                             }
                         },
                         {
-                            "placement": 6,
+                            "placement": 7,
                             "entrant": {
                                 "id": 21437733,
                                 "name": "CPS | Vitor Pimenta",
@@ -3555,7 +3758,7 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 8,
                             "entrant": {
                                 "id": 21437020,
                                 "name": "SBF | Nick-IN",
