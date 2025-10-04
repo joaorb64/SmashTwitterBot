@@ -1644,23 +1644,6 @@
                         {
                             "placement": 10,
                             "entrant": {
-                                "id": 21010251,
-                                "name": "Wasco | BIGPICHUFAN420",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1737835
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 11,
-                            "entrant": {
                                 "id": 21137019,
                                 "name": "SBF | Igor Sonic",
                                 "participants": [
@@ -1674,6 +1657,23 @@
                                         },
                                         "player": {
                                             "id": 3503417
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 11,
+                            "entrant": {
+                                "id": 21010251,
+                                "name": "Wasco | BIGPICHUFAN420",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1737835
                                         }
                                     }
                                 ]
@@ -2791,11 +2791,18 @@
         "phaseGroups": [
             {
                 "id": 3046305,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket (BO3)"
                 },
-                "progressionsOut": null,
+                "progressionsOut": [
+                    {
+                        "id": 12845721
+                    },
+                    {
+                        "id": 12845723
+                    }
+                ],
                 "standings": {
                     "pageInfo": {
                         "total": 4
@@ -2825,27 +2832,6 @@
                         {
                             "placement": 2,
                             "entrant": {
-                                "id": 21376925,
-                                "name": "Ember8",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "ErickPrata7"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2360998
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
                                 "id": 21364122,
                                 "name": "PLG | Norun",
                                 "participants": [
@@ -2859,6 +2845,27 @@
                                         },
                                         "player": {
                                             "id": 2734928
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21376925,
+                                "name": "Ember8",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ErickPrata7"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2360998
                                         }
                                     }
                                 ]
@@ -2882,16 +2889,22 @@
                             }
                         }
                     ]
-                },
-                "multiphase": true
+                }
             },
             {
                 "id": 3046306,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket (BO3)"
                 },
-                "progressionsOut": null,
+                "progressionsOut": [
+                    {
+                        "id": 12845722
+                    },
+                    {
+                        "id": 12845724
+                    }
+                ],
                 "standings": {
                     "pageInfo": {
                         "total": 4
@@ -2978,8 +2991,190 @@
                             }
                         }
                     ]
+                }
+            },
+            {
+                "id": 3059379,
+                "state": 2,
+                "phase": {
+                    "name": "TOP 4 (BO5)"
                 },
-                "multiphase": true
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21461673,
+                                "name": "PLG | SKPeter",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "skpeter_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 175453,
+                                            "gamerTag": "SKPeter"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21452544,
+                                "name": "TonixNes",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NesTonix"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1966258,
+                                            "gamerTag": "TonixNes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21364122,
+                                "name": "PLG | Norun",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NorunSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2734928,
+                                            "gamerTag": "Norun"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21452541,
+                                "name": "CounterEncounters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CounterEncount"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2240241,
+                                            "gamerTag": "CounterEncounters"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21376925,
+                                "name": "Ember8",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ErickPrata7"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2360998,
+                                            "gamerTag": "Ember8"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21376591,
+                                "name": "Raken",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2828178,
+                                            "gamerTag": "Raken"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21376587,
+                                "name": "CPS | PM8",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3420181,
+                                            "gamerTag": "PM8"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21406271,
+                                "name": "EGG/Duplicata | QuietWater",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "QuietWatn"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3962325,
+                                            "gamerTag": "QuietWater"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "NEW CHALLENGER! #1",
