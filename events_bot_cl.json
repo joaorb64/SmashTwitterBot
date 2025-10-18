@@ -656,8 +656,8 @@
         "id": 1477601,
         "name": "Squad Showdown",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 6,
+        "state": "ACTIVE",
+        "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
@@ -665,11 +665,150 @@
         "phaseGroups": [
             {
                 "id": 3063288,
+                "state": 2,
                 "phase": {
-                    "id": 2098680,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21496066,
+                                "name": "Diptox",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diptox44"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 844310,
+                                            "gamerTag": "Diptox"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21593275,
+                                "name": "LEV/SMB | .Png!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3592282,
+                                            "gamerTag": ".Png!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21493682,
+                                "name": "ElPerroWuaton",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4208597,
+                                            "gamerTag": "ElPerroWuaton"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21593111,
+                                "name": "Naozen | Naozen_Voidheart",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 627938,
+                                            "gamerTag": "Naozen_Voidheart"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21493274,
+                                "name": "LEV | Diaz_Mochi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3560475,
+                                            "gamerTag": "Diaz_Mochi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21495686,
+                                "name": "Wazirno",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Wacirno09"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2254027,
+                                            "gamerTag": "Wazirno"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21593242,
+                                "name": "Nicolini",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4499784,
+                                            "gamerTag": "Nicolini"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Start Showdown #13",
@@ -700,14 +839,16 @@
         "tournament_venueAddress": "Angelm\u00f3 2240, Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
         "tweet_id": "1975743402625868194",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1477588": {
         "id": 1477588,
         "name": "Singles Showdown",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 7,
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
