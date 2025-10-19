@@ -2779,7 +2779,7 @@
         "id": 1471649,
         "name": "Smash Ultimate Singles (1v1)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 26,
         "videogame": {
             "id": 1386
@@ -2788,11 +2788,17 @@
         "phaseGroups": [
             {
                 "id": 3054164,
+                "state": 2,
                 "phase": {
-                    "id": 2091308,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Chora y Joga Smash bros. Ultimate!",
@@ -2821,7 +2827,9 @@
         "tournament_venueAddress": "Brazil",
         "tournament_addrState": null,
         "tweet_id": "1973206554208776203",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1472528": {
         "id": 1472528,
@@ -2964,7 +2972,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Alameda Dr. Carlos de Carvalho, 805 - Batel, Curitiba - PR, 80410-180, Brasil",
         "tournament_addrState": "PR",
-        "tweet_id": "1975607342587597049"
+        "tweet_id": "1975607342587597049",
+        "postedRegistrationClosing": true
     },
     "1481318": {
         "id": 1481318,
