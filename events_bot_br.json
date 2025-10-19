@@ -2821,7 +2821,7 @@
                             }
                         },
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 21562919,
                                 "name": "FT | Grandmemes",
@@ -3264,7 +3264,7 @@
         "id": 1477100,
         "name": "Ultimate",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -3273,11 +3273,339 @@
         "phaseGroups": [
             {
                 "id": 3062633,
+                "state": 2,
                 "phase": {
-                    "id": 2098111,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 12900417
+                    },
+                    {
+                        "id": 12900418
+                    },
+                    {
+                        "id": 12900419
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 21488061,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 21488328,
+                                "name": "URA | Lagnes Techyon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 229410
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21488066,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21600883,
+                                "name": "SDK | MizKif",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5027614
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21603506,
+                                "name": "Anazani",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4223260
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 6,
+                            "entrant": {
+                                "id": 21596689,
+                                "name": "MKKO | Axluniverse79",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4149433
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21552689,
+                                "name": "THC | Beck",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4222290
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21604640,
+                                "name": "Pudin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4741454
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 3075780,
+                "state": 1,
+                "phase": {
+                    "name": "top 3"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21488061,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155,
+                                            "gamerTag": "frodO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21488066,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329,
+                                            "gamerTag": "Heartwell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21600883,
+                                "name": "SDK | MizKif",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5027614,
+                                            "gamerTag": "MizKif"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21603506,
+                                "name": "Anazani",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4223260,
+                                            "gamerTag": "Anazani"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21488328,
+                                "name": "URA | Lagnes Techyon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 229410,
+                                            "gamerTag": "Lagnes Techyon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21596689,
+                                "name": "MKKO | Axluniverse79",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4149433,
+                                            "gamerTag": "Axluniverse79"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21552689,
+                                "name": "THC | Beck",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4222290,
+                                            "gamerTag": "Beck"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 8,
+                            "entrant": {
+                                "id": 21604640,
+                                "name": "Pudin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4741454,
+                                            "gamerTag": "Pudin"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Try Hard Curitiba #38",
@@ -3306,7 +3634,9 @@
         "tournament_venueAddress": "Alameda Dr. Carlos de Carvalho, 805 - Batel, Curitiba - PR, 80410-180, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": "1975607342587597049",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1481318": {
         "id": 1481318,
