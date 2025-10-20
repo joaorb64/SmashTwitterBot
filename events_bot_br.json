@@ -2875,8 +2875,8 @@
         "id": 1481318,
         "name": "Smash Bros. Ultimate (1v1)",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 21,
+        "state": "ACTIVE",
+        "numEntrants": 20,
         "videogame": {
             "id": 1386
         },
@@ -2884,11 +2884,17 @@
         "phaseGroups": [
             {
                 "id": 3068764,
+                "state": 2,
                 "phase": {
-                    "id": 2103150,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "GUARANEKO'S ZONE #28 - SMASH ULTIMATE BRASIL",
@@ -2927,7 +2933,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1977781658032988242",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1469925": {
         "id": 1469925,
