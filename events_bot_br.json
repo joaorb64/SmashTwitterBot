@@ -3284,8 +3284,8 @@
         "id": 1485818,
         "name": "Ultimate Matchmaking",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 10,
+        "state": "ACTIVE",
+        "numEntrants": 13,
         "videogame": {
             "id": 1386
         },
@@ -3293,11 +3293,98 @@
         "phaseGroups": [
             {
                 "id": 3075813,
+                "state": 2,
                 "phase": {
-                    "id": 2108849,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 21631268,
+                                "name": "MatheuBer",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "matheuber_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4961178,
+                                            "gamerTag": "MatheuBer"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 21634097,
+                                "name": "SsT | PROGETO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "jfmacdowell"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1599892,
+                                            "gamerTag": "PROGETO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21633081,
+                                "name": "SBF | Nick-IN",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4680543,
+                                            "gamerTag": "Nick-IN"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21633967,
+                                "name": "SsT | Ketch Up",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4021592,
+                                            "gamerTag": "Ketch Up"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "\ud83c\udf0c NEBULA VORTEX \ud83c\udf0c #27",
@@ -3333,14 +3420,16 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1980023911027810815",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1487049": {
         "id": 1487049,
         "name": "Smash Station",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 3,
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -3523,7 +3612,7 @@
         "name": "Battle Of Hyrule 2 - Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 1,
+        "numEntrants": 2,
         "videogame": {
             "id": 1386
         },
@@ -3541,7 +3630,7 @@
         "tournament": "Battle of Hyrule #2",
         "tournament_id": 761361,
         "city": "Engenho de Dentro",
-        "url": "https://start.gg/tournament/battle-of-hyrule-2-2",
+        "url": "https://start.gg/tournament/battle-of-hyrule-2-2/event/battle-of-hyrule-2-singles",
         "streams": null,
         "timezone": "America/Sao_Paulo",
         "tournament_startAt": 1761393600,
