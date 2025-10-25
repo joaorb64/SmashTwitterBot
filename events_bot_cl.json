@@ -582,7 +582,7 @@
         "id": 1479507,
         "name": "KBC Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -591,19 +591,167 @@
         "phaseGroups": [
             {
                 "id": 3066037,
+                "state": 2,
                 "phase": {
-                    "id": 2100938,
                     "name": "Swiss Pools"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21536491,
+                                "name": "PHX | Kero~",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "23Kero"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 616537
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21536495,
+                                "name": "TEW | Piporex",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Piporex86"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1328248
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21537486,
+                                "name": "LMB TEW | Leiva",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 1679694
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21601318,
+                                "name": "PHX | Zorkats",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Zorkats"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1233912
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21616316,
+                                "name": "Diptox",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Diptox44"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 844310
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21648525,
+                                "name": "Bob-omb",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1462244
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21661433,
+                                "name": "Snati",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 543429
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "multiphase": true
             },
             {
                 "id": 3066050,
+                "state": 1,
                 "phase": {
-                    "id": 2100948,
                     "name": "Final Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": null
+                },
+                "multiphase": true
             }
         ],
         "tournament": "Kero\u00b4s Birthday Clash #4",
@@ -627,7 +775,9 @@
         "tournament_venueAddress": "Conc\u00f3n, Valpara\u00edso, Chile",
         "tournament_addrState": "Valpara\u00edso",
         "tweet_id": "1977555205508956338",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1483098": {
         "id": 1483098,
