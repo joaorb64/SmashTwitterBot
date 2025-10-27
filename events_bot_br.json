@@ -4730,8 +4730,8 @@
         "id": 1491713,
         "name": "Hylian's Elite",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 17,
+        "state": "ACTIVE",
+        "numEntrants": 16,
         "videogame": {
             "id": 1386
         },
@@ -4739,11 +4739,17 @@
         "phaseGroups": [
             {
                 "id": 3087855,
+                "state": 2,
                 "phase": {
-                    "id": 2116937,
                     "name": "battle for the throne (top 8)"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Hylian's Arena #34",
@@ -4782,7 +4788,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1982885340625895640",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1482105": {
         "id": 1482105,
