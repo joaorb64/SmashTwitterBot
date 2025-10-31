@@ -860,10 +860,10 @@
     },
     "1490515": {
         "id": 1490515,
-        "name": "DM#12: Side tournament",
+        "name": "DM#12: Squad Random",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 1,
+        "state": "ACTIVE",
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
@@ -871,18 +871,117 @@
         "phaseGroups": [
             {
                 "id": 3085928,
+                "state": 2,
                 "phase": {
-                    "id": 2115431,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21718735,
+                                "name": "Yuizz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Yuizz__"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3185414,
+                                            "gamerTag": "Yuizz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21718742,
+                                "name": "Extra | Dam!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dam_696"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2362200,
+                                            "gamerTag": "Dam!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21718745,
+                                "name": "WLB | Tind3us",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "tindeuszz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4114115,
+                                            "gamerTag": "Tind3us"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21718749,
+                                "name": "CoS | Walito_10",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Walito_10"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2528592,
+                                            "gamerTag": "Walito_10"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Death Match #12: Smash Ultimate",
         "tournament_id": 844826,
         "city": "Santiago",
-        "url": "https://start.gg/tournament/death-match-12-smash-ultimate/event/dm-12-side-tournament",
-        "streams": null,
+        "url": "https://start.gg/tournament/death-match-12-smash-ultimate/event/dm-12-squad-random",
+        "streams": [
+            {
+                "streamName": "walito_tv"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1761922800,
         "tournament_endAt": 1761951600,
@@ -899,14 +998,16 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "1982198337479573659",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1490516": {
         "id": 1490516,
         "name": "DM#12: Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 10,
+        "numEntrants": 13,
         "videogame": {
             "id": 1386
         },
@@ -925,7 +1026,11 @@
         "tournament_id": 844826,
         "city": "Santiago",
         "url": "https://start.gg/tournament/death-match-12-smash-ultimate/event/dm-12-singles",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "walito_tv"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1761922800,
         "tournament_endAt": 1761951600,
