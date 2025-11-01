@@ -448,7 +448,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 23,
+        "numEntrants": 25,
         "videogame": {
             "id": 1386
         },
@@ -1124,18 +1124,216 @@
         "id": 1477330,
         "name": "Smash Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
         },
         "startAt": 1762005600,
-        "phaseGroups": [],
+        "phaseGroups": [
+            {
+                "id": 3062932,
+                "state": 2,
+                "phase": {
+                    "name": "Bracket"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21692571,
+                                "name": "NGC | Gosfell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Gosfell_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3926830,
+                                            "gamerTag": "Gosfell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21512671,
+                                "name": "FOS | Chlomax",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4803547,
+                                            "gamerTag": "Chlomax"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21603244,
+                                "name": "FOS | SLuis1",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4052360,
+                                            "gamerTag": "SLuis1"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21609360,
+                                "name": "FOS | sevaxion",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sevaxion"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4836607,
+                                            "gamerTag": "sevaxion"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21695823,
+                                "name": "FOS | Ado kid",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ado_ql"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 5029230,
+                                            "gamerTag": "Ado kid"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21698389,
+                                "name": "Cenate \u0d9e",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "po_bambi"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4836759,
+                                            "gamerTag": "Cenate \u0d9e"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21717406,
+                                "name": "SovaK",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4916245,
+                                            "gamerTag": "SovaK"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21509503,
+                                "name": "FOS | Shepard",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3885854,
+                                            "gamerTag": "Shepard"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21599331,
+                                "name": "FOS | Santi AA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4935163,
+                                            "gamerTag": "Santi AA"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
         "tournament": "Clash Between Crocodiles #5",
         "tournament_id": 838194,
         "city": "Cautin",
         "url": "https://start.gg/tournament/clash-between-crocodiles-5/event/smash-ultimate-singles",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "bardockk1"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1762005600,
         "tournament_endAt": 1762032600,
@@ -1157,7 +1355,9 @@
         "tournament_venueAddress": "El Laurel 452, 4814049 Cautin, Temuco, Araucan\u00eda, Chile",
         "tournament_addrState": "Araucan\u00eda",
         "tweet_id": "1984584275077783809",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1494850": {
         "id": 1494850,
