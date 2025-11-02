@@ -2684,7 +2684,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Rua Dr. Armando Salles de Oliveira, 138 - Boqueir\u00e3o, Santos - SP, 11050-070, Brasil",
         "tournament_addrState": "SP",
-        "tweet_id": "1977796805489258542"
+        "tweet_id": "1977796805489258542",
+        "postedRegistrationClosing": true
     },
     "1475699": {
         "id": 1475699,
@@ -2710,7 +2711,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 21733645,
                                 "name": "vyQ Carnudos Esmaga",
@@ -2744,6 +2745,50 @@
                                         "player": {
                                             "id": 795203,
                                             "gamerTag": "Ultimate"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21728086,
+                                "name": "chinelo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "chinelotalvez"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2248414,
+                                            "gamerTag": "chinelo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21700238,
+                                "name": "Werleth",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
                                         }
                                     }
                                 ]
@@ -2784,50 +2829,6 @@
                                         "player": {
                                             "id": 3266292,
                                             "gamerTag": "Liryco"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 21728086,
-                                "name": "chinelo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "chinelotalvez"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2248414,
-                                            "gamerTag": "chinelo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 21700238,
-                                "name": "Werleth",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Werleth_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2128189,
-                                            "gamerTag": "Werleth"
                                         }
                                     }
                                 ]
@@ -3075,7 +3076,7 @@
         "id": 1482117,
         "name": "MAROWGAR (Doubles)",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 7,
         "videogame": {
             "id": 1386
@@ -3084,11 +3085,235 @@
         "phaseGroups": [
             {
                 "id": 3069864,
+                "state": 2,
                 "phase": {
-                    "id": 2104119,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 7
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21665631,
+                                "name": "Kingdom Heroes",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "igorsonicgamer"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4680543,
+                                            "gamerTag": "Nick-IN"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21677720,
+                                "name": "SBF/UF 2025",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "Taunt"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4831671,
+                                            "gamerTag": "AldairVGC"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21736577,
+                                "name": "Order and Chaos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 795203,
+                                            "gamerTag": "Ultimate"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Prime_Samus"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21738645,
+                                "name": "Werleth/Luffy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lufferanha"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 157946,
+                                            "gamerTag": "vyQ Carnudos Esmaga"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Werleth_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2128189,
+                                            "gamerTag": "Werleth"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21737423,
+                                "name": "\ud83e\udd40",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4834927,
+                                            "gamerTag": "Kairyu"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4834986,
+                                            "gamerTag": "Someon_e"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21728115,
+                                "name": "briga de marido e mulher",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "chinelotalvez"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2248414,
+                                            "gamerTag": "chinelo"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Lirycof"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3266292,
+                                            "gamerTag": "Liryco"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21738676,
+                                "name": "Os Venenosos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3824205,
+                                            "gamerTag": "VVenon"
+                                        }
+                                    },
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4691455,
+                                            "gamerTag": "Duckson"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "LAVENDER TOWN",
@@ -3117,7 +3342,9 @@
         "tournament_venueAddress": "Pra\u00e7a Severino Azevedo, 435 - Centro, Nova Igua\u00e7u - RJ, 26215-215, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1978068548145590432",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1482527": {
         "id": 1482527,
