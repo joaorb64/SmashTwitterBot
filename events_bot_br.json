@@ -2636,7 +2636,7 @@
         "id": 1485173,
         "name": "Ultimate Singles (1v1)",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 5,
         "videogame": {
             "id": 1386
@@ -2645,26 +2645,120 @@
         "phaseGroups": [
             {
                 "id": 3074714,
+                "state": null,
                 "phase": {
-                    "id": 2107964,
                     "name": "Bracket (BO3)"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 12897665
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
                     },
-                    {
-                        "id": 12897666
-                    }
-                ]
-            },
-            {
-                "id": 3074716,
-                "phase": {
-                    "id": 2107965,
-                    "name": "TOP 4 (BO5)"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21598507,
+                                "name": "SKPeter",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "skpeter_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 175453,
+                                            "gamerTag": "SKPeter"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21598508,
+                                "name": "Norun",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NorunSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2734928,
+                                            "gamerTag": "Norun"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21609345,
+                                "name": "CPS | PM8",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3420181,
+                                            "gamerTag": "PM8"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21803520,
+                                "name": "Juliana",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4651035,
+                                            "gamerTag": "Juliana"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21804684,
+                                "name": "CounterEncounters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CounterEncount"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2240241,
+                                            "gamerTag": "CounterEncounters"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "NEW CHALLENGER! #2",
@@ -2700,7 +2794,9 @@
         "tournament_venueAddress": "Av. Paulista, 1208 - Vila Nossa Sra. de Fatima, Americana - SP, 13478-580, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "1979669096984650128",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1490595": {
         "id": 1490595,
