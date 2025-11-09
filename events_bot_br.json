@@ -3163,7 +3163,7 @@
         "id": 1493344,
         "name": "Smash Bros. Ultimate",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -3172,11 +3172,204 @@
         "phaseGroups": [
             {
                 "id": 3090308,
+                "state": 2,
                 "phase": {
-                    "id": 2118911,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21708475,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155,
+                                            "gamerTag": "frodO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21800685,
+                                "name": "PHT | Discord",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 157364,
+                                            "gamerTag": "Discord"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21803488,
+                                "name": "LMS | Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354,
+                                            "gamerTag": "Dagoth Ur"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21708477,
+                                "name": "Heartwell",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "heartwellS2"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1090329,
+                                            "gamerTag": "Heartwell"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21766090,
+                                "name": "Mr.Zitu | FlipperG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "flippergx"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2451107,
+                                            "gamerTag": "FlipperG"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21812335,
+                                "name": "Anazani",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4223260,
+                                            "gamerTag": "Anazani"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21708650,
+                                "name": "THC | GustaCNH",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4222290,
+                                            "gamerTag": "GustaCNH"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21813365,
+                                "name": "OPolegar",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "OPolegarBR"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3075866,
+                                            "gamerTag": "OPolegar"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21724620,
+                                "name": "NaSC | F-Zero",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FZeRoW"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 472371,
+                                            "gamerTag": "F-Zero"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Tretinha Curitiba - Novembro 2025",
@@ -3209,7 +3402,9 @@
         "tournament_venueAddress": "Av. Silva Jardim, 1145b - Rebou\u00e7as, Curitiba - PR, 80230-000, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": "1983942317783351404",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1494769": {
         "id": 1494769,
@@ -3261,351 +3456,6 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "1985897652769144903"
-    },
-    "1493761": {
-        "id": 1493761,
-        "name": "Ultimate Singles",
-        "isOnline": false,
-        "state": "ACTIVE",
-        "numEntrants": 17,
-        "videogame": {
-            "id": 1386
-        },
-        "startAt": 1762621200,
-        "phaseGroups": [
-            {
-                "id": 3091154,
-                "state": 2,
-                "phase": {
-                    "name": "Bracket"
-                },
-                "progressionsOut": null,
-                "standings": {
-                    "pageInfo": {
-                        "total": 17
-                    },
-                    "nodes": [
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 21792183,
-                                "name": "NaSC | chanteuse",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4131157,
-                                            "gamerTag": "chanteuse"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 2,
-                            "entrant": {
-                                "id": 21705505,
-                                "name": "NaSC/PST/GNK | Muwkas",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MuwkasMu"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 3721376,
-                                            "gamerTag": "Muwkas"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 21705522,
-                                "name": "NaSC | Y8shikage",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Y8shikage_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 1728594,
-                                            "gamerTag": "Y8shikage"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 4,
-                            "entrant": {
-                                "id": 21791869,
-                                "name": "NaSC | Gobi",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 548068,
-                                            "gamerTag": "Gobi"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 21705523,
-                                "name": "Niohuru X",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3221670,
-                                            "gamerTag": "Niohuru X"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 21791866,
-                                "name": "NaSC | Tyrk",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 671442,
-                                            "gamerTag": "Tyrk"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 21705518,
-                                "name": "Mazegg | Aquele_eduardo_la",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4623795,
-                                            "gamerTag": "Aquele_eduardo_la"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 21801990,
-                                "name": "Rosoyu|Wesley",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "wesleymicael13"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 4374458,
-                                            "gamerTag": "Rosoyu|Wesley"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21705538,
-                                "name": "Palha\u00e7oGozadinha",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4611588,
-                                            "gamerTag": "Palha\u00e7oGozadinha"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21805929,
-                                "name": "Maze | Lightning",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 5068237,
-                                            "gamerTag": "Lightning"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21705527,
-                                "name": "Gabs Maze",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 5008099,
-                                            "gamerTag": "Gabs Maze"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21792033,
-                                "name": "Barulho_detiro",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 5064851,
-                                            "gamerTag": "Barulho_detiro"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 21806064,
-                                "name": "maze | Aramil",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 5068290,
-                                            "gamerTag": "Aramil"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 21801993,
-                                "name": "GARCIAL0CK",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 5014887,
-                                            "gamerTag": "GARCIAL0CK"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 21805950,
-                                "name": "maze | Elber",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 5068243,
-                                            "gamerTag": "Elber"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 21805937,
-                                "name": "Maze | Cassie",
-                                "participants": [
-                                    {
-                                        "user": null,
-                                        "player": {
-                                            "id": 5068239,
-                                            "gamerTag": "Cassie"
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
-        "tournament": "NaSC VII 2025",
-        "tournament_id": 846491,
-        "city": "Natal",
-        "url": "https://start.gg/tournament/nasc-vii-2025/event/ultimate-singles",
-        "streams": null,
-        "timezone": "America/Fortaleza",
-        "tournament_startAt": 1762621200,
-        "tournament_endAt": 1762909200,
-        "tournament_registrationClosesAt": 1762909200,
-        "images": [
-            {
-                "id": "8821395",
-                "url": "https://images.start.gg/images/tournament/846491/image-ff0ddd16dc2908bb359e03209b851695.png",
-                "type": "profile"
-            },
-            {
-                "id": "8821396",
-                "url": "https://images.start.gg/images/tournament/846491/image-93818f46a8f113128a323864818cda69.png",
-                "type": "banner"
-            }
-        ],
-        "tournament_multievent": false,
-        "tournament_venueName": null,
-        "tournament_venueAddress": "Natal, RN, Brasil",
-        "tournament_addrState": "RN",
-        "tweet_id": "1987068130175128033",
-        "postedRegistrationClosing": true,
-        "postedPhaseResultIds": [],
-        "postedStarting": true
     },
     "1500350": {
         "id": 1500350,
