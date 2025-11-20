@@ -3579,7 +3579,7 @@
         "id": 1507387,
         "name": "Round Robin",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 4,
         "videogame": {
             "id": 1386
@@ -3588,8 +3588,8 @@
         "phaseGroups": [
             {
                 "id": 3113295,
+                "state": 2,
                 "phase": {
-                    "id": 2136718,
                     "name": "Bracket"
                 },
                 "progressionsOut": [
@@ -3605,15 +3605,185 @@
                     {
                         "id": 13074010
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 21904894,
+                                "name": "SBF | Nick-IN",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4680543
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 21911798,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "igorsonicgamer"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503417
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21911559,
+                                "name": "Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 21919468,
+                                "name": "SBF | NAIRIODA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4772040
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 3113379,
+                "state": 1,
                 "phase": {
-                    "id": 2136785,
                     "name": "Top 4"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 4
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21911798,
+                                "name": "SBF | Igor Sonic",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "igorsonicgamer"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3503417,
+                                            "gamerTag": "Igor Sonic"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21904894,
+                                "name": "SBF | Nick-IN",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4680543,
+                                            "gamerTag": "Nick-IN"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21911559,
+                                "name": "Taunt",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "charda_yo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 172392,
+                                            "gamerTag": "Taunt"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21919468,
+                                "name": "SBF | NAIRIODA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4772040,
+                                            "gamerTag": "NAIRIODA"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "AQUECE BAIXADA (Pr\u00e9-Ganon Castle)",
@@ -3642,7 +3812,9 @@
         "tournament_venueAddress": "Pra\u00e7a Severino Azevedo, 435 - Centro, Nova Igua\u00e7u - RJ, 26215-215, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "1990865396178596130",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1507549": {
         "id": 1507549,
@@ -3696,7 +3868,7 @@
         "name": "Recifight Smash Ultimate",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 6,
+        "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
