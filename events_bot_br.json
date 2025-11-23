@@ -2811,7 +2811,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
-        "tweet_id": "1985897652769144903"
+        "tweet_id": "1985897652769144903",
+        "postedRegistrationClosing": true
     },
     "1501432": {
         "id": 1501432,
@@ -2852,6 +2853,23 @@
                         {
                             "placement": 3,
                             "entrant": {
+                                "id": 21928035,
+                                "name": "Aleixo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 619706
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
                                 "id": 21891095,
                                 "name": "SST | Lo",
                                 "participants": [
@@ -2869,15 +2887,19 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 21928035,
-                                "name": "Aleixo",
+                                "id": 21836529,
+                                "name": "TWS | K-BLADE",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TwsKBlade"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 619706
+                                            "id": 981066
                                         }
                                     }
                                 ]
@@ -2916,27 +2938,6 @@
                                         },
                                         "player": {
                                             "id": 211496
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 21836529,
-                                "name": "TWS | K-BLADE",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "TwsKBlade"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 981066
                                         }
                                     }
                                 ]
@@ -3076,7 +3077,7 @@
             },
             {
                 "id": 3103288,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Pools"
                 },
@@ -3100,7 +3101,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 1,
+                            "placement": 9,
                             "entrant": {
                                 "id": 21929579,
                                 "name": "Es kbty eh",
@@ -3117,7 +3118,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 9,
                             "entrant": {
                                 "id": 21929595,
                                 "name": "1014 Fofinha",
@@ -3134,7 +3135,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 9,
                             "entrant": {
                                 "id": 21940898,
                                 "name": "BDB | Andromeda",
@@ -3151,24 +3152,7 @@
                             }
                         },
                         {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 21930923,
-                                "name": "TwS | Sky",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 547786
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
+                            "placement": 9,
                             "entrant": {
                                 "id": 21898360,
                                 "name": "BDB | Wanshitong",
@@ -3189,7 +3173,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 9,
                             "entrant": {
                                 "id": 21935039,
                                 "name": "CHAIKA",
@@ -3206,7 +3190,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 9,
                             "entrant": {
                                 "id": 21891635,
                                 "name": "TwS | BDB | GabFon",
@@ -3227,7 +3211,58 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21935165,
+                                "name": "LA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4171659
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21929559,
+                                "name": "Bullets_Monilha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4837350
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 21930923,
+                                "name": "TwS | Sky",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 547786
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
                             "entrant": {
                                 "id": 21948322,
                                 "name": "Nebula | Wasco | KNG",
@@ -3248,7 +3283,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 13,
                             "entrant": {
                                 "id": 21948628,
                                 "name": "PROGETO",
@@ -3269,7 +3304,7 @@
                             }
                         },
                         {
-                            "placement": 1,
+                            "placement": 13,
                             "entrant": {
                                 "id": 21934538,
                                 "name": "SST | Tamago",
@@ -3284,40 +3319,6 @@
                                         },
                                         "player": {
                                             "id": 4017955
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 21935165,
-                                "name": "LA",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4171659
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 1,
-                            "entrant": {
-                                "id": 21929559,
-                                "name": "Bullets_Monilha",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4837350
                                         }
                                     }
                                 ]
@@ -3338,6 +3339,24 @@
                         "total": 24
                     },
                     "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21928035,
+                                "name": "Aleixo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 619706,
+                                            "gamerTag": "Aleixo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 5,
                             "entrant": {
@@ -3377,16 +3396,20 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 21928035,
-                                "name": "Aleixo",
+                                "id": 21836529,
+                                "name": "TWS | K-BLADE",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TwsKBlade"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 619706,
-                                            "gamerTag": "Aleixo"
+                                            "id": 981066,
+                                            "gamerTag": "K-BLADE"
                                         }
                                     }
                                 ]
@@ -3467,28 +3490,6 @@
                                         "player": {
                                             "id": 2823590,
                                             "gamerTag": "Dreigel"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 21836529,
-                                "name": "TWS | K-BLADE",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "TwsKBlade"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 981066,
-                                            "gamerTag": "K-BLADE"
                                         }
                                     }
                                 ]
