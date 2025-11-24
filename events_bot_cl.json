@@ -1104,7 +1104,7 @@
         "id": 1511058,
         "name": "torneo singles santo tomas",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -1113,11 +1113,162 @@
         "phaseGroups": [
             {
                 "id": 3119376,
+                "state": 2,
                 "phase": {
-                    "id": 2141397,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21954941,
+                                "name": "Alefoley",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098632,
+                                            "gamerTag": "Alefoley"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21955283,
+                                "name": "Koraga",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098673,
+                                            "gamerTag": "Koraga"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21955548,
+                                "name": "benja",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098823,
+                                            "gamerTag": "benja"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21954960,
+                                "name": "Artin",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098638,
+                                            "gamerTag": "Artin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21954956,
+                                "name": "foka",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098636,
+                                            "gamerTag": "foka"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21955657,
+                                "name": "Alanbrito",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098868,
+                                            "gamerTag": "Alanbrito"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21955629,
+                                "name": "Ariman23",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098860,
+                                            "gamerTag": "Ariman23"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21954946,
+                                "name": "seberus0",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098635,
+                                            "gamerTag": "seberus0"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 21955626,
+                                "name": "Josu",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5098858,
+                                            "gamerTag": "Josu"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Torneo Santo Tomas",
@@ -1135,6 +1286,8 @@
         "tournament_venueAddress": "Av. Carlos Schorr, Talca, Maule, Chile",
         "tournament_addrState": "Maule",
         "tweet_id": "1992956635849834740",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
