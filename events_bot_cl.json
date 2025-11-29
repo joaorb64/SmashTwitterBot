@@ -576,7 +576,7 @@
         "phaseGroups": [
             {
                 "id": 3072094,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -611,6 +611,27 @@
                         "total": 16
                     },
                     "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21862597,
+                                "name": "SF | CSB | Gago",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MrGagoAndWatch"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2399742
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 5,
                             "entrant": {
@@ -665,6 +686,27 @@
                         {
                             "placement": 7,
                             "entrant": {
+                                "id": 21865724,
+                                "name": "SF | Rodo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sf_rodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132871
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
                                 "id": 21954584,
                                 "name": "Xiky",
                                 "participants": [
@@ -682,6 +724,27 @@
                         {
                             "placement": 7,
                             "entrant": {
+                                "id": 21955060,
+                                "name": "Choklo!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MTwichi"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4440176
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
                                 "id": 21956454,
                                 "name": "KenyanGC",
                                 "participants": [
@@ -691,48 +754,6 @@
                                         },
                                         "player": {
                                             "id": 3937605
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21862597,
-                                "name": "SF | CSB | Gago",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MrGagoAndWatch"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2399742
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21865724,
-                                "name": "SF | Rodo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "sf_rodo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 132871
                                         }
                                     }
                                 ]
@@ -796,27 +817,6 @@
                                         },
                                         "player": {
                                             "id": 560296
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21955060,
-                                "name": "Choklo!",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MTwichi"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 4440176
                                         }
                                     }
                                 ]
@@ -924,7 +924,7 @@
             },
             {
                 "id": 3072095,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 8"
                 },
@@ -935,7 +935,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 21886304,
                                 "name": "SKC | B\u00fctter",
@@ -947,6 +947,46 @@
                                         "player": {
                                             "id": 3687613,
                                             "gamerTag": "B\u00fctter"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 21865729,
+                                "name": "SF | marr",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3588393,
+                                            "gamerTag": "marr"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 21862597,
+                                "name": "SF | CSB | Gago",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MrGagoAndWatch"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2399742,
+                                            "gamerTag": "Gago"
                                         }
                                     }
                                 ]
@@ -965,24 +1005,6 @@
                                         "player": {
                                             "id": 1876771,
                                             "gamerTag": "Poilopo-X"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 21865729,
-                                "name": "SF | marr",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3588393,
-                                            "gamerTag": "marr"
                                         }
                                     }
                                 ]
@@ -1025,22 +1047,44 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 7,
                             "entrant": {
-                                "id": 21862597,
-                                "name": "SF | CSB | Gago",
+                                "id": 21955060,
+                                "name": "Choklo!",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "MrGagoAndWatch"
+                                                    "externalUsername": "MTwichi"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 2399742,
-                                            "gamerTag": "Gago"
+                                            "id": 4440176,
+                                            "gamerTag": "Choklo!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 21865724,
+                                "name": "SF | Rodo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sf_rodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 132871,
+                                            "gamerTag": "Rodo"
                                         }
                                     }
                                 ]
@@ -1063,50 +1107,6 @@
                                         "player": {
                                             "id": 560296,
                                             "gamerTag": "JajaSC"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21955060,
-                                "name": "Choklo!",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "MTwichi"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 4440176,
-                                            "gamerTag": "Choklo!"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 21865724,
-                                "name": "SF | Rodo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "sf_rodo"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 132871,
-                                            "gamerTag": "Rodo"
                                         }
                                     }
                                 ]
