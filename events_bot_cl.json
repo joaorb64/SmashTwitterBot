@@ -918,7 +918,7 @@
         "id": 1526001,
         "name": "WLB SINGLES",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -927,59 +927,324 @@
         "phaseGroups": [
             {
                 "id": 3145281,
+                "state": 2,
                 "phase": {
-                    "id": 2160688,
                     "name": "Pools"
                 },
                 "progressionsOut": [
                     {
-                        "id": 13194692
+                        "id": 13194729
                     },
                     {
-                        "id": 13194694
+                        "id": 13194731
                     },
                     {
-                        "id": 13194696
-                    },
-                    {
-                        "id": 13194698
+                        "id": 13194733
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 22172439,
+                                "name": "WLB | CRONS^2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3385603
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 22172441,
+                                "name": "Valenz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Valenz_V1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2264976
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 22172438,
+                                "name": "WLB | Hakos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Hks_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4024180
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
                 "id": 3145282,
+                "state": 1,
                 "phase": {
-                    "id": 2160688,
                     "name": "Pools"
                 },
                 "progressionsOut": [
                     {
-                        "id": 13194693
+                        "id": 13194730
                     },
                     {
-                        "id": 13194695
+                        "id": 13194732
                     },
                     {
-                        "id": 13194697
-                    },
-                    {
-                        "id": 13194699
+                        "id": 13194734
                     }
-                ]
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 22172440,
+                                "name": "PHX | WLB | SaiKora",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Saiikora"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3577042
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 22172448,
+                                "name": "Maro",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "M_a_r_o_29"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4992931
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 22172444,
+                                "name": "FSM | sk8!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "skOcho_fsm"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4473472
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             },
             {
-                "id": 3145283,
+                "id": 3145292,
+                "state": 1,
                 "phase": {
-                    "id": 2160689,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22172441,
+                                "name": "Valenz",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Valenz_V1"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2264976,
+                                            "gamerTag": "Valenz"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22172438,
+                                "name": "WLB | Hakos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Hks_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4024180,
+                                            "gamerTag": "Hakos"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22172439,
+                                "name": "WLB | CRONS^2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3385603,
+                                            "gamerTag": "CRONS^2"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22172440,
+                                "name": "PHX | WLB | SaiKora",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Saiikora"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3577042,
+                                            "gamerTag": "SaiKora"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22172444,
+                                "name": "FSM | sk8!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "skOcho_fsm"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4473472,
+                                            "gamerTag": "sk8!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22172448,
+                                "name": "Maro",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "M_a_r_o_29"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4992931,
+                                            "gamerTag": "Maro"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "WLB RR #6 - PRE TOMOSMASHER EDITION",
         "tournament_id": 863434,
         "city": null,
-        "url": "https://start.gg/tournament/wlb-rr-6-pre-tomosmasher-edition",
+        "url": "https://start.gg/tournament/wlb-rr-6-pre-tomosmasher-edition/event/wlb-singles",
         "streams": null,
         "timezone": "America/Santiago",
         "tournament_startAt": 1766292000,
@@ -1001,6 +1266,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Chile",
         "tournament_addrState": null,
-        "tweet_id": "2002582608488579104"
+        "tweet_id": "2002582608488579104",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
