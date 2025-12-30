@@ -204,7 +204,7 @@
         "id": 1527456,
         "name": "Nuzlocke (30/12)",
         "isOnline": true,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 14,
         "videogame": {
             "id": 1386
@@ -213,11 +213,17 @@
         "phaseGroups": [
             {
                 "id": 3147628,
+                "state": 2,
                 "phase": {
-                    "id": 2162591,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "STAR CARNIVAL #5 - NUZLOCKE",
@@ -256,7 +262,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "2004764557621723525",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1527643": {
         "id": 1527643,
