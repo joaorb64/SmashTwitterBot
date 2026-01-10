@@ -1000,7 +1000,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Pto C\u00e1rdenas 1195, 5504173 Puerto Montt, Los Lagos, Chile",
         "tournament_addrState": "Los Lagos",
-        "tweet_id": "2008691044603375619"
+        "tweet_id": "2008691044603375619",
+        "postedRegistrationClosing": true
     },
     "1533825": {
         "id": 1533825,
@@ -1088,7 +1089,7 @@
         "name": "1v1 ultimate",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 25,
+        "numEntrants": 24,
         "videogame": {
             "id": 1386
         },
@@ -1140,7 +1141,11 @@
         "tournament_id": 867884,
         "city": "Vi\u00f1a del Mar",
         "url": "https://start.gg/tournament/nopulse-factor-3/event/1v1-ultimate",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "fsm_smash"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1768062600,
         "tournament_endAt": 1768089600,
@@ -1169,7 +1174,7 @@
         "name": "Duplas",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 5,
+        "numEntrants": 4,
         "videogame": {
             "id": 1386
         },
@@ -1188,7 +1193,11 @@
         "tournament_id": 867884,
         "city": "Vi\u00f1a del Mar",
         "url": "https://start.gg/tournament/nopulse-factor-3/event/duplas",
-        "streams": null,
+        "streams": [
+            {
+                "streamName": "fsm_smash"
+            }
+        ],
         "timezone": "America/Santiago",
         "tournament_startAt": 1768062600,
         "tournament_endAt": 1768089600,
@@ -1217,7 +1226,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 10,
+        "numEntrants": 11,
         "videogame": {
             "id": 1386
         },
