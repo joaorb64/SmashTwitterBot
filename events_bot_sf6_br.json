@@ -1302,8 +1302,8 @@
         "id": 1540313,
         "name": "Street Fighter 6",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 8,
+        "state": "ACTIVE",
+        "numEntrants": 14,
         "videogame": {
             "id": 43868
         },
@@ -1311,11 +1311,17 @@
         "phaseGroups": [
             {
                 "id": 3169500,
+                "state": 2,
                 "phase": {
-                    "id": 2178688,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "Arena Gamer KaBuM! - Limeira",
@@ -1351,6 +1357,8 @@
         "tournament_venueAddress": "R. Carlos Gomes, 1321 - Centro, Limeira - SP, 13480-013, Brasil",
         "tournament_addrState": "SP",
         "tweet_id": "2012148095459475473",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
