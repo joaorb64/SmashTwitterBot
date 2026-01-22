@@ -752,7 +752,7 @@
         "id": 1539403,
         "name": "NDM#189: Singles.",
         "isOnline": false,
-        "state": "ACTIVE",
+        "state": "COMPLETED",
         "numEntrants": 31,
         "videogame": {
             "id": 1386
@@ -761,7 +761,7 @@
         "phaseGroups": [
             {
                 "id": 3167971,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -771,6 +771,28 @@
                         "total": 31
                     },
                     "nodes": [
+                        {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 22394345,
+                                "name": "TSB | Blas",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "iKillzone_Blas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 207717,
+                                            "gamerTag": "Blas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "placement": 2,
                             "entrant": {
@@ -788,28 +810,6 @@
                                         "player": {
                                             "id": 2085354,
                                             "gamerTag": "Neitor"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 22394345,
-                                "name": "TSB | Blas",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "iKillzone_Blas"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 207717,
-                                            "gamerTag": "Blas"
                                         }
                                     }
                                 ]
@@ -1523,143 +1523,5 @@
         "tournament_venueAddress": "Valent\u00edn Letelier 1319, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "2014103454851981423"
-    },
-    "1529267": {
-        "id": 1529267,
-        "name": "Hibana Invitacional",
-        "isOnline": false,
-        "state": "COMPLETED",
-        "numEntrants": 16,
-        "videogame": {
-            "id": 1386
-        },
-        "startAt": 1769049000,
-        "phaseGroups": [
-            {
-                "id": 3150548,
-                "phase": {
-                    "id": 2164888,
-                    "name": "Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 13211910
-                    },
-                    {
-                        "id": 13211914
-                    },
-                    {
-                        "id": 13211918
-                    },
-                    {
-                        "id": 13211922
-                    }
-                ]
-            },
-            {
-                "id": 3150553,
-                "phase": {
-                    "id": 2164888,
-                    "name": "Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 13211911
-                    },
-                    {
-                        "id": 13211915
-                    },
-                    {
-                        "id": 13211919
-                    },
-                    {
-                        "id": 13211923
-                    }
-                ]
-            },
-            {
-                "id": 3150554,
-                "phase": {
-                    "id": 2164888,
-                    "name": "Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 13211912
-                    },
-                    {
-                        "id": 13211916
-                    },
-                    {
-                        "id": 13211920
-                    },
-                    {
-                        "id": 13211924
-                    }
-                ]
-            },
-            {
-                "id": 3150555,
-                "phase": {
-                    "id": 2164888,
-                    "name": "Pools"
-                },
-                "progressionsOut": [
-                    {
-                        "id": 13211913
-                    },
-                    {
-                        "id": 13211917
-                    },
-                    {
-                        "id": 13211921
-                    },
-                    {
-                        "id": 13211925
-                    }
-                ]
-            },
-            {
-                "id": 3150556,
-                "phase": {
-                    "id": 2164893,
-                    "name": "Bracket Final"
-                },
-                "progressionsOut": null
-            }
-        ],
-        "tournament": "SaiKora's Hibana Invitacional",
-        "tournament_id": 865206,
-        "city": "Quintero",
-        "url": "https://start.gg/tournament/saikora-s-hibana-invitacional",
-        "streams": [
-            {
-                "streamName": "fsm_smash"
-            },
-            {
-                "streamName": "Saikora78"
-            }
-        ],
-        "timezone": "America/Santiago",
-        "tournament_startAt": 1769049000,
-        "tournament_endAt": 1769050740,
-        "tournament_registrationClosesAt": 1768705200,
-        "images": [
-            {
-                "id": "8994384",
-                "url": "https://images.start.gg/images/tournament/865206/image-22f7a0842c44b7963adf75171befd505.jpg",
-                "type": "profile"
-            },
-            {
-                "id": "9053259",
-                "url": "https://images.start.gg/images/tournament/865206/image-a4b6752494085990dc2b78091555171d.jpg",
-                "type": "banner"
-            }
-        ],
-        "tournament_multievent": false,
-        "tournament_venueName": null,
-        "tournament_venueAddress": "Quintero, Valpara\u00edso, Chile",
-        "tournament_addrState": "Valpara\u00edso",
-        "tweet_id": "2014148841067384865"
     }
 }
