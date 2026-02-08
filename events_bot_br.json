@@ -544,7 +544,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 22358842,
                                 "name": "Lala",
@@ -598,6 +598,24 @@
                             }
                         },
                         {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 22567991,
+                                "name": "Thunder | Someon_e",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4834986,
+                                            "gamerTag": "Someon_e"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 5,
                             "entrant": {
                                 "id": 22540239,
@@ -618,16 +636,16 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 22567991,
-                                "name": "Thunder | Someon_e",
+                                "id": 22478642,
+                                "name": "DKN | Moreno",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": null
                                         },
                                         "player": {
-                                            "id": 4834986,
-                                            "gamerTag": "Someon_e"
+                                            "id": 4820857,
+                                            "gamerTag": "Moreno"
                                         }
                                     }
                                 ]
@@ -646,24 +664,6 @@
                                         "player": {
                                             "id": 4770849,
                                             "gamerTag": "Edblade"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 22478642,
-                                "name": "DKN | Moreno",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4820857,
-                                            "gamerTag": "Moreno"
                                         }
                                     }
                                 ]
@@ -869,7 +869,7 @@
         "id": 1472528,
         "name": "FG2 - LOW RANKING",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 5,
         "videogame": {
             "id": 1386
@@ -878,11 +878,112 @@
         "phaseGroups": [
             {
                 "id": 3055342,
+                "state": 2,
                 "phase": {
-                    "id": 2092352,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 22349039,
+                                "name": "FrosT",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "romulohas"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2606786,
+                                            "gamerTag": "FrosT"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 22363311,
+                                "name": "SBF | Chuquin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5172293,
+                                            "gamerTag": "Chuquin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22478603,
+                                "name": "SmashBxd | Xisde",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4725236,
+                                            "gamerTag": "Xisde"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22347035,
+                                "name": "SBF | Duckson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4691455,
+                                            "gamerTag": "Duckson"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22348991,
+                                "name": "SBF | SnowFleiqs",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4144655,
+                                            "gamerTag": "SnowFleiqs"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "FOR GLORY 2",
@@ -911,7 +1012,9 @@
         "tournament_venueAddress": "Pra\u00e7a Severino Azevedo, 435 - Centro, Nova Igua\u00e7u - RJ, 26215-215, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "2011793252744130885",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1537676": {
         "id": 1537676,
