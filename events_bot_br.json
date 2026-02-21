@@ -841,7 +841,7 @@
         "id": 1548087,
         "name": "smash bros ultimate Round robin",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -850,11 +850,17 @@
         "phaseGroups": [
             {
                 "id": 3182226,
+                "state": 2,
                 "phase": {
-                    "id": 2188487,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "battleship arena",
@@ -883,7 +889,9 @@
         "tournament_venueAddress": "R. Evaldo Costa, 59 - Sala 101 - Sol e Mar, Maca\u00e9 - RJ, 27940-410, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "2020112996760965342",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1553833": {
         "id": 1553833,
@@ -944,7 +952,7 @@
         "name": "Smash Ultimate",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 13,
         "videogame": {
             "id": 1386
         },
