@@ -599,7 +599,7 @@
         "id": 1567828,
         "name": "BTD6 EL MEJOR JUEGO DE LA HISTORIA",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 6,
         "videogame": {
             "id": 1386
@@ -608,11 +608,138 @@
         "phaseGroups": [
             {
                 "id": 3215296,
+                "state": 2,
                 "phase": {
-                    "id": 2213814,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22717202,
+                                "name": "MB | Lemao",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "lemaoxon"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4192841,
+                                            "gamerTag": "Lemao"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22717208,
+                                "name": "WLB | NintendogsZA",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NintendogsZA"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4192843,
+                                            "gamerTag": "NintendogsZA"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22719227,
+                                "name": "Alenantrax",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4108544,
+                                            "gamerTag": "Alenantrax"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22723719,
+                                "name": "samu.arl",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5233686,
+                                            "gamerTag": "samu.arl"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22719226,
+                                "name": "prodoop",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3236100,
+                                            "gamerTag": "prodoop"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22723737,
+                                "name": "HM | Nero",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "NeroSpa45407052"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2279183,
+                                            "gamerTag": "Nero"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "CALAMA TOWER DEFENSE #1",
@@ -641,6 +768,8 @@
         "tournament_venueAddress": "Vicu\u00f1a Mackenna 1963, 1394247 Calama, Antofagasta, Chile",
         "tournament_addrState": "Antofagasta",
         "tweet_id": "2026100093649068361",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
