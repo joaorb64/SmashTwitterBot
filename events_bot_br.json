@@ -2987,7 +2987,7 @@
         "id": 1574623,
         "name": "Smash Bros. Ultimate",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 3,
         "videogame": {
             "id": 1386
@@ -2996,11 +2996,84 @@
         "phaseGroups": [
             {
                 "id": 3225901,
+                "state": 2,
                 "phase": {
-                    "id": 2222303,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 3
+                    },
+                    "nodes": [
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 22804552,
+                                "name": "ProRD | frodO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "andreyfrodo"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 156155,
+                                            "gamerTag": "frodO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 22848742,
+                                "name": "NaSC | F-Zero",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FZeRoW"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 472371,
+                                            "gamerTag": "F-Zero"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 22850118,
+                                "name": "Emanos",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TheEmanos"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 36968,
+                                            "gamerTag": "Emanos"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Tretinha Curitiba - Mar\u00e7o 2026",
@@ -3033,7 +3106,9 @@
         "tournament_venueAddress": "Av. Silva Jardim, 1145b - Rebou\u00e7as, Curitiba - PR, 80230-000, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": "2029210585649324249",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1571039": {
         "id": 1571039,
