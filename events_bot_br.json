@@ -962,7 +962,7 @@
             },
             {
                 "id": 3210509,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "2\u00aa FASE, Acesso S\u00e9rie A"
                 },
@@ -987,6 +987,13 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Ridley": {
+                                    "name": "Ridley",
+                                    "usage": 16,
+                                    "icon": "https://images.start.gg/images/character/1322/image-6944a1e50f8a87e11886b885db4bf0a8.png"
+                                }
                             }
                         },
                         {
@@ -1008,6 +1015,28 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Marth": {
+                                    "name": "Marth",
+                                    "usage": 11,
+                                    "icon": "https://images.start.gg/images/character/1304/image-eefba4d63ebc529039975f27fca61843.png"
+                                },
+                                "Roy": {
+                                    "name": "Roy",
+                                    "usage": 3,
+                                    "icon": "https://images.start.gg/images/character/1326/image-48f829e07a9c6b6ab3490116006cf71e.png"
+                                },
+                                "Shulk": {
+                                    "name": "Shulk",
+                                    "usage": 3,
+                                    "icon": "https://images.start.gg/images/character/1330/image-71f53c3c1ad926c1ae68a0bb558fa5ad.png"
+                                },
+                                "Zero Suit Samus": {
+                                    "name": "Zero Suit Samus",
+                                    "usage": 3,
+                                    "icon": "https://images.start.gg/images/character/1341/image-7c0c70110071ed9a863e712469118d10.png"
+                                }
                             }
                         },
                         {
@@ -1029,6 +1058,23 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Fox": {
+                                    "name": "Fox",
+                                    "usage": 11,
+                                    "icon": "https://images.start.gg/images/character/1286/image-14f14c0145535ab65ae8c2bdd9196b3d.png"
+                                },
+                                "Falco": {
+                                    "name": "Falco",
+                                    "usage": 9,
+                                    "icon": "https://images.start.gg/images/character/1285/image-9e61f7a91a6c642bc3f14409f6f1cb69.png"
+                                },
+                                "King Dedede": {
+                                    "name": "King Dedede",
+                                    "usage": 4,
+                                    "icon": "https://images.start.gg/images/character/1294/image-b6c14001355f8693329a32f2065bdca3.png"
+                                }
                             }
                         },
                         {
@@ -1050,6 +1096,23 @@
                                         }
                                     }
                                 ]
+                            },
+                            "char_usage": {
+                                "Cloud": {
+                                    "name": "Cloud",
+                                    "usage": 9,
+                                    "icon": "https://images.start.gg/images/character/1275/image-354129bab0aa613d617cbb3ff095a70a.png"
+                                },
+                                "Falco": {
+                                    "name": "Falco",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1285/image-9e61f7a91a6c642bc3f14409f6f1cb69.png"
+                                },
+                                "Lucina": {
+                                    "name": "Lucina",
+                                    "usage": 1,
+                                    "icon": "https://images.start.gg/images/character/1300/image-37b6105a4f599756c3c599e30ef69927.png"
+                                }
                             }
                         }
                     ]
@@ -1464,7 +1527,9 @@
         "tournament_addrState": null,
         "tweet_id": "2010917400338686457",
         "postedRegistrationClosing": true,
-        "postedPhaseResultIds": [],
+        "postedPhaseResultIds": [
+            3210509
+        ],
         "postedStarting": true
     },
     "1536034": {
@@ -1472,7 +1537,7 @@
         "name": "SERIE A",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 8,
+        "numEntrants": 10,
         "videogame": {
             "id": 1386
         },
@@ -1541,7 +1606,7 @@
         "name": "SERIE B",
         "isOnline": true,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -3340,7 +3405,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 22861438,
                                 "name": "FT | Grandmemes",
@@ -3356,6 +3421,28 @@
                                         "player": {
                                             "id": 2068666,
                                             "gamerTag": "Grandmemes"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 3,
+                            "entrant": {
+                                "id": 22854642,
+                                "name": "Nebula | FR7",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FR7_ssbu"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 5219748,
+                                            "gamerTag": "FR7"
                                         }
                                     }
                                 ]
@@ -3408,6 +3495,28 @@
                         {
                             "placement": 7,
                             "entrant": {
+                                "id": 22857589,
+                                "name": "Sinner",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Helio_Sinner"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1692330,
+                                            "gamerTag": "Sinner"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
                                 "id": 22853958,
                                 "name": "snk | bun | luchave",
                                 "participants": [
@@ -3428,22 +3537,40 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 7,
                             "entrant": {
-                                "id": 22857589,
-                                "name": "Sinner",
+                                "id": 22861141,
+                                "name": "UF | Prime",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "Helio_Sinner"
+                                                    "externalUsername": "Prime_Samus"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 1692330,
-                                            "gamerTag": "Sinner"
+                                            "id": 2935129,
+                                            "gamerTag": "Prime"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 22858328,
+                                "name": "Miss Doggo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4912619,
+                                            "gamerTag": "Miss Doggo"
                                         }
                                     }
                                 ]
@@ -3466,6 +3593,28 @@
                                         "player": {
                                             "id": 3381670,
                                             "gamerTag": "ren"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 22859828,
+                                "name": "SMB | Gin Moon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Ginmoon_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2559787,
+                                            "gamerTag": "Gin Moon"
                                         }
                                     }
                                 ]
@@ -3512,28 +3661,6 @@
                             }
                         },
                         {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 22854642,
-                                "name": "Nebula | FR7",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "FR7_ssbu"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 5219748,
-                                            "gamerTag": "FR7"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 13,
                             "entrant": {
                                 "id": 22848570,
@@ -3554,24 +3681,6 @@
                         {
                             "placement": 13,
                             "entrant": {
-                                "id": 22858328,
-                                "name": "Miss Doggo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4912619,
-                                            "gamerTag": "Miss Doggo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
                                 "id": 22860665,
                                 "name": "SsT | Ketch Up",
                                 "participants": [
@@ -3582,28 +3691,6 @@
                                         "player": {
                                             "id": 4021592,
                                             "gamerTag": "Ketch Up"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 22859828,
-                                "name": "SMB | Gin Moon",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Ginmoon_"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2559787,
-                                            "gamerTag": "Gin Moon"
                                         }
                                     }
                                 ]
@@ -3644,28 +3731,6 @@
                                         "player": {
                                             "id": 1081066,
                                             "gamerTag": "Doc Marion"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 13,
-                            "entrant": {
-                                "id": 22861141,
-                                "name": "UF | Prime",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Prime_Samus"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2935129,
-                                            "gamerTag": "Prime"
                                         }
                                     }
                                 ]
