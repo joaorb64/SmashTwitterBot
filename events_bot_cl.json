@@ -536,7 +536,7 @@
         "tournament_addrState": "Arica y Parinacota",
         "tweet_id": "2028908548369916244",
         "postedRegistrationClosing": true,
-        "retries": 3
+        "retries": 4
     },
     "1561704": {
         "id": 1561704,
@@ -721,8 +721,8 @@
         "id": 1576371,
         "name": "DSL Trainers league series #6",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 6,
+        "state": "ACTIVE",
+        "numEntrants": 8,
         "videogame": {
             "id": 1386
         },
@@ -730,11 +730,186 @@
         "phaseGroups": [
             {
                 "id": 3228849,
+                "state": 2,
                 "phase": {
-                    "id": 2224587,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22862369,
+                                "name": "Bros",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Bros_Smash_"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3807502,
+                                            "gamerTag": "Bros"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22871683,
+                                "name": "YuliusLeyben",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5153368,
+                                            "gamerTag": "YuliusLeyben"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22871367,
+                                "name": "AXB | KingSheikah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "kingsheikah"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 895687,
+                                            "gamerTag": "KingSheikah"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22870371,
+                                "name": "Extra | Dam!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Dam_696"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2362200,
+                                            "gamerTag": "Dam!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22857326,
+                                "name": "PipoCL",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "piposanchez5"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3101197,
+                                            "gamerTag": "PipoCL"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22859629,
+                                "name": "WLB | Tind3us",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "tindeuszz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4114115,
+                                            "gamerTag": "Tind3us"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22871604,
+                                "name": "lAoZ",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 65141,
+                                            "gamerTag": "lAoZ"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22867349,
+                                "name": "Extra | Pepperoni",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GyJavierignacio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1723324,
+                                            "gamerTag": "Pepperoni"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "DSL Trainers league series #6",
@@ -763,7 +938,9 @@
         "tournament_venueAddress": "Merced 820, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "2030056315368636741",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1575215": {
         "id": 1575215,
@@ -986,6 +1163,28 @@
                             }
                         },
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 22869253,
+                                "name": ":3 | Clairo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ClairoPK"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 417780,
+                                            "gamerTag": "Clairo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 22869005,
@@ -1002,28 +1201,6 @@
                                         "player": {
                                             "id": 1562606,
                                             "gamerTag": "vaiz"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 3,
-                            "entrant": {
-                                "id": 22869253,
-                                "name": ":3 | Clairo",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "ClairoPK"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 417780,
-                                            "gamerTag": "Clairo"
                                         }
                                     }
                                 ]
@@ -1343,7 +1520,7 @@
         "tournament": "ULTIMATE KOLD HOUSE #2",
         "tournament_id": 890138,
         "city": "Arica",
-        "url": "https://start.gg/tournament/ultimate-kold-house-2-2",
+        "url": "https://start.gg/tournament/ultimate-kold-house-2-2/event/singles",
         "streams": [
             {
                 "streamName": "jell64"
