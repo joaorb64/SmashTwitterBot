@@ -535,7 +535,8 @@
         "tournament_venueAddress": "Av. Sta. Mar\u00eda 2772, 1020014 Arica, Arica y Parinacota, Chile",
         "tournament_addrState": "Arica y Parinacota",
         "tweet_id": "2028908548369916244",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "retries": 1
     },
     "1561704": {
         "id": 1561704,
@@ -721,7 +722,7 @@
         "name": "DSL Trainers league series #6",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 4,
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -761,7 +762,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Merced 820, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
-        "tweet_id": "2030056315368636741"
+        "tweet_id": "2030056315368636741",
+        "postedRegistrationClosing": true
     },
     "1575215": {
         "id": 1575215,
@@ -966,7 +968,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 22869193,
                                 "name": "UDEC|CC|TKM | Wawychanger",
@@ -978,6 +980,28 @@
                                         "player": {
                                             "id": 939933,
                                             "gamerTag": "Wawychanger"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 22869155,
+                                "name": "UQS | Choclitomaster",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "choclitomaster"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1784912,
+                                            "gamerTag": "Choclitomaster"
                                         }
                                     }
                                 ]
@@ -1050,22 +1074,66 @@
                             }
                         },
                         {
-                            "placement": 9,
+                            "placement": 7,
                             "entrant": {
-                                "id": 22869155,
-                                "name": "UQS | Choclitomaster",
+                                "id": 22869236,
+                                "name": "UDEC | rorus",
                                 "participants": [
                                     {
                                         "user": {
                                             "authorizations": [
                                                 {
-                                                    "externalUsername": "choclitomaster"
+                                                    "externalUsername": "roro_SSBU"
                                                 }
                                             ]
                                         },
                                         "player": {
-                                            "id": 1784912,
-                                            "gamerTag": "Choclitomaster"
+                                            "id": 4181846,
+                                            "gamerTag": "rorus"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22869181,
+                                "name": "UDEC | alice",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "alicemonki"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2165854,
+                                            "gamerTag": "alice"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22868951,
+                                "name": "XANXO | Oden",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "TYRS_Oden"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 135252,
+                                            "gamerTag": "Oden"
                                         }
                                     }
                                 ]
@@ -1114,50 +1182,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 22869236,
-                                "name": "UDEC | rorus",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "roro_SSBU"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 4181846,
-                                            "gamerTag": "rorus"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 22869181,
-                                "name": "UDEC | alice",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "alicemonki"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 2165854,
-                                            "gamerTag": "alice"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 22869149,
                                 "name": "Hango",
                                 "participants": [
@@ -1168,28 +1192,6 @@
                                         "player": {
                                             "id": 3739923,
                                             "gamerTag": "Hango"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 22868951,
-                                "name": "XANXO | Oden",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "TYRS_Oden"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 135252,
-                                            "gamerTag": "Oden"
                                         }
                                     }
                                 ]
