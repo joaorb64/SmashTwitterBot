@@ -3273,8 +3273,8 @@
         "id": 1570057,
         "name": "(12/03) CIRCUITO GRINDCORD #2",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 23,
+        "state": "ACTIVE",
+        "numEntrants": 24,
         "videogame": {
             "id": 1386
         },
@@ -3282,11 +3282,17 @@
         "phaseGroups": [
             {
                 "id": 3218532,
+                "state": 2,
                 "phase": {
-                    "id": 2216521,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "CIRCUITO GRINDCORD ONLINE - SEMANA 1 | SMASH BROS. BRASIL",
@@ -3325,7 +3331,9 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "2030071813397451211",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1577210": {
         "id": 1577210,
