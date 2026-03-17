@@ -459,7 +459,7 @@
         "id": 1580648,
         "name": "DSL Trainers league series #7",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -468,11 +468,208 @@
         "phaseGroups": [
             {
                 "id": 3235578,
+                "state": 2,
                 "phase": {
-                    "id": 2230051,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22925020,
+                                "name": "TEW | | U-Smash Zeyer",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Zeyer_VC"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2365755,
+                                            "gamerTag": "| U-Smash Zeyer"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22937936,
+                                "name": "Extra | Pepperoni",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "GyJavierignacio"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1723324,
+                                            "gamerTag": "Pepperoni"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22941376,
+                                "name": "PARADISECITY| | Zaaz!",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "ParadiseCityIQQ"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1131964,
+                                            "gamerTag": "Zaaz!"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22939050,
+                                "name": "AXB | KingSheikah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "kingsheikah"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 895687,
+                                            "gamerTag": "KingSheikah"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22941267,
+                                "name": "WLB | Tind3us",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "tindeuszz"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 4114115,
+                                            "gamerTag": "Tind3us"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 22926170,
+                                "name": "tatantintin",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3829904,
+                                            "gamerTag": "tatantintin"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 22941097,
+                                "name": "MB | Elo",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Elo_aaa"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2098869,
+                                            "gamerTag": "Elo"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 22938671,
+                                "name": "Hiki",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4378263,
+                                            "gamerTag": "Hiki"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 22924282,
+                                "name": "Tusk",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Act3Tusk"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1314869,
+                                            "gamerTag": "Tusk"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "DSL Trainers league series #7",
@@ -501,7 +698,9 @@
         "tournament_venueAddress": "Merced 820, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
         "tweet_id": "2033000536304181363",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1584511": {
         "id": 1584511,
