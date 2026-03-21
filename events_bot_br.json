@@ -12,7 +12,7 @@
         "phaseGroups": [
             {
                 "id": 3149066,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Smash Singles"
                 },
@@ -80,6 +80,23 @@
                         {
                             "placement": 4,
                             "entrant": {
+                                "id": 22963035,
+                                "name": "SsT | Ketch Up",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4021592
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
                                 "id": 22850929,
                                 "name": "Nebula | Wasco | KNG",
                                 "participants": [
@@ -135,23 +152,6 @@
                                         },
                                         "player": {
                                             "id": 2112183
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 5,
-                            "entrant": {
-                                "id": 22963035,
-                                "name": "SsT | Ketch Up",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4021592
                                         }
                                     }
                                 ]
@@ -522,6 +522,24 @@
                     },
                     "nodes": [
                         {
+                            "placement": 2,
+                            "entrant": {
+                                "id": 22958140,
+                                "name": "BNK | Lohan",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1927834,
+                                            "gamerTag": "Lohan"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
                             "placement": 3,
                             "entrant": {
                                 "id": 22959595,
@@ -568,6 +586,24 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 22963035,
+                                "name": "SsT | Ketch Up",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4021592,
+                                            "gamerTag": "Ketch Up"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 22958098,
                                 "name": "SsT | Paraba",
                                 "participants": [
@@ -590,16 +626,20 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 22958140,
-                                "name": "BNK | Lohan",
+                                "id": 22852149,
+                                "name": "Nebula | Sabino",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": null
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Sabinossb"
+                                                }
+                                            ]
                                         },
                                         "player": {
-                                            "id": 1927834,
-                                            "gamerTag": "Lohan"
+                                            "id": 953008,
+                                            "gamerTag": "Sabino"
                                         }
                                     }
                                 ]
@@ -650,28 +690,6 @@
                             }
                         },
                         {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 22852149,
-                                "name": "Nebula | Sabino",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Sabinossb"
-                                                }
-                                            ]
-                                        },
-                                        "player": {
-                                            "id": 953008,
-                                            "gamerTag": "Sabino"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
                             "placement": 9,
                             "entrant": {
                                 "id": 22862439,
@@ -688,24 +706,6 @@
                                         "player": {
                                             "id": 2248414,
                                             "gamerTag": "chinelo"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 22963035,
-                                "name": "SsT | Ketch Up",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4021592,
-                                            "gamerTag": "Ketch Up"
                                         }
                                     }
                                 ]
@@ -4861,7 +4861,7 @@
         "tournament_venueAddress": "Pra\u00e7a Severino Azevedo, 435 - Centro, Nova Igua\u00e7u - RJ, 26215-215, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "2028236749772644756",
-        "retries": 44
+        "retries": 45
     },
     "1573325": {
         "id": 1573325,
