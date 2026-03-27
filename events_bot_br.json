@@ -4174,7 +4174,7 @@
         "id": 1587837,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 9,
         "videogame": {
             "id": 1386
@@ -4183,11 +4183,200 @@
         "phaseGroups": [
             {
                 "id": 3247417,
+                "state": 2,
                 "phase": {
-                    "id": 2239352,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 9
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23018398,
+                                "name": "Nebula | Wasco | KNG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FelipeKng"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2072354,
+                                            "gamerTag": "KNG"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23036515,
+                                "name": "SsT | cebola",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "cebolakkjj"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1989632,
+                                            "gamerTag": "cebola"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 22990563,
+                                "name": "SsT | Wasco | Peta",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Petasmash"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2112183,
+                                            "gamerTag": "Peta"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23000836,
+                                "name": "Heypolit",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Real_Heypolit"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3563447,
+                                            "gamerTag": "Heypolit"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23018030,
+                                "name": "heavendoor",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4646600,
+                                            "gamerTag": "heavendoor"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23037717,
+                                "name": "SST | liasnower",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4002121,
+                                            "gamerTag": "liasnower"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23003644,
+                                "name": "Giordajani",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1449664,
+                                            "gamerTag": "Giordajani"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23027847,
+                                "name": "derpiie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mugiwanna"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2969044,
+                                            "gamerTag": "derpiie"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23014447,
+                                "name": "FLA | GNK | Mobilha",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5233961,
+                                            "gamerTag": "Mobilha"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Agora \u00e9 Nosso",
@@ -4216,7 +4405,9 @@
         "tournament_venueAddress": "R. Arquias Cordeiro, 1516 - Engenho de Dentro, Rio de Janeiro - RJ, 20770-001, Brasil",
         "tournament_addrState": "RJ",
         "tweet_id": "2036247042578649296",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1588885": {
         "id": 1588885,
@@ -4267,7 +4458,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Brasil, 1456 - Jardim Guanabara, Campinas - SP, 13073-148, Brasil",
         "tournament_addrState": "SP",
-        "tweet_id": "2036254383235592526"
+        "tweet_id": "2036254383235592526",
+        "postedRegistrationClosing": true
     },
     "1588884": {
         "id": 1588884,
@@ -4339,7 +4531,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Av. Brasil, 1456 - Jardim Guanabara, Campinas - SP, 13073-148, Brasil",
         "tournament_addrState": "SP",
-        "tweet_id": "2036254388289749080"
+        "tweet_id": "2036254388289749080",
+        "postedRegistrationClosing": true
     },
     "1590399": {
         "id": 1590399,
