@@ -548,7 +548,7 @@
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 12,
+        "numEntrants": 14,
         "videogame": {
             "id": 1386
         },
@@ -621,7 +621,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Paula Jaraquemada 0359, 2841150 Cachapoal, Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
-        "tweet_id": "2041697830134272123"
+        "tweet_id": "2041697830134272123",
+        "postedRegistrationClosing": true
     },
     "1600005": {
         "id": 1600005,
@@ -668,7 +669,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Paula Jaraquemada 0359, 2841150 Cachapoal, Rancagua, O'Higgins, Chile",
         "tournament_addrState": "O'Higgins",
-        "tweet_id": "2041697835108684220"
+        "tweet_id": "2041697835108684220",
+        "postedRegistrationClosing": true
     },
     "1601083": {
         "id": 1601083,
@@ -843,7 +845,7 @@
         "id": 1603051,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 11,
         "videogame": {
             "id": 1386
@@ -852,11 +854,220 @@
         "phaseGroups": [
             {
                 "id": 3273026,
+                "state": 2,
                 "phase": {
-                    "id": 2258630,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 11
+                    },
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23182345,
+                                "name": "DSL | Compalonsuno 7",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "compalonsuno"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3843740,
+                                            "gamerTag": "Compalonsuno 7"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23186453,
+                                "name": "Norock",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Norock_GG"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1310452,
+                                            "gamerTag": "Norock"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23182360,
+                                "name": "Tony",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5312277,
+                                            "gamerTag": "Tony"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23186421,
+                                "name": "Sebansep",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4286777,
+                                            "gamerTag": "Sebansep"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23182374,
+                                "name": "Zentta",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5312282,
+                                            "gamerTag": "Zentta"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23182358,
+                                "name": "Tu mama | Elhijodemissa",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 4997102,
+                                            "gamerTag": "Elhijodemissa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23182364,
+                                "name": "Psychokrx",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5312279,
+                                            "gamerTag": "Psychokrx"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23186594,
+                                "name": "Joptis",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "joptis"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1468086,
+                                            "gamerTag": "Joptis"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23186718,
+                                "name": "Hane",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2548140,
+                                            "gamerTag": "Hane"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23182348,
+                                "name": "Tipper",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5290348,
+                                            "gamerTag": "Tipper"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23182354,
+                                "name": "CURI | Groserwolf360",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2038665,
+                                            "gamerTag": "Groserwolf360"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Gobling Training ground",
@@ -873,7 +1084,9 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Ocho Nte. 1253, 3461414 Talca, Maule, Chile",
         "tournament_addrState": "Maule",
-        "tweet_id": "2042988815187357697"
+        "tweet_id": "2042988815187357697",
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1603052": {
         "id": 1603052,
@@ -910,6 +1123,6 @@
         "tournament_venueAddress": "Ocho Nte. 1253, 3461414 Talca, Maule, Chile",
         "tournament_addrState": "Maule",
         "tweet_id": "2042988820140802526",
-        "retries": 1
+        "retries": 2
     }
 }
