@@ -3838,7 +3838,7 @@
         "name": "Super Smash Bros. Ultimate - Clock Town",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 11,
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
@@ -4908,8 +4908,8 @@
         "id": 1606295,
         "name": "Ultimate Matchmaking",
         "isOnline": true,
-        "state": "CREATED",
-        "numEntrants": 7,
+        "state": "ACTIVE",
+        "numEntrants": 11,
         "videogame": {
             "id": 1386
         },
@@ -4917,11 +4917,142 @@
         "phaseGroups": [
             {
                 "id": 3278065,
+                "state": 2,
                 "phase": {
-                    "id": 2262751,
                     "name": "Ladder"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 6
+                    },
+                    "nodes": [
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 23230717,
+                                "name": "CounterEncounters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "CounterEncount"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2240241,
+                                            "gamerTag": "CounterEncounters"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 23226692,
+                                "name": "Ehofelopa",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5319789,
+                                            "gamerTag": "Ehofelopa"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 1,
+                            "entrant": {
+                                "id": 23228107,
+                                "name": "Nebula | Kyrion",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kyrion"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2201723,
+                                            "gamerTag": "Kyrion"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 23230297,
+                                "name": "SBF | Nickin'",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4680543,
+                                            "gamerTag": "Nickin'"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 23228703,
+                                "name": "derpiie",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "mugiwanna"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2969044,
+                                            "gamerTag": "derpiie"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 23230637,
+                                "name": "Nebula | Wasco | KNG",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FelipeKng"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 2072354,
+                                            "gamerTag": "KNG"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "NEBULA VORTEX #42",
@@ -4957,6 +5088,8 @@
         "tournament_venueAddress": "Brasil",
         "tournament_addrState": null,
         "tweet_id": "2044332648630300887",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     }
 }
