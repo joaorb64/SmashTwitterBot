@@ -114,7 +114,7 @@
         "name": "Smash Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 16,
+        "numEntrants": 17,
         "videogame": {
             "id": 1386
         },
@@ -609,14 +609,15 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Merced 820, Santiago, Regi\u00f3n Metropolitana, Chile",
         "tournament_addrState": "Regi\u00f3n Metropolitana",
-        "tweet_id": "2046801580222017926"
+        "tweet_id": "2046801580222017926",
+        "postedRegistrationClosing": true
     },
     "1611223": {
         "id": 1611223,
         "name": "Ultimate Singles",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 16,
+        "numEntrants": 17,
         "videogame": {
             "id": 1386
         },
@@ -954,7 +955,7 @@
         "phaseGroups": [
             {
                 "id": 3290190,
-                "state": 2,
+                "state": 3,
                 "phase": {
                     "name": "Bracket"
                 },
@@ -992,6 +993,23 @@
                         {
                             "placement": 5,
                             "entrant": {
+                                "id": 23320756,
+                                "name": "WLB | CRONS^2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3385603
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
                                 "id": 23321312,
                                 "name": "WLB | Hakos",
                                 "participants": [
@@ -1005,6 +1023,23 @@
                                         },
                                         "player": {
                                             "id": 4024180
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23321801,
+                                "name": "FSM | Kunnia",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2020919
                                         }
                                     }
                                 ]
@@ -1039,6 +1074,23 @@
                                         },
                                         "player": {
                                             "id": 4856104
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23320768,
+                                "name": "FSM | esnupi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4832058
                                         }
                                     }
                                 ]
@@ -1085,40 +1137,6 @@
                         {
                             "placement": 9,
                             "entrant": {
-                                "id": 23320756,
-                                "name": "WLB | CRONS^2",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3385603
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 23320768,
-                                "name": "FSM | esnupi",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4832058
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
                                 "id": 23320771,
                                 "name": "Plonk",
                                 "participants": [
@@ -1128,23 +1146,6 @@
                                         },
                                         "player": {
                                             "id": 5321627
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 23321801,
-                                "name": "FSM | Kunnia",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 2020919
                                         }
                                     }
                                 ]
@@ -1172,18 +1173,18 @@
             },
             {
                 "id": 3290204,
-                "state": 1,
+                "state": 2,
                 "phase": {
                     "name": "Top 8"
                 },
                 "progressionsOut": null,
                 "standings": {
                     "pageInfo": {
-                        "total": 6
+                        "total": 10
                     },
                     "nodes": [
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 23331239,
                                 "name": "FSM | Kakatua",
@@ -1201,7 +1202,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 3,
                             "entrant": {
                                 "id": 23321312,
                                 "name": "WLB | Hakos",
@@ -1223,7 +1224,7 @@
                             }
                         },
                         {
-                            "placement": 7,
+                            "placement": 4,
                             "entrant": {
                                 "id": 23331228,
                                 "name": "Rayas",
@@ -1239,6 +1240,96 @@
                                         "player": {
                                             "id": 3599663,
                                             "gamerTag": "Rayas"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23320756,
+                                "name": "WLB | CRONS^2",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3385603,
+                                            "gamerTag": "CRONS^2"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23321801,
+                                "name": "FSM | Kunnia",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2020919,
+                                            "gamerTag": "Kunnia"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23320768,
+                                "name": "FSM | esnupi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4832058,
+                                            "gamerTag": "esnupi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23320750,
+                                "name": "Knard",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4856104,
+                                            "gamerTag": "Knard"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23332313,
+                                "name": "JaviX",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5335190,
+                                            "gamerTag": "JaviX"
                                         }
                                     }
                                 ]
@@ -1275,24 +1366,6 @@
                                         "player": {
                                             "id": 5335194,
                                             "gamerTag": "Maxi"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 9,
-                            "entrant": {
-                                "id": 23320768,
-                                "name": "FSM | esnupi",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 4832058,
-                                            "gamerTag": "esnupi"
                                         }
                                     }
                                 ]
