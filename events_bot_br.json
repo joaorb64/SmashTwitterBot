@@ -3587,7 +3587,7 @@
                     },
                     "nodes": [
                         {
-                            "placement": 3,
+                            "placement": 2,
                             "entrant": {
                                 "id": 23088961,
                                 "name": "Counter | Offline",
@@ -3625,6 +3625,28 @@
                                         "player": {
                                             "id": 1795745,
                                             "gamerTag": "Meps"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 4,
+                            "entrant": {
+                                "id": 23088982,
+                                "name": "Blaze Z",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Blaze_ZSSB"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1035512,
+                                            "gamerTag": "Blaze Z"
                                         }
                                     }
                                 ]
@@ -3671,20 +3693,16 @@
                         {
                             "placement": 5,
                             "entrant": {
-                                "id": 23088982,
-                                "name": "Blaze Z",
+                                "id": 23089013,
+                                "name": "[BR] | Doc Marion",
                                 "participants": [
                                     {
                                         "user": {
-                                            "authorizations": [
-                                                {
-                                                    "externalUsername": "Blaze_ZSSB"
-                                                }
-                                            ]
+                                            "authorizations": null
                                         },
                                         "player": {
-                                            "id": 1035512,
-                                            "gamerTag": "Blaze Z"
+                                            "id": 1081066,
+                                            "gamerTag": "Doc Marion"
                                         }
                                     }
                                 ]
@@ -3729,24 +3747,6 @@
                                         "player": {
                                             "id": 1291244,
                                             "gamerTag": "Impec\u00e1vel Marea"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 23089013,
-                                "name": "[BR] | Doc Marion",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 1081066,
-                                            "gamerTag": "Doc Marion"
                                         }
                                     }
                                 ]
@@ -4016,7 +4016,7 @@
         "name": "Try Harders",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 5,
+        "numEntrants": 6,
         "videogame": {
             "id": 1386
         },
@@ -4550,8 +4550,8 @@
         "id": 1609280,
         "name": "Smash Ultimate 1x1",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 4,
+        "state": "ACTIVE",
+        "numEntrants": 5,
         "videogame": {
             "id": 1386
         },
@@ -4559,11 +4559,235 @@
         "phaseGroups": [
             {
                 "id": 3283493,
+                "state": 2,
                 "phase": {
-                    "id": 2266732,
                     "name": "Chave"
                 },
-                "progressionsOut": null
+                "progressionsOut": [
+                    {
+                        "id": 13789475
+                    },
+                    {
+                        "id": 13789476
+                    }
+                ],
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23313861,
+                                "name": "Pedro LYE",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5036960
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23314678,
+                                "name": "LMS | Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23328598,
+                                "name": "snsdvsh :/",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23336538,
+                                "name": "Kalel",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5336120
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23336650,
+                                "name": "Midna",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MidnaYuri"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1401835
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "id": 3291269,
+                "state": 1,
+                "phase": {
+                    "name": "Final"
+                },
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 5
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23336650,
+                                "name": "Midna",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "MidnaYuri"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1401835,
+                                            "gamerTag": "Midna"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23328598,
+                                "name": "snsdvsh :/",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "sansdvish"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1643605,
+                                            "gamerTag": "snsdvsh :/"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23314678,
+                                "name": "LMS | Dagoth Ur",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "RSkyrim3"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1633354,
+                                            "gamerTag": "Dagoth Ur"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23313861,
+                                "name": "Pedro LYE",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5036960,
+                                            "gamerTag": "Pedro LYE"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23336538,
+                                "name": "Kalel",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5336120,
+                                            "gamerTag": "Kalel"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Liga MS 2026 na Deck Store #4",
@@ -4596,7 +4820,9 @@
         "tournament_venueAddress": "R. Epit\u00e1cio Pessoa, 740 - sala 5 - Vila Vilas Boas, Campo Grande - MS, 79051-090, Brasil",
         "tournament_addrState": "MS",
         "tweet_id": "2046733467325476881",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1613557": {
         "id": 1613557,
