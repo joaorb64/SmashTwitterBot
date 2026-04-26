@@ -3514,7 +3514,7 @@
         "name": "Super Smash Bros. Ultimate",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 6,
+        "numEntrants": 7,
         "videogame": {
             "id": 1386
         },
@@ -3567,8 +3567,8 @@
         "id": 1599413,
         "name": "New Comers",
         "isOnline": false,
-        "state": "CREATED",
-        "numEntrants": 9,
+        "state": "ACTIVE",
+        "numEntrants": 10,
         "videogame": {
             "id": 1386
         },
@@ -3576,29 +3576,194 @@
         "phaseGroups": [
             {
                 "id": 3266812,
+                "state": 2,
                 "phase": {
-                    "id": 2254001,
                     "name": "Bracket"
                 },
-                "progressionsOut": [
-                    {
-                        "id": 13677501
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 10
                     },
-                    {
-                        "id": 13677502
-                    },
-                    {
-                        "id": 13677503
-                    }
-                ]
-            },
-            {
-                "id": 3266813,
-                "phase": {
-                    "id": 2254002,
-                    "name": "top3"
-                },
-                "progressionsOut": null
+                    "nodes": [
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23339735,
+                                "name": "Redson",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5336835,
+                                            "gamerTag": "Redson"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23134413,
+                                "name": "Purplewasp",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5305270,
+                                            "gamerTag": "Purplewasp"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23160512,
+                                "name": "benko",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5308479,
+                                            "gamerTag": "benko"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23318582,
+                                "name": "URA | 4Queen",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 229410,
+                                            "gamerTag": "4Queen"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23268021,
+                                "name": "Corpse",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5326161,
+                                            "gamerTag": "Corpse"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23315285,
+                                "name": "pianista",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5332551,
+                                            "gamerTag": "pianista"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23296150,
+                                "name": "MAKO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5330042,
+                                            "gamerTag": "MAKO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23345255,
+                                "name": "Muri",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5338791,
+                                            "gamerTag": "Muri"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23313826,
+                                "name": "BNO",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5332425,
+                                            "gamerTag": "BNO"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23345626,
+                                "name": "Guilherme",
+                                "participants": [
+                                    {
+                                        "user": null,
+                                        "player": {
+                                            "id": 5338877,
+                                            "gamerTag": "Guilherme"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Try Hard Curitiba #42",
@@ -3627,14 +3792,16 @@
         "tournament_venueAddress": "R. Estados Unidos, 2175 - Boa Vista, Curitiba - PR, 82540-030, Brasil",
         "tournament_addrState": "PR",
         "tweet_id": "2041199531476275602",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1599412": {
         "id": 1599412,
         "name": "Try Harders",
         "isOnline": false,
         "state": "CREATED",
-        "numEntrants": 11,
+        "numEntrants": 12,
         "videogame": {
             "id": 1386
         },
@@ -3805,7 +3972,7 @@
                             }
                         },
                         {
-                            "placement": 5,
+                            "placement": 4,
                             "entrant": {
                                 "id": 23187236,
                                 "name": "Mr.Zitu | Benjamin NEYtanyahu",
@@ -3821,6 +3988,24 @@
                                         "player": {
                                             "id": 980292,
                                             "gamerTag": "Benjamin NEYtanyahu"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23182376,
+                                "name": "GRANDE_F\u00c3_DA_MINMIN_9000",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 3327010,
+                                            "gamerTag": "GRANDE_F\u00c3_DA_MINMIN_9000"
                                         }
                                     }
                                 ]
@@ -3861,24 +4046,6 @@
                                         "player": {
                                             "id": 4106235,
                                             "gamerTag": "Stealphie"
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "placement": 7,
-                            "entrant": {
-                                "id": 23182376,
-                                "name": "GRANDE_F\u00c3_DA_MINMIN_9000",
-                                "participants": [
-                                    {
-                                        "user": {
-                                            "authorizations": null
-                                        },
-                                        "player": {
-                                            "id": 3327010,
-                                            "gamerTag": "GRANDE_F\u00c3_DA_MINMIN_9000"
                                         }
                                     }
                                 ]
@@ -3992,7 +4159,7 @@
         "id": 1603811,
         "name": "Ultimate Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 13,
         "videogame": {
             "id": 1386
@@ -4001,11 +4168,268 @@
         "phaseGroups": [
             {
                 "id": 3274326,
+                "state": 2,
                 "phase": {
-                    "id": 2259693,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 13
+                    },
+                    "nodes": [
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23337137,
+                                "name": "TPPO | CetterGy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Cetter_Gy"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 3621923,
+                                            "gamerTag": "CetterGy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23345387,
+                                "name": "Guzma",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 994569,
+                                            "gamerTag": "Guzma"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23312472,
+                                "name": "Nightingale",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5261669,
+                                            "gamerTag": "Nightingale"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23337531,
+                                "name": "NStudios | Asca",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5336368,
+                                            "gamerTag": "Asca"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23342561,
+                                "name": "Clauneck",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5337469,
+                                            "gamerTag": "Clauneck"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23337771,
+                                "name": "STARS | Jhon",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5292659,
+                                            "gamerTag": "Jhon"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23300191,
+                                "name": "Viana/Mint",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Mentazinha"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1248427,
+                                            "gamerTag": "Viana/Mint"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23308877,
+                                "name": "Kowalski_023",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "Kowalski_023"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 557664,
+                                            "gamerTag": "Kowalski_023"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 9,
+                            "entrant": {
+                                "id": 23308744,
+                                "name": "Anthony",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 1252322,
+                                            "gamerTag": "Anthony"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 23222471,
+                                "name": "Lib4m",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 998770,
+                                            "gamerTag": "Lib4m"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 23223002,
+                                "name": "EGGER | LivingOnWaters",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 4861636,
+                                            "gamerTag": "LivingOnWaters"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 23331213,
+                                "name": "RCS | Levy",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "DanielLevy22"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 33438,
+                                            "gamerTag": "Levy"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 13,
+                            "entrant": {
+                                "id": 23345440,
+                                "name": "Rvgp12",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5338832,
+                                            "gamerTag": "Rvgp12"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "Gigantes do Offline 7",
@@ -4038,7 +4462,9 @@
         "tournament_venueAddress": "Av. Prof. Nilton Lins, 2401 - Flores, Manaus - AM, 69058-030, Brasil",
         "tournament_addrState": "AM",
         "tweet_id": "2044045800435503118",
-        "postedRegistrationClosing": true
+        "postedRegistrationClosing": true,
+        "postedPhaseResultIds": [],
+        "postedStarting": true
     },
     "1605867": {
         "id": 1605867,
