@@ -3750,7 +3750,7 @@
         "id": 1613211,
         "name": "Singles",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 8,
         "videogame": {
             "id": 1386
@@ -3759,11 +3759,170 @@
         "phaseGroups": [
             {
                 "id": 3290450,
+                "state": 2,
                 "phase": {
-                    "id": 2271766,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 8
+                    },
+                    "nodes": [
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23384674,
+                                "name": "PumAzul",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5247580,
+                                            "gamerTag": "PumAzul"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23383991,
+                                "name": "Laina",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 394522,
+                                            "gamerTag": "Laina"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 5,
+                            "entrant": {
+                                "id": 23384681,
+                                "name": "Fei",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 2032548,
+                                            "gamerTag": "Fei"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23337096,
+                                "name": "Snownivek",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5336257,
+                                            "gamerTag": "Snownivek"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23324578,
+                                "name": "FENIX",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "FEN1X_08"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1243464,
+                                            "gamerTag": "FENIX"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23384679,
+                                "name": "LeZoruark",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": [
+                                                {
+                                                    "externalUsername": "LeZoruark"
+                                                }
+                                            ]
+                                        },
+                                        "player": {
+                                            "id": 1549281,
+                                            "gamerTag": "LeZoruark"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23384689,
+                                "name": "nikichi",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5332277,
+                                            "gamerTag": "nikichi"
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "placement": 7,
+                            "entrant": {
+                                "id": 23335683,
+                                "name": "Mixtah",
+                                "participants": [
+                                    {
+                                        "user": {
+                                            "authorizations": null
+                                        },
+                                        "player": {
+                                            "id": 5328736,
+                                            "gamerTag": "Mixtah"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
             }
         ],
         "tournament": "TanukiPUQ#8",
@@ -3786,6 +3945,7 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "Jose Martinez de Aldunate - Av. Jos\u00e9 Mart\u00ednez de Aldunate 2991, 6200000 Punta Arenas, Magallanes y la Ant\u00e1rtica Chilena, Chile",
         "tournament_addrState": "Magallanes y la Ant\u00e1rtica Chilena",
-        "tweet_id": "2047813147881312394"
+        "tweet_id": "2047813147881312394",
+        "postedPhaseResultIds": []
     }
 }
