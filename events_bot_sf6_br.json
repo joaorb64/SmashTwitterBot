@@ -163,7 +163,7 @@
         "id": 1590599,
         "name": "Street Fighter 6 - Main Event",
         "isOnline": false,
-        "state": "CREATED",
+        "state": "ACTIVE",
         "numEntrants": 17,
         "videogame": {
             "id": 43868
@@ -172,11 +172,17 @@
         "phaseGroups": [
             {
                 "id": 3251507,
+                "state": 1,
                 "phase": {
-                    "id": 2242788,
                     "name": "Bracket"
                 },
-                "progressionsOut": null
+                "progressionsOut": null,
+                "standings": {
+                    "pageInfo": {
+                        "total": 0
+                    },
+                    "nodes": []
+                }
             }
         ],
         "tournament": "F4L | Fight for Legends - #01",
@@ -204,7 +210,8 @@
         "tournament_venueName": null,
         "tournament_venueAddress": "R. Arquias Cordeiro, 1516 - Engenho de Dentro, Rio de Janeiro - RJ, 20770-001, Brasil",
         "tournament_addrState": "RJ",
-        "tweet_id": "2044121261408649636"
+        "tweet_id": "2044121261408649636",
+        "postedPhaseResultIds": []
     },
     "1584642": {
         "id": 1584642,
